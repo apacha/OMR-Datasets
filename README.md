@@ -4,23 +4,21 @@ This repository contains a collection of many datasets used for various Optical 
 
 Note that most datasets have been developed by researcher and using their dataset requires accepting a certain license and/or citing their respective publications, as indicated for each dataset. Most datasets link to the official website, where you can download the dataset.
 
-Coming soon: ~~Finally, there are scripts available, that automatically download the dataset and provide a unified interface for downloading, extracting and handling the different datasets.~~
-
-Datasets inside this repository:
+Datasets referenced from this repository:
 
 * [Handwritten Online Musical Symbols (HOMUS)](#handwritten-online-musical-symbols-homus)
 * [Music Score Classification Dataset](#music-score-classification-dataset)
 * [CVC-MUSCIMA](#cvc-muscima)
-* [MUSCIMA++](#musicma)
-* Audiveris OMR
-* Rebelo Dataset
-* Gamera Project
+* [MUSCIMA++](#muscima)
+* [Rebelo Dataset](#rebelo-dataset)
+* [Audiveris OMR](#audiveris-omr)
+* [Gamera Project](#gamera-project)
 
 # Handwritten Online Musical Symbols (HOMUS)
 
 **Official website**: http://grfia.dlsi.ua.es/homus/
  
-[![License](https://img.shields.io/badge/License-Unknown-yellow.svg)](http://grfia.dlsi.ua.es/homus/)
+[![License](https://img.shields.io/badge/License-Unknown-red.svg)](http://grfia.dlsi.ua.es/homus/)
 
 **Summary**: The goal of the Handwritten Online Musical Symbols (HOMUS) dataset is to provide a reference corpus with around 15000 samples for research on the recognition of online handwritten music notation. For each sample, the individual strokes that the musicians wrote on a Samsung Tablet using a stylus were recorded and can be used in online and offline scenarios.
 
@@ -74,17 +72,44 @@ Datasets inside this repository:
 *Remarks*: Since this dataset is derived from the MUSCIMA dataset, using it requires to reference both works.
 
 
+# Rebelo Dataset
+
+**Official website**: http://www.inescporto.pt/~jsc/projects/OMR/
+
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+**Summary**: Three datasets of perfect and scanned music symbols including an extensive set of synthetically modified images for staff-line detection and removal.
+
+**Scientific Publication**: A. Rebelo, G. Capela, and J. S. Cardoso, "Optical recognition of music symbols: A comparative study" in International Journal on Document Analysis and Recognition, vol. 13, no. 1, pp. 19-31, 2010. [DOI: 10.1007/s10032-009-0100-1](http://dx.doi.org/10.1007/s10032-009-0100-1)
+
+**Examples**:
+
+![Example of Rebelo dataset](RebeloDataset/Samples.png)
+![Example of Rebelo dataset](RebeloDataset/img043-nostafflines.png)
 
 
+*Remarks*: The dataset is usually only available upon request, but with written permission of Ana Rebelo I hereby make the datasets available under a permissive CC-BY-SA license, which allows you to use it freely given you properly mention her work by citing the above mentioned publication: [Download the dataset](https://owncloud.tuwien.ac.at/index.php/s/g3q0COsfPqbDUAW).
 
-# Template for the next dataset
+# Audiveris OMR
 
-**Official website**: 
+**Official website**: https://github.com/Audiveris/omr-dataset-tools
 
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-AGPL--3.0-green.svg)](https://www.gnu.org/licenses/agpl-3.0.en.html)
+
+**Summary**: TBD
+
+**Example**:
+
+
+# Gamera Project
+
+**Official website**: http://music-staves.sf.net/
+
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-yellow.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 **Summary**: 
 
 **Scientific Publication**: 
 
 **Example**:
+
