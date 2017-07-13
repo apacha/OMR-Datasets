@@ -11,6 +11,7 @@ Datasets referenced from this repository:
 * [CVC-MUSCIMA](#cvc-muscima)
 * [MUSCIMA++](#muscima)
 * [Rebelo Dataset](#rebelo-dataset)
+* [Byrd Dataset](#byrd-dataset)
 * [Audiveris OMR](#audiveris-omr)
 * [Gamera Project](#gamera-project)
 
@@ -89,6 +90,21 @@ Datasets referenced from this repository:
 
 
 *Remarks*: The dataset is usually only available upon request, but with written permission of Ana Rebelo I hereby make the datasets available under a permissive CC-BY-SA license, which allows you to use it freely given you properly mention her work by citing the above mentioned publication: [Download the dataset](https://owncloud.tuwien.ac.at/index.php/s/g3q0COsfPqbDUAW).
+
+
+# Byrd Dataset
+
+**Official website**: http://www.diku.dk/hjemmesider/ansatte/simonsen/suppmat/jnmr/
+
+[![License](https://img.shields.io/badge/License-Unknown-red.svg)](http://grfia.dlsi.ua.es/homus/) (Authors want to be contacted)
+
+**Summary**: A small dataset of 34 high quality images with individual music score pages of increasing difficulty. 
+
+**Scientific Publication**: Donald Byrd & Jakob Grue Simonsen: "Towards a Standard Testbed for Optical Music Recognition: Definitions, Metrics, and Page Images". Journal of New Music Research, vol 44, nr.3, pages 169-195, 2015. [DOI: 10.1080/09298215.2015.1045424](http://dx.doi.org/10.1080/09298215.2015.1045424)
+
+**Example**:
+![Example of the Byrd Dataset](ByrdDataset/Sample.png)
+
 
 # Audiveris OMR
 
