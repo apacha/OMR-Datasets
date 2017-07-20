@@ -75,7 +75,7 @@ Datasets referenced from this repository:
 
 # Rebelo Dataset
 
-**Official website**: http://www.inescporto.pt/~jsc/projects/OMR/
+**Official websites**: http://www.inescporto.pt/~arebelo/index.php and  http://www.inescporto.pt/~jsc/projects/OMR/
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
@@ -90,6 +90,21 @@ Datasets referenced from this repository:
 
 
 *Remarks*: The dataset is usually only available upon request, but with written permission of Ana Rebelo I hereby make the datasets available under a permissive CC-BY-SA license, which allows you to use it freely given you properly mention her work by citing the above mentioned publication: [Download the dataset](https://owncloud.tuwien.ac.at/index.php/s/g3q0COsfPqbDUAW).
+
+
+# Fornes Dataset
+**Official website**: http://www.cvc.uab.es/~afornes/
+
+[![License](https://img.shields.io/badge/License-Unknown-red.svg)](http://grfia.dlsi.ua.es/homus/)
+
+**Summary**: A dataset of 4100 black and white symbols of 7 different symbol classes: flat, natural, sharp, double-sharp, c-clef, g-clef, f-clef. 
+
+**Scientific Publication**: A.Fornés and J.Lladós and G. Sanchez, "Old Handwritten Musical Symbol Classification by a Dynamic Time Warping Based Method", in Graphics Recognition: Recent Advances and New Opportunities. Liu, W. and Lladós, J. and Ogier, J.M. editors, Lecture Notes in Computer Science, Volume 5046, Pages 51-60, Springer-Verlag Berlin, Heidelberg, 2008. [DOI: 10.1007/978-3-540-88188-9_6
+](http://dx.doi.org/10.1007/978-3-540-88188-9_6)
+
+**Example**:
+![Example of the Fornes Dataset](FornesDataset/music_accidentals.png)
+![Example of the Fornes Dataset](FornesDataset/music_clefs.png)
 
 
 # Byrd Dataset
