@@ -11,6 +11,7 @@ Datasets referenced from this repository:
 * [CVC-MUSCIMA](#cvc-muscima)
 * [MUSCIMA++](#muscima)
 * [Rebelo Dataset](#rebelo-dataset)
+* [Fornes Dataset](#fornes-dataset)
 * [Byrd Dataset](#byrd-dataset)
 * [Audiveris OMR](#audiveris-omr)
 * [Gamera Project](#gamera-project)
