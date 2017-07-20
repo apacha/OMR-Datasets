@@ -18,7 +18,7 @@ Datasets referenced from this repository:
 
 # Handwritten Online Musical Symbols (HOMUS)
 
-**Official website**: http://grfia.dlsi.ua.es/homus/
+**Official website**: [http://grfia.dlsi.ua.es/homus/](http://grfia.dlsi.ua.es/homus/)
  
 [![License](https://img.shields.io/badge/License-Unknown-red.svg)](http://grfia.dlsi.ua.es/homus/)
 
@@ -36,7 +36,7 @@ Datasets referenced from this repository:
 
 # Music Score Classification Dataset
 
-**Official website**: https://github.com/apacha/MusicScoreClassifier 
+**Official website**: [https://github.com/apacha/MusicScoreClassifier](https://github.com/apacha/MusicScoreClassifier) 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
@@ -50,7 +50,7 @@ Datasets referenced from this repository:
 
 # CVC-MUSCIMA
 
-**Official website**: http://www.cvc.uab.es/cvcmuscima/index_database.html
+**Official website**: [http://www.cvc.uab.es/cvcmuscima/index_database.html](http://www.cvc.uab.es/cvcmuscima/index_database.html)
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -64,7 +64,7 @@ Datasets referenced from this repository:
 
 # MUSCIMA++
 
-**Official website**: https://ufal.mff.cuni.cz/muscima
+**Official website**: [https://ufal.mff.cuni.cz/muscima](https://ufal.mff.cuni.cz/muscima)
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -81,7 +81,7 @@ Datasets referenced from this repository:
 
 # Rebelo Dataset
 
-**Official websites**: http://www.inescporto.pt/~arebelo/index.php and  http://www.inescporto.pt/~jsc/projects/OMR/
+**Official websites**: [http://www.inescporto.pt/~arebelo/index.php](http://www.inescporto.pt/~arebelo/index.php) and [http://www.inescporto.pt/~jsc/projects/OMR/](http://www.inescporto.pt/~jsc/projects/OMR/)
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
@@ -99,7 +99,7 @@ Datasets referenced from this repository:
 
 
 # Fornes Dataset
-**Official website**: http://www.cvc.uab.es/~afornes/
+**Official website**: [http://www.cvc.uab.es/~afornes/](http://www.cvc.uab.es/~afornes/)
 
 [![License](https://img.shields.io/badge/License-Unknown-red.svg)](http://grfia.dlsi.ua.es/homus/)
 
@@ -115,7 +115,7 @@ Datasets referenced from this repository:
 
 # Audiveris OMR
 
-**Official website**: https://github.com/Audiveris/omr-dataset-tools
+**Official website**: [https://github.com/Audiveris/omr-dataset-tools](https://github.com/Audiveris/omr-dataset-tools)
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-AGPL--3.0-green.svg)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 
@@ -127,7 +127,7 @@ Datasets referenced from this repository:
 
 # Gamera MusicStaves Toolkit
 
-**Official website**: http://music-staves.sf.net/ and https://github.com/hsnr-gamera
+**Official website**: [http://music-staves.sf.net/ and https://github.com/hsnr-gamera](http://music-staves.sf.net/ and https://github.com/hsnr-gamera)
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-yellow.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
@@ -142,7 +142,7 @@ Datasets referenced from this repository:
 
 # Byrd Dataset
 
-**Official website**: http://www.diku.dk/hjemmesider/ansatte/simonsen/suppmat/jnmr/
+**Official website**: [http://www.diku.dk/hjemmesider/ansatte/simonsen/suppmat/jnmr/](http://www.diku.dk/hjemmesider/ansatte/simonsen/suppmat/jnmr/)
 
 [![License](https://img.shields.io/badge/License-Unknown-red.svg)](http://grfia.dlsi.ua.es/homus/) (Authors want to be contacted)
 
