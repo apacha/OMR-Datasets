@@ -45,6 +45,7 @@ Datasets referenced from this repository:
 **Scientific Publication**: Under review
 
 **Example**:
+
 ![Example of MusicScoreClassifier dataset](MusicScoreClassifier/MusicScoreClassifierExamples.png)
 
 # CVC-MUSCIMA
@@ -58,6 +59,7 @@ Datasets referenced from this repository:
 **Scientific Publication**: Alicia Fornés, Anjan Dutta, Albert Gordo, Josep Lladós. CVC-MUSCIMA: A Ground-truth of Handwritten Music Score Images for Writer Identification and Staff Removal. International Journal on Document Analysis and Recognition, Volume 15, Issue 3, pp 243-251, 2012. [DOI: 10.1007/s10032-011-0168-2](http://dx.doi.org/10.1007/s10032-011-0168-2)
 
 **Example**:
+
 ![Example of CVC MUSCIMA dataset](CVC-MUSCIMA/p014_Gray.png)
 
 # MUSCIMA++
@@ -71,6 +73,7 @@ Datasets referenced from this repository:
 **Scientific Publication**: Jan Hajič jr., Pavel Pecina. In Search of a Dataset for Handwritten Optical Music Recognition: Introducing MUSCIMA++. CoRR, arXiv:1703.04824, 2017. https://arxiv.org/abs/1703.04824
 
 **Example**:
+
 ![Example of MUSCIMA++ dataset](MUSCIMA-pp/intro_screenshot_1.png)
 
 *Remarks*: Since this dataset is derived from the MUSCIMA dataset, using it requires to reference both works.
@@ -119,6 +122,7 @@ Datasets referenced from this repository:
 **Summary**: A collection of four music sheets with approximately 800 annotated music symbols. The [DeepScore project](https://www.zhaw.ch/no_cache/en/research/people-publications-projects/detail-view-project/projekt/2895/) in cooperation with the ZHAW targets towards [automatically generating these images](https://github.com/Audiveris/omr-dataset-tools/wiki/Synthetic-Images) and the annotations from MuseScore or Lilypond documents. 
 
 **Example**:
+
 ![Example of the Audiveris OMR Dataset](Audiveris-OMR/sample.png)
 
 # Gamera MusicStaves Toolkit
@@ -132,6 +136,7 @@ Datasets referenced from this repository:
 **Scientific Publication**: C. Dalitz, M. Droettboom, B. Pranzas, I. Fujinaga: A Comparative Study of Staff Removal Algorithms. IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 30, no. 5, pp. 753-766 (2008) [DOI: 10.1109/TPAMI.2007.70749](http://dx.doi.org/10.1109/TPAMI.2007.70749)
 
 **Example**:
+
 ![Example of the Gamera MusicStaves Dataset](GameraMusicStavesToolkit/bach.png)
 
 
@@ -146,5 +151,6 @@ Datasets referenced from this repository:
 **Scientific Publication**: Donald Byrd & Jakob Grue Simonsen: "Towards a Standard Testbed for Optical Music Recognition: Definitions, Metrics, and Page Images". Journal of New Music Research, vol 44, nr.3, pages 169-195, 2015. [DOI: 10.1080/09298215.2015.1045424](http://dx.doi.org/10.1080/09298215.2015.1045424)
 
 **Example**:
+
 ![Example of the Byrd Dataset](ByrdDataset/Sample.png)
 
