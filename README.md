@@ -1,8 +1,8 @@
 # Optical Music Recognition Datasets
 
-This repository contains a collection of many datasets used for various Optical Music Recognition tasks, including training of Convolutional Neuronal Networks (CNNs), validating existing systems or comparing your system with a known ground-truth.
+This repository contains a collection of many datasets used for various Optical Music Recognition tasks, including staff-line detection and removal, training of Convolutional Neuronal Networks (CNNs) or validating existing systems by comparing your system with a known ground-truth.
 
-Note that most datasets have been developed by researcher and using their dataset requires accepting a certain license and/or citing their respective publications, as indicated for each dataset. Most datasets link to the official website, where you can download the dataset.
+Note that most datasets have been developed by researchers and using their dataset requires accepting a certain license and/or citing their respective publications, as indicated for each dataset. Most datasets link to the official website, where you can download the dataset.
 
 Datasets referenced from this repository:
 
@@ -12,9 +12,9 @@ Datasets referenced from this repository:
 * [MUSCIMA++](#muscima)
 * [Rebelo Dataset](#rebelo-dataset)
 * [Fornes Dataset](#fornes-dataset)
-* [Byrd Dataset](#byrd-dataset)
 * [Audiveris OMR](#audiveris-omr)
 * [Gamera Project](#gamera-project)
+* [Byrd Dataset](#byrd-dataset)
 
 # Handwritten Online Musical Symbols (HOMUS)
 
@@ -31,7 +31,7 @@ Datasets referenced from this repository:
 ![Example of HOMUS dataset](HOMUS/HOMUS_Samples.png)
 
 
-*Remarks*: The original dataset contains around 20 artifacts and misclassifications that were [corrected by Alexander Pacha](https://github.com/apacha/Homus). The corrections are included in version 2.0.
+*Remarks*: The original dataset contains around 20 artifacts and misclassifications that were reported to the authors and [corrected by Alexander Pacha](https://github.com/apacha/Homus). 
 
 
 # Music Score Classification Dataset
@@ -41,6 +41,8 @@ Datasets referenced from this repository:
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 **Summary**: A dataset of 2000 images, containing 1000 images of music scores and 1000 images of other objects including text documents. The images were taken with a smartphone camera from various angles and different lighting conditions.
+
+**Scientific Publication**: Under review
 
 **Example**:
 ![Example of MusicScoreClassifier dataset](MusicScoreClassifier/MusicScoreClassifierExamples.png)
@@ -104,8 +106,33 @@ Datasets referenced from this repository:
 ](http://dx.doi.org/10.1007/978-3-540-88188-9_6)
 
 **Example**:
+
 ![Example of the Fornes Dataset](FornesDataset/music_accidentals.png)
 ![Example of the Fornes Dataset](FornesDataset/music_clefs.png)
+
+# Audiveris OMR
+
+**Official website**: https://github.com/Audiveris/omr-dataset-tools
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-AGPL--3.0-green.svg)](https://www.gnu.org/licenses/agpl-3.0.en.html)
+
+**Summary**: A collection of four music sheets with approximately 800 annotated music symbols. The [DeepScore project](https://www.zhaw.ch/no_cache/en/research/people-publications-projects/detail-view-project/projekt/2895/) in cooperation with the ZHAW targets towards [automatically generating these images](https://github.com/Audiveris/omr-dataset-tools/wiki/Synthetic-Images) and the annotations from MuseScore or Lilypond documents. 
+
+**Example**:
+![Example of the Audiveris OMR Dataset](Audiveris-OMR/sample.png)
+
+# Gamera MusicStaves Toolkit
+
+**Official website**: http://music-staves.sf.net/ and https://github.com/hsnr-gamera
+
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-yellow.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+
+**Summary**: The Synthetic Score Database by Christoph Dalitz that contains 32 scores that have been computer generated with different music typesetting programs. It contains ground truth data and is suitable for the deformations implemented in the toolkit.
+
+**Scientific Publication**: C. Dalitz, M. Droettboom, B. Pranzas, I. Fujinaga: A Comparative Study of Staff Removal Algorithms. IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 30, no. 5, pp. 753-766 (2008) [DOI: 10.1109/TPAMI.2007.70749](http://dx.doi.org/10.1109/TPAMI.2007.70749)
+
+**Example**:
+![Example of the Gamera MusicStaves Dataset](GameraMusicStavesToolkit/bach.png)
 
 
 # Byrd Dataset
@@ -120,28 +147,4 @@ Datasets referenced from this repository:
 
 **Example**:
 ![Example of the Byrd Dataset](ByrdDataset/Sample.png)
-
-
-# Audiveris OMR
-
-**Official website**: https://github.com/Audiveris/omr-dataset-tools
-
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-AGPL--3.0-green.svg)](https://www.gnu.org/licenses/agpl-3.0.en.html)
-
-**Summary**: TBD
-
-**Example**:
-
-
-# Gamera Project
-
-**Official website**: http://music-staves.sf.net/
-
-[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-yellow.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-
-**Summary**: 
-
-**Scientific Publication**: 
-
-**Example**:
 
