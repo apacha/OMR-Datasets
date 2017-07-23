@@ -10,6 +10,7 @@ Datasets referenced from this repository:
 * [Music Score Classification Dataset](#music-score-classification-dataset)
 * [CVC-MUSCIMA](#cvc-muscima)
 * [MUSCIMA++](#muscima)
+* [MuseScore Monophonic MusicXML Dataset](#musescore-monophonic-musicxml-dataset)
 * [Rebelo Dataset](#rebelo-dataset)
 * [Fornes Dataset](#fornes-dataset)
 * [Audiveris OMR](#audiveris-omr)
@@ -77,6 +78,19 @@ Datasets referenced from this repository:
 ![Example of MUSCIMA++ dataset](MUSCIMA-pp/intro_screenshot_1.png)
 
 *Remarks*: Since this dataset is derived from the MUSCIMA dataset, using it requires to reference both works.
+
+# MuseScore Monophonic MusicXML Dataset
+
+**Official website**: [https://github.com/eelcovdw/mono-musicxml-dataset]()
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+
+**Summary**: TBD
+
+**Scientific Publication**: Eelco van der Wel, Karen Ullrich. Optical Music Recognition with Convolutional Sequence-to-Sequence Models. CoRR, arXiv:1707.04877, 2017. https://arxiv.org/abs/1707.04877
+
+**Example**: TBD
+
 
 
 # Rebelo Dataset
