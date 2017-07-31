@@ -14,6 +14,7 @@ Datasets referenced from this repository:
 * [Rebelo Dataset](#rebelo-dataset)
 * [Fornes Dataset](#fornes-dataset)
 * [Audiveris OMR](#audiveris-omr)
+* [Printed Music Symbols Dataset](#printed-music-symbols-dataset)
 * [OpenOMR Dataset](#openomr-dataset)
 * [Gamera Project](#gamera-project)
 * [Byrd Dataset](#byrd-dataset)
@@ -141,6 +142,19 @@ Datasets referenced from this repository:
 ![Example of the Audiveris OMR Dataset](samples/audiveris-omr.png)
 
 
+# Printed Music Symbols Dataset
+
+**Official website**: [https://github.com/apacha/PrintedMusicSymbolsDataset](https://github.com/apacha/PrintedMusicSymbolsDataset)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+
+**Summary**: A small dataset of about 200 printed music symbols out of 36 different classes. Partially with their context (staff-lines, other symbols) and partially isolated.
+
+**Example**: 
+
+![Example of the Printed Music Symbols Dataset](samples/printed-music-symbols.png)
+
+
 # OpenOMR Dataset
 
 **Official website**: [http://sourceforge.net/projects/openomr/](http://sourceforge.net/projects/openomr/)
@@ -150,7 +164,6 @@ Datasets referenced from this repository:
 **Summary**: TBD
 
 **Example**: TBD
-
 
 
 # Gamera MusicStaves Toolkit
