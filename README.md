@@ -30,7 +30,7 @@ Datasets referenced from this repository:
 
 **Example**:
 
-![Example of HOMUS dataset](HOMUS/HOMUS_Samples.png)
+![Example of HOMUS dataset](samples/homus.png)
 
 
 *Remarks*: The original dataset contains around 20 artifacts and misclassifications that were reported to the authors and [corrected by Alexander Pacha](https://github.com/apacha/Homus). 
@@ -48,7 +48,7 @@ Datasets referenced from this repository:
 
 **Example**:
 
-![Example of MusicScoreClassifier dataset](MusicScoreClassifier/MusicScoreClassifierExamples.png)
+![Example of MusicScoreClassifier dataset](samples/music-score-classifier.png)
 
 # CVC-MUSCIMA
 
@@ -62,7 +62,7 @@ Datasets referenced from this repository:
 
 **Example**:
 
-![Example of CVC MUSCIMA dataset](CVC-MUSCIMA/p014_Gray.png)
+![Example of CVC MUSCIMA dataset](samples/cvc-muscima.png)
 
 # MUSCIMA++
 
@@ -76,7 +76,7 @@ Datasets referenced from this repository:
 
 **Example**:
 
-![Example of MUSCIMA++ dataset](MUSCIMA-pp/intro_screenshot_1.png)
+![Example of MUSCIMA++ dataset](samples/muscima-pp.png)
 
 *Remarks*: Since this dataset is derived from the MUSCIMA dataset, using it requires to reference both works.
 
@@ -106,8 +106,8 @@ Datasets referenced from this repository:
 
 **Examples**:
 
-![Example of Rebelo dataset](RebeloDataset/Samples.png)
-![Example of Rebelo dataset](RebeloDataset/img043-nostafflines.png)
+![Example of Rebelo dataset](samples/rebelo1.png)
+![Example of Rebelo dataset](samples/rebelo2.png)
 
 
 *Remarks*: The dataset is usually only available upon request, but with written permission of Ana Rebelo I hereby make the datasets available under a permissive CC-BY-SA license, which allows you to use it freely given you properly mention her work by citing the above mentioned publication: [Download the dataset](https://owncloud.tuwien.ac.at/index.php/s/g3q0COsfPqbDUAW).
@@ -125,8 +125,8 @@ Datasets referenced from this repository:
 
 **Example**:
 
-![Example of the Fornes Dataset](FornesDataset/music_accidentals.png)
-![Example of the Fornes Dataset](FornesDataset/music_clefs.png)
+![Example of the Fornes Dataset](samples/fornes-accidentals.png)
+![Example of the Fornes Dataset](samples/fornes-clefs.png)
 
 # Audiveris OMR
 
@@ -138,7 +138,7 @@ Datasets referenced from this repository:
 
 **Example**:
 
-![Example of the Audiveris OMR Dataset](Audiveris-OMR/sample.png)
+![Example of the Audiveris OMR Dataset](samples/audiveris-omr.png)
 
 
 # OpenOMR Dataset
@@ -149,7 +149,7 @@ Datasets referenced from this repository:
 
 **Summary**: TBD
 
-**Example**:
+**Example**: TBD
 
 
 
@@ -165,7 +165,7 @@ Datasets referenced from this repository:
 
 **Example**:
 
-![Example of the Gamera MusicStaves Dataset](GameraMusicStavesToolkit/bach.png)
+![Example of the Gamera MusicStaves Dataset](samples/gamera-music-staves-toolkit.png)
 
 
 # Byrd Dataset
@@ -180,5 +180,5 @@ Datasets referenced from this repository:
 
 **Example**:
 
-![Example of the Byrd Dataset](ByrdDataset/Sample.png)
+![Example of the Byrd Dataset](samples/byrd.png)
 
