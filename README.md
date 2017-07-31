@@ -14,6 +14,7 @@ Datasets referenced from this repository:
 * [Rebelo Dataset](#rebelo-dataset)
 * [Fornes Dataset](#fornes-dataset)
 * [Audiveris OMR](#audiveris-omr)
+* [OpenOMR Dataset](#openomr-dataset)
 * [Gamera Project](#gamera-project)
 * [Byrd Dataset](#byrd-dataset)
 
@@ -138,6 +139,19 @@ Datasets referenced from this repository:
 **Example**:
 
 ![Example of the Audiveris OMR Dataset](Audiveris-OMR/sample.png)
+
+
+# OpenOMR Dataset
+
+**Official website**: [http://sourceforge.net/projects/openomr/](http://sourceforge.net/projects/openomr/)
+
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-yellow.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+
+**Summary**: TBD
+
+**Example**:
+
+
 
 # Gamera MusicStaves Toolkit
 
