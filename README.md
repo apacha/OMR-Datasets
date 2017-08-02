@@ -87,11 +87,13 @@ Datasets referenced from this repository:
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
-**Summary**: TBD
+**Summary**: This dataset contains the IDs to 17000 monophonic scores, that can be downloaded from musescore.com. A sample script is given that downloads one score, given you've obtained a developer key from the MuseScore developers.  
 
 **Scientific Publication**: Eelco van der Wel, Karen Ullrich. Optical Music Recognition with Convolutional Sequence-to-Sequence Models. CoRR, arXiv:1707.04877, 2017. https://arxiv.org/abs/1707.04877
 
-**Example**: TBD
+**Examples**: 
+
+![Example of Monophonic MusicXML dataset](samples/monophonic-musescore.png)
 
 
 
