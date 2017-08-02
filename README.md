@@ -161,9 +161,14 @@ Datasets referenced from this repository:
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-yellow.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
-**Summary**: TBD
+**Summary**: A dataset of 706 symbols (g-clef, f-clef) and symbol primitives (note-heads, stems with flags, beams) of 16 classes created by Arnaud F. Desaedeleer as part of his master thesis to train artificial neural networks. 
 
-**Example**: TBD
+**Scientific Publication**: Arnaud F. Desaedeleer, "Reading Sheet Music", Master Thesis, University of London, September 2006, [Download](http://sourceforge.net/projects/openomr/)
+
+
+**Example**:
+
+![Example of the Printed Music Symbols Dataset](samples/openomr.png)
 
 
 # Gamera MusicStaves Toolkit
