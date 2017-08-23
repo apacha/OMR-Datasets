@@ -1,7 +1,7 @@
 import argparse
 import os
 
-from downloaders.DatasetDownloader import DatasetDownloader
+from omrdatasettools.downloaders.DatasetDownloader import DatasetDownloader
 
 
 class HomusDatasetDownloader(DatasetDownloader):

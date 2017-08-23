@@ -3,8 +3,8 @@ import shutil
 import unittest
 from glob import glob
 
-from downloaders import DatasetDownloader
-from downloaders.HomusDatasetDownloader import HomusDatasetDownloader
+from omrdatasettools.downloaders import DatasetDownloader
+from omrdatasettools.downloaders.HomusDatasetDownloader import HomusDatasetDownloader
 
 
 class DatasetDownloaderTest(unittest.TestCase):
