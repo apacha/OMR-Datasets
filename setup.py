@@ -11,7 +11,7 @@ setup(
     author_email='alexander.pacha@tuwien.ac.at',
     license='MIT',
     url='https://github.com/apacha/omr-datasets',  # use the URL to the github repo
-    download_url='https://github.com/apacha/omr-datasets/archive/0.2.tar.gz',
+    download_url='https://github.com/apacha/omr-datasets/archive/0.4.tar.gz',
     keywords=['optical music recognition', 'downloading', 'extracting', 'omr', 'generating', 'dataset', 'preprocessing'],
     classifiers=[
         # How mature is this project? Common values are
