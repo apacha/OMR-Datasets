@@ -21,7 +21,7 @@ The following datasets are referenced from this repository:
 * [Byrd Dataset](#byrd-dataset)
 
 ## Tools for working with the datasets
-[![Build Status](https://travis-ci.org/apacha/OMR-Datasets.svg?branch=master)](https://travis-ci.org/apacha/OMR-Datasets)
+[![Build Status](https://travis-ci.org/apacha/OMR-Datasets.svg?branch=master)](https://travis-ci.org/apacha/OMR-Datasets) [![codecov](https://codecov.io/gh/apacha/OMR-Datasets/branch/master/graph/badge.svg)](https://codecov.io/gh/apacha/OMR-Datasets)
 
 This repository also contains Python scripts for [automatically downloading](./omr-dataset-tools/downloaders/README.md) and processing the datasets.  
 
