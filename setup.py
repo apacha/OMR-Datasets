@@ -1,9 +1,11 @@
 from distutils.core import setup
 
+from setuptools import find_packages
+
 setup(
     name='omrdatasettools',
-    packages=['omrdatasettools'],  # this must be the same as the name above
-    version='0.2',
+    packages=find_packages('.'),
+    version='0.3',
     description='A collection of tools that simplify the downloading and handling of datasets used for Optical Music Recognition (OMR).',
     author='Alexander Pacha',
     author_email='alexander.pacha@tuwien.ac.at',
