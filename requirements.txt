@@ -12,3 +12,4 @@ muscima == 0.3.2
 numpy == 1.12.1
 lxml == 3.7.3 # Transitive dependency from musicma that is not fulfilled there
 tqdm
+twine
