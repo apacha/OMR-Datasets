@@ -35,7 +35,7 @@ class HomusDatasetDownloader(DatasetDownloader):
 
     def download_and_extract_dataset(self):
         if not os.path.exists(self.get_dataset_filename()):
-            print("Downloading HOMUS Dataset...")
+            print("Downloading HOMUS Dataset (Version {0})...".format(self.version))
             self.download_file(self.get_dataset_download_url(), self.get_dataset_filename())
 
         print("Extracting HOMUS Dataset...")
