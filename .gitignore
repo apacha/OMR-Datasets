@@ -98,9 +98,6 @@ captures/
 
 # Intellij
 *.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/libraries
 
 # Keystore files
 *.jks
@@ -119,7 +116,6 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
-build/
 develop-eggs/
 dist/
 downloads/
@@ -160,7 +156,6 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 
 # Flask stuff:
@@ -233,7 +228,6 @@ ENV/
 [Rr]eleases/
 x64/
 x86/
-build/
 bld/
 [Bb]in/
 [Oo]bj/
@@ -271,7 +265,6 @@ dlldata.c
 *.tlh
 *.tmp
 *.tmp_proj
-*.log
 *.vspscc
 *.vssscc
 .builds
@@ -372,7 +365,6 @@ AppPackages/
 ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
-*~
 *.dbmdl
 *.dbproj.schemaview
 *.pfx
@@ -420,3 +412,4 @@ Components
 
 .idea/
 data/
+/MANIFEST
