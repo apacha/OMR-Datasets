@@ -417,3 +417,6 @@ Components
 
 # Other ignored files
 *.zip
+
+.idea/
+data/
