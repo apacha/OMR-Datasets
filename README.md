@@ -4,7 +4,7 @@ This repository contains a collection of many datasets used for various Optical 
 
 Note that most datasets have been developed by researchers and using their dataset requires accepting a certain license and/or citing their respective publications, as indicated for each dataset. Most datasets link to the official website, where you can download the dataset.
 
-Datasets referenced from this repository:
+The following datasets are referenced from this repository:
 
 * [Handwritten Online Musical Symbols (HOMUS)](#handwritten-online-musical-symbols-homus)
 * [Music Score Classification Dataset](#music-score-classification-dataset)
@@ -19,6 +19,12 @@ Datasets referenced from this repository:
 * [OpenOMR Dataset](#openomr-dataset)
 * [Gamera Project](#gamera-project)
 * [Byrd Dataset](#byrd-dataset)
+
+## Tools for working with the datasets
+[![Build Status](https://travis-ci.org/apacha/OMR-Datasets.svg?branch=master)](https://travis-ci.org/apacha/OMR-Datasets)
+
+This repository also contains Python scripts for [automatically downloading](./downloaders/README.md) and processing the datasets.  
+
 
 # Handwritten Online Musical Symbols (HOMUS)
 
