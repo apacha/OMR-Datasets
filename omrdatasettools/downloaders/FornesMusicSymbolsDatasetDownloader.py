@@ -1,6 +1,7 @@
 import argparse
 import os
 from distutils import dir_util
+from glob import glob
 
 from omrdatasettools.downloaders.DatasetDownloader import DatasetDownloader
 
@@ -33,10 +34,19 @@ class FornesMusicSymbolsDatasetDownloader(DatasetDownloader):
         absolute_path_to_temp_folder = os.path.abspath('Fornes-Music-Symbols')
         self.extract_dataset(absolute_path_to_temp_folder)
 
+        self.__fix_capital_file_endings(absolute_path_to_temp_folder)
+
         os.makedirs(self.destination_directory, exist_ok=True)
         dir_util.copy_tree(os.path.join(absolute_path_to_temp_folder, "Music_Symbols"),
                            self.destination_directory)
         self.clean_up_temp_directory(absolute_path_to_temp_folder)
+
+    def __fix_capital_file_endings(self, absolute_path_to_temp_folder):
+        all_extracted_images = [y for x in os.walk(absolute_path_to_temp_folder) for y in
+                                glob(os.path.join(x[0], "*.bmp"))]
+        image_with_capital_file_ending = [i for i in all_extracted_images if i.endswith(".BMP")]
+        for image in image_with_capital_file_ending:
+            os.rename(image, image[:-3] + "bmp")
 
 
 if __name__ == "__main__":
