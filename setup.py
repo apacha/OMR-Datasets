@@ -5,20 +5,20 @@ from setuptools import find_packages
 setup(
     name='omrdatasettools',
     packages=find_packages('.'),
-    version='0.4',
+    version='0.5',
     description='A collection of tools that simplify the downloading and handling of datasets used for Optical Music Recognition (OMR).',
     author='Alexander Pacha',
     author_email='alexander.pacha@tuwien.ac.at',
     license='MIT',
     url='https://github.com/apacha/omr-datasets',  # use the URL to the github repo
-    download_url='https://github.com/apacha/omr-datasets/archive/0.4.tar.gz',
+    download_url='https://github.com/apacha/omr-datasets/archive/0.5.tar.gz',
     keywords=['optical music recognition', 'downloading', 'extracting', 'omr', 'generating', 'dataset', 'preprocessing'],
     classifiers=[
         # How mature is this project? Common values are
         #   3 - Alpha
         #   4 - Beta
         #   5 - Production/Stable
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
 
         # Indicate who your project is intended for
         'Intended Audience :: Developers',
