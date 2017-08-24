@@ -34,7 +34,7 @@ class FornesMusicSymbolsDatasetDownloader(DatasetDownloader):
         self.extract_dataset(absolute_path_to_temp_folder)
 
         os.makedirs(self.destination_directory, exist_ok=True)
-        dir_util.copy_tree(os.path.join(absolute_path_to_temp_folder, "Music_symbols"),
+        dir_util.copy_tree(os.path.join(absolute_path_to_temp_folder, "Music_Symbols"),
                            self.destination_directory)
         self.clean_up_temp_directory(absolute_path_to_temp_folder)
 
