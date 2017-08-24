@@ -8,6 +8,7 @@ from omrdatasettools.downloaders.AudiverisOmrDatasetDownloader import AudiverisO
 from omrdatasettools.downloaders.FornesMusicSymbolsDatasetDownloader import FornesMusicSymbolsDatasetDownloader
 from omrdatasettools.downloaders.HomusDatasetDownloader import HomusDatasetDownloader
 from omrdatasettools.downloaders.MuscimaPlusPlusDatasetDownloader import MuscimaPlusPlusDatasetDownloader
+from omrdatasettools.downloaders.OpenOmrDatasetDownloader import OpenOmrDatasetDownloader
 
 
 class DatasetDownloaderTest(unittest.TestCase):
@@ -64,6 +65,18 @@ class DatasetDownloaderTest(unittest.TestCase):
         zip_file = downloader.get_dataset_filename()
         number_of_samples_in_the_dataset = 141
         target_file_extension = "*.xml"
+
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
+                                                            target_file_extension, zip_file,
+                                                            downloader)
+
+    def test_download_and_extract_openomr_dataset_expect_folder_to_be_created(self):
+        # Arrange
+        destination_directory = "OpenOMR"
+        downloader = OpenOmrDatasetDownloader(destination_directory)
+        zip_file = downloader.get_dataset_filename()
+        number_of_samples_in_the_dataset = 706
+        target_file_extension = "*.png"
 
         self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
                                                             target_file_extension, zip_file,

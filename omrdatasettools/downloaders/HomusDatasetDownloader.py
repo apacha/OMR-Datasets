@@ -25,6 +25,7 @@ class HomusDatasetDownloader(DatasetDownloader):
             return "http://grfia.dlsi.ua.es/homus/HOMUS.zip"
         elif self.version == 2:
             # Version 2.0 - version with bug-fixes, see https://github.com/apacha/Homus
+            # If this link does not work anymore, you can find all files in the above mentioned git repo
             return "https://owncloud.tuwien.ac.at/index.php/s/5qVjo9HGGN1bN4I/download"
 
     def get_dataset_filename(self) -> str:
