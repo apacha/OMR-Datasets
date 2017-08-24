@@ -5,6 +5,7 @@ from glob import glob
 
 from omrdatasettools.downloaders import DatasetDownloader
 from omrdatasettools.downloaders.AudiverisOmrDatasetDownloader import AudiverisOmrDatasetDownloader
+from omrdatasettools.downloaders.FornesMusicSymbolsDatasetDownloader import FornesMusicSymbolsDatasetDownloader
 from omrdatasettools.downloaders.HomusDatasetDownloader import HomusDatasetDownloader
 
 
@@ -16,6 +17,18 @@ class DatasetDownloaderTest(unittest.TestCase):
         zip_file = downloader.get_dataset_filename()
         number_of_samples_in_the_dataset = 4
         target_file_extension = "*.png"
+
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
+                                                            target_file_extension, zip_file,
+                                                            downloader)
+
+    def test_download_and_extract_fornes_symbols_dataset_expect_folder_to_be_created(self):
+        # Arrange
+        destination_directory = "FornesMusicSymbols"
+        downloader = FornesMusicSymbolsDatasetDownloader(destination_directory)
+        zip_file = downloader.get_dataset_filename()
+        number_of_samples_in_the_dataset = 4094
+        target_file_extension = "*.bmp"
 
         self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
                                                             target_file_extension, zip_file,
