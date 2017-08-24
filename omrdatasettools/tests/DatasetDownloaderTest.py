@@ -9,6 +9,9 @@ from omrdatasettools.downloaders.FornesMusicSymbolsDatasetDownloader import Forn
 from omrdatasettools.downloaders.HomusDatasetDownloader import HomusDatasetDownloader
 from omrdatasettools.downloaders.MuscimaPlusPlusDatasetDownloader import MuscimaPlusPlusDatasetDownloader
 from omrdatasettools.downloaders.OpenOmrDatasetDownloader import OpenOmrDatasetDownloader
+from omrdatasettools.downloaders.PrintedMusicSymbolsDatasetDownloader import PrintedMusicSymbolsDatasetDownloader
+from omrdatasettools.downloaders.RebeloMusicSymbolDataset1Downloader import RebeloMusicSymbolDataset1Downloader
+from omrdatasettools.downloaders.RebeloMusicSymbolDataset2Downloader import RebeloMusicSymbolDataset2Downloader
 
 
 class DatasetDownloaderTest(unittest.TestCase):
@@ -76,6 +79,42 @@ class DatasetDownloaderTest(unittest.TestCase):
         downloader = OpenOmrDatasetDownloader(destination_directory)
         zip_file = downloader.get_dataset_filename()
         number_of_samples_in_the_dataset = 706
+        target_file_extension = "*.png"
+
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
+                                                            target_file_extension, zip_file,
+                                                            downloader)
+
+    def test_download_and_extract_printed_symbols_dataset_expect_folder_to_be_created(self):
+        # Arrange
+        destination_directory = "PrintedMusicSymbols"
+        downloader = PrintedMusicSymbolsDatasetDownloader(destination_directory)
+        zip_file = downloader.get_dataset_filename()
+        number_of_samples_in_the_dataset = 213
+        target_file_extension = "*.png"
+
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
+                                                            target_file_extension, zip_file,
+                                                            downloader)
+
+    def test_download_and_extract_rebelo1_dataset_expect_folder_to_be_created(self):
+        # Arrange
+        destination_directory = "Rebelo1Images"
+        downloader = RebeloMusicSymbolDataset1Downloader(destination_directory)
+        zip_file = downloader.get_dataset_filename()
+        number_of_samples_in_the_dataset = 7940
+        target_file_extension = "*.png"
+
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
+                                                            target_file_extension, zip_file,
+                                                            downloader)
+
+    def test_download_and_extract_rebelo2_dataset_expect_folder_to_be_created(self):
+        # Arrange
+        destination_directory = "Rebelo2Images"
+        downloader = RebeloMusicSymbolDataset2Downloader(destination_directory)
+        zip_file = downloader.get_dataset_filename()
+        number_of_samples_in_the_dataset = 7307
         target_file_extension = "*.png"
 
         self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
