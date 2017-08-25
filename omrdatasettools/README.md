@@ -38,4 +38,4 @@ Once the download has completed, you may want to work with images, instead of te
                                       
 Note that the image generator has a lot of options that define how the images will be generated, but to stay with this example, it will create image of the size 192x96, draw the symbols with a line-thickness of three pixels, superimpose five staff-lines with 14 pixel space inbetween, beginning at 24 pixels from the top. 
 
-[Back to main page](../../README.md)
+[Back to main page](../README.md)
