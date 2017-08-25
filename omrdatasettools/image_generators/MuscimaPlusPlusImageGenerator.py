@@ -44,7 +44,7 @@ class MuscimaPlusPlusImageGenerator:
 
     def load_crop_objects_from_xml_files(self, xml_files: List[str]) -> List[CropObject]:
         crop_objects = []
-        for xml_file in tqdm(xml_files, desc="Loading crop-objects from xml-files", smoothing=0.1, ncols=120):
+        for xml_file in tqdm(xml_files, desc="Loading crop-objects from xml-files", smoothing=0.1):
             crop_objects.extend(self.get_crop_objects_from_xml_file(xml_file))
 
         for crop_object in crop_objects:
@@ -60,8 +60,7 @@ class MuscimaPlusPlusImageGenerator:
         return crop_objects
 
     def render_masks_of_crop_objects_into_image(self, crop_objects: List[CropObject], destination_directory: str):
-        for crop_object in tqdm(crop_objects, desc="Generating images from crop-object masks", smoothing=0.1,
-                                ncols=120):
+        for crop_object in tqdm(crop_objects, desc="Generating images from crop-object masks", smoothing=0.1):
             symbol_class = crop_object.clsname
             # Make a copy of the mask to not temper with the original data
             mask = crop_object.mask.copy()
