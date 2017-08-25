@@ -21,6 +21,7 @@ class HomusSymbol:
     def initialize_from_string(content: str) -> 'HomusSymbol':
         """
         Create and initializes a new symbol from a string
+
         :param content: The content of a symbol as read from the text-file
         :return: The initialized symbol
         :rtype: HomusSymbol
@@ -60,13 +61,13 @@ class HomusSymbol:
         dimensions = Rectangle(Point2D(min_x, min_y), max_x - min_x + 1, max_y - min_y + 1)
         return HomusSymbol(content, strokes, symbol_name, dimensions)
 
-    def draw_into_bitmap(self, export_path: ExportPath, stroke_thickness: int, margin: int = 0):
+    def draw_into_bitmap(self, export_path: ExportPath, stroke_thickness: int, margin: int = 0) -> None:
         """
         Draws the symbol in the original size that it has plus an optional margin
+
         :param export_path: The path, where the symbols should be created on disk
         :param stroke_thickness: Pen-thickness for drawing the symbol in pixels
         :param margin: An optional margin for each symbol
-        :return:
         """
         self.draw_onto_canvas(export_path,
                               stroke_thickness,
@@ -77,9 +78,10 @@ class HomusSymbol:
     def draw_onto_canvas(self, export_path: ExportPath, stroke_thickness: int, margin: int, destination_width: int,
                          destination_height: int, staff_line_spacing: int = 14,
                          staff_line_vertical_offsets: List[int] = None,
-                         bounding_boxes: dict = None, random_position_on_canvas: bool = False):
+                         bounding_boxes: dict = None, random_position_on_canvas: bool = False) -> None:
         """
         Draws the symbol onto a canvas with a fixed size
+
         :param bounding_boxes: The dictionary into which the bounding-boxes will be added of each generated image
         :param export_path: The path, where the symbols should be created on disk
         :param stroke_thickness:
@@ -87,8 +89,7 @@ class HomusSymbol:
         :param destination_width:
         :param destination_height:
         :param staff_line_spacing:
-        :param staff_line_vertical_offsets: Offsets used for drawing staff-lines. If None provided, no staff-lines will
-                  be drawn if multiple integers are provided, multiple images will be generated
+        :param staff_line_vertical_offsets: Offsets used for drawing staff-lines. If None provided, no staff-lines will be drawn if multiple integers are provided, multiple images will be generated
         """
         width = self.dimensions.width + 2 * margin
         height = self.dimensions.height + 2 * margin
@@ -118,7 +119,7 @@ class HomusSymbol:
 
         location = self.__subtract_offset(self.dimensions.origin, offset)
         bounding_box_in_image = Rectangle(location, self.dimensions.width, self.dimensions.height)
-        #self.draw_bounding_box(draw, location)
+        # self.draw_bounding_box(draw, location)
 
         del draw
 

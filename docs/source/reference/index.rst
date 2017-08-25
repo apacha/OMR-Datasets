@@ -13,3 +13,5 @@ Reference
     PrintedMusicSymbolsDatasetDownloader
     RebeloMusicSymbolsDataset1Downloader
     RebeloMusicSymbolsDataset2Downloader
+    HomusImageGenerator.rst
+    HomusSymbol.rst
