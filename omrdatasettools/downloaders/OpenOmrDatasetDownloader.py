@@ -36,8 +36,7 @@ class OpenOmrDatasetDownloader(DatasetDownloader):
         self.extract_dataset(absolute_path_to_temp_folder)
 
         os.makedirs(self.destination_directory, exist_ok=True)
-        dir_util.copy_tree(os.path.join(absolute_path_to_temp_folder, "OpenOMR-Dataset"),
-                           self.destination_directory)
+        dir_util.copy_tree(os.path.join(absolute_path_to_temp_folder, "OpenOMR-Dataset"), self.destination_directory)
         self.clean_up_temp_directory(absolute_path_to_temp_folder)
 
 
