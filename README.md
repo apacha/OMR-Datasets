@@ -10,7 +10,7 @@ The following datasets are referenced from this repository:
 * [Music Score Classification Dataset](#music-score-classification-dataset)
 * [CVC-MUSCIMA](#cvc-muscima)
 * [MUSCIMA++](#muscima)
-* [Captain collection](#captain-collection)
+* [Capitan collection](#capitan-collection)
 * [MuseScore Monophonic MusicXML Dataset](#musescore-monophonic-musicxml-dataset)
 * [Rebelo Dataset](#rebelo-dataset)
 * [Fornes Dataset](#fornes-dataset)
@@ -88,25 +88,25 @@ This repository also contains Python scripts for [automatically downloading](./o
 
 *Remarks*: Since this dataset is derived from the MUSCIMA dataset, using it requires to reference both works.
 
-# Captain collection
+# Capitan collection
 
 **Official website**: [http://grfia.dlsi.ua.es/](http://grfia.dlsi.ua.es)
 
 [![License](https://img.shields.io/badge/License-Unknown-red.svg)](http://grfia.dlsi.ua.es/homus/) (Freely available for research purposes)
 
-**Summary**: A corpus collected by an electronic pen while tracing isolated music symbols from Early manuscripts. The dataset contains information of both the sequence followed by the pen and the patch of the source under the tracing itself. In total it contains 10230 samples unevenly spread over 30 classes. Each symbol is described as stroke (captain stroke) and including the piece of score below it (captain score).
+**Summary**: A corpus collected by an electronic pen while tracing isolated music symbols from Early manuscripts. The dataset contains information of both the sequence followed by the pen and the patch of the source under the tracing itself. In total it contains 10230 samples unevenly spread over 30 classes. Each symbol is described as stroke (capitan stroke) and including the piece of score below it (capitan score).
 
 **Scientific Publication**: Jorge Calvo-Zaragoza, David Rizo and Jose M. Iñesta. Two (note) heads are better than one: pen-based multimodal interaction with music scores. International Society of Music Information Retrieval conference, 2016. [Download the PDF](http://grfia.dlsi.ua.es/repositori/grfia/pubs/345/two-note-heads.pdf)
 
 
 **Example**:
 
-![Example of Captain dataset](samples/captain-collection.png)
+![Example of Capitan dataset](samples/capitan-collection.png)
 
 *Remarks*: This dataset exists in two flavours: 
 
 * As raw dataset, which contains only the textual descriptions of the strokes and the images, called *Bimodal music symbols from Early notation*. This format is similar to the HOMUS dataset.
-* As rendered images inside of the *Isolated handwritten music symbols* dataset. Also refered to as Captain collection.
+* As rendered images inside of the *Isolated handwritten music symbols* dataset. Also refered to as Capitan collection.
 
 # MuseScore Monophonic MusicXML Dataset
 
