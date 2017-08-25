@@ -32,7 +32,7 @@ install:
   - pip list
 
 script:
-  travis_wait pytest --cov=./ omrdatasettools/
+  pytest --cov=./ omrdatasettools/ -s
 
 after_success:
   - codecov
