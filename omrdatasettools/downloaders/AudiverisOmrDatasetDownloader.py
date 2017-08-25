@@ -27,6 +27,7 @@ class AudiverisOmrDatasetDownloader(DatasetDownloader):
         return "AudiverisOmrDataset.zip"
 
     def download_and_extract_dataset(self):
+        """ Starts the download of the dataset and extracts it into the directory specified in the constructor """
         if not os.path.exists(self.get_dataset_filename()):
             print("Downloading Audiveris OMR dataset...")
             self.download_file(self.get_dataset_download_url(), self.get_dataset_filename())
