@@ -8,7 +8,7 @@ class AudiverisOmrDatasetDownloader(DatasetDownloader):
     """ Loads and extracts the music symbols from the Audiveris OMR dataset.
         https://github.com/Audiveris/omr-dataset-tools
         Copyright 2017 by Hervé Bitteur under AGPL-3.0 license
-        """
+    """
 
     def __init__(self, destination_directory: str):
         """
