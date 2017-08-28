@@ -2,7 +2,7 @@
 .. py:currentmodule:: omrdatasettools.downloaders.FornesMusicSymbolsDatasetDownloader
 
 :py:mod:`FornesMusicSymbolsDatasetDownloader` Module
-==============================================
+====================================================
 
 .. autoclass:: omrdatasettools.downloaders.FornesMusicSymbolsDatasetDownloader.FornesMusicSymbolsDatasetDownloader
 
