@@ -65,8 +65,12 @@ class HomusImageGenerator:
                 staff_line_multiplier, staff_line_vertical_offsets)
 
         if canvas_width is not None and canvas_height is not None:
-            output += "\nCentrally drawn on a fixed canvas of size {0}x{1} (Width x Height)".format(canvas_width,
-                                                                                                    canvas_height)
+            if random_position_on_canvas is False:
+                output += "\nRandomly drawn on a fixed canvas of size {0}x{1} (Width x Height)".format(canvas_width,
+                                                                                                       canvas_height)
+            else:
+                output += "\nCentrally drawn on a fixed canvas of size {0}x{1} (Width x Height)".format(canvas_width,
+                                                                                                        canvas_height)
 
         print(output)
         print("In directory {0}".format(os.path.abspath(destination_directory)), flush=True)
