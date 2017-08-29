@@ -6,6 +6,7 @@ from glob import glob
 from omrdatasettools.downloaders import DatasetDownloader
 from omrdatasettools.downloaders.AudiverisOmrDatasetDownloader import AudiverisOmrDatasetDownloader
 from omrdatasettools.downloaders.CapitanDatasetDownloader import CapitanDatasetDownloader
+from omrdatasettools.downloaders.CvcMuscimaDatasetDownloader import CvcMuscimaDatasetDownloader, CvcMuscimaDataset
 from omrdatasettools.downloaders.FornesMusicSymbolsDatasetDownloader import FornesMusicSymbolsDatasetDownloader
 from omrdatasettools.downloaders.HomusDatasetDownloader import HomusDatasetDownloader
 from omrdatasettools.downloaders.MuscimaPlusPlusDatasetDownloader import MuscimaPlusPlusDatasetDownloader
@@ -39,6 +40,31 @@ class DatasetDownloaderTest(unittest.TestCase):
         self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
                                                             target_file_extension, zip_file,
                                                             downloader)
+
+    def test_download_and_extract_cvc_muscima_WI_dataset_expect_folder_to_be_created(self):
+        # Arrange
+        destination_directory = "CvcMuscimaWriterIdentificationData"
+        downloader = CvcMuscimaDatasetDownloader(destination_directory, CvcMuscimaDataset.WriterIdentification)
+        zip_file = downloader.get_dataset_filename()
+        number_of_samples_in_the_dataset = 1
+        target_file_extension = "png"
+
+        # self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
+        #                                                     target_file_extension, zip_file,
+        #                                                     downloader)
+
+    def test_download_and_extract_cvc_muscima_SR_dataset_expect_folder_to_be_created(self):
+        # Arrange
+        destination_directory = "CvcMuscimaStaffRemovalData"
+        downloader = CvcMuscimaDatasetDownloader(destination_directory, CvcMuscimaDataset.StaffRemoval)
+        zip_file = downloader.get_dataset_filename()
+        number_of_samples_in_the_dataset = 1
+        target_file_extension = "data"
+
+        # self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
+        #                                                     target_file_extension, zip_file,
+        #                                                     downloader)
+
 
     def test_download_and_extract_fornes_symbols_dataset_expect_folder_to_be_created(self):
         # Arrange
