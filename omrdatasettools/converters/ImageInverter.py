@@ -19,13 +19,11 @@ class ImageInverter:
         :param image_directory: The directory, that contains the images
         :param image_file_ending: The pattern for finding files in the image_directory
         """
-        print("Converting all images in directory {0}...".format(image_directory))
-
         image_paths = [y for x in os.walk(image_directory) for y in glob(os.path.join(x[0], image_file_ending))]
-        for image_path in tqdm(image_paths):
+        for image_path in tqdm(image_paths, desc="Inverting all images in directory {0}".format(image_directory)):
             white_on_black_image = Image.open(image_path).convert("L")
             black_on_white_image = ImageOps.invert(white_on_black_image)
-            black_on_white_image.save(image_path[:-4] + ".png")
+            black_on_white_image.save(os.path.splitext(image_path)[0] + ".png")
 
 
 if __name__ == "__main__":
