@@ -38,7 +38,7 @@ class MuscimaPlusPlusImageGenerator:
         """ Loads all XML-files that are located in the folder.
         :param raw_data_directory: Path to the raw directory, where the MUSCIMA++ dataset was extracted to
         """
-        raw_data_directory = os.path.join(raw_data_directory, "v0.9.1", "data", "cropobjects")
+        raw_data_directory = os.path.join(raw_data_directory, "v1.0", "data", "cropobjects_manual")
         xml_files = [y for x in os.walk(raw_data_directory) for y in glob(os.path.join(x[0], '*.xml'))]
         return xml_files
 

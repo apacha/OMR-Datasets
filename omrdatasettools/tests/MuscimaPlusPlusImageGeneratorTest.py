@@ -17,7 +17,7 @@ class MuscimaPlusPlusImageGeneratorTest(unittest.TestCase):
         image_generator = MuscimaPlusPlusImageGenerator()
         image_generator.extract_and_render_all_symbol_masks("temp/muscima_pp_raw", "temp/muscima_img")
         all_image_files = [y for x in os.walk("temp/muscima_img") for y in glob(os.path.join(x[0], '*.png'))]
-        expected_number_of_symbols = 91253
+        expected_number_of_symbols = 91254
         actual_number_of_symbols = len(all_image_files)
 
         # Assert
