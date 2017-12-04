@@ -65,7 +65,6 @@ class DatasetDownloaderTest(unittest.TestCase):
         #                                                     target_file_extension, zip_file,
         #                                                     downloader)
 
-
     def test_download_and_extract_fornes_symbols_dataset_expect_folder_to_be_created(self):
         # Arrange
         destination_directory = "FornesMusicSymbols"
@@ -91,7 +90,7 @@ class DatasetDownloaderTest(unittest.TestCase):
 
     def test_download_and_extract_homus_v2_dataset_expect_folder_to_be_created(self):
         destination_directory = "HOMUS"
-        downloader = HomusDatasetDownloader(".", version=1)
+        downloader = HomusDatasetDownloader(".", version=2)
         zip_file = downloader.get_dataset_filename()
         number_of_samples_in_the_dataset = 15200
         target_file_extension = "*.txt"
@@ -105,10 +104,13 @@ class DatasetDownloaderTest(unittest.TestCase):
         destination_directory = "MuscimaPlusPlus"
         downloader = MuscimaPlusPlusDatasetDownloader(destination_directory)
         zip_file = downloader.get_dataset_filename()
-        number_of_samples_in_the_dataset = 141
+        number_of_samples_with_staff_lines = 140
+        number_of_samples_without_staff_lines = 140
+        extra_files = 1
+        number_of_xml_files_in_the_dataset = number_of_samples_with_staff_lines + number_of_samples_without_staff_lines + extra_files
         target_file_extension = "*.xml"
 
-        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_xml_files_in_the_dataset,
                                                             target_file_extension, zip_file,
                                                             downloader)
 
