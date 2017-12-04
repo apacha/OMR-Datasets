@@ -42,6 +42,17 @@ class MuscimaPlusPlusImageGenerator:
         xml_files = [y for x in os.walk(raw_data_directory) for y in glob(os.path.join(x[0], '*.xml'))]
         return xml_files
 
+    def load_crop_objects_from_xml_file(self, xml_file: str) -> List[CropObject]:
+        crop_objects = []
+        crop_objects.extend(self.get_crop_objects_from_xml_file(xml_file))
+
+        for crop_object in crop_objects:
+            # Some classes have special characters in their class name that we have to remove
+            crop_object.clsname = crop_object.clsname.replace('"', '').replace('/', '').replace('.', '')
+
+        #print("Loaded {0} crop-objects from {1}".format(len(crop_objects), xml_file))
+        return crop_objects
+
     def load_crop_objects_from_xml_files(self, xml_files: List[str]) -> List[CropObject]:
         crop_objects = []
         for xml_file in tqdm(xml_files, desc="Loading crop-objects from xml-files", smoothing=0.1):
