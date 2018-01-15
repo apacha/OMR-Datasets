@@ -22,7 +22,7 @@ The following datasets are referenced from this repository:
 | [Audiveris OMR](#audiveris-omr)                                                         	| Printed               	| 800 annotations	    | Images + XML          	| Symbol Classification, Object Detection   	|
 | [Printed Music Symbols Dataset](#printed-music-symbols-dataset)                         	| Printed               	| 200 symbols    	    | Images                	| Symbol Classification                     	|
 | [OpenOMR Dataset](#openomr-dataset)                                                     	| Printed               	| 706 symbols    	    | Images                	| Symbol Classification                     	|
-| [Gamera Project](#gamera-project)                                                       	| Printed               	| 32 score images	    | Images                	| Staff line removal                        	|
+| [Gamera MusicStaves Toolkit](#gamera-musicstaves-toolkit)                                	| Printed               	| 32 score images	    | Images                	| Staff line removal                        	|
 | [Early Typographic Prints](#early-typographic-prints)                                   	| Printed               	| 240 score images      |                       	|                                           	|
 | [Silva Online Handwritten Symbols](#silva-online-handwritten-symbols)                   	| Handwritten           	| 12600 symbols  	    |                       	|                                           	|
 | [IMSLP](#imslp)                                                                         	| Printed               	| >420000 score images  | PDF                      	| Various                                      	|
