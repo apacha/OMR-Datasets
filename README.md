@@ -11,6 +11,7 @@ The following datasets are referenced from this repository:
 * [Universal Music Symbol Collection](#universal-music-symbol-collection)
 * [CVC-MUSCIMA](#cvc-muscima)
 * [MUSCIMA++](#muscima)
+* [MuseScore](#musescore)
 * [Capitan collection](#capitan-collection)
 * [MuseScore Monophonic MusicXML Dataset](#musescore-monophonic-musicxml-dataset)
 * [Rebelo Dataset](#rebelo-dataset)
@@ -101,7 +102,25 @@ The following datasets are referenced from this repository:
 
 ![Example of MUSCIMA++ dataset](samples/muscima-pp.png)
 
-*Remarks*: Since this dataset is derived from the MUSCIMA dataset, using it requires to reference both works.
+*Remarks*: Since this dataset is derived from the CVC-MUSCIMA dataset, using it requires to reference both works.
+
+
+# MuseScore
+
+**Official website**: [https://musescore.com/sheetmusic](https://musescore.com/sheetmusic)
+
+[![License: Mixed](https://img.shields.io/badge/License-Mixed-ff00ff.svg)](https://musescore.com/sheetmusic)
+
+**Summary**: [MuseScore](https://musescore.org/) is a free music notation software and also allows their users to upload their sheet music to their website and share it with others. Currently (Jan. 2018) the website hosts over 340000 music sheets, that can be downloaded as MuseScore file (mscz), PDF, MusicXML, MIDI and MP3. 
+
+**Publication**: [https://musescore.org](https://musescore.org)
+
+**Example**:
+
+![Example of MuseScore](samples/musescore.png)
+
+
+
 
 # Capitan collection
 
