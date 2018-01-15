@@ -20,6 +20,7 @@ The following datasets are referenced from this repository:
 * [Printed Music Symbols Dataset](#printed-music-symbols-dataset)
 * [OpenOMR Dataset](#openomr-dataset)
 * [Gamera Project](#gamera-project)
+* [IMSLP](#imslp)
 * [Byrd Dataset](#byrd-dataset)
 
 ## Tools for working with the datasets
@@ -248,6 +249,23 @@ The following datasets are referenced from this repository:
 
 ![Example of the Gamera MusicStaves Dataset](samples/gamera-music-staves-toolkit.png)
 
+
+
+
+
+
+# IMSLP
+
+**Official website**: [http://imslp.org](http://imslp.org)
+
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-green.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
+
+**Summary**: The Petrucci Music Library is the largest collection of public domain music, with over 420000 (Jan. 2018) freely available PDF scores by almost 16000 composers accompanied by almost 50000 recordings. It also maintains an extensive list of [other music score websites](http://imslp.org/wiki/IMSLP:Other_music_score_websites), where you can find many more music sheets, e.g. collected during research projects by universities.
+
+
+**Example**:
+
+![The IMSLP music library](samples/imslp.png)
 
 # Byrd Dataset
 
