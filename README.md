@@ -8,6 +8,7 @@ The following datasets are referenced from this repository:
 
 * [Handwritten Online Musical Symbols (HOMUS)](#handwritten-online-musical-symbols-homus)
 * [Music Score Classification Dataset](#music-score-classification-dataset)
+* [Universal Music Symbol Collection](#universal-music-symbol-collection)
 * [CVC-MUSCIMA](#cvc-muscima)
 * [MUSCIMA++](#muscima)
 * [Capitan collection](#capitan-collection)
@@ -50,11 +51,27 @@ The following datasets are referenced from this repository:
 
 **Summary**: A dataset of 2000 images, containing 1000 images of music scores and 1000 images of other objects including text documents. The images were taken with a smartphone camera from various angles and different lighting conditions.
 
-**Scientific Publication**: Under review
+**Scientific Publication**: Alexander Pacha, Horst Eidenberger, Towards Self-Learning Optical Music Recognition. 2017 16th IEEE International Conference on Machine Learning and Applications (ICMLA), Cancún, Mexiko, Dezember 2017. [DOI: 10.1109/ICMLA.2017.00-60](http://dx.doi.org/10.1109/ICMLA.2017.00-60)
 
 **Example**:
 
 ![Example of MusicScoreClassifier dataset](samples/music-score-classifier.png)
+
+
+# Universal Music Symbol Collection
+
+**Official website**: [https://github.com/apacha/MusicSymbolClassifier](https://github.com/apacha/MusicSymbolClassifier), [Slides](https://docs.google.com/presentation/d/14g97TnrcI9o-5D6DIY-dMFfBp9kUAqpbe86c-VE83Bk/edit?usp=sharing) 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+
+**Summary**: A collection of various other datasets, that combines 7 datasets into a large unified dataset of 90000 tiny music symbol images from 79 classes that can be used to train a universal music symbol classifier. 74000 symbols are handwritten and 16000 are printed symbols.
+
+**Scientific Publication**: Alexander Pacha, Horst Eidenberger. Towards a Universal Music Symbol Classifier. Proceedings of the 12th IAPR International Workshop on Graphics Recognition, Kyoto, Japan, November 2017. [DOI: 10.1109/ICDAR.2017.265](http://dx.doi.org/10.1109/ICDAR.2017.265)
+
+**Example**:
+
+![Example of MusicSymbolClassifier dataset](samples/universal-music-symbol-collection.png)
+
 
 # CVC-MUSCIMA
 
