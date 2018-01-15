@@ -22,6 +22,7 @@ The following datasets are referenced from this repository:
 * [OpenOMR Dataset](#openomr-dataset)
 * [Gamera Project](#gamera-project)
 * [Early Typographic Prints](#early-typographic-prints)
+* [Silva Online Handwritten Symbols](#silva-online-handwritten-symbols)
 * [IMSLP](#imslp)
 * [Byrd Dataset](#byrd-dataset)
 
@@ -264,6 +265,12 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 
 ![Example of the Pugin dataset](samples/pugin.png)
 
+# Silva Online Handwritten Symbols 
+
+**Summary**: Dataset of 12600 trajectories of handwritten music symbols, drawn by 50 writers with an Android application. Every writer drew each of the 84 different symbols three times.
+
+**Scientific Publication**: Rui Miguel Filipe da Silva. Mobile framework for recognition of musical characters. Master Thesis. Universidade do Porto, June 2013. [https://repositorio-aberto.up.pt/bitstream/10216/68500/2/26777.pdf](https://repositorio-aberto.up.pt/bitstream/10216/68500/2/26777.pdf)
+
 
 # IMSLP
 
@@ -272,7 +279,6 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-green.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 
 **Summary**: The Petrucci Music Library is the largest collection of public domain music, with over 420000 (Jan. 2018) freely available PDF scores by almost 16000 composers accompanied by almost 50000 recordings. It also maintains an extensive list of [other music score websites](http://imslp.org/wiki/IMSLP:Other_music_score_websites), where you can find many more music sheets, e.g. collected during research projects by universities.
-
 
 **Example**:
 
