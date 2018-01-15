@@ -4,6 +4,7 @@ This repository contains a collection of many datasets used for various Optical 
 
 Note that most datasets have been developed by researchers and using their dataset requires accepting a certain license and/or citing their respective publications, as indicated for each dataset. Most datasets link to the official website, where you can download the dataset.
 
+## Overview
 The following datasets are referenced from this repository:
 
 * [Handwritten Online Musical Symbols (HOMUS)](#handwritten-online-musical-symbols-homus)
@@ -20,6 +21,7 @@ The following datasets are referenced from this repository:
 * [Printed Music Symbols Dataset](#printed-music-symbols-dataset)
 * [OpenOMR Dataset](#openomr-dataset)
 * [Gamera Project](#gamera-project)
+* [Early Typographic Prints](#early-typographic-prints)
 * [IMSLP](#imslp)
 * [Byrd Dataset](#byrd-dataset)
 
@@ -239,7 +241,7 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 
 # Gamera MusicStaves Toolkit
 
-**Official website**: [http://music-staves.sf.net/ and https://github.com/hsnr-gamera](http://music-staves.sf.net/ and https://github.com/hsnr-gamera)
+**Official website**: [http://music-staves.sf.net/](http://music-staves.sf.net/) and [https://github.com/hsnr-gamera](https://github.com/hsnr-gamera)
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-yellow.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
@@ -252,8 +254,15 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 ![Example of the Gamera MusicStaves Dataset](samples/gamera-music-staves-toolkit.png)
 
 
+# Early Typographic Prints
 
+**Summary**: 240 pages of early typographic music having a total of 1478 staves and 52178 characters corresponding to 175 different symbols with ground-truth obtained by manually entering via a MIDI keyboard.
 
+**Scientific Publication**: Laurent Pugin. Optical Music Recognition of Early Typographic Prints using Hidden Markov Models. 7th International Conference on Music Information Retrieval (ISMIR’06), Victoria, Canada, October 2006. [http://www.aruspix.net/publications/pugin06optical.pdf](http://www.aruspix.net/publications/pugin06optical.pdf)
+
+**Example**:
+
+![Example of the Pugin dataset](samples/pugin.png)
 
 
 # IMSLP
