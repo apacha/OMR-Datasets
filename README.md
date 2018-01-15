@@ -7,24 +7,27 @@ Note that most datasets have been developed by researchers and using their datas
 ## Overview
 The following datasets are referenced from this repository:
 
-* [Handwritten Online Musical Symbols (HOMUS)](#handwritten-online-musical-symbols-homus)
-* [Music Score Classification Dataset](#music-score-classification-dataset)
-* [Universal Music Symbol Collection](#universal-music-symbol-collection)
-* [CVC-MUSCIMA](#cvc-muscima)
-* [MUSCIMA++](#muscima)
-* [MuseScore](#musescore)
-* [Capitan collection](#capitan-collection)
-* [MuseScore Monophonic MusicXML Dataset](#musescore-monophonic-musicxml-dataset)
-* [Rebelo Dataset](#rebelo-dataset)
-* [Fornes Dataset](#fornes-dataset)
-* [Audiveris OMR](#audiveris-omr)
-* [Printed Music Symbols Dataset](#printed-music-symbols-dataset)
-* [OpenOMR Dataset](#openomr-dataset)
-* [Gamera Project](#gamera-project)
-* [Early Typographic Prints](#early-typographic-prints)
-* [Silva Online Handwritten Symbols](#silva-online-handwritten-symbols)
-* [IMSLP](#imslp)
-* [Byrd Dataset](#byrd-dataset)
+|                                           Name                                          	|    Types of Scores    	|     Size              |     Format             	|               Typical usages              	|
+|-----------------------------------------------------------------------------------------	|:---------------------:	|:-----------------:    |:------------:         	|:-----------------------------------------:	|
+| [Handwritten Online Musical Symbols (HOMUS)](#handwritten-online-musical-symbols-homus) 	| Handwritten           	| 15200 symbols   	    | Text-File             	| Symbol Classification (online + offline)  	|
+| [Music Score Classification Dataset](#music-score-classification-dataset)               	| Printed               	| 1000 score images     | Images                	| Sheet Classification                      	|
+| [Universal Music Symbol Collection](#universal-music-symbol-collection)                 	| Printed + Handwritten 	| ~ 90000 symbols	    | Images                	| Symbol Classification (offline)           	|
+| [CVC-MUSCIMA](#cvc-muscima)                                                             	| Handwritten           	| 1000 score images     | Images                	| Staff line removal, writer identification 	|
+| [MUSCIMA++](#muscima)                                                                   	| Handwritten           	| > 90000 annotatations | Images + XML          	| Symbol Classification, Object Detection   	|
+| [MuseScore](#musescore)                                                                 	| Printed               	| > 340000 files 	    | MuseScore, PDF, MusicXML 	| Various                                   	|
+| [MuseScore Monophonic MusicXML Dataset](#musescore-monophonic-musicxml-dataset)         	| Printed               	| 17000 IDs      	    | IDs for MuseScore files  	| Various                                   	|
+| [Capitan collection](#capitan-collection)                                               	| Handwritten              	| 10230 symbols         | Images + Text-File    	| Symbol Classification                     	|
+| [RebeloDataset](#rebelo-dataset)                                                        	| Printed               	| 15000 symbols  	    | Images                	| Symbol Classification                     	|
+| [Fornes Dataset](#fornes-dataset)                                                       	| Handwritten           	| 4100 symbols   	    | Images                 	| Symbol Classification                     	|
+| [Audiveris OMR](#audiveris-omr)                                                         	| Printed               	| 800 annotations	    | Images + XML          	| Symbol Classification, Object Detection   	|
+| [Printed Music Symbols Dataset](#printed-music-symbols-dataset)                         	| Printed               	| 200 symbols    	    | Images                	| Symbol Classification                     	|
+| [OpenOMR Dataset](#openomr-dataset)                                                     	| Printed               	| 706 symbols    	    | Images                	| Symbol Classification                     	|
+| [Gamera Project](#gamera-project)                                                       	| Printed               	| 32 score images	    | Images                	| Staff line removal                        	|
+| [Early Typographic Prints](#early-typographic-prints)                                   	| Printed               	| 240 score images      |                       	|                                           	|
+| [Silva Online Handwritten Symbols](#silva-online-handwritten-symbols)                   	| Handwritten           	| 12600 symbols  	    |                       	|                                           	|
+| [IMSLP](#imslp)                                                                         	| Printed               	| >420000 score images  | PDF                      	| Various                                      	|
+| [Byrd Dataset](#byrd-dataset)                                                           	| Printed               	| 34 score images	    | Images                   	| Various                                      	|
+
 
 If you find mistakes or know of any relevant datasets, that are missing in this list, please [open an issue](https://github.com/apacha/OMR-Datasets/issues/new) or directly file a pull request.
 
@@ -126,28 +129,6 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 ![Example of MuseScore](samples/musescore.png)
 
 
-
-
-# Capitan collection
-
-**Official website**: [http://grfia.dlsi.ua.es/](http://grfia.dlsi.ua.es)
-
-[![License](https://img.shields.io/badge/License-Unknown-red.svg)](http://grfia.dlsi.ua.es/homus/) (Freely available for research purposes)
-
-**Summary**: A corpus collected by an electronic pen while tracing isolated music symbols from Early manuscripts. The dataset contains information of both the sequence followed by the pen and the patch of the source under the tracing itself. In total it contains 10230 samples unevenly spread over 30 classes. Each symbol is described as stroke (capitan stroke) and including the piece of score below it (capitan score).
-
-**Scientific Publication**: Jorge Calvo-Zaragoza, David Rizo and Jose M. Iñesta. Two (note) heads are better than one: pen-based multimodal interaction with music scores. International Society of Music Information Retrieval conference, 2016. [Download the PDF](http://grfia.dlsi.ua.es/repositori/grfia/pubs/345/two-note-heads.pdf)
-
-
-**Example**:
-
-![Example of Capitan dataset](samples/capitan-collection.png)
-
-*Remarks*: This dataset exists in two flavours: 
-
-* As raw dataset, which contains only the textual descriptions of the strokes and the images, called *Bimodal music symbols from Early notation*. This format is similar to the HOMUS dataset.
-* As rendered images inside of the *Isolated handwritten music symbols* dataset. Also refered to as Capitan collection.
-
 # MuseScore Monophonic MusicXML Dataset
 
 **Official website**: [https://github.com/eelcovdw/mono-musicxml-dataset]()
@@ -163,6 +144,25 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 ![Example of Monophonic MusicXML dataset](samples/monophonic-musescore.png)
 
 
+# Capitan collection
+
+**Official website**: [http://grfia.dlsi.ua.es/](http://grfia.dlsi.ua.es)
+
+[![License](https://img.shields.io/badge/License-Unknown-red.svg)](http://grfia.dlsi.ua.es/homus/) (Freely available for research purposes)
+
+**Summary**: A corpus collected by an electronic pen while tracing isolated music symbols from Early manuscripts. The dataset contains information of both the sequence followed by the pen and the patch of the source under the tracing itself. In total it contains 10230 samples unevenly spread over 30 classes. Each symbol is described as stroke (capitan stroke) and including the piece of score below it (capitan score).
+
+**Scientific Publication**: Jorge Calvo-Zaragoza, David Rizo and Jose M. Iñesta. Two (note) heads are better than one: pen-based multimodal interaction with music scores. International Society of Music Information Retrieval conference, 2016. [Download the PDF](http://grfia.dlsi.ua.es/repositori/grfia/pubs/345/two-note-heads.pdf)
+
+**Example**:
+
+![Example of Capitan dataset](samples/capitan-collection.png)
+
+*Remarks*: This dataset exists in two flavours: 
+
+* As raw dataset, which contains only the textual descriptions of the strokes and the images, called *Bimodal music symbols from Early notation*. This format is similar to the HOMUS dataset.
+* As rendered images inside of the *Isolated handwritten music symbols* dataset. Also refered to as Capitan collection.
+
 
 # Rebelo Dataset
 
@@ -170,7 +170,7 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-**Summary**: Three datasets of perfect and scanned music symbols including an extensive set of synthetically modified images for staff-line detection and removal.
+**Summary**: Three datasets of perfect and scanned music symbols including an extensive set of synthetically modified images for staff-line detection and removal. Contains approximately 15000 music symbols.
 
 **Scientific Publication**: A. Rebelo, G. Capela, and J. S. Cardoso, "Optical recognition of music symbols: A comparative study" in International Journal on Document Analysis and Recognition, vol. 13, no. 1, pp. 19-31, 2010. [DOI: 10.1007/s10032-009-0100-1](http://dx.doi.org/10.1007/s10032-009-0100-1)
 
