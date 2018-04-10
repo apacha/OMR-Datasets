@@ -127,9 +127,9 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 
 **Example**:
 
-![Example of deepscores dataset](samples/deepscores1.png)
+![Example of deepscores dataset](samples/DeepScores1.png)
 
-![Example of deepscores dataset](samples/deepscores2.png)
+![Example of deepscores dataset](samples/DeepScores2.png)
 
 
 # MuseScore
