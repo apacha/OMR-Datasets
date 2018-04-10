@@ -14,10 +14,11 @@ The following datasets are referenced from this repository:
 | [Universal Music Symbol Collection](#universal-music-symbol-collection)                 	| Printed + Handwritten 	| ~ 90000 symbols	    | Images                	| Symbol Classification (offline)           	|
 | [CVC-MUSCIMA](#cvc-muscima)                                                             	| Handwritten           	| 1000 score images     | Images                	| Staff line removal, writer identification 	|
 | [MUSCIMA++](#muscima)                                                                   	| Handwritten           	| > 90000 annotatations | Images + XML          	| Symbol Classification, Object Detection   	|
+| [DeepScores](#deepscores)                                                                	| Printed               	| 300000 images 	    | Images + XML              	| Symbol Classification, Object Detection, Semantic Segmentation                                   	|
 | [MuseScore](#musescore)                                                                 	| Printed               	| > 340000 files 	    | MuseScore, PDF, MusicXML 	| Various                                   	|
 | [MuseScore Monophonic MusicXML Dataset](#musescore-monophonic-musicxml-dataset)         	| Printed               	| 17000 IDs      	    | IDs for MuseScore files  	| Various                                   	|
 | [Capitan collection](#capitan-collection)                                               	| Handwritten              	| 10230 symbols         | Images + Text-File    	| Symbol Classification                     	|
-| [RebeloDataset](#rebelo-dataset)                                                        	| Printed               	| 15000 symbols  	    | Images                	| Symbol Classification                     	|
+| [Rebelo Dataset](#rebelo-dataset)                                                        	| Printed               	| 15000 symbols  	    | Images                	| Symbol Classification                     	|
 | [Fornes Dataset](#fornes-dataset)                                                       	| Handwritten           	| 4100 symbols   	    | Images                 	| Symbol Classification                     	|
 | [Audiveris OMR](#audiveris-omr)                                                         	| Printed               	| 800 annotations	    | Images + XML          	| Symbol Classification, Object Detection   	|
 | [Printed Music Symbols Dataset](#printed-music-symbols-dataset)                         	| Printed               	| 200 symbols    	    | Images                	| Symbol Classification                     	|
@@ -112,6 +113,23 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 ![Example of MUSCIMA++ dataset](samples/muscima-pp.png)
 
 *Remarks*: Since this dataset is derived from the CVC-MUSCIMA dataset, using it requires to reference both works.
+
+
+# DeepScores
+
+**Official website**: [https://tuggeluk.github.io/deepscores/](https://tuggeluk.github.io/deepscores/)
+
+[![License](https://img.shields.io/badge/License-Unknown-red.svg)](https://tuggeluk.github.io/deepscores/)
+
+**Summary**: Synthetic dataset of 300000 annotated images of written music for object classification, semantic segmentation and object detection. Based on a large set of MusicXML documents that were obtained from [MuseScore](#musescore), a sophisticated pipeline is used to convert the source into LilyPond files, for which LilyPond is used to engrave and annotate the images. Images are rendered in five different fonts to create a variation of the visual appearance.
+
+**Scientific Publication**: Lukas Tuggener, Isamil Elezi, Jürgen Schmidhuber, Marcello Pelillo, Thilo Stadelmann. DeepScores - A Dataset for Segmentation, Detection and Classification of Tiny Objects. Under review in ICPR 2018. 2018. [https://arxiv.org/abs/1804.00525](https://arxiv.org/abs/1804.00525)
+
+**Example**:
+
+![Example of deepscores dataset](samples/deepscores1.png)
+
+![Example of deepscores dataset](samples/deepscores2.png)
 
 
 # MuseScore
