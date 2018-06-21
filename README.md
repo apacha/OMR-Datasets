@@ -18,6 +18,7 @@ The following datasets are referenced from this repository:
 | [MuseScore](#musescore)                                                                 	| Printed               	| > 340000 files 	    | MuseScore, PDF, MusicXML 	| Various                                   	|
 | [MuseScore Monophonic MusicXML Dataset](#musescore-monophonic-musicxml-dataset)         	| Printed               	| 17000 IDs      	    | IDs for MuseScore files  	| Various                                   	|
 | [Capitan collection](#capitan-collection)                                               	| Handwritten              	| 10230 symbols         | Images + Text-File    	| Symbol Classification                     	|
+| [SEILS Dataset](#seils-dataset)                                               	        | Printed              	    | 30 madrigals, 150 original images, 270 symbolic files         | Images (PDF), .ly, .mid, .xml, .musx, .krn, .mei    	| Various                     	|
 | [Rebelo Dataset](#rebelo-dataset)                                                        	| Printed               	| 15000 symbols  	    | Images                	| Symbol Classification                     	|
 | [Fornes Dataset](#fornes-dataset)                                                       	| Handwritten           	| 4100 symbols   	    | Images                 	| Symbol Classification                     	|
 | [Audiveris OMR](#audiveris-omr)                                                         	| Printed               	| 800 annotations	    | Images + XML          	| Symbol Classification, Object Detection   	|
@@ -170,7 +171,7 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 
 **Summary**: A corpus collected by an electronic pen while tracing isolated music symbols from Early manuscripts. The dataset contains information of both the sequence followed by the pen and the patch of the source under the tracing itself. In total it contains 10230 samples unevenly spread over 30 classes. Each symbol is described as stroke (capitan stroke) and including the piece of score below it (capitan score).
 
-**Scientific Publication**: Jorge Calvo-Zaragoza, David Rizo and Jose M. Iñesta. Two (note) heads are better than one: pen-based multimodal interaction with music scores. International Society of Music Information Retrieval conference, 2016. [Download the PDF](http://grfia.dlsi.ua.es/repositori/grfia/pubs/345/two-note-heads.pdf)
+**Scientific Publication**: Jorge Calvo-Zaragoza, David Rizo and Jose M. Iñesta. Two (note) heads are better than one: pen-based multimodal interaction with music scores. Proceedings of the 17th International Society of Music Information Retrieval conference, 2016. [Download the PDF](http://grfia.dlsi.ua.es/repositori/grfia/pubs/345/two-note-heads.pdf)
 
 **Example**:
 
@@ -180,6 +181,23 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 
 * As raw dataset, which contains only the textual descriptions of the strokes and the images, called *Bimodal music symbols from Early notation*. This format is similar to the HOMUS dataset.
 * As rendered images inside of the *Isolated handwritten music symbols* dataset. Also refered to as Capitan collection.
+
+
+# SEILS Dataset
+
+**Official website**: [https://github.com/SEILSdataset/SEILSdataset](https://github.com/SEILSdataset/SEILSdataset)
+
+[![License](https://img.shields.io/badge/License-Unknown-red.svg)](https://github.com/SEILSdataset/SEILSdataset)
+
+**Summary**: The SEILS dataset is a corpus of scores in lilypond, music XML, MIDI, Finale, **kern, MEI, and pdf formats, in white mensural and modern notation. The transcribed scores have been taken from the 16th century anthology of Italian madrigals Il Lauro Secco, published for the first time in 1582 by Vittorio Baldini in Ferrara (Italy). The corpus contains scores of 30 different madrigals for five unaccompanied voices composed by a variety of composers.
+
+**Scientific Publication**: Emilia Parada-Cabaleiro, Anton Batliner, Alice Baird, Björn W. Schuller. The SEILS dataset: Symbolically Encoded Scores in ModernAncient Notation for Computational Musicology. Proceedings of the 18th International Society of Music Information Retrieval conference, 2017. [Download the PDF](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/14_Paper.pdf)
+
+**Example**:
+
+![Example of SEILS dataset - original manuscript](samples/seils1.png)
+![Example of SEILS dataset - modern notation](samples/seils2.png)
+
 
 
 # Rebelo Dataset
