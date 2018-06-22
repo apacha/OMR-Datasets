@@ -3,6 +3,8 @@ import shutil
 import unittest
 from glob import glob
 
+import pytest
+
 from omrdatasettools.downloaders import DatasetDownloader
 from omrdatasettools.downloaders.AudiverisOmrDatasetDownloader import AudiverisOmrDatasetDownloader
 from omrdatasettools.downloaders.CapitanDatasetDownloader import CapitanDatasetDownloader
@@ -41,6 +43,7 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
+    @pytest.mark.skip(reason="Takes too long to actually download the entire CVC-MUSCIMA dataset")
     def test_download_and_extract_cvc_muscima_WI_dataset_expect_folder_to_be_created(self):
         # Arrange
         destination_directory = "CvcMuscimaWriterIdentificationData"
@@ -53,6 +56,7 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
+    @pytest.mark.skip(reason="Takes too long to actually download the entire CVC-MUSCIMA dataset")
     def test_download_and_extract_cvc_muscima_SR_dataset_expect_folder_to_be_created(self):
         # Arrange
         destination_directory = "CvcMuscimaStaffRemovalData"
