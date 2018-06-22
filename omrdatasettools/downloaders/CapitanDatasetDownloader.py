@@ -10,26 +10,19 @@ class CapitanDatasetDownloader(DatasetDownloader):
         License unspecified, free for research purposes
     """
 
-    def __init__(self, destination_directory: str):
-        """
-        Create and initializes a new dataset.
-        :param destination_directory: The root directory, into which the data will be copied.
-        """
-        super().__init__(destination_directory)
-
     def get_dataset_download_url(self) -> str:
         return "http://grfia.dlsi.ua.es/cm/projects/timul/databases/BimodalHandwrittenSymbols.zip"
 
     def get_dataset_filename(self) -> str:
         return "BimodalHandwrittenSymbols.zip"
 
-    def download_and_extract_dataset(self):
+    def download_and_extract_dataset(self, destination_directory: str):
         if not os.path.exists(self.get_dataset_filename()):
             print("Downloading Capitan Dataset...")
             self.download_file(self.get_dataset_download_url(), self.get_dataset_filename())
 
         print("Extracting Capitan Dataset...")
-        self.extract_dataset(self.destination_directory)
+        self.extract_dataset(destination_directory)
 
 
 if __name__ == "__main__":
@@ -42,5 +35,5 @@ if __name__ == "__main__":
 
     flags, unparsed = parser.parse_known_args()
 
-    dataset = CapitanDatasetDownloader(flags.dataset_directory)
-    dataset.download_and_extract_dataset()
+    dataset_downloader = CapitanDatasetDownloader()
+    dataset_downloader.download_and_extract_dataset(flags.dataset_directory)

@@ -20,7 +20,7 @@ class DatasetDownloaderTest(unittest.TestCase):
     def test_download_and_extract_audiveris_symbols_dataset_expect_folder_to_be_created(self):
         # Arrange
         destination_directory = "AudiverisRawData"
-        downloader = AudiverisOmrDatasetDownloader(destination_directory)
+        downloader = AudiverisOmrDatasetDownloader()
         zip_file = downloader.get_dataset_filename()
         number_of_samples_in_the_dataset = 4
         target_file_extension = "*.png"
@@ -32,7 +32,7 @@ class DatasetDownloaderTest(unittest.TestCase):
     def test_download_and_extract_capitan_dataset_expect_folder_to_be_created(self):
         # Arrange
         destination_directory = "CapitanRawData"
-        downloader = CapitanDatasetDownloader(destination_directory)
+        downloader = CapitanDatasetDownloader()
         zip_file = downloader.get_dataset_filename()
         number_of_samples_in_the_dataset = 1
         target_file_extension = "data"
@@ -44,31 +44,31 @@ class DatasetDownloaderTest(unittest.TestCase):
     def test_download_and_extract_cvc_muscima_WI_dataset_expect_folder_to_be_created(self):
         # Arrange
         destination_directory = "CvcMuscimaWriterIdentificationData"
-        downloader = CvcMuscimaDatasetDownloader(destination_directory, CvcMuscimaDataset.WriterIdentification)
+        downloader = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.WriterIdentification)
         zip_file = downloader.get_dataset_filename()
         number_of_samples_in_the_dataset = 1
         target_file_extension = "png"
 
-        # self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
-        #                                                     target_file_extension, zip_file,
-        #                                                     downloader)
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
+                                                            target_file_extension, zip_file,
+                                                            downloader)
 
     def test_download_and_extract_cvc_muscima_SR_dataset_expect_folder_to_be_created(self):
         # Arrange
         destination_directory = "CvcMuscimaStaffRemovalData"
-        downloader = CvcMuscimaDatasetDownloader(destination_directory, CvcMuscimaDataset.StaffRemoval)
+        downloader = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.StaffRemoval)
         zip_file = downloader.get_dataset_filename()
         number_of_samples_in_the_dataset = 1
         target_file_extension = "data"
 
-        # self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
-        #                                                     target_file_extension, zip_file,
-        #                                                     downloader)
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
+                                                            target_file_extension, zip_file,
+                                                            downloader)
 
     def test_download_and_extract_fornes_symbols_dataset_expect_folder_to_be_created(self):
         # Arrange
         destination_directory = "FornesMusicSymbols"
-        downloader = FornesMusicSymbolsDatasetDownloader(destination_directory)
+        downloader = FornesMusicSymbolsDatasetDownloader()
         zip_file = downloader.get_dataset_filename()
         number_of_samples_in_the_dataset = 4094
         target_file_extension = "*.bmp"
@@ -79,7 +79,7 @@ class DatasetDownloaderTest(unittest.TestCase):
 
     def test_download_and_extract_homus_v1_dataset_expect_folder_to_be_created(self):
         destination_directory = "HOMUS"
-        downloader = HomusDatasetDownloader(".", version=1)
+        downloader = HomusDatasetDownloader(version=1)
         zip_file = downloader.get_dataset_filename()
         number_of_samples_in_the_dataset = 15200
         target_file_extension = "*.txt"
@@ -90,7 +90,7 @@ class DatasetDownloaderTest(unittest.TestCase):
 
     def test_download_and_extract_homus_v2_dataset_expect_folder_to_be_created(self):
         destination_directory = "HOMUS"
-        downloader = HomusDatasetDownloader(".", version=2)
+        downloader = HomusDatasetDownloader(version=2)
         zip_file = downloader.get_dataset_filename()
         number_of_samples_in_the_dataset = 15200
         target_file_extension = "*.txt"
@@ -102,7 +102,7 @@ class DatasetDownloaderTest(unittest.TestCase):
     def test_download_and_extract_muscima_pp_dataset_expect_folder_to_be_created(self):
         # Arrange
         destination_directory = "MuscimaPlusPlus"
-        downloader = MuscimaPlusPlusDatasetDownloader(destination_directory)
+        downloader = MuscimaPlusPlusDatasetDownloader()
         zip_file = downloader.get_dataset_filename()
         number_of_samples_with_staff_lines = 140
         number_of_samples_without_staff_lines = 140
@@ -117,7 +117,7 @@ class DatasetDownloaderTest(unittest.TestCase):
     def test_download_and_extract_openomr_dataset_expect_folder_to_be_created(self):
         # Arrange
         destination_directory = "OpenOMR"
-        downloader = OpenOmrDatasetDownloader(destination_directory)
+        downloader = OpenOmrDatasetDownloader()
         zip_file = downloader.get_dataset_filename()
         number_of_samples_in_the_dataset = 706
         target_file_extension = "*.png"
@@ -129,7 +129,7 @@ class DatasetDownloaderTest(unittest.TestCase):
     def test_download_and_extract_printed_symbols_dataset_expect_folder_to_be_created(self):
         # Arrange
         destination_directory = "PrintedMusicSymbols"
-        downloader = PrintedMusicSymbolsDatasetDownloader(destination_directory)
+        downloader = PrintedMusicSymbolsDatasetDownloader()
         zip_file = downloader.get_dataset_filename()
         number_of_samples_in_the_dataset = 213
         target_file_extension = "*.png"
@@ -141,7 +141,7 @@ class DatasetDownloaderTest(unittest.TestCase):
     def test_download_and_extract_rebelo1_dataset_expect_folder_to_be_created(self):
         # Arrange
         destination_directory = "Rebelo1Images"
-        downloader = RebeloMusicSymbolDataset1Downloader(destination_directory)
+        downloader = RebeloMusicSymbolDataset1Downloader()
         zip_file = downloader.get_dataset_filename()
         number_of_samples_in_the_dataset = 7940
         target_file_extension = "*.png"
@@ -153,7 +153,7 @@ class DatasetDownloaderTest(unittest.TestCase):
     def test_download_and_extract_rebelo2_dataset_expect_folder_to_be_created(self):
         # Arrange
         destination_directory = "Rebelo2Images"
-        downloader = RebeloMusicSymbolDataset2Downloader(destination_directory)
+        downloader = RebeloMusicSymbolDataset2Downloader()
         zip_file = downloader.get_dataset_filename()
         number_of_samples_in_the_dataset = 7307
         target_file_extension = "*.png"
@@ -172,7 +172,7 @@ class DatasetDownloaderTest(unittest.TestCase):
         shutil.rmtree(destination_directory, ignore_errors=True)
 
         # Act
-        dataset_downloader.download_and_extract_dataset()
+        dataset_downloader.download_and_extract_dataset(destination_directory)
 
         # Assert
         all_files = [y for x in os.walk(destination_directory) for y in glob(os.path.join(x[0], target_file_extension))]

@@ -10,26 +10,19 @@ class MuscimaPlusPlusDatasetDownloader(DatasetDownloader):
         Copyright 2017 Jan Hajic jr. under CC-BY-NC-SA 4.0 license
     """
 
-    def __init__(self, destination_directory: str):
-        """
-        Create and initializes a new dataset.
-        :param destination_directory: The root directory, into which the data will be copied.
-        """
-        super().__init__(destination_directory)
-
     def get_dataset_download_url(self) -> str:
         return "https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11372/LRT-2372/MUSCIMA-pp_v1.0.zip?sequence=1&isAllowed=y"
 
     def get_dataset_filename(self) -> str:
         return "MUSCIMA-pp_v1.0.zip"
 
-    def download_and_extract_dataset(self):
+    def download_and_extract_dataset(self, destination_directory: str):
         if not os.path.exists(self.get_dataset_filename()):
             print("Downloading MUSCIMA++ Dataset...")
             self.download_file(self.get_dataset_download_url(), self.get_dataset_filename())
 
         print("Extracting MUSCIMA++ Dataset...")
-        self.extract_dataset(self.destination_directory)
+        self.extract_dataset(os.path.abspath(destination_directory))
 
 
 if __name__ == "__main__":
@@ -42,5 +35,5 @@ if __name__ == "__main__":
 
     flags, unparsed = parser.parse_known_args()
 
-    dataset = MuscimaPlusPlusDatasetDownloader(flags.dataset_directory)
-    dataset.download_and_extract_dataset()
+    dataset = MuscimaPlusPlusDatasetDownloader()
+    dataset.download_and_extract_dataset(flags.dataset_directory)

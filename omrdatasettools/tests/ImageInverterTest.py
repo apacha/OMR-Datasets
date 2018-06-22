@@ -11,8 +11,8 @@ class ImageInverterTest(unittest.TestCase):
     def test_download_extract_and_invert_bitmaps(self):
         # Arrange
         temp_path = "temp/fornes_raw"
-        datasetDownloader = FornesMusicSymbolsDatasetDownloader(temp_path)
-        datasetDownloader.download_and_extract_dataset()
+        datasetDownloader = FornesMusicSymbolsDatasetDownloader()
+        datasetDownloader.download_and_extract_dataset(temp_path)
 
         # Act
         imageInverter = ImageInverter()

@@ -10,10 +10,10 @@ from omrdatasettools.image_generators.MuscimaPlusPlusImageGenerator import Musci
 class MuscimaPlusPlusImageGeneratorTest(unittest.TestCase):
     def test_download_extract_and_render_all_symbols(self):
         # Arrange
-        datasetDownloader = MuscimaPlusPlusDatasetDownloader("temp/muscima_pp_raw")
+        datasetDownloader = MuscimaPlusPlusDatasetDownloader()
 
         # Act
-        datasetDownloader.download_and_extract_dataset()
+        datasetDownloader.download_and_extract_dataset("temp/muscima_pp_raw")
         image_generator = MuscimaPlusPlusImageGenerator()
         image_generator.extract_and_render_all_symbol_masks("temp/muscima_pp_raw", "temp/muscima_img")
         all_image_files = [y for x in os.walk("temp/muscima_img") for y in glob(os.path.join(x[0], '*.png'))]

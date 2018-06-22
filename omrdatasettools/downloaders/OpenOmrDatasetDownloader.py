@@ -10,13 +10,6 @@ class OpenOmrDatasetDownloader(DatasetDownloader):
         Copyright 2013 by Arnaud F. Desaedeleer under GPL license
     """
 
-    def __init__(self, destination_directory: str):
-        """
-        Create and initializes a new dataset.
-        :param destination_directory: The root directory, into which the data will be copied.
-        """
-        super().__init__(destination_directory)
-
     def get_dataset_download_url(self) -> str:
         # If this link does not work anymore, you can download the tar-ball from
         # https://sourceforge.net/projects/openomr/
@@ -26,7 +19,7 @@ class OpenOmrDatasetDownloader(DatasetDownloader):
     def get_dataset_filename(self) -> str:
         return "OpenOMR-Dataset.zip"
 
-    def download_and_extract_dataset(self):
+    def download_and_extract_dataset(self, destination_directory: str):
         if not os.path.exists(self.get_dataset_filename()):
             print("Downloading OpenOMR dataset...")
             self.download_file(self.get_dataset_download_url(), self.get_dataset_filename())
@@ -35,8 +28,9 @@ class OpenOmrDatasetDownloader(DatasetDownloader):
         absolute_path_to_temp_folder = os.path.abspath('OpenOmrDataset')
         self.extract_dataset(absolute_path_to_temp_folder)
 
-        os.makedirs(self.destination_directory, exist_ok=True)
-        dir_util.copy_tree(os.path.join(absolute_path_to_temp_folder, "OpenOMR-Dataset"), self.destination_directory)
+        os.makedirs(os.path.abspath(destination_directory), exist_ok=True)
+        dir_util.copy_tree(os.path.join(absolute_path_to_temp_folder, "OpenOMR-Dataset"),
+                           os.path.abspath(destination_directory))
         self.clean_up_temp_directory(absolute_path_to_temp_folder)
 
 
@@ -50,5 +44,5 @@ if __name__ == "__main__":
 
     flags, unparsed = parser.parse_known_args()
 
-    dataset = OpenOmrDatasetDownloader(flags.dataset_directory)
-    dataset.download_and_extract_dataset()
+    dataset = OpenOmrDatasetDownloader()
+    dataset.download_and_extract_dataset(flags.dataset_directory)

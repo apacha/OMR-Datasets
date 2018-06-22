@@ -9,16 +9,12 @@ from abc import ABC, abstractmethod
 class DatasetDownloader(ABC):
     """ The abstract base class for classes that download a specific dataset """
 
-    def __init__(self,
-                 destination_directory: str):
-        """
-        :param destination_directory: The root directory, into which the data will be placed.
-        """
-        self.destination_directory = os.path.abspath(destination_directory)
-
     @abstractmethod
-    def download_and_extract_dataset(self):
-        """ Starts the download of the dataset and extracts it into the directory specified in the constructor """
+    def download_and_extract_dataset(self,
+                                     destination_directory: str):
+        """ Starts the download of the dataset and extracts it into the directory specified in the constructor
+            :param destination_directory: The root directory, into which the data will be placed.
+        """
         pass
 
     @abstractmethod

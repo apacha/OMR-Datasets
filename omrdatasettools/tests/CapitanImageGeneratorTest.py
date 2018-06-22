@@ -10,11 +10,11 @@ from omrdatasettools.image_generators.CapitanImageGenerator import CapitanImageG
 class CapitanImageGeneratorTest(unittest.TestCase):
     def test_download_extract_and_draw_bitmaps(self):
         # Arrange
-        dataset_downloader = CapitanDatasetDownloader("temp/capitan_raw")
+        dataset_downloader = CapitanDatasetDownloader()
         image_generator = CapitanImageGenerator()
 
         # Act
-        dataset_downloader.download_and_extract_dataset()
+        dataset_downloader.download_and_extract_dataset("temp/capitan_raw")
         symbols = image_generator.load_capitan_symbols("temp/capitan_raw")
         image_generator.draw_capitan_stroke_images(symbols, "temp/capitan_stroke", [3])
         image_generator.draw_capitan_score_images(symbols, "temp/capitan_score")

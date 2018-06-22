@@ -14,12 +14,7 @@ class CvcMuscimaDatasetDownloader(DatasetDownloader):
         Copyright 2012 Alicia Fornés, Anjan Dutta, Albert Gordo and Josep Lladós under CC-BY-NC-SA 4.0 license
     """
 
-    def __init__(self, destination_directory: str, dataset: CvcMuscimaDataset = CvcMuscimaDataset.WriterIdentification):
-        """
-        Create and initializes a new dataset.
-        :param destination_directory: The root directory, into which the data will be copied.
-        """
-        super().__init__(destination_directory)
+    def __init__(self, dataset: CvcMuscimaDataset = CvcMuscimaDataset.WriterIdentification):
         self.dataset = dataset
 
     def get_dataset_download_url(self) -> str:
@@ -34,13 +29,13 @@ class CvcMuscimaDatasetDownloader(DatasetDownloader):
         if self.dataset is CvcMuscimaDataset.StaffRemoval:
             return "CVCMUSCIMA_SR.zip"
 
-    def download_and_extract_dataset(self):
+    def download_and_extract_dataset(self, destination_directory: str):
         if not os.path.exists(self.get_dataset_filename()):
             print("Downloading CVC-MUSCIMA Dataset ({0})...".format(self.dataset))
             self.download_file(self.get_dataset_download_url(), self.get_dataset_filename())
 
         print("Extracting CVC-MUSCIMA Dataset...")
-        self.extract_dataset(self.destination_directory)
+        self.extract_dataset(os.path.abspath(destination_directory))
 
 
 if __name__ == "__main__":
@@ -53,5 +48,5 @@ if __name__ == "__main__":
 
     flags, unparsed = parser.parse_known_args()
 
-    dataset = CvcMuscimaDatasetDownloader(flags.dataset_directory, CvcMuscimaDataset.StaffRemoval)
-    dataset.download_and_extract_dataset()
+    dataset = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.StaffRemoval)
+    dataset.download_and_extract_dataset(flags.dataset_directory)

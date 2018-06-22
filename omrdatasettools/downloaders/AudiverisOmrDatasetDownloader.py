@@ -10,13 +10,6 @@ class AudiverisOmrDatasetDownloader(DatasetDownloader):
         Copyright 2017 by Hervé Bitteur under AGPL-3.0 license
     """
 
-    def __init__(self, destination_directory: str):
-        """
-        Create and initializes a new dataset.
-        :param destination_directory: The root directory, into which the data will be copied.
-        """
-        super().__init__(destination_directory)
-
     def get_dataset_download_url(self) -> str:
         # In case, this URL does not work anymore, refer to the original repository
         # https://github.com/Audiveris/omr-dataset-tools/tree/master/data/input-images
@@ -26,14 +19,14 @@ class AudiverisOmrDatasetDownloader(DatasetDownloader):
     def get_dataset_filename(self) -> str:
         return "AudiverisOmrDataset.zip"
 
-    def download_and_extract_dataset(self):
+    def download_and_extract_dataset(self, destination_directory: str):
         """ Starts the download of the dataset and extracts it into the directory specified in the constructor """
         if not os.path.exists(self.get_dataset_filename()):
             print("Downloading Audiveris OMR dataset...")
             self.download_file(self.get_dataset_download_url(), self.get_dataset_filename())
 
         print("Extracting Audiveris OMR Dataset...")
-        self.extract_dataset(self.destination_directory)
+        self.extract_dataset(os.path.abspath(destination_directory))
 
 
 if __name__ == "__main__":
@@ -46,5 +39,5 @@ if __name__ == "__main__":
 
     flags, unparsed = parser.parse_known_args()
 
-    dataset = AudiverisOmrDatasetDownloader(flags.dataset_directory)
-    dataset.download_and_extract_dataset()
+    dataset_downloader = AudiverisOmrDatasetDownloader()
+    dataset_downloader.download_and_extract_dataset(flags.dataset_directory)
