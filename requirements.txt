@@ -1,16 +1,16 @@
 # Use conda install ... to install these
 Pillow >= 4.1.1
-graphviz == 0.8 # for graphviz, installation via the system might be required, e.g. sudo apt-get install graphviz
+graphviz # for graphviz, installation via the system might be required, e.g. sudo apt-get install graphviz
 pytest >= 3.0.7
 
 # Use pip install ... to install these
-codecov == 2.0.9
-pytest-cov == 2.5.1
-h5py == 2.7.0
-PyHamcrest == 1.9.0
+codecov
+pytest-cov
+h5py
+PyHamcrest
 muscima == 0.3.2
-numpy == 1.12.1
-lxml == 3.7.3 # Transitive dependency from musicma that is not fulfilled there
+numpy
+lxml # Transitive dependency from musicma that is not fulfilled there
 tqdm
 twine
 sympy
