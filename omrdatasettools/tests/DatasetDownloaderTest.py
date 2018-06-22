@@ -20,7 +20,6 @@ from omrdatasettools.downloaders.RebeloMusicSymbolDataset2Downloader import Rebe
 
 class DatasetDownloaderTest(unittest.TestCase):
     def test_download_and_extract_audiveris_symbols_dataset_expect_folder_to_be_created(self):
-        # Arrange
         destination_directory = "AudiverisRawData"
         downloader = AudiverisOmrDatasetDownloader()
         zip_file = downloader.get_dataset_filename()
@@ -32,7 +31,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             downloader)
 
     def test_download_and_extract_capitan_dataset_expect_folder_to_be_created(self):
-        # Arrange
         destination_directory = "CapitanRawData"
         downloader = CapitanDatasetDownloader()
         zip_file = downloader.get_dataset_filename()
@@ -45,7 +43,6 @@ class DatasetDownloaderTest(unittest.TestCase):
 
     @pytest.mark.skip(reason="Takes too long to actually download the entire CVC-MUSCIMA dataset")
     def test_download_and_extract_cvc_muscima_WI_dataset_expect_folder_to_be_created(self):
-        # Arrange
         destination_directory = "CvcMuscimaWriterIdentificationData"
         downloader = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.WriterIdentification)
         zip_file = downloader.get_dataset_filename()
@@ -58,7 +55,6 @@ class DatasetDownloaderTest(unittest.TestCase):
 
     @pytest.mark.skip(reason="Takes too long to actually download the entire CVC-MUSCIMA dataset")
     def test_download_and_extract_cvc_muscima_SR_dataset_expect_folder_to_be_created(self):
-        # Arrange
         destination_directory = "CvcMuscimaStaffRemovalData"
         downloader = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.StaffRemoval)
         zip_file = downloader.get_dataset_filename()
@@ -70,7 +66,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             downloader)
 
     def test_download_and_extract_fornes_symbols_dataset_expect_folder_to_be_created(self):
-        # Arrange
         destination_directory = "FornesMusicSymbols"
         downloader = FornesMusicSymbolsDatasetDownloader()
         zip_file = downloader.get_dataset_filename()
@@ -104,7 +99,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             downloader)
 
     def test_download_and_extract_muscima_pp_dataset_expect_folder_to_be_created(self):
-        # Arrange
         destination_directory = "MuscimaPlusPlus"
         downloader = MuscimaPlusPlusDatasetDownloader()
         zip_file = downloader.get_dataset_filename()
@@ -119,7 +113,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             downloader)
 
     def test_download_and_extract_openomr_dataset_expect_folder_to_be_created(self):
-        # Arrange
         destination_directory = "OpenOMR"
         downloader = OpenOmrDatasetDownloader()
         zip_file = downloader.get_dataset_filename()
@@ -131,7 +124,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             downloader)
 
     def test_download_and_extract_printed_symbols_dataset_expect_folder_to_be_created(self):
-        # Arrange
         destination_directory = "PrintedMusicSymbols"
         downloader = PrintedMusicSymbolsDatasetDownloader()
         zip_file = downloader.get_dataset_filename()
@@ -143,7 +135,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             downloader)
 
     def test_download_and_extract_rebelo1_dataset_expect_folder_to_be_created(self):
-        # Arrange
         destination_directory = "Rebelo1Images"
         downloader = RebeloMusicSymbolDataset1Downloader()
         zip_file = downloader.get_dataset_filename()
@@ -155,7 +146,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             downloader)
 
     def test_download_and_extract_rebelo2_dataset_expect_folder_to_be_created(self):
-        # Arrange
         destination_directory = "Rebelo2Images"
         downloader = RebeloMusicSymbolDataset2Downloader()
         zip_file = downloader.get_dataset_filename()
