@@ -28,7 +28,7 @@ install:
   # Install additional requirements (Keras and Tensorflow CPU-Version)
   - pip install -r requirements.txt
   
-  # List installed packages for debuggin purposes
+  # List installed packages for debugging purposes
   - pip list
 
 script:
