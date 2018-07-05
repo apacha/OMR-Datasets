@@ -1,12 +1,14 @@
 import argparse
 import os
-from enum import Enum, auto
+from enum import Enum
 
 from omrdatasettools.downloaders.DatasetDownloader import DatasetDownloader
 
+
 class CvcMuscimaDataset(Enum):
-    WriterIdentification = auto()
-    StaffRemoval = auto()
+    WriterIdentification = 1
+    StaffRemoval = 2
+
 
 class CvcMuscimaDatasetDownloader(DatasetDownloader):
     """ Downloads the CVC-MUSCIMA dataset
