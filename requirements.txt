@@ -4,6 +4,7 @@ graphviz # for graphviz, installation via the system might be required, e.g. sud
 pytest >= 3.0.7
 
 # Use pip install ... to install these
+scikit-image
 codecov
 pytest-cov
 h5py
