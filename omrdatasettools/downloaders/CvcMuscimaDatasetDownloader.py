@@ -7,7 +7,15 @@ from omrdatasettools.downloaders.DatasetDownloader import DatasetDownloader
 
 class CvcMuscimaDataset(Enum):
     WriterIdentification = 1
+
     StaffRemoval = 2
+
+    # Custom version of the two above datasets, that contains all images in grayscale, binary and with
+    # the following staff-line augmentations: interrupted, kanungo, thickness-variation-v1/2, y-variation-v1/2,
+    # typeset-emulation and whitespeckles.
+    # The grayscale images are different from the WriterIdentification dataset, in such a way, that they were aligned
+    # to the images from the Staff-Removal dataset.
+    MultiConditionAligned = 3
 
 
 class CvcMuscimaDatasetDownloader(DatasetDownloader):
@@ -24,12 +32,16 @@ class CvcMuscimaDatasetDownloader(DatasetDownloader):
             return "http://www.cvc.uab.es/cvcmuscima/CVCMUSCIMA_WI.zip"
         if self.dataset is CvcMuscimaDataset.StaffRemoval:
             return "http://www.cvc.uab.es/cvcmuscima/CVCMUSCIMA_SR.zip"
+        if self.dataset is CvcMuscimaDataset.MultiConditionAligned:
+            return "https://owncloud.tuwien.ac.at/index.php/s/YWFEilKjLVe8PHU/download"
 
     def get_dataset_filename(self) -> str:
         if self.dataset is CvcMuscimaDataset.WriterIdentification:
             return "CVCMUSCIMA_WI.zip"
         if self.dataset is CvcMuscimaDataset.StaffRemoval:
             return "CVCMUSCIMA_SR.zip"
+        if self.dataset is CvcMuscimaDataset.MultiConditionAligned:
+            return "CVCMUSCIMA_MCA.zip"
 
     def download_and_extract_dataset(self, destination_directory: str):
         if not os.path.exists(self.get_dataset_filename()):
@@ -50,5 +62,5 @@ if __name__ == "__main__":
 
     flags, unparsed = parser.parse_known_args()
 
-    dataset = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.StaffRemoval)
+    dataset = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.MultiConditionAligned)
     dataset.download_and_extract_dataset(flags.dataset_directory)

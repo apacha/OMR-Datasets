@@ -65,6 +65,17 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
+    def test_download_and_extract_cvc_muscima_MCA_dataset_expect_folder_to_be_created(self):
+        destination_directory = "CvcMuscimaMultiConditionAlignedData"
+        downloader = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.MultiConditionAligned)
+        zip_file = downloader.get_dataset_filename()
+        number_of_samples_in_the_dataset = 10000
+        target_file_extension = "*.png"
+
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
+                                                            target_file_extension, zip_file,
+                                                            downloader)
+
     def test_download_and_extract_fornes_symbols_dataset_expect_folder_to_be_created(self):
         destination_directory = "FornesMusicSymbols"
         downloader = FornesMusicSymbolsDatasetDownloader()
@@ -169,7 +180,7 @@ class DatasetDownloaderTest(unittest.TestCase):
         dataset_downloader.download_and_extract_dataset(destination_directory)
 
         # Assert
-        all_files = [y for x in os.walk(destination_directory) for y in glob(os.path.join(x[0], target_file_extension))]
+        all_files = glob(destination_directory + "/**/" + target_file_extension, recursive = True)
         actual_number_of_files = len(all_files)
         self.assertEqual(number_of_samples_in_the_dataset, actual_number_of_files)
         self.assertTrue(os.path.exists(zip_file))
@@ -178,6 +189,5 @@ class DatasetDownloaderTest(unittest.TestCase):
         os.remove(zip_file)
         shutil.rmtree(destination_directory, ignore_errors=True)
 
-
-if __name__ == '__main__':
-    unittest.main()
+        if __name__ == '__main__':
+            unittest.main()
