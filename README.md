@@ -7,20 +7,21 @@ Note that most datasets have been developed by researchers and using their datas
 ## Overview
 The following datasets are referenced from this repository:
 
-|                                           Name                                          	|    Types of Scores    	|     Size              |     Format             	|               Typical usages              	|
+|                                           Name                                          	|    Engraving          	|     Size              |     Format             	|               Typical usages              	|
 |-----------------------------------------------------------------------------------------	|:---------------------:	|:-----------------:    |:------------:         	|:-----------------------------------------:	|
 | [Handwritten Online Musical Symbols (HOMUS)](#handwritten-online-musical-symbols-homus) 	| Handwritten           	| 15200 symbols   	    | Text-File             	| Symbol Classification (online + offline)  	|
 | [Universal Music Symbol Collection](#universal-music-symbol-collection)                 	| Printed + Handwritten 	| ~ 90000 symbols	    | Images                	| Symbol Classification (offline)           	|
 | [CVC-MUSCIMA](#cvc-muscima)                                                             	| Handwritten           	| 1000 score images     | Images                	| Staff line removal, writer identification 	|
-| [MUSCIMA++](#muscima)                                                                   	| Handwritten           	| > 90000 annotatations | Images + XML          	| Symbol Classification, Object Detection   	|
-| [DeepScores](#deepscores)                                                                	| Printed               	| 300000 images 	    | Images + XML              	| Symbol Classification, Object Detection, Semantic Segmentation                                   	|
+| [MUSCIMA++](#muscima)                                                                   	| Handwritten           	| > 90000 annotatations | Images, XML            	| Symbol Classification, Object Detection, End-To-End Recognition   	|
+| [DeepScores](#deepscores)                                                                	| Printed               	| 300000 images 	    | Images, XML              	| Symbol Classification, Object Detection, Semantic Segmentation                                   	|
+| [PrIMuS](#primus)                                                                     	| Printed               	| 87678 incipits 	    | Images, MEI, Simplified encoding, agnostic encoding             	| End-to-End Recognition                                   	|
 | [MuseScore](#musescore)                                                                 	| Printed               	| > 340000 files 	    | MuseScore, PDF, MusicXML 	| Various                                   	|
 | [MuseScore Monophonic MusicXML Dataset](#musescore-monophonic-musicxml-dataset)         	| Printed               	| 17000 IDs      	    | IDs for MuseScore files  	| Various                                   	|
-| [Capitan collection](#capitan-collection)                                               	| Handwritten              	| 10230 symbols         | Images + Text-File    	| Symbol Classification                     	|
+| [Capitan collection](#capitan-collection)                                               	| Handwritten              	| 10230 symbols         | Images, Text-File    	    | Symbol Classification                     	|
 | [SEILS Dataset](#seils-dataset)                                               	        | Printed              	    | 30 madrigals, 150 original images, 270 symbolic files         | Images (PDF), .ly, .mid, .xml, .musx, .krn, .mei    	| Various                     	|
 | [Rebelo Dataset](#rebelo-dataset)                                                        	| Printed               	| 15000 symbols  	    | Images                	| Symbol Classification                     	|
 | [Fornes Dataset](#fornes-dataset)                                                       	| Handwritten           	| 4100 symbols   	    | Images                 	| Symbol Classification                     	|
-| [Audiveris OMR](#audiveris-omr)                                                         	| Printed               	| 800 annotations	    | Images + XML          	| Symbol Classification, Object Detection   	|
+| [Audiveris OMR](#audiveris-omr)                                                         	| Printed               	| 800 annotations	    | Images, XML          	    | Symbol Classification, Object Detection   	|
 | [Printed Music Symbols Dataset](#printed-music-symbols-dataset)                         	| Printed               	| 200 symbols    	    | Images                	| Symbol Classification                     	|
 | [Music Score Classification Dataset](#music-score-classification-dataset)               	| Printed               	| 1000 score images     | Images                	| Sheet Classification                      	|
 | [OpenOMR Dataset](#openomr-dataset)                                                     	| Printed               	| 706 symbols    	    | Images                	| Symbol Classification                     	|
@@ -109,13 +110,32 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 
 **Summary**: Synthetic dataset of 300000 annotated images of written music for object classification, semantic segmentation and object detection. Based on a large set of MusicXML documents that were obtained from [MuseScore](#musescore), a sophisticated pipeline is used to convert the source into LilyPond files, for which LilyPond is used to engrave and annotate the images. Images are rendered in five different fonts to create a variation of the visual appearance.
 
-**Scientific Publication**: Lukas Tuggener, Isamil Elezi, Jürgen Schmidhuber, Marcello Pelillo, Thilo Stadelmann. DeepScores - A Dataset for Segmentation, Detection and Classification of Tiny Objects. Under review in ICPR 2018. 2018. [https://arxiv.org/abs/1804.00525](https://arxiv.org/abs/1804.00525)
+**Scientific Publication**: Lukas Tuggener, Isamil Elezi, Jürgen Schmidhuber, Marcello Pelillo, Thilo Stadelmann. DeepScores - A Dataset for Segmentation, Detection and Classification of Tiny Objects. ICPR 2018. 2018. [https://arxiv.org/abs/1804.00525](https://arxiv.org/abs/1804.00525)
 
 **Example**:
 
 ![Example of deepscores dataset](samples/DeepScores1.png)
 
 ![Example of deepscores dataset](samples/DeepScores2.png)
+
+
+# PrIMuS
+
+**Official website**: [https://grfia.dlsi.ua.es/primus/](https://grfia.dlsi.ua.es/primus/)
+
+[![License](https://img.shields.io/badge/License-Unknown-red.svg)](https://grfia.dlsi.ua.es/primus/)
+
+**Summary**: The Printed Images of Music Staves (PrIMuS) contains the 87678 real-music incipits (an incipit is a sequence of notes, typically the first ones, used for identifying a melody or musical work) in five different formats: As rendered PNG image, as MIDI-file, als MEI-file and as two custom encodings (semantic encoding and agnostic encoding). The incipits are originally taken from the [RISM dataset](http://opac.rism.info/). 
+
+PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.es/primus/) that contains the same scores, but the images have been distorted to simulate imperfections introduced by taking pictures of sheet music in a real scenario.
+
+**Scientific Publications**: 
+- Jorge Calvo-Zaragoza and David Rizo. End-to-End Neural Optical Music Recognition of Monophonic Scores. Applied Sciences, 2018, 8, 606. [http://www.mdpi.com/2076-3417/8/4/606](http://www.mdpi.com/2076-3417/8/4/606) (for PrIMuS)
+- Jorge Calvo-Zaragoza and David Rizo. Camera-PrIMuS: Neural end-to-end Optical Music Recognition on realistic monophonic scores. In Proceedings of the 19th International Society for Music Information Retrieval Conference, Paris, 2018. [http://ismir2018.ircam.fr/doc/pdfs/33.pdf](http://ismir2018.ircam.fr/doc/pdfs/33.pdf) (for Camera-PrIMuS)
+
+**Example**:
+
+![Example of primus dataset](samples/primus.png)
 
 
 # MuseScore
