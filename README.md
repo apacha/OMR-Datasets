@@ -10,7 +10,6 @@ The following datasets are referenced from this repository:
 |                                           Name                                          	|    Types of Scores    	|     Size              |     Format             	|               Typical usages              	|
 |-----------------------------------------------------------------------------------------	|:---------------------:	|:-----------------:    |:------------:         	|:-----------------------------------------:	|
 | [Handwritten Online Musical Symbols (HOMUS)](#handwritten-online-musical-symbols-homus) 	| Handwritten           	| 15200 symbols   	    | Text-File             	| Symbol Classification (online + offline)  	|
-| [Music Score Classification Dataset](#music-score-classification-dataset)               	| Printed               	| 1000 score images     | Images                	| Sheet Classification                      	|
 | [Universal Music Symbol Collection](#universal-music-symbol-collection)                 	| Printed + Handwritten 	| ~ 90000 symbols	    | Images                	| Symbol Classification (offline)           	|
 | [CVC-MUSCIMA](#cvc-muscima)                                                             	| Handwritten           	| 1000 score images     | Images                	| Staff line removal, writer identification 	|
 | [MUSCIMA++](#muscima)                                                                   	| Handwritten           	| > 90000 annotatations | Images + XML          	| Symbol Classification, Object Detection   	|
@@ -23,6 +22,7 @@ The following datasets are referenced from this repository:
 | [Fornes Dataset](#fornes-dataset)                                                       	| Handwritten           	| 4100 symbols   	    | Images                 	| Symbol Classification                     	|
 | [Audiveris OMR](#audiveris-omr)                                                         	| Printed               	| 800 annotations	    | Images + XML          	| Symbol Classification, Object Detection   	|
 | [Printed Music Symbols Dataset](#printed-music-symbols-dataset)                         	| Printed               	| 200 symbols    	    | Images                	| Symbol Classification                     	|
+| [Music Score Classification Dataset](#music-score-classification-dataset)               	| Printed               	| 1000 score images     | Images                	| Sheet Classification                      	|
 | [OpenOMR Dataset](#openomr-dataset)                                                     	| Printed               	| 706 symbols    	    | Images                	| Symbol Classification                     	|
 | [Gamera MusicStaves Toolkit](#gamera-musicstaves-toolkit)                                	| Printed               	| 32 score images	    | Images                	| Staff line removal                        	|
 | [Early Typographic Prints](#early-typographic-prints)                                   	| Printed               	| 240 score images      |                       	|                                           	|
@@ -53,21 +53,6 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 
 
 *Remarks*: The original dataset contains around 20 artifacts and misclassifications that were reported to the authors and [corrected by Alexander Pacha](https://github.com/apacha/Homus). 
-
-
-# Music Score Classification Dataset
-
-**Official website**: [https://github.com/apacha/MusicScoreClassifier](https://github.com/apacha/MusicScoreClassifier) 
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-
-**Summary**: A dataset of 2000 images, containing 1000 images of music scores and 1000 images of other objects including text documents. The images were taken with a smartphone camera from various angles and different lighting conditions.
-
-**Scientific Publication**: Alexander Pacha, Horst Eidenberger, Towards Self-Learning Optical Music Recognition. 2017 16th IEEE International Conference on Machine Learning and Applications (ICMLA), Cancún, Mexiko, Dezember 2017. [DOI: 10.1109/ICMLA.2017.00-60](http://dx.doi.org/10.1109/ICMLA.2017.00-60)
-
-**Example**:
-
-![Example of MusicScoreClassifier dataset](samples/music-score-classifier.png)
 
 
 # Universal Music Symbol Collection
@@ -258,6 +243,21 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 **Example**: 
 
 ![Example of the Printed Music Symbols Dataset](samples/printed-music-symbols.png)
+
+
+# Music Score Classification Dataset
+
+**Official website**: [https://github.com/apacha/MusicScoreClassifier](https://github.com/apacha/MusicScoreClassifier) 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+
+**Summary**: A dataset of 2000 images, containing 1000 images of music scores and 1000 images of other objects including text documents. The images were taken with a smartphone camera from various angles and different lighting conditions.
+
+**Scientific Publication**: Alexander Pacha, Horst Eidenberger, Towards Self-Learning Optical Music Recognition. 2017 16th IEEE International Conference on Machine Learning and Applications (ICMLA), Cancún, Mexiko, Dezember 2017. [DOI: 10.1109/ICMLA.2017.00-60](http://dx.doi.org/10.1109/ICMLA.2017.00-60)
+
+**Example**:
+
+![Example of MusicScoreClassifier dataset](samples/music-score-classifier.png)
 
 
 # OpenOMR Dataset
