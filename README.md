@@ -7,29 +7,30 @@ Note that most datasets have been developed by researchers and using their datas
 ## Overview
 The following datasets are referenced from this repository:
 
-|                                           Name                                          	|    Engraving          	|     Size              |     Format             	|               Typical usages              	|
-|-----------------------------------------------------------------------------------------	|:---------------------:	|:-----------------:    |:------------:         	|:-----------------------------------------:	|
-| [Handwritten Online Musical Symbols (HOMUS)](#handwritten-online-musical-symbols-homus) 	| Handwritten           	| 15200 symbols   	    | Text-File             	| Symbol Classification (online + offline)  	|
-| [Universal Music Symbol Collection](#universal-music-symbol-collection)                 	| Printed + Handwritten 	| ~ 90000 symbols	    | Images                	| Symbol Classification (offline)           	|
-| [CVC-MUSCIMA](#cvc-muscima)                                                             	| Handwritten           	| 1000 score images     | Images                	| Staff line removal, writer identification 	|
-| [MUSCIMA++](#muscima)                                                                   	| Handwritten           	| > 90000 annotatations | Images, XML            	| Symbol Classification, Object Detection, End-To-End Recognition   	|
-| [DeepScores](#deepscores)                                                                	| Printed               	| 300000 images 	    | Images, XML              	| Symbol Classification, Object Detection, Semantic Segmentation                                   	|
-| [PrIMuS](#primus)                                                                     	| Printed               	| 87678 incipits 	    | Images, MEI, Simplified encoding, agnostic encoding             	| End-to-End Recognition                                   	|
-| [MuseScore](#musescore)                                                                 	| Printed               	| > 340000 files 	    | MuseScore, PDF, MusicXML 	| Various                                   	|
-| [MuseScore Monophonic MusicXML Dataset](#musescore-monophonic-musicxml-dataset)         	| Printed               	| 17000 IDs      	    | IDs for MuseScore files  	| Various                                   	|
-| [Capitan collection](#capitan-collection)                                               	| Handwritten              	| 10230 symbols         | Images, Text-File    	    | Symbol Classification                     	|
-| [SEILS Dataset](#seils-dataset)                                               	        | Printed              	    | 30 madrigals, 150 original images, 270 symbolic files         | Images (PDF), .ly, .mid, .xml, .musx, .krn, .mei    	| Various                     	|
-| [Rebelo Dataset](#rebelo-dataset)                                                        	| Printed               	| 15000 symbols  	    | Images                	| Symbol Classification                     	|
-| [Fornes Dataset](#fornes-dataset)                                                       	| Handwritten           	| 4100 symbols   	    | Images                 	| Symbol Classification                     	|
-| [Audiveris OMR](#audiveris-omr)                                                         	| Printed               	| 800 annotations	    | Images, XML          	    | Symbol Classification, Object Detection   	|
-| [Printed Music Symbols Dataset](#printed-music-symbols-dataset)                         	| Printed               	| 200 symbols    	    | Images                	| Symbol Classification                     	|
-| [Music Score Classification Dataset](#music-score-classification-dataset)               	| Printed               	| 1000 score images     | Images                	| Sheet Classification                      	|
-| [OpenOMR Dataset](#openomr-dataset)                                                     	| Printed               	| 706 symbols    	    | Images                	| Symbol Classification                     	|
-| [Gamera MusicStaves Toolkit](#gamera-musicstaves-toolkit)                                	| Printed               	| 32 score images	    | Images                	| Staff line removal                        	|
-| [Early Typographic Prints](#early-typographic-prints)                                   	| Printed               	| 240 score images      |                       	|                                           	|
-| [Silva Online Handwritten Symbols](#silva-online-handwritten-symbols)                   	| Handwritten           	| 12600 symbols  	    |                       	|                                           	|
-| [IMSLP](#imslp)                                                                         	| Printed               	| >420000 score images  | PDF                      	| Various                                      	|
-| [Byrd Dataset](#byrd-dataset)                                                           	| Printed               	| 34 score images	    | Images                   	| Various                                      	|
+|                                           Name                                          	|    Engraving          	|     Size              									|     Format             								|               Typical usages              						|
+|-----------------------------------------------------------------------------------------	|:---------------------:	|:-----------------------------------------------------:	|:-------------------------------------------------: 	|:-------------------------------------------------------------:	|
+| [Handwritten Online Musical Symbols (HOMUS)](#handwritten-online-musical-symbols-homus) 	| Handwritten           	| 15200 symbols   	    									| Text-File             								| Symbol Classification (online + offline)  						|
+| [Universal Music Symbol Collection](#universal-music-symbol-collection)                 	| Printed + Handwritten 	| ~ 90000 symbols	    									| Images                								| Symbol Classification (offline)           						|
+| [CVC-MUSCIMA](#cvc-muscima)                                                             	| Handwritten           	| 1000 score images     									| Images                								| Staff line removal, writer identification 						|
+| [MUSCIMA++](#muscima)                                                                   	| Handwritten           	| > 90000 annotatations 									| Images, MuNG            								| Symbol Classification, Object Detection, End-To-End Recognition 	|
+| [DeepScores](#deepscores)                                                                	| Printed               	| 300000 images 	    									| Images, XML              								| Symbol Classification, Object Detection, Semantic Segmentation  	|
+| [PrIMuS](#primus)                                                                     	| Printed               	| 87678 incipits 	    									| Images, MEI, Simplified encoding, agnostic encoding  	| End-to-End Recognition                                   			|
+| [Multimodal Sheet Music Dataset](#multimodal-sheet-music-dataset)                        	| Printed               	| 497 songs      	    									| Images, MIDI, Lilypond, MuNG (noteheads) 				| End-to-End Recognition, Multimodal Retrieval, Score Following     |
+| [MuseScore](#musescore)                                                                 	| Printed               	| > 340000 files 	    									| MuseScore, PDF, MusicXML 								| Various                                   						|
+| [MuseScore Monophonic MusicXML Dataset](#musescore-monophonic-musicxml-dataset)         	| Printed               	| 17000 IDs      	    									| IDs for MuseScore files  								| Various                                   						|
+| [Capitan collection](#capitan-collection)                                               	| Handwritten              	| 10230 symbols         									| Images, Text-File    	    							| Symbol Classification                     						|
+| [SEILS Dataset](#seils-dataset)                                               	        | Printed              	    | 30 madrigals, 150 original images, 270 symbolic files 	| Images (PDF), .ly, .mid, .xml, .musx, .krn, .mei    	| Various                     										|
+| [Rebelo Dataset](#rebelo-dataset)                                                        	| Printed               	| 15000 symbols  	    									| Images                								| Symbol Classification                     						|
+| [Fornes Dataset](#fornes-dataset)                                                       	| Handwritten           	| 4100 symbols   	    									| Images                 								| Symbol Classification                     						|
+| [Audiveris OMR](#audiveris-omr)                                                         	| Printed               	| 800 annotations	    									| Images, XML          	    							| Symbol Classification, Object Detection   						|
+| [Printed Music Symbols Dataset](#printed-music-symbols-dataset)                         	| Printed               	| 200 symbols    	    									| Images                								| Symbol Classification                     						|
+| [Music Score Classification Dataset](#music-score-classification-dataset)               	| Printed               	| 1000 score images     									| Images                								| Sheet Classification                      						|
+| [OpenOMR Dataset](#openomr-dataset)                                                     	| Printed               	| 706 symbols    	    									| Images                								| Symbol Classification                     						|
+| [Gamera MusicStaves Toolkit](#gamera-musicstaves-toolkit)                                	| Printed               	| 32 score images	    									| Images                								| Staff line removal                        						|
+| [Early Typographic Prints](#early-typographic-prints)                                   	| Printed               	| 240 score images      									|                       								|                                           						|
+| [Silva Online Handwritten Symbols](#silva-online-handwritten-symbols)                   	| Handwritten           	| 12600 symbols  	    									|                       								|                                           						|
+| [IMSLP](#imslp)                                                                         	| Printed               	| >420000 score images  									| PDF                      								| Various                                      						|
+| [Byrd Dataset](#byrd-dataset)                                                           	| Printed               	| 34 score images	    									| Images                   								| Various                                      						|
 
 
 If you find mistakes or know of any relevant datasets, that are missing in this list, please [open an issue](https://github.com/apacha/OMR-Datasets/issues/new) or directly file a pull request.
@@ -136,6 +137,22 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 **Example**:
 
 ![Example of primus dataset](samples/primus.png)
+
+
+# Multimodal Sheet Music Dataset
+
+**Official website**: [https://github.com/CPJKU/msmd](https://github.com/CPJKU/msmd)
+
+[![License](https://img.shields.io/badge/License-Unknown-red.svg)](https://github.com/CPJKU/msmd)
+
+**Summary**: MSMD is a synthetic dataset of 497 pieces of (classical) music that contains both audio and score representations of the pieces aligned at a fine-grained level (344,742 pairs of noteheads aligned to their audio/MIDI counterpart). It can be used for training and evaluating multimodal models that enable crossing from one modality to the other, such as retrieving sheet music using recordings or following a performance in the score image.
+
+**Scientific Publications**: 
+- Matthias Dorfer, Jan Hajič jr., Andreas Arzt, Harald Frostel, Gerhard Widmer. [Learning Audio-Sheet Music Correspondences for Cross-Modal Retrieval and Piece Identification](https://transactions.ismir.net/articles/10.5334/tismir.12/). Transactions of the International Society for Music Information Retrieval, issue 1, 2018.
+
+**Example**:
+
+![Example of primus dataset](samples/multimodal.png)
 
 
 # MuseScore
