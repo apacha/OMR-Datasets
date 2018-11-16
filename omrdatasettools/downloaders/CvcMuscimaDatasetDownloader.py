@@ -29,11 +29,13 @@ class CvcMuscimaDatasetDownloader(DatasetDownloader):
 
     def get_dataset_download_url(self) -> str:
         if self.dataset is CvcMuscimaDataset.WriterIdentification:
-            return "http://www.cvc.uab.es/cvcmuscima/CVCMUSCIMA_WI.zip"
+            # Official URL: "http://www.cvc.uab.es/cvcmuscima/CVCMUSCIMA_WI.zip"
+            return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/CVCMUSCIMA_WI.zip"
         if self.dataset is CvcMuscimaDataset.StaffRemoval:
-            return "http://www.cvc.uab.es/cvcmuscima/CVCMUSCIMA_SR.zip"
+            # Official URL: "http://www.cvc.uab.es/cvcmuscima/CVCMUSCIMA_SR.zip"
+            return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/CVCMUSCIMA_SR.zip"
         if self.dataset is CvcMuscimaDataset.MultiConditionAligned:
-            return "https://owncloud.tuwien.ac.at/index.php/s/YWFEilKjLVe8PHU/download"
+            return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/CVCMUSCIMA_MCA.zip"
 
     def get_dataset_filename(self) -> str:
         if self.dataset is CvcMuscimaDataset.WriterIdentification:

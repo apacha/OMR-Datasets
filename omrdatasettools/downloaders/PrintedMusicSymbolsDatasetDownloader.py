@@ -13,7 +13,7 @@ class PrintedMusicSymbolsDatasetDownloader(DatasetDownloader):
 
     def get_dataset_download_url(self) -> str:
         # If this link does not work anymore, find the images at https://github.com/apacha/PrintedMusicSymbolsDataset
-        return "https://owncloud.tuwien.ac.at/index.php/s/qpIco99mCw2yGVK/download"
+        return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/PrintedMusicSymbolsDataset.zip"
 
     def get_dataset_filename(self) -> str:
         return "PrintedMusicSymbolsDataset.zip"

@@ -20,11 +20,12 @@ class HomusDatasetDownloader(DatasetDownloader):
     def get_dataset_download_url(self) -> str:
         if self.version == 1:
             # Version 1.0 - official version
-            return "http://grfia.dlsi.ua.es/homus/HOMUS.zip"
+            # Official URL: "http://grfia.dlsi.ua.es/homus/HOMUS.zip"
+            return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/HOMUS.zip"
         elif self.version == 2:
             # Version 2.0 - version with bug-fixes, see https://github.com/apacha/Homus
             # If this link does not work anymore, you can find all files in the above mentioned git repo
-            return "https://owncloud.tuwien.ac.at/index.php/s/5qVjo9HGGN1bN4I/download"
+            return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/HOMUS-2.0.zip"
         else:
             raise Exception("Invalid version specified. Valid values are [1, 2]")
 

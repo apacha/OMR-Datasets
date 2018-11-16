@@ -12,14 +12,15 @@ class MuscimaPlusPlusDatasetDownloader(DatasetDownloader):
     """
 
     def get_dataset_download_url(self) -> str:
-        return "https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11372/LRT-2372/MUSCIMA-pp_v1.0.zip?sequence=1&isAllowed=y"
+        # Official URL: "https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11372/LRT-2372/MUSCIMA-pp_v1.0.zip?sequence=1&isAllowed=y"
+        return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/MUSCIMA-pp_v1.0.zip"
 
     def get_dataset_filename(self) -> str:
         return "MUSCIMA-pp_v1.0.zip"
 
     def get_images_download_url(self) -> str:
         # This URL contains the images of the CVC-MUSCIMA dataset, that were annotated in the MUSCIMA++ dataset
-        return "https://owncloud.tuwien.ac.at/index.php/s/Xv91caXnPubL6Zk/download"
+        return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/CVC_MUSCIMA_PP_Annotated-Images.zip"
 
     def get_imageset_filename(self) -> str:
         return "CVC_MUSCIMA_PP_Annotated-Images.zip"

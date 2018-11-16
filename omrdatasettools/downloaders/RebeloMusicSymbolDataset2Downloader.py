@@ -12,7 +12,7 @@ class RebeloMusicSymbolDataset2Downloader(DatasetDownloader):
     """
 
     def get_dataset_download_url(self) -> str:
-        return "https://owncloud.tuwien.ac.at/index.php/s/AlgxROg3hqZHsBK/download"
+        return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/Rebelo-Music-Symbol-Dataset2.zip"
 
     def get_dataset_filename(self) -> str:
         return "Rebelo-Music-Symbol-Dataset2.zip"

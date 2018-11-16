@@ -14,7 +14,7 @@ class AudiverisOmrDatasetDownloader(DatasetDownloader):
         # In case, this URL does not work anymore, refer to the original repository
         # https://github.com/Audiveris/omr-dataset-tools/tree/master/data/input-images
         # for downloading the 8 files
-        return "https://owncloud.tuwien.ac.at/index.php/s/lSkDZxtwBLs2FOK/download"
+        return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/AudiverisOmrDataset.zip"
 
     def get_dataset_filename(self) -> str:
         return "AudiverisOmrDataset.zip"

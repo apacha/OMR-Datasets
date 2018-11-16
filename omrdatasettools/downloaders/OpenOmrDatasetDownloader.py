@@ -14,7 +14,7 @@ class OpenOmrDatasetDownloader(DatasetDownloader):
         # If this link does not work anymore, you can download the tar-ball from
         # https://sourceforge.net/projects/openomr/
         # and you will find the images in OpenOMR/neuralnetwork/ + train/validation/test folders
-        return "https://owncloud.tuwien.ac.at/index.php/s/MIj6J5agMiLm8vy/download"
+        return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/OpenOMR-Dataset.zip"
 
     def get_dataset_filename(self) -> str:
         return "OpenOMR-Dataset.zip"

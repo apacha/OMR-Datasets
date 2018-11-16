@@ -13,7 +13,8 @@ class FornesMusicSymbolsDatasetDownloader(DatasetDownloader):
         """
 
     def get_dataset_download_url(self) -> str:
-        return "http://www.cvc.uab.es/cvcmuscima/datasets/Music_Symbols.zip"
+        # Official URL: "http://www.cvc.uab.es/cvcmuscima/datasets/Music_Symbols.zip"
+        return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/Music_Symbols.zip"
 
     def get_dataset_filename(self) -> str:
         return "Music_Symbols.zip"

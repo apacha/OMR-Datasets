@@ -11,7 +11,8 @@ class CapitanDatasetDownloader(DatasetDownloader):
     """
 
     def get_dataset_download_url(self) -> str:
-        return "http://grfia.dlsi.ua.es/cm/projects/timul/databases/BimodalHandwrittenSymbols.zip"
+        # Official URL: "http://grfia.dlsi.ua.es/cm/projects/timul/databases/BimodalHandwrittenSymbols.zip"
+        return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/BimodalHandwrittenSymbols.zip"
 
     def get_dataset_filename(self) -> str:
         return "BimodalHandwrittenSymbols.zip"

@@ -41,7 +41,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
-    @pytest.mark.skip(reason="Takes too long to actually download the entire CVC-MUSCIMA dataset")
     def test_download_and_extract_cvc_muscima_WI_dataset_expect_folder_to_be_created(self):
         destination_directory = "CvcMuscimaWriterIdentificationData"
         downloader = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.WriterIdentification)
@@ -53,7 +52,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
-    @pytest.mark.skip(reason="Takes too long to actually download the entire CVC-MUSCIMA dataset")
     def test_download_and_extract_cvc_muscima_SR_dataset_expect_folder_to_be_created(self):
         destination_directory = "CvcMuscimaStaffRemovalData"
         downloader = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.StaffRemoval)
