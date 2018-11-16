@@ -27,9 +27,12 @@ class DatasetDownloader(ABC):
         """ Returns the filename for the ZIP-file that will be downloaded for this dataset """
         pass
 
-    def extract_dataset(self, absolute_path_to_temp_folder: str):
-        archive = ZipFile(self.get_dataset_filename(), "r")
-        archive.extractall(absolute_path_to_temp_folder)
+    def extract_dataset(self, absolute_path_to_folder: str, dataset_filename: str = None):
+        if dataset_filename is None:
+            dataset_filename = self.get_dataset_filename()
+
+        archive = ZipFile(dataset_filename, "r")
+        archive.extractall(absolute_path_to_folder)
         archive.close()
 
     def clean_up_temp_directory(self, temp_directory):

@@ -123,6 +123,17 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
+    def test_download_and_extract_muscima_pp_dataset_expect_images_to_be_downloaded(self):
+        destination_directory = "MuscimaPlusPlus"
+        downloader = MuscimaPlusPlusDatasetDownloader()
+        zip_file = downloader.get_dataset_filename()
+        number_of_images = 140
+        target_file_extension = "*.png"
+
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_images,
+                                                            target_file_extension, zip_file,
+                                                            downloader)
+
     def test_download_and_extract_openomr_dataset_expect_folder_to_be_created(self):
         destination_directory = "OpenOMR"
         downloader = OpenOmrDatasetDownloader()
