@@ -45,8 +45,8 @@ class DatasetDownloaderTest(unittest.TestCase):
         destination_directory = "CvcMuscimaWriterIdentificationData"
         downloader = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.WriterIdentification)
         zip_file = downloader.get_dataset_filename()
-        number_of_samples_in_the_dataset = 1
-        target_file_extension = "png"
+        number_of_samples_in_the_dataset = 3000
+        target_file_extension = "*.png"
 
         self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
                                                             target_file_extension, zip_file,
@@ -56,8 +56,8 @@ class DatasetDownloaderTest(unittest.TestCase):
         destination_directory = "CvcMuscimaStaffRemovalData"
         downloader = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.StaffRemoval)
         zip_file = downloader.get_dataset_filename()
-        number_of_samples_in_the_dataset = 1
-        target_file_extension = "data"
+        number_of_samples_in_the_dataset = 36000
+        target_file_extension = "*.png"
 
         self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
                                                             target_file_extension, zip_file,
