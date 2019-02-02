@@ -359,7 +359,7 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 # Byrd Dataset
 
-**Official website**: [http://www.diku.dk/hjemmesider/ansatte/simonsen/suppmat/jnmr/](http://www.diku.dk/hjemmesider/ansatte/simonsen/suppmat/jnmr/)
+**Official website**: [~~http://www.diku.dk/hjemmesider/ansatte/simonsen/suppmat/jnmr/~~](http://www.diku.dk/hjemmesider/ansatte/simonsen/suppmat/jnmr/) (broken). Download from [Github mirror](https://github.com/apacha/OMR-Datasets/releases/download/datasets/ByrdOmrTestCorpus.zip).
 
 [![License](https://img.shields.io/badge/License-Unknown-red.svg)](http://grfia.dlsi.ua.es/homus/) (Authors want to be contacted)
 
