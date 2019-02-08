@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 
 class EdiromAnnotationConverter:
-    def convert_annotations_to_one_json_file_per_image(dataset_directory: str, dataset: str):
+    def convert_annotations_to_one_json_file_per_image(self, dataset_directory: str, dataset: str):
         if len(glob(f'{dataset_directory}/{dataset}/*.xml')) == 0:
             print(f"Could not find MEI (XML) files in {dataset_directory}/{dataset}/ directory.")
 
@@ -55,4 +55,5 @@ if __name__ == "__main__":
     if flags.dataset not in ["Bargheer", "FreischuetzDigital"]:
         raise Exception("Invalid dataset specified. Must be either 'Bargheer' or 'FreischuetzDigital'")
 
-    EdiromAnnotationConverter.convert_annotations_to_one_json_file_per_image(flags.dataset_directory, flags.dataset)
+    annotation_converter = EdiromAnnotationConverter()
+    annotation_converter.convert_annotations_to_one_json_file_per_image(flags.dataset_directory, flags.dataset)

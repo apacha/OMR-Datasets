@@ -37,7 +37,7 @@ class EdiromDatasetTest(unittest.TestCase):
 
     def test_annotation_converter_expect_json_files_to_be_created(self):
         # Arrange
-        expected_number_of_samples = 114
+        expected_number_of_json_files = 114
         dataset = "Bargheer"
         destination_directory = "Bargheer"
         downloader = EdiromDatasetDownloader("Bargheer")
@@ -45,12 +45,12 @@ class EdiromDatasetTest(unittest.TestCase):
         downloader.download_and_extract_dataset(destination_directory)
 
         # Act
-        EdiromAnnotationConverter.convert_annotations_to_one_json_file_per_image(".", dataset)
+        annotation_converter = EdiromAnnotationConverter()
+        annotation_converter.convert_annotations_to_one_json_file_per_image(".", dataset)
 
         # Assert
-        all_files = glob(destination_directory + "/**/*.json", recursive=True)
-        actual_number_of_files = len(all_files)
-        self.assertEqual(expected_number_of_samples, actual_number_of_files)
+        actual_number_of_json_files = len(glob(destination_directory + "/**/*.json", recursive=True))
+        self.assertEqual(expected_number_of_json_files, actual_number_of_json_files)
 
         # Cleanup
         os.remove(zip_file)
