@@ -176,7 +176,7 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
-    def download_dataset_and_verify_correct_extraction(self, destination_directory: str,
+    def download_dataset_and_verify_correct_extraction(self: unittest.TestCase, destination_directory: str,
                                                        number_of_samples_in_the_dataset: int,
                                                        target_file_extension: str, zip_file: str,
                                                        dataset_downloader: DatasetDownloader):
