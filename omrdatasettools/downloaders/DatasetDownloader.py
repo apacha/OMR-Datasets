@@ -37,7 +37,7 @@ class DatasetDownloader(ABC):
 
     def clean_up_temp_directory(self, temp_directory):
         print("Deleting temporary directory {0}".format(temp_directory))
-        shutil.rmtree(temp_directory)
+        shutil.rmtree(temp_directory, ignore_errors=True)
 
     def download_file(self, url, destination_filename=None) -> str:
         u = urllib2.urlopen(url)
