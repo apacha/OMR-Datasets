@@ -26,7 +26,6 @@ class RebeloMusicSymbolDataset1Downloader(DatasetDownloader):
         absolute_path_to_temp_folder = os.path.abspath('Rebelo-Music-Symbol-Dataset1')
         self.extract_dataset(absolute_path_to_temp_folder)
 
-        os.makedirs(os.path.abspath(destination_directory), exist_ok=True)
         dir_util.copy_tree(os.path.join(absolute_path_to_temp_folder, "database1"),
                            os.path.abspath(destination_directory))
         self.clean_up_temp_directory(absolute_path_to_temp_folder)

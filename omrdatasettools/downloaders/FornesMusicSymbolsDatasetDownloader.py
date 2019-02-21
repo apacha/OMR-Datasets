@@ -30,7 +30,6 @@ class FornesMusicSymbolsDatasetDownloader(DatasetDownloader):
 
         self.__fix_capital_file_endings(absolute_path_to_temp_folder)
 
-        os.makedirs(os.path.abspath(destination_directory), exist_ok=True)
         dir_util.copy_tree(os.path.join(absolute_path_to_temp_folder, "Music_Symbols"),
                            os.path.abspath(destination_directory))
         self.clean_up_temp_directory(absolute_path_to_temp_folder)
