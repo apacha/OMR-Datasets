@@ -5,6 +5,8 @@ import urllib.request as urllib2
 from zipfile import ZipFile
 from abc import ABC, abstractmethod
 
+from tqdm import tqdm
+
 
 class DatasetDownloader(ABC):
     """ The abstract base class for classes that download a specific dataset """
@@ -59,26 +61,18 @@ class DatasetDownloader(ABC):
                 file_size = int(meta_length[0])
             print("Downloading: {0} Bytes: {1} into {2}".format(url, file_size, filename))
 
-            file_size_dl = 0
-            block_sz = 8192
-            status_counter = 0
-            status_output_interval = 100
-            while True:
-                buffer = u.read(block_sz)
-                if not buffer:
-                    break
+            with tqdm(total=file_size, desc="Downloading (bytes)") as progress_bar:
+                file_size_dl = 0
+                block_sz = 8192
+                while True:
+                    buffer = u.read(block_sz)
+                    if not buffer:
+                        break
 
-                file_size_dl += len(buffer)
-                f.write(buffer)
-                status = "{0:16}".format(file_size_dl)
-                if file_size:
-                    status += "   [{0:6.2f}%]".format(file_size_dl * 100 / file_size)
-                status += chr(13)
-                status_counter += 1
-                if status_counter == status_output_interval:
-                    status_counter = 0
-                    print(status)
-                    # print(status, end="", flush=True) Does not work unfortunately
+                    file_size_dl += len(buffer)
+                    f.write(buffer)
+                    if file_size:
+                        progress_bar.update(len(buffer))
             print()
 
         return filename
