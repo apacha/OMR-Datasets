@@ -6,7 +6,7 @@ from PIL import Image, ImageOps
 from tqdm import tqdm
 
 
-class ImageInverter:
+class ImageColorInverter:
     """ Class for inverting white-on-black images to black-on-white images """
 
     def __init__(self) -> None:
@@ -33,9 +33,9 @@ if __name__ == "__main__":
         type=str,
         default="../data/fornes_raw",
         help="The directory, where a dataset can be found, that needs to be inverted, e.g. the original Fornés dataset")
-    parser.add_argument("--image_file_ending", type=str, default="bmp", )
+    parser.add_argument("--image_file_ending", type=str, default="*.bmp", )
 
     flags, unparsed = parser.parse_known_args()
 
-    image_inverter = ImageInverter()
-    image_inverter.invert_images(flags.image_directory, "*." + flags.image_file_ending)
+    image_inverter = ImageColorInverter()
+    image_inverter.invert_images(flags.image_directory, flags.image_file_ending)

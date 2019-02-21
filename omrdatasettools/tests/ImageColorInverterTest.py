@@ -3,11 +3,11 @@ import shutil
 import unittest
 from glob import glob
 
-from omrdatasettools.converters.ImageInverter import ImageInverter
+from omrdatasettools.converters.ImageColorInverter import ImageColorInverter
 from omrdatasettools.downloaders.FornesMusicSymbolsDatasetDownloader import FornesMusicSymbolsDatasetDownloader
 
 
-class ImageInverterTest(unittest.TestCase):
+class ImageColorInverterTest(unittest.TestCase):
     def test_download_extract_and_invert_bitmaps(self):
         # Arrange
         temp_path = "temp/fornes_raw"
@@ -15,8 +15,8 @@ class ImageInverterTest(unittest.TestCase):
         datasetDownloader.download_and_extract_dataset(temp_path)
 
         # Act
-        imageInverter = ImageInverter()
-        imageInverter.invert_images(temp_path)
+        imageInverter = ImageColorInverter()
+        imageInverter.invert_images(temp_path, "*.bmp")
         all_image_files = [y for x in os.walk(temp_path) for y in glob(os.path.join(x[0], '*.png'))]
         actual_number_of_files = len(all_image_files)
 
