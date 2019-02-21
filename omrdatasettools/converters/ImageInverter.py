@@ -12,7 +12,7 @@ class ImageInverter:
     def __init__(self) -> None:
         super().__init__()
 
-    def invert_images(self, image_directory: str, image_file_ending: str = '*.bmp'):
+    def invert_images(self, image_directory: str, image_file_ending: str):
         """
         In-situ converts the white on black images of a directory to black on white images
 
@@ -33,8 +33,9 @@ if __name__ == "__main__":
         type=str,
         default="../data/fornes_raw",
         help="The directory, where a dataset can be found, that needs to be inverted, e.g. the original Fornés dataset")
+    parser.add_argument("--image_file_ending", type=str, default="bmp", )
 
     flags, unparsed = parser.parse_known_args()
 
     image_inverter = ImageInverter()
-    image_inverter.invert_images(flags.image_directory)
+    image_inverter.invert_images(flags.image_directory, "*." + flags.image_file_ending)
