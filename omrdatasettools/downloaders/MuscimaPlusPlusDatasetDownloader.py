@@ -1,6 +1,5 @@
 import argparse
 import os
-from distutils import dir_util
 
 from omrdatasettools.downloaders.DatasetDownloader import DatasetDownloader
 
@@ -39,8 +38,8 @@ class MuscimaPlusPlusDatasetDownloader(DatasetDownloader):
 
         absolute_path_to_temp_folder = os.path.abspath('MuscimaPpImages')
         self.extract_dataset(absolute_path_to_temp_folder, self.get_imageset_filename())
-        dir_util.copy_tree(os.path.join(absolute_path_to_temp_folder, "fulls"),
-                           os.path.join(os.path.abspath(destination_directory), "v1.0", "data", "images"))
+        DatasetDownloader.copytree(os.path.join(absolute_path_to_temp_folder, "fulls"),
+                                   os.path.join(os.path.abspath(destination_directory), "v1.0", "data", "images"))
         self.clean_up_temp_directory(absolute_path_to_temp_folder)
 
 

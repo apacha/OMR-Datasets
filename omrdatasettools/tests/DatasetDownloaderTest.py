@@ -41,7 +41,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
-    @unittest.skip("Only run, if you have time to kill")
     def test_download_and_extract_cvc_muscima_WI_dataset_expect_folder_to_be_created(self):
         destination_directory = "CvcMuscimaWriterIdentificationData"
         downloader = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.WriterIdentification)
@@ -53,7 +52,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
-    @unittest.skip("Only run, if you have time to kill")
     def test_download_and_extract_cvc_muscima_SR_dataset_expect_folder_to_be_created(self):
         destination_directory = "CvcMuscimaStaffRemovalData"
         downloader = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.StaffRemoval)
@@ -65,7 +63,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
-    @unittest.skip("Only run, if you have time to kill")
     def test_download_and_extract_cvc_muscima_MCA_dataset_expect_folder_to_be_created(self):
         destination_directory = "CvcMuscimaMultiConditionAlignedData"
         downloader = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.MultiConditionAligned)
@@ -77,7 +74,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
-    @unittest.skip("Only run, if you have time to kill")
     def test_download_and_extract_fornes_symbols_dataset_expect_folder_to_be_created(self):
         destination_directory = "FornesMusicSymbols"
         downloader = FornesMusicSymbolsDatasetDownloader()
@@ -89,7 +85,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
-    @unittest.skip("Only run, if you have time to kill")
     def test_download_and_extract_homus_v1_dataset_expect_folder_to_be_created(self):
         destination_directory = "HOMUS"
         downloader = HomusDatasetDownloader(version=1)
@@ -101,7 +96,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
-    @unittest.skip("Only run, if you have time to kill")
     def test_download_and_extract_homus_v2_dataset_expect_folder_to_be_created(self):
         destination_directory = "HOMUS"
         downloader = HomusDatasetDownloader(version=2)
@@ -160,7 +154,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
-    @unittest.skip("Only run, if you have time to kill")
     def test_download_and_extract_rebelo1_dataset_expect_folder_to_be_created(self):
         destination_directory = "Rebelo1Images"
         downloader = RebeloMusicSymbolDataset1Downloader()
@@ -172,7 +165,6 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
-    @unittest.skip("Only run, if you have time to kill")
     def test_download_and_extract_rebelo2_dataset_expect_folder_to_be_created(self):
         destination_directory = "Rebelo2Images"
         downloader = RebeloMusicSymbolDataset2Downloader()

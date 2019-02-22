@@ -1,6 +1,5 @@
 import argparse
 import os
-from distutils import dir_util
 from omrdatasettools.downloaders.DatasetDownloader import DatasetDownloader
 
 
@@ -28,8 +27,8 @@ class OpenOmrDatasetDownloader(DatasetDownloader):
         absolute_path_to_temp_folder = os.path.abspath('OpenOmrDataset')
         self.extract_dataset(absolute_path_to_temp_folder)
 
-        dir_util.copy_tree(os.path.join(absolute_path_to_temp_folder, "OpenOMR-Dataset"),
-                           os.path.abspath(destination_directory))
+        DatasetDownloader.copytree(os.path.join(absolute_path_to_temp_folder, "OpenOMR-Dataset"),
+                                   os.path.abspath(destination_directory))
         self.clean_up_temp_directory(absolute_path_to_temp_folder)
 
 
