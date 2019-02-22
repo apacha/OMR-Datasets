@@ -41,6 +41,7 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
+    @unittest.skip("Only run, if you have time to kill")
     def test_download_and_extract_cvc_muscima_WI_dataset_expect_folder_to_be_created(self):
         destination_directory = "CvcMuscimaWriterIdentificationData"
         downloader = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.WriterIdentification)
@@ -52,6 +53,7 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
+    @unittest.skip("Only run, if you have time to kill")
     def test_download_and_extract_cvc_muscima_SR_dataset_expect_folder_to_be_created(self):
         destination_directory = "CvcMuscimaStaffRemovalData"
         downloader = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.StaffRemoval)
@@ -63,6 +65,7 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
+    @unittest.skip("Only run, if you have time to kill")
     def test_download_and_extract_cvc_muscima_MCA_dataset_expect_folder_to_be_created(self):
         destination_directory = "CvcMuscimaMultiConditionAlignedData"
         downloader = CvcMuscimaDatasetDownloader(CvcMuscimaDataset.MultiConditionAligned)
