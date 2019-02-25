@@ -1,1 +1,5 @@
 omrdatasettools
+lxml
+tqdm
+muscima
+sympy
