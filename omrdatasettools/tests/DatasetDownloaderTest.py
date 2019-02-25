@@ -2,6 +2,7 @@ import os
 import shutil
 import unittest
 from glob import glob
+from typing import Callable
 
 import pytest
 
@@ -135,6 +136,19 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
+    def test_download_and_extract_muscima_pp_dataset_expect_annotations_to_be_downloaded(self):
+        destination_directory = "MuscimaPlusPlus"
+        downloader = MuscimaPlusPlusDatasetDownloader()
+        zip_file = downloader.get_measure_annotation_filename()
+        number_of_annotation_files = 141
+        target_file_extension = "*.json"
+
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_annotation_files,
+                                                            target_file_extension, zip_file,
+                                                            downloader,
+                                                            lambda: downloader.download_and_extract_measure_annotations(
+                                                                destination_directory))
+
     def test_download_and_extract_openomr_dataset_expect_folder_to_be_created(self):
         destination_directory = "OpenOMR"
         downloader = OpenOmrDatasetDownloader()
@@ -182,7 +196,8 @@ class DatasetDownloaderTest(unittest.TestCase):
     def download_dataset_and_verify_correct_extraction(self: unittest.TestCase, destination_directory: str,
                                                        number_of_samples_in_the_dataset: int,
                                                        target_file_extension: str, zip_file: str,
-                                                       dataset_downloader: DatasetDownloader):
+                                                       dataset_downloader: DatasetDownloader,
+                                                       additional_code: Callable = None):
         # Arrange and Cleanup
         if os.path.exists(zip_file):
             os.remove(zip_file)
@@ -190,9 +205,11 @@ class DatasetDownloaderTest(unittest.TestCase):
 
         # Act
         dataset_downloader.download_and_extract_dataset(destination_directory)
+        if additional_code is not None:
+            additional_code()
 
         # Assert
-        all_files = glob(destination_directory + "/**/" + target_file_extension, recursive = True)
+        all_files = glob(destination_directory + "/**/" + target_file_extension, recursive=True)
         actual_number_of_files = len(all_files)
         self.assertEqual(number_of_samples_in_the_dataset, actual_number_of_files)
         self.assertTrue(os.path.exists(zip_file))

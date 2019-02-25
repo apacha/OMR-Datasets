@@ -24,7 +24,17 @@ class MuscimaPlusPlusDatasetDownloader(DatasetDownloader):
     def get_imageset_filename(self) -> str:
         return "CVC_MUSCIMA_PP_Annotated-Images.zip"
 
+    def get_measure_annotation_download_url(self):
+        return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/MUSCIMA-pp_v1.0-measure-annotations.zip"
+
+    def get_measure_annotation_filename(self):
+        return "MUSCIMA-pp_v1.0-measure-annotations.zip"
+
     def download_and_extract_dataset(self, destination_directory: str):
+        """
+        Downloads and extracts the MUSCIMA++ dataset along with the images from the CVC-MUSCIMA dataset
+        that were manually annotated (140 out of 1000 images).
+        """
         if not os.path.exists(self.get_dataset_filename()):
             print("Downloading MUSCIMA++ Dataset...")
             self.download_file(self.get_dataset_download_url(), self.get_dataset_filename())
@@ -42,6 +52,27 @@ class MuscimaPlusPlusDatasetDownloader(DatasetDownloader):
                                    os.path.join(os.path.abspath(destination_directory), "v1.0", "data", "images"))
         self.clean_up_temp_directory(absolute_path_to_temp_folder)
 
+    def download_and_extract_measure_annotations(self, destination_directory: str):
+        """
+        Downloads the annotations only of stave-measures, system-measures and staves that were extracted
+        from the MUSCIMA++ dataset via the :class:`omrdatasettools.converters.MuscimaPlusPlusAnnotationConverter`.
+
+        The annotations from that extraction are provided in a simple json format with one annotation
+        file per image and in the COCO format, where all annotations are stored in a single file.
+        """
+        if not os.path.exists(self.get_measure_annotation_filename()):
+            print("Downloading MUSCIMA++ Measure Annotations...")
+            self.download_file(self.get_measure_annotation_download_url(), self.get_measure_annotation_filename())
+
+        print("Extracting MUSCIMA++ Annotations...")
+        absolute_path_to_temp_folder = os.path.abspath('MuscimaPpMeasureAnnotations')
+        self.extract_dataset(absolute_path_to_temp_folder, self.get_measure_annotation_filename())
+        DatasetDownloader.copytree(os.path.join(absolute_path_to_temp_folder, "coco"),
+                                   os.path.join(os.path.abspath(destination_directory), "v1.0", "data", "coco"))
+        DatasetDownloader.copytree(os.path.join(absolute_path_to_temp_folder, "json"),
+                                   os.path.join(os.path.abspath(destination_directory), "v1.0", "data", "json"))
+        self.clean_up_temp_directory(absolute_path_to_temp_folder)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -55,3 +86,4 @@ if __name__ == "__main__":
 
     dataset = MuscimaPlusPlusDatasetDownloader()
     dataset.download_and_extract_dataset(flags.dataset_directory)
+    dataset.download_and_extract_measure_annotations(flags.dataset_directory)

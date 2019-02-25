@@ -12,7 +12,7 @@ The following datasets are referenced from this repository:
 | [Handwritten Online Musical Symbols (HOMUS)](#handwritten-online-musical-symbols-homus) 	| Handwritten           	| 15200 symbols   	    									| Text-File             								| Symbol Classification (online + offline)  						|
 | [Universal Music Symbol Collection](#universal-music-symbol-collection)                 	| Printed + Handwritten 	| ~ 90000 symbols	    									| Images                								| Symbol Classification (offline)           						|
 | [CVC-MUSCIMA](#cvc-muscima)                                                             	| Handwritten           	| 1000 score images     									| Images                								| Staff line removal, writer identification 						|
-| [MUSCIMA++](#muscima)                                                                   	| Handwritten           	| > 90000 annotatations 									| Images, MuNG            								| Symbol Classification, Object Detection, End-To-End Recognition 	|
+| [MUSCIMA++](#muscima)                                                                   	| Handwritten           	| > 90000 annotatations 									| Images, Measure Annotations, MuNG            								| Symbol Classification, Object Detection, End-To-End Recognition, Measure Recognition 	|
 | [DeepScores](#deepscores)                                                                	| Printed               	| 300000 images 	    									| Images, XML              								| Symbol Classification, Object Detection, Semantic Segmentation  	|
 | [PrIMuS](#primus)                                                                     	| Printed               	| 87678 incipits 	    									| Images, MEI, Simplified encoding, agnostic encoding  	| End-to-End Recognition                                   			|
 | [Multimodal Sheet Music Dataset](#multimodal-sheet-music-dataset)                        	| Printed               	| 497 songs      	    									| Images, MIDI, Lilypond, MuNG (noteheads) 				| End-to-End Recognition, Multimodal Retrieval, Score Following     |
@@ -102,6 +102,18 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 
 *Remarks*: Since this dataset is derived from the CVC-MUSCIMA dataset, using it requires to reference both works.
 
+## MUSCIMA++ Measure Annotations
+
+**Website**: [https://omr-datasets.readthedocs.io/en/latest/downloaders/MuscimaPlusPlusDatasetDownloader.html](https://omr-datasets.readthedocs.io/en/latest/downloaders/MuscimaPlusPlusDatasetDownloader.html)
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+**Summary**: Based on the MUSCIMA++ dataset, a subset of the annotations was constructed, that contains only annotations for measure and stave recognition.
+The dataset has some errors fixed that version MUSCIMA++ 1.0 exhibits and comes in a plain JSON format, as well as in the COCO format.
+
+**Example**:
+
+![Example of MUSCIMA++ measure annotations](samples/muscima-pp-measures.png)
 
 # DeepScores
 
