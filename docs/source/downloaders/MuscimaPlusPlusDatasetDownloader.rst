@@ -7,3 +7,5 @@
 .. autoclass:: MuscimaPlusPlusDatasetDownloader
 
 .. automethod:: MuscimaPlusPlusDatasetDownloader.download_and_extract_dataset
+
+.. automethod:: MuscimaPlusPlusDatasetDownloader.download_and_extract_measure_annotations
