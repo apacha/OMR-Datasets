@@ -4,6 +4,6 @@
 :py:mod:`FornesMusicSymbolsDatasetDownloader` Module
 ====================================================
 
-.. autoclass:: omrdatasettools.downloaders.FornesMusicSymbolsDatasetDownloader.FornesMusicSymbolsDatasetDownloader
+.. autoclass:: FornesMusicSymbolsDatasetDownloader
 
-.. automethod:: omrdatasettools.downloaders.FornesMusicSymbolsDatasetDownloader.FornesMusicSymbolsDatasetDownloader.download_and_extract_dataset
+.. automethod:: FornesMusicSymbolsDatasetDownloader.download_and_extract_dataset

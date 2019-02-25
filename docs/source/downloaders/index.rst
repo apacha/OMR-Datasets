@@ -1,17 +1,16 @@
-Reference
-=========
+Dataset Downloaders
+===================
 
 .. toctree::
     :maxdepth: 2
 
     AudiverisOmrDatasetDownloader
     CapitanDatasetDownloader
+    CvcMuscimaDatasetDownloader
+    EdiromDatasetDownloader
     FornesMusicSymbolsDatasetDownloader
     HomusDatasetDownloader
     MuscimaPlusPlusDatasetDownloader
     OpenOmrDatasetDownloader
     PrintedMusicSymbolsDatasetDownloader
-    RebeloMusicSymbolsDataset1Downloader
-    RebeloMusicSymbolsDataset2Downloader
-    HomusImageGenerator.rst
-    HomusSymbol.rst
+    RebeloMusicSymbolsDatasetDownloader

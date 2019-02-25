@@ -1,8 +1,3 @@
-.. OMR Dataset Tools documentation master file, created by
-   sphinx-quickstart on Fri Aug 25 17:19:52 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to OMR Dataset Tools's documentation!
 =============================================
 
@@ -54,7 +49,8 @@ Note that the image generator has a lot of options that define how the images wi
    :maxdepth: 2
    :caption: Contents:
 
-   reference/index.rst
+   downloaders/index.rst
+   image_generators/index.rst
 
 
 Indices and tables

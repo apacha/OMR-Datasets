@@ -8,6 +8,14 @@ from tqdm import tqdm
 
 
 class MeasureVisualizer:
+    """
+        Class that can be used to visualize the measure annotations that are provided as json files.
+        Allows to enable/disable whether to draw system-measures (one measure for all instruments), stave-measures
+        (one measure, single stave of one instrument) and staves (the whole line of a single instrument).
+        System-measures contain all stave-measures that are being played simulatenously.
+
+        Bounding boxes will be drawn with semitransparent colors.
+    """
     def __init__(self, draw_system_measures: bool, draw_stave_measures: bool, draw_staves: bool) -> None:
         super().__init__()
         self.draw_system_measures = draw_system_measures

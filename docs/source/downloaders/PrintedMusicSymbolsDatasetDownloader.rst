@@ -4,6 +4,6 @@
 :py:mod:`PrintedMusicSymbolsDatasetDownloader` Module
 =====================================================
 
-.. autoclass:: omrdatasettools.downloaders.PrintedMusicSymbolsDatasetDownloader.PrintedMusicSymbolsDatasetDownloader
+.. autoclass:: PrintedMusicSymbolsDatasetDownloader
 
-.. automethod:: omrdatasettools.downloaders.PrintedMusicSymbolsDatasetDownloader.PrintedMusicSymbolsDatasetDownloader.download_and_extract_dataset
+.. automethod:: PrintedMusicSymbolsDatasetDownloader.download_and_extract_dataset

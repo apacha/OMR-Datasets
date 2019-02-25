@@ -35,6 +35,8 @@ import sys
 
 import os
 
+sys.path.append(os.path.join(os.path.dirname(__name__), '..'))
+
 extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.todo',
@@ -57,7 +59,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'OMR Dataset Tools'
-copyright = '2017, Alexander Pacha'
+copyright = '2019, Alexander Pacha'
 author = 'Alexander Pacha'
 
 # The version info for the project you're documenting, acts as replacement for
