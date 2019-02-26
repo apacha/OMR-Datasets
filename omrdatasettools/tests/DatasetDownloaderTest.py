@@ -140,7 +140,7 @@ class DatasetDownloaderTest(unittest.TestCase):
         destination_directory = "MuscimaPlusPlus"
         downloader = MuscimaPlusPlusDatasetDownloader()
         zip_file = downloader.get_measure_annotation_filename()
-        number_of_annotation_files = 141
+        number_of_annotation_files = 144
         target_file_extension = "*.json"
 
         self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_annotation_files,
