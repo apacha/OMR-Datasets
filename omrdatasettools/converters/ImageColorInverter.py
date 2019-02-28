@@ -12,7 +12,7 @@ class ImageColorInverter:
     def __init__(self) -> None:
         super().__init__()
 
-    def invert_images(self, image_directory: str, image_file_ending: str):
+    def invert_images(self, image_directory: str, image_file_ending: str = "*.bmp"):
         """
         In-situ converts the white on black images of a directory to black on white images
 
