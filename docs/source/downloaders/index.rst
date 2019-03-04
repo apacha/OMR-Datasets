@@ -5,6 +5,7 @@ Dataset Downloaders
     :maxdepth: 2
 
     AudiverisOmrDatasetDownloader
+    BaroDatasetDownloader
     CapitanDatasetDownloader
     CvcMuscimaDatasetDownloader
     EdiromDatasetDownloader
