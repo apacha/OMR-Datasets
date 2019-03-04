@@ -12,9 +12,10 @@ The following datasets are referenced from this repository:
 | [Handwritten Online Musical Symbols (HOMUS)](#handwritten-online-musical-symbols-homus) 	| Handwritten           	| 15200 symbols   	    									| Text-File             								| Symbol Classification (online + offline)  						|
 | [Universal Music Symbol Collection](#universal-music-symbol-collection)                 	| Printed + Handwritten 	| ~ 90000 symbols	    									| Images                								| Symbol Classification (offline)           						|
 | [CVC-MUSCIMA](#cvc-muscima)                                                             	| Handwritten           	| 1000 score images     									| Images                								| Staff line removal, writer identification 						|
-| [MUSCIMA++](#muscima)                                                                   	| Handwritten           	| > 90000 annotatations 									| Images, Measure Annotations, MuNG            								| Symbol Classification, Object Detection, End-To-End Recognition, Measure Recognition 	|
+| [MUSCIMA++](#muscima)                                                                   	| Handwritten           	| > 90000 annotatations 									| Images, Measure Annotations, MuNG            			| Symbol Classification, Object Detection, End-To-End Recognition, Measure Recognition 	|
 | [DeepScores](#deepscores)                                                                	| Printed               	| 300000 images 	    									| Images, XML              								| Symbol Classification, Object Detection, Semantic Segmentation  	|
 | [PrIMuS](#primus)                                                                     	| Printed               	| 87678 incipits 	    									| Images, MEI, Simplified encoding, agnostic encoding  	| End-to-End Recognition                                   			|
+| [Baro Single Stave Dataset](#baró-single-stave-dataset)                                  	| Handwritten              	| 95 images 	    									    | Images, Simplified encoding  	                        | End-to-End Recognition                 			                |
 | [Multimodal Sheet Music Dataset](#multimodal-sheet-music-dataset)                        	| Printed               	| 497 songs      	    									| Images, MIDI, Lilypond, MuNG (noteheads) 				| End-to-End Recognition, Multimodal Retrieval, Score Following     |
 | [MuseScore](#musescore)                                                                 	| Printed               	| > 340000 files 	    									| MuseScore, PDF, MusicXML 								| Various                                   						|
 | [MuseScore Monophonic MusicXML Dataset](#musescore-monophonic-musicxml-dataset)         	| Printed               	| 17000 IDs      	    									| IDs for MuseScore files  								| Various                                   						|
@@ -111,6 +112,8 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 **Summary**: Based on the MUSCIMA++ dataset, a subset of the annotations was constructed, that contains only annotations for measure and stave recognition.
 The dataset has some errors fixed that version MUSCIMA++ 1.0 exhibits and comes in a plain JSON format, as well as in the COCO format.
 
+This dataset was created by [Alexander Pacha](https://alexanderpacha.com).
+
 **Example**:
 
 ![Example of MUSCIMA++ measure annotations](samples/muscima-pp-measures.png)
@@ -149,6 +152,21 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 **Example**:
 
 ![Example of primus dataset](samples/primus.png)
+
+
+# Baró Single Stave Dataset
+
+**Official website**: [http://www.cvc.uab.es/people/abaro/datasets.html](http://www.cvc.uab.es/people/abaro/datasets.html)
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+**Summary**: The Single Stave dataset by Arnau Baró is a derived dataset from the CVC-MUSCIMA dataset and contains 95 single stave music scores with ground truth labels on the symbol level. 
+
+**Scientific Publication**: Arnau Baró, Pau Riba, Jorge Calvo-Zaragoza, and Alicia Fornés. From Optical Music Recognition to Handwritten Music Recognition: a Baseline. Patter Recognition Letters, 2019 (in press). [DOI: 10.1016/j.patrec.2019.02.029](https://doi.org/10.1016/j.patrec.2019.02.029)
+
+**Example**:
+
+![Example of the Baro Single Stave dataset](samples/baroMuscima.png)
 
 
 # Multimodal Sheet Music Dataset
