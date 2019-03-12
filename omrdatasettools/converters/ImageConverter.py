@@ -7,7 +7,7 @@ from tqdm import tqdm
 
 class ImageConverter:
     def convert_grayscale_images_to_rgb_images(self, dataset_directory: str):
-        image_files = glob(dataset_directory + "/**/*.png")
+        image_files = glob(dataset_directory + "/**/*.png", recursive=True)
 
         for image_file in tqdm(image_files, desc="Converting images from 8-bit to 24-bit"):
             image = Image.open(image_file)  # type: Image.Image
