@@ -49,7 +49,8 @@ class MuscimaPlusPlusDatasetDownloader(DatasetDownloader):
         absolute_path_to_temp_folder = os.path.abspath('MuscimaPpImages')
         self.extract_dataset(absolute_path_to_temp_folder, self.get_imageset_filename())
         DatasetDownloader.copytree(os.path.join(absolute_path_to_temp_folder, "fulls"),
-                                   os.path.join(os.path.abspath(destination_directory), "v1.0", "data", "images"))
+                                   os.path.join(os.path.abspath(destination_directory), self.dataset_version(), "data",
+                                                "images"))
         self.clean_up_temp_directory(absolute_path_to_temp_folder)
 
     def download_and_extract_measure_annotations(self, destination_directory: str):
@@ -68,10 +69,15 @@ class MuscimaPlusPlusDatasetDownloader(DatasetDownloader):
         absolute_path_to_temp_folder = os.path.abspath('MuscimaPpMeasureAnnotations')
         self.extract_dataset(absolute_path_to_temp_folder, self.get_measure_annotation_filename())
         DatasetDownloader.copytree(os.path.join(absolute_path_to_temp_folder, "coco"),
-                                   os.path.join(os.path.abspath(destination_directory), "v1.0", "data", "coco"))
+                                   os.path.join(os.path.abspath(destination_directory), self.dataset_version(), "data",
+                                                "coco"))
         DatasetDownloader.copytree(os.path.join(absolute_path_to_temp_folder, "json"),
-                                   os.path.join(os.path.abspath(destination_directory), "v1.0", "data", "json"))
+                                   os.path.join(os.path.abspath(destination_directory), self.dataset_version(), "data",
+                                                "json"))
         self.clean_up_temp_directory(absolute_path_to_temp_folder)
+
+    def dataset_version(self):
+        return "v1.0"
 
 
 if __name__ == "__main__":
