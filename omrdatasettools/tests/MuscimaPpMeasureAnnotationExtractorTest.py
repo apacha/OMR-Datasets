@@ -2,7 +2,7 @@ import json
 import unittest
 from glob import glob
 
-from omrdatasettools.converters.MuscimaPlusPlusAnnotationConverter import MuscimaPlusPlusAnnotationConverter
+from omrdatasettools.converters.MuscimaPpMeasureAnnotationExtractor import MuscimaPpMeasureAnnotationExtractor
 from omrdatasettools.downloaders.MuscimaPlusPlusDatasetDownloader import MuscimaPlusPlusDatasetDownloader
 
 
@@ -17,7 +17,7 @@ class MuscimaPlusPlusAnnotationConverterTest(unittest.TestCase):
         expected_number_of_json_files = 140
         downloader = MuscimaPlusPlusDatasetDownloader()
         downloader.download_and_extract_dataset(self.dataset_directory)
-        annotation_converter = MuscimaPlusPlusAnnotationConverter()
+        annotation_converter = MuscimaPpMeasureAnnotationExtractor()
 
         # Act
         annotation_converter.convert_measure_annotations_to_one_json_file_per_image(self.dataset_directory)

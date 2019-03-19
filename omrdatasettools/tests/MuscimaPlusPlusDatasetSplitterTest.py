@@ -1,11 +1,7 @@
-import json
-import shutil
 import unittest
 from glob import glob
 
 from omrdatasettools.MuscimaPlusPlusDatasetSplitter import MuscimaPlusPlusDatasetSplitter
-from omrdatasettools.converters.MuscimaPlusPlusAnnotationConverter import MuscimaPlusPlusAnnotationConverter
-from omrdatasettools.downloaders.MuscimaPlusPlusDatasetDownloader import MuscimaPlusPlusDatasetDownloader
 
 
 class MuscimaPlusPlusDatasetSplitterTest(unittest.TestCase):

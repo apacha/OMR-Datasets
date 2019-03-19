@@ -11,7 +11,19 @@ from muscima.io import parse_cropobject_list
 from tqdm import tqdm
 
 
-class MuscimaPlusPlusAnnotationConverter:
+def is_valid_annotation(bounding_box_dictionary):
+    left, right = bounding_box_dictionary["left"], bounding_box_dictionary["right"]
+    top, bottom = bounding_box_dictionary["top"], bounding_box_dictionary["bottom"]
+    if left <= 0 or right <= 0 or top <= 0 or bottom <= 0:
+        return False
+    if left >= right:
+        return False
+    if top >= bottom:
+        return False
+    return True
+
+
+class MuscimaPpMeasureAnnotationExtractor:
     def convert_measure_annotations_to_one_json_file_per_image(self, dataset_directory: str):
         json_directory = os.path.join(dataset_directory, "v1.0", "data", "json")
         os.makedirs(json_directory, exist_ok=True)
@@ -75,14 +87,16 @@ class MuscimaPlusPlusAnnotationConverter:
             for measure_separator in splitting_measure_separators:
                 right = measure_separator.left
                 system_measure = {'left': left, 'top': top, 'right': right, 'bottom': bottom}
-                system_measure_coordinates.append(system_measure)
+                if is_valid_annotation(system_measure):
+                    system_measure_coordinates.append(system_measure)
                 left = measure_separator.right
 
             system_is_missing_terminal_barline = left < end_of_last_object_in_system
             if system_is_missing_terminal_barline:
                 right = end_of_system
                 system_measure = {'left': left, 'top': top, 'right': right, 'bottom': bottom}
-                system_measure_coordinates.append(system_measure)
+                if is_valid_annotation(system_measure):
+                    system_measure_coordinates.append(system_measure)
 
         return system_measure_coordinates
 
@@ -108,14 +122,16 @@ class MuscimaPlusPlusAnnotationConverter:
             for measure_separator in splitting_measure_separators:
                 right = measure_separator.left
                 stave_measure = {'left': left, 'top': top, 'right': right, 'bottom': bottom}
-                stave_measures_coordinates.append(stave_measure)
+                if is_valid_annotation(stave_measure):
+                    stave_measures_coordinates.append(stave_measure)
                 left = measure_separator.right
 
             stave_is_missing_terminal_barline = left < end_of_last_object_in_stave
             if stave_is_missing_terminal_barline:
                 right = end_of_stave
                 stave_measure = {'left': left, 'top': top, 'right': right, 'bottom': bottom}
-                stave_measures_coordinates.append(stave_measure)
+                if is_valid_annotation(stave_measure):
+                    stave_measures_coordinates.append(stave_measure)
         return stave_measures_coordinates
 
     def get_measure_separators(self, crop_objects, first_stave):
@@ -128,8 +144,9 @@ class MuscimaPlusPlusAnnotationConverter:
     def convert_stave_annotations(self, staves):
         stave_coordinates = []
         for stave in staves:
-            stave_coordinates.append(
-                {'left': stave.left, 'top': stave.top, 'right': stave.right, 'bottom': stave.bottom})
+            stave = {'left': stave.left, 'top': stave.top, 'right': stave.right, 'bottom': stave.bottom}
+            if is_valid_annotation(stave):
+                stave_coordinates.append(stave)
         return stave_coordinates
 
 
@@ -141,5 +158,5 @@ if __name__ == "__main__":
 
     flags, unparsed = parser.parse_known_args()
 
-    annotation_converter = MuscimaPlusPlusAnnotationConverter()
+    annotation_converter = MuscimaPpMeasureAnnotationExtractor()
     annotation_converter.convert_measure_annotations_to_one_json_file_per_image(flags.dataset_directory)
