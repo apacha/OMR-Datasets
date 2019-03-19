@@ -80,17 +80,17 @@ class MuscimaPlusPlusDatasetSplitter:
         all_annotations["images"] = training_images
         all_annotations["annotations"] = training_annotations
         with open(training_json_annotations, "w") as file:
-            json.dump(all_annotations, file)
+            json.dump(all_annotations, file, indent=4)
 
         all_annotations["images"] = validation_images
         all_annotations["annotations"] = validation_annotations
         with open(validation_json_annotations, "w") as file:
-            json.dump(all_annotations, file)
+            json.dump(all_annotations, file, indent=4)
 
         all_annotations["images"] = testing_images
         all_annotations["annotations"] = testing_annotations
         with open(testing_json_annotations, "w") as file:
-            json.dump(all_annotations, file)
+            json.dump(all_annotations, file, indent=4)
 
 
 if __name__ == "__main__":

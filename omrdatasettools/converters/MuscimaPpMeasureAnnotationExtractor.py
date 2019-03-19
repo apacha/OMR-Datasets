@@ -49,7 +49,7 @@ class MuscimaPpMeasureAnnotationExtractor:
         with open(json_file, 'w') as file:
             image = Image.open(image_file)  # type: Image.Image
             json.dump({'width': image.width, 'height': image.height, 'system_measures': system_measure_coordinates,
-                       'stave_measures': stave_measures_coordinates, 'staves': stave_coordinates}, file)
+                       'stave_measures': stave_measures_coordinates, 'staves': stave_coordinates}, file, indent=4)
 
     def filter_staves(self, crop_objects) -> Tuple[List[CropObject], List[CropObject]]:
         all_staves = [c for c in crop_objects if c.clsname in ['staff']]

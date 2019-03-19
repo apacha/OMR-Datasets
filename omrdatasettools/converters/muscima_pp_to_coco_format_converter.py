@@ -140,7 +140,7 @@ def main():
         image_id = image_id + 1
 
     with open('{}/measure_detection_muscimarker.json'.format(ROOT_DIR), 'w') as output_json_file:
-        json.dump(coco_output, output_json_file)
+        json.dump(coco_output, output_json_file, indent=4)
 
 
 if __name__ == "__main__":

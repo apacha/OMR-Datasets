@@ -40,7 +40,7 @@ class EdiromAnnotationConverter:
                 staves = []
                 with open(json_path, 'w') as file:
                     json.dump({'width': size[0], 'height': size[1], 'system_measures': system_measures,
-                               'stave_measures': stave_measures, 'staves': staves}, file)
+                               'stave_measures': stave_measures, 'staves': staves}, file, indent=4)
 
 
 if __name__ == "__main__":
