@@ -23,7 +23,7 @@ class MuscimaPlusPlusAnnotationConverterTest(unittest.TestCase):
         annotation_converter.convert_measure_annotations_to_one_json_file_per_image(self.dataset_directory)
 
         # Assert
-        actual_number_of_json_files = len(glob(self.dataset_directory + "/**/*.json", recursive=True))
+        actual_number_of_json_files = len(glob(self.dataset_directory + "/**/CVC-MUSCIMA_*.json", recursive=True))
         self.assertEqual(expected_number_of_json_files, actual_number_of_json_files)
 
     @unittest.skip("A measure_separator is duplicated in the data, that does not exist in the image, which causes this test to fail")
