@@ -1,0 +1,1805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CropObjectList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<CropObjects>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___0">
+	<Id>0</Id>
+	<ClassName>8th_flag</ClassName>
+	<Top>139</Top>
+	<Left>2286</Left>
+	<Width>30</Width>
+	<Height>46</Height>
+	<Mask>0:0 1:30 0:2 1:28 0:4 1:26 0:5 1:25 0:6 1:24 0:7 1:23 0:9 1:21 0:11 1:19 0:13 1:17 0:15 1:15 0:16 1:14 0:4 1:2 0:28 1:3 0:27 1:4 0:13 1:9 0:4 1:6 0:12 1:8 0:5 1:7 0:11 1:7 0:5 1:8 0:10 1:7 0:5 1:9 0:10 1:6 0:5 1:11 0:10 1:4 0:4 1:14 0:9 1:3 0:4 1:15 0:8 1:3 0:4 1:15 0:9 1:2 0:5 1:16 0:7 1:2 0:5 1:17 0:7 1:1 0:4 1:19 0:6 1:1 0:4 1:19 0:6 1:1 0:4 1:19 0:6 1:1 0:5 1:19 0:5 1:1 0:5 1:19 0:11 1:19 0:11 1:19 0:11 1:19 0:11 1:19 0:11 1:18 0:12 1:18 0:12 1:18 0:6 1:1 0:5 1:17 0:7 1:1 0:5 1:16 0:8 1:1 0:5 1:15 0:8 1:2 0:4 1:15 0:9 1:2 0:64 1:12 0:8 1:6 0:4 1:12 0:8 1:6 0:4 1:12 0:8 1:6 0:4 1:12 0:6 1:8</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___1">
+	<Id>1</Id>
+	<ClassName>slur</ClassName>
+	<Top>71</Top>
+	<Left>1386</Left>
+	<Width>234</Width>
+	<Height>47</Height>
+	<Mask>0:0 1:345 0:4 1:1 0:22 1:191 0:45 1:5 0:3 1:171 0:73 1:152 0:2 1:1 0:80 1:145 0:96 1:130 0:107 1:123 0:53 1:6 0:3 1:4 0:49 1:114 0:44 1:3 0:1 1:39 0:36 1:107 0:37 1:3 0:2 1:63 0:29 1:95 0:35 1:81 0:27 1:87 0:29 1:95 0:25 1:81 0:30 1:102 0:23 1:76 0:28 1:111 0:20 1:73 0:24 1:121 0:19 1:67 0:20 1:132 0:17 1:63 0:19 1:137 0:16 1:60 0:18 1:146 0:11 1:56 0:17 1:151 0:13 1:51 0:16 1:156 0:12 1:48 0:15 1:161 0:13 1:43 0:15 1:164 0:13 1:41 0:13 1:169 0:12 1:38 0:13 1:174 0:11 1:36 0:12 1:176 0:11 1:34 0:9 1:182 0:10 1:31 0:10 1:184 0:10 1:27 0:12 1:186 0:10 1:25 0:11 1:191 0:9 1:23 0:9 1:194 0:9 1:21 0:8 1:197 0:10 1:19 0:7 1:198 0:11 1:19 0:5 1:200 0:13 1:17 0:3 1:202 0:13 1:222 0:13 1:223 0:12 1:223 0:12 1:224 0:11 1:226 0:9 1:226 0:9 1:226 0:8 1:227 0:9 1:226 0:9 1:226 0:9 1:12 0:4 1:210 0:8 1:11 0:8 1:208 0:7 1:11 0:13 1:206 0:3 1:1</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___2">
+	<Id>2</Id>
+	<ClassName>beam</ClassName>
+	<Top>115</Top>
+	<Left>1396</Left>
+	<Width>155</Width>
+	<Height>45</Height>
+	<Mask>0:0 1:2 0:4 1:150 0:8 1:147 0:13 1:142 0:20 1:134 0:24 1:131 0:27 1:108 0:57 1:4 0:117 1:9 0:123 1:20 0:3 1:9 0:30 1:113 0:4 1:13 0:25 1:113 0:5 1:14 0:27 1:109 0:4 1:20 0:25 1:106 0:4 1:22 0:27 1:102 0:4 1:27 0:27 1:97 0:4 1:30 0:28 1:93 0:4 1:33 0:27 1:91 0:4 1:37 0:25 1:89 0:4 1:41 0:26 1:84 0:4 1:43 0:29 1:79 0:4 1:43 0:30 1:78 0:4 1:42 0:6 1:5 0:23 1:75 0:4 1:42 0:6 1:8 0:27 1:68 0:3 1:42 0:7 1:12 0:24 1:67 0:3 1:42 0:7 1:16 0:23 1:64 0:3 1:43 0:5 1:20 0:25 1:59 0:3 1:43 0:5 1:24 0:25 1:55 0:3 1:42 0:6 1:26 0:25 1:53 0:3 1:42 0:6 1:29 0:28 1:47 0:3 1:41 0:7 1:33 0:27 1:44 0:3 1:41 0:7 1:37 0:25 1:42 0:3 1:41 0:7 1:41 0:25 1:38 0:3 1:42 0:6 1:45 0:27 1:32 0:3 1:41 0:6 1:48 0:28 1:2 0:2 1:25 0:3 1:41 0:6 1:48 0:32 1:25 0:2 1:41 0:7 1:47 0:37 1:1 0:326 1:4 0:2 1:41 0:6 1:49 0:5 1:19 0:29 1:4 0:2 1:41 0:6 1:48 0:6 1:21 0:28 1:3 0:2 1:41 0:6 1:48 0:6 1:25 0:29 1:41 0:6 1:48 0:6 1:27 0:27 1:41 0:6 1:48 0:6 1:31 0:1 1:2 0:20 1:41 0:6 1:48 0:6 1:39 0:15 1:41 0:6 1:48 0:6 1:42 0:12 1:41 0:6 1:48 0:6 1:44 0:8</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___3">
+	<Id>3</Id>
+	<ClassName>key_signature</ClassName>
+	<Top>109</Top>
+	<Left>311</Left>
+	<Width>64</Width>
+	<Height>104</Height>
+	<Mask>0:0 1:224 0:1 1:63 0:3 1:60 0:5 1:59 0:5 1:59 0:5 1:59 0:5 1:59 0:4 1:60 0:4 1:59 0:5 1:29 0:128 1:29 0:6 1:8 0:11 1:40 0:5 1:9 0:10 1:40 0:5 1:5 0:14 1:40 0:24 1:39 0:25 1:38 0:27 1:36 0:28 1:35 0:27 1:37 0:27 1:37 0:11 1:5 0:11 1:37 0:9 1:8 0:8 1:40 0:8 1:8 0:7 1:43 0:6 1:7 0:8 1:44 0:5 1:6 0:8 1:45 0:5 1:6 0:7 1:46 0:5 1:6 0:6 1:47 0:5 1:5 0:7 1:46 0:6 1:4 0:7 1:47 0:6 1:4 0:7 1:48 0:5 1:3 0:7 1:48 0:6 1:3 0:6 1:49 0:6 1:2 0:7 1:49 0:14 1:50 0:13 1:51 0:12 1:53 0:11 1:23 0:2 1:14 0:2 1:12 0:11 1:23 0:64 1:2 0:14 1:2 0:46 1:3 0:4 1:21 0:11 1:28 0:3 1:23 0:9 1:28 0:4 1:23 0:9 1:28 0:4 1:23 0:8 1:29 0:5 1:22 0:7 1:31 0:4 1:22 0:7 1:31 0:4 1:22 0:7 1:30 0:5 1:22 0:6 1:31 0:5 1:24 0:3 1:32 0:5 1:60 0:5 1:59 0:5 1:59 0:4 1:60 0:4 1:60 0:4 1:15 0:2 1:43 0:4 1:3 0:17 1:40 0:25 1:38 0:27 1:37 0:27 1:12 0:3 1:22 0:27 1:12 0:3 1:22 0:26 1:13 0:4 1:21 0:25 1:14 0:4 1:21 0:6 1:8 0:10 1:14 0:5 1:21 0:6 1:9 0:8 1:15 0:5 1:20 0:6 1:9 0:9 1:15 0:5 1:20 0:6 1:8 0:8 1:17 0:5 1:21 0:5 1:7 0:8 1:18 0:6 1:18 0:128 1:1 0:6 1:4 0:8 1:21 0:5 1:3 0:16 1:2 0:5 1:4 0:7 1:21 0:6 1:3 0:16 1:1 0:6 1:4 0:6 1:22 0:25 1:1 0:6 1:2 0:8 1:22 0:25 1:1 0:6 1:2 0:8 1:22 0:25 1:1 0:15 1:23 0:25 1:1 0:14 1:24 0:25 1:1 0:13 1:25 0:24 1:2 0:12 1:26 0:6 1:7 0:10 1:3 0:12 1:26 0:6 1:7 0:8 1:5 0:11 1:27 0:6 1:6 0:8 1:6 0:10 1:28 0:6 1:6 0:7 1:7 0:9 1:29 0:6 1:5 0:7 1:8 0:8 1:30 0:6 1:4 0:7 1:9 0:7 1:31 0:5 1:4 0:8 1:9 0:6 1:32 0:5 1:3 0:8 1:10 0:6 1:32 0:5 1:2 0:8 1:11 0:5 1:33 0:14 1:13 0:3 1:34 0:14 1:50 0:13 1:51 0:11 1:53 0:11 1:53 0:10 1:54 0:9 1:55 0:9 1:55 0:8 1:17 0:11 1:28 0:7 1:18 0:64 1:11 0:53 1:39 0:7 1:57 0:6 1:58 0:4 1:21</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___4">
+	<Id>4</Id>
+	<ClassName>notehead-empty</ClassName>
+	<Top>245</Top>
+	<Left>437</Left>
+	<Width>32</Width>
+	<Height>36</Height>
+	<Mask>0:0 1:24 0:6 1:16 0:2 1:4 0:2 1:2 0:6 1:14 0:18 1:13 0:19 1:12 0:20 1:10 0:22 1:10 0:22 1:9 0:22 1:9 0:8 1:8 0:7 1:9 0:7 1:10 0:7 1:7 0:7 1:12 0:6 1:6 0:7 1:13 0:6 1:6 0:7 1:13 0:7 1:4 0:8 1:9 0:12 1:1 0:190 1:1 0:11 1:3 0:2 1:9 0:6 1:1 0:8 1:17 0:6 1:2 0:7 1:16 0:6 1:4 0:6 1:15 0:7 1:4 0:6 1:14 0:7 1:5 0:7 1:13 0:6 1:7 0:6 1:11 0:8 1:7 0:9 1:5 0:11 1:7 0:23 1:10 0:21 1:11 0:21 1:13 0:17 1:16 0:14 1:20 0:11 1:22 0:8 1:27 0:1 1:18</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___5">
+	<Id>5</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>229</Top>
+	<Left>1595</Left>
+	<Width>29</Width>
+	<Height>19</Height>
+	<Mask>0:0 1:15 0:13 1:13 0:16 1:11 0:18 1:9 0:20 1:9 0:19 1:7 0:22 1:2 0:58 1:2 0:25 1:4 0:24 1:4 0:24 1:5 0:23 1:6 0:22 1:7 0:22 1:6 0:22 1:8 0:19 1:10 0:17 1:12 0:14 1:17 0:9 1:17</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___6">
+	<Id>6</Id>
+	<ClassName>beam</ClassName>
+	<Top>323</Top>
+	<Left>2625</Left>
+	<Width>176</Width>
+	<Height>20</Height>
+	<Mask>0:0 1:169 0:2 1:160 0:21 1:133 0:43 1:124 0:52 1:102 0:1 1:11 0:62 1:96 0:80 1:80 0:96 1:68 0:89 1:3 0:4 1:6 0:6 1:51 0:81 1:2 0:1 1:4 0:1 1:30 0:6 1:21 0:2 1:2 0:100 1:45 0:6 1:8 0:102 1:4 0:1 1:55 0:93 1:27 0:1 1:55 0:78 1:40 0:5 1:53 0:66 1:51 0:6 1:47 0:48 1:2 0:4 1:69 0:6 1:43 0:34 1:43 0:4 1:46 0:6 1:36 0:33 1:51 0:4 1:46 0:6 1:28 0:32 1:60 0:4 1:46 0:6 1:19 0:39 1:62 0:5 1:45 0:6 1:18 0:40 1:61 0:6 1:45 0:6 1:17 0:41 1:1</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___7">
+	<Id>7</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>198</Top>
+	<Left>3246</Left>
+	<Width>23</Width>
+	<Height>24</Height>
+	<Mask>0:0 1:13 0:6 1:16 0:8 1:13 0:10 1:12 0:11 1:10 0:13 1:9 0:15 1:7 0:16 1:6 0:18 1:4 0:19 1:1 0:22 1:1 0:113 1:2 0:21 1:2 0:21 1:2 0:20 1:4 0:18 1:5 0:17 1:6 0:17 1:7 0:16 1:8 0:15 1:12 0:11 1:5</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___8">
+	<Id>8</Id>
+	<ClassName>quarter_rest</ClassName>
+	<Top>156</Top>
+	<Left>2460</Left>
+	<Width>36</Width>
+	<Height>63</Height>
+	<Mask>0:0 1:9 0:5 1:31 0:7 1:30 0:7 1:28 0:8 1:29 0:9 1:27 0:11 1:26 0:13 1:24 0:15 1:23 0:15 1:22 0:19 1:19 0:18 1:20 0:16 1:22 0:14 1:24 0:13 1:23 0:13 1:23 0:12 1:18 0:16 1:18 0:17 1:13 0:22 1:10 0:24 1:9 0:24 1:12 0:24 1:10 0:5 1:2 0:34 1:2 0:29 1:2 0:15 1:21 0:16 1:23 0:14 1:25 0:14 1:25 0:13 1:24 0:14 1:22 0:16 1:18 0:20 1:14 0:22 1:12 0:24 1:11 0:25 1:10 0:25 1:11 0:13 1:5 0:1 1:2 0:3 1:11 0:10 1:26 0:9 1:26 0:8 1:28 0:7 1:29 0:6 1:29 0:7 1:29 0:7 1:28 0:7 1:29 0:7 1:29 0:7 1:29 0:6 1:30 0:6 1:30 0:6 1:30 0:6 1:24 0:1 1:5 0:78 1:14 0:12 1:4 0:7 1:14 0:12 1:3 0:9 1:6 0:1 1:2 0:13 1:5 0:31 1:5 0:30 1:7 0:26 1:11 0:21 1:17 0:17 1:21 0:12 1:26 0:1 1:27</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___9">
+	<Id>9</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>196</Top>
+	<Left>1004</Left>
+	<Width>27</Width>
+	<Height>21</Height>
+	<Mask>0:0 1:15 0:7 1:20 0:7 1:18 0:10 1:15 0:13 1:12 0:15 1:11 0:17 1:9 0:18 1:7 0:20 1:6 0:22 1:5 0:22 1:4 0:23 1:3 0:24 1:1 0:54 1:1 0:21 1:5 0:22 1:5 0:21 1:6 0:21 1:6 0:21 1:6 0:12 1:2 0:7 1:9 0:7 1:4 0:7 1:6</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___10">
+	<Id>10</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>198</Top>
+	<Left>2961</Left>
+	<Width>32</Width>
+	<Height>19</Height>
+	<Mask>0:0 1:20 0:8 1:19 0:13 1:17 0:15 1:14 0:18 1:14 0:19 1:12 0:20 1:10 0:22 1:8 0:24 1:6 0:27 1:2 0:64 1:1 0:29 1:2 0:30 1:2 0:29 1:3 0:28 1:4 0:27 1:6 0:26 1:6 0:26 1:10 0:12 1:3 0:7 1:5</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___11">
+	<Id>11</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>168</Top>
+	<Left>1373</Left>
+	<Width>25</Width>
+	<Height>23</Height>
+	<Mask>0:0 1:18 0:6 1:18 0:7 1:18 0:7 1:15 0:10 1:13 0:13 1:12 0:13 1:9 0:16 1:8 0:17 1:7 0:18 1:5 0:20 1:4 0:71 1:2 0:21 1:4 0:21 1:3 0:23 1:1 0:23 1:2 0:23 1:2 0:15 1:2 0:6 1:3 0:12 1:4 0:6 1:3 0:10 1:6 0:6 1:3 0:7 1:9 0:6 1:4 0:3 1:12 0:6 1:2</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___12">
+	<Id>12</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>264</Top>
+	<Left>3123</Left>
+	<Width>27</Width>
+	<Height>20</Height>
+	<Mask>0:83 1:7 0:18 1:9 0:18 1:7 0:20 1:6 0:21 1:5 0:22 1:4 0:23 1:3 0:23 1:3 0:24 1:3 0:24 1:2 0:25 1:2 0:19 1:7 0:19 1:8 0:17 1:10 0:15 1:12 0:14 1:13 0:11 1:17 0:6 1:20</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___13">
+	<Id>13</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>236</Top>
+	<Left>1982</Left>
+	<Width>29</Width>
+	<Height>19</Height>
+	<Mask>0:0 1:18 0:9 1:20 0:10 1:16 0:13 1:14 0:16 1:12 0:17 1:9 0:20 1:7 0:22 1:7 0:22 1:6 0:23 1:5 0:24 1:4 0:24 1:4 0:24 1:4 0:25 1:4 0:25 1:3 0:26 1:2 0:27 1:2 0:27 1:2 0:16 1:4 0:7 1:2 0:14 1:6 0:7 1:2</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___14">
+	<Id>14</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>250</Top>
+	<Left>2869</Left>
+	<Width>23</Width>
+	<Height>24</Height>
+	<Mask>0:0 1:11 0:1 1:10 0:1 1:11 0:4 1:2 0:1 1:4 0:1 1:10 0:9 1:3 0:1 1:9 0:11 1:2 0:1 1:9 0:14 1:8 0:15 1:7 0:16 1:6 0:17 1:6 0:17 1:5 0:18 1:4 0:176 1:3 0:1 1:1 0:17 1:6 0:16 1:7 0:15 1:9 0:13 1:10 0:11 1:12 0:8 1:13</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___15">
+	<Id>15</Id>
+	<ClassName>slur</ClassName>
+	<Top>255</Top>
+	<Left>452</Left>
+	<Width>65</Width>
+	<Height>40</Height>
+	<Mask>0:0 1:9 0:6 1:59 0:6 1:10 0:2 1:35 0:2 1:10 0:7 1:6 0:6 1:32 0:5 1:5 0:23 1:32 0:33 1:31 0:34 1:31 0:33 1:31 0:33 1:31 0:31 1:34 0:24 1:40 0:8 1:1 0:1 1:9 0:6 1:39 0:9 1:11 0:6 1:39 0:8 1:11 0:6 1:38 0:9 1:11 0:7 1:38 0:9 1:10 0:7 1:37 0:10 1:11 0:6 1:37 0:10 1:10 0:8 1:37 0:8 1:9 0:11 1:35 0:10 1:7 0:11 1:36 0:10 1:8 0:10 1:37 0:10 1:8 0:10 1:35 0:10 1:10 0:8 1:37 0:9 1:11 0:6 1:38 0:9 1:12 0:5 1:37 0:11 1:12 0:3 1:37 0:11 1:53 0:11 1:52 0:11 1:53 0:12 1:51 0:13 1:20 0:5 1:24 0:14 1:22 0:5 1:22 0:14 1:24 0:6 1:18 0:17 1:24 0:6 1:15 0:19 1:23 0:14 1:4 0:22 1:28 0:34 1:32 0:31 1:35 0:29 1:36 0:27 1:39 0:23 1:42 0:1 1:2 0:17 1:39</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___16">
+	<Id>16</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>226</Top>
+	<Left>775</Left>
+	<Width>22</Width>
+	<Height>21</Height>
+	<Mask>0:0 1:16 0:4 1:14 0:8 1:12 0:11 1:9 0:13 1:8 0:15 1:6 0:16 1:6 0:16 1:4 0:18 1:4 0:62 1:2 0:18 1:4 0:17 1:4 0:17 1:5 0:16 1:6 0:14 1:8 0:13 1:8 0:12 1:11 0:10 1:12 0:9 1:14 0:5 1:15</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___17">
+	<Id>17</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>228</Top>
+	<Left>3046</Left>
+	<Width>26</Width>
+	<Height>20</Height>
+	<Mask>0:0 1:12 0:14 1:9 0:17 1:8 0:18 1:7 0:19 1:6 0:20 1:4 0:22 1:3 0:75 1:1 0:25 1:1 0:154 1:1 0:25 1:2 0:24 1:3 0:12 1:3 0:7 1:6 0:6 1:7 0:7 1:2</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___18">
+	<Id>18</Id>
+	<ClassName>8th_flag</ClassName>
+	<Top>167</Top>
+	<Left>797</Left>
+	<Width>32</Width>
+	<Height>41</Height>
+	<Mask>0:1 1:31 0:3 1:29 0:7 1:25 0:10 1:22 0:13 1:19 0:13 1:19 0:17 1:15 0:18 1:14 0:21 1:11 0:1 1:4 0:18 1:9 0:1 1:7 0:16 1:8 0:2 1:4 0:20 1:6 0:38 1:7 0:21 1:15 0:10 1:5 0:2 1:17 0:9 1:4 0:3 1:17 0:8 1:4 0:3 1:19 0:7 1:3 0:3 1:19 0:7 1:3 0:3 1:19 0:7 1:3 0:3 1:20 0:7 1:2 0:3 1:20 0:7 1:2 0:3 1:20 0:7 1:2 0:4 1:19 0:7 1:2 0:4 1:19 0:7 1:2 0:4 1:19 0:7 1:2 0:3 1:20 0:7 1:2 0:3 1:20 0:6 1:3 0:4 1:19 0:6 1:3 0:3 1:20 0:6 1:3 0:3 1:19 0:7 1:3 0:3 1:18 0:7 1:4 0:3 1:18 0:7 1:4 0:3 1:18 0:7 1:4 0:3 1:16 0:9 1:4 0:4 1:15 0:7 1:6 0:3 1:16 0:6 1:7 0:3 1:15 0:6 1:8 0:3 1:14 0:6 1:9 0:3 1:15 0:4 1:10 0:3 1:15 0:3 1:11</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___19">
+	<Id>19</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>253</Top>
+	<Left>1369</Left>
+	<Width>18</Width>
+	<Height>23</Height>
+	<Mask>0:0 1:10 0:3 1:13 0:6 1:12 0:8 1:9 0:9 1:9 0:10 1:7 0:11 1:7 0:11 1:6 0:12 1:6 0:12 1:6 0:12 1:1 0:2 1:2 0:13 1:1 0:123 1:3 0:14 1:4 0:13 1:5 0:12 1:6 0:10 1:8 0:8 1:10</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___20">
+	<Id>20</Id>
+	<ClassName>beam</ClassName>
+	<Top>295</Top>
+	<Left>2258</Left>
+	<Width>287</Width>
+	<Height>30</Height>
+	<Mask>0:6 1:94 0:7 1:174 0:3 1:3 0:7 1:88 0:1 1:2 0:9 1:163 0:24 1:81 0:19 1:150 0:37 1:71 0:30 1:135 0:50 1:65 0:36 1:124 0:62 1:64 0:37 1:108 0:79 1:63 0:37 1:94 0:3 1:4 0:86 1:63 0:37 1:82 0:2 1:5 0:85 1:2 0:11 1:62 0:19 1:2 0:2 1:6 0:9 1:79 0:77 1:21 0:9 1:64 0:12 1:17 0:8 1:68 0:67 1:2 0:1 1:3 0:1 1:36 0:8 1:64 0:4 1:25 0:8 1:60 0:58 1:4 0:3 1:53 0:9 1:92 0:7 1:47 0:2 1:2 0:59 1:68 0:9 1:93 0:7 1:36 0:70 1:66 0:1 1:2 0:12 1:93 0:10 1:24 0:66 1:73 0:21 1:93 0:8 1:10 0:2 1:1 0:77 1:73 0:23 1:93 0:9 1:7 0:63 1:13 0:6 1:66 0:30 1:93 0:69 1:23 0:6 1:59 0:37 1:66 0:3 1:2 0:9 1:2 0:63 1:39 0:6 1:56 0:41 1:58 0:75 1:3 0:2 1:46 0:6 1:55 0:30 1:3 0:9 1:10 0:4 1:29 0:85 1:2 0:1 1:53 0:6 1:53 0:23 1:12 0:9 1:6 0:8 1:9 0:8 1:2 0:81 1:70 0:6 1:53 0:19 1:16 0:23 1:3 0:92 1:75 0:6 1:54 0:12 1:21 0:107 1:3 0:2 1:82 0:7 1:54 0:5 1:26 0:90 1:8 0:1 1:96 0:7 1:81 0:71 1:127 0:8 1:80 0:59 1:141 0:6 1:79 0:37 1:2 0:4 1:3 0:1 1:4 0:1 1:150 0:6 1:78 0:35 1:168 0:7 1:76 0:22 1:182 0:6 1:76 0:21 1:184 0:6 1:75 0:16</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___21">
+	<Id>21</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>335</Top>
+	<Left>2514</Left>
+	<Width>39</Width>
+	<Height>10</Height>
+	<Mask>0:0 1:9 0:15 1:9 0:5 1:9 0:16 1:4 0:11 1:8 0:31 1:5 0:34 1:2 0:37 1:1 0:76 1:2 0:30 1:4 0:1 1:4 0:22 1:17 0:11 1:27</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___22">
+	<Id>22</Id>
+	<ClassName>g-clef</ClassName>
+	<Top>117</Top>
+	<Left>238</Left>
+	<Width>60</Width>
+	<Height>146</Height>
+	<Mask>0:0 1:103 0:1 1:54 0:7 1:51 0:10 1:36 0:120 1:11 0:16 1:44 0:16 1:43 0:18 1:42 0:8 1:2 0:8 1:42 0:7 1:4 0:7 1:41 0:7 1:6 0:7 1:40 0:7 1:6 0:7 1:40 0:6 1:7 0:7 1:39 0:7 1:8 0:6 1:39 0:7 1:7 0:7 1:39 0:7 1:7 0:7 1:39 0:6 1:8 0:7 1:38 0:7 1:8 0:6 1:39 0:6 1:9 0:6 1:39 0:6 1:8 0:7 1:38 0:7 1:8 0:6 1:39 0:7 1:8 0:6 1:39 0:6 1:8 0:7 1:39 0:6 1:8 0:6 1:40 0:6 1:8 0:6 1:39 0:7 1:7 0:7 1:39 0:7 1:6 0:7 1:40 0:7 1:6 0:7 1:40 0:7 1:5 0:7 1:41 0:6 1:5 0:7 1:42 0:6 1:4 0:8 1:37 0:11 1:3 0:56 1:4 0:46 1:4 0:6 1:3 0:6 1:46 0:14 1:46 0:14 1:46 0:13 1:47 0:12 1:48 0:11 1:49 0:11 1:49 0:10 1:50 0:9 1:50 0:9 1:51 0:8 1:50 0:10 1:48 0:12 1:47 0:13 1:45 0:15 1:45 0:14 1:46 0:14 1:46 0:14 1:45 0:15 1:43 0:9 1:1 0:8 1:41 0:9 1:3 0:7 1:40 0:10 1:3 0:7 1:39 0:10 1:4 0:7 1:38 0:10 1:6 0:6 1:37 0:9 1:8 0:7 1:36 0:8 1:9 0:7 1:35 0:8 1:11 0:6 1:34 0:9 1:4 0:13 1:14 0:4 1:7 0:82 1:7 0:20 1:4 0:7 1:7 0:8 1:15 0:19 1:17 0:8 1:16 0:18 1:18 0:7 1:17 0:19 1:17 0:7 1:16 0:21 1:15 0:7 1:15 0:24 1:14 0:7 1:14 0:26 1:12 0:7 1:14 0:28 1:11 0:7 1:13 0:14 1:6 0:10 1:10 0:7 1:11 0:16 1:7 0:10 1:9 0:6 1:12 0:16 1:8 0:9 1:9 0:6 1:11 0:17 1:10 0:8 1:7 0:7 1:11 0:17 1:11 0:7 1:7 0:6 1:12 0:7 1:2 0:8 1:11 0:8 1:5 0:6 1:13 0:6 1:4 0:7 1:11 0:8 1:5 0:6 1:12 0:6 1:6 0:6 1:12 0:7 1:5 0:6 1:12 0:6 1:6 0:6 1:13 0:6 1:5 0:6 1:12 0:6 1:6 0:7 1:12 0:7 1:4 0:6 1:13 0:5 1:6 0:7 1:12 0:7 1:4 0:6 1:13 0:5 1:6 0:8 1:11 0:7 1:4 0:6 1:13 0:5 1:7 0:7 1:12 0:7 1:3 0:6 1:13 0:5 1:7 0:7 1:12 0:7 1:3 0:5 1:14 0:5 1:7 0:7 1:12 0:7 1:3 0:5 1:14 0:6 1:7 0:7 1:11 0:7 1:3 0:5 1:15 0:5 1:7 0:6 1:13 0:6 1:3 0:6 1:15 0:3 1:8 0:6 1:13 0:6 1:3 0:6 1:26 0:7 1:12 0:6 1:2 0:7 1:14 0:19 1:11 0:90 1:13 0:23 1:5 0:6 1:26 0:7 1:9 0:7 1:5 0:6 1:26 0:7 1:9 0:7 1:5 0:7 1:25 0:7 1:9 0:7 1:5 0:7 1:26 0:6 1:9 0:7 1:5 0:7 1:26 0:7 1:7 0:7 1:7 0:6 1:26 0:7 1:6 0:8 1:7 0:7 1:25 0:7 1:6 0:8 1:8 0:7 1:24 0:7 1:6 0:8 1:9 0:6 1:24 0:7 1:5 0:8 1:10 0:7 1:23 0:7 1:4 0:9 1:10 0:7 1:24 0:7 1:2 0:9 1:12 0:8 1:22 0:7 1:2 0:8 1:14 0:7 1:22 0:16 1:15 0:9 1:21 0:15 1:16 0:9 1:20 0:15 1:17 0:10 1:18 0:14 1:19 0:10 1:1 0:29 1:21 0:38 1:23 0:35 1:26 0:33 1:28 0:32 1:31 0:27 1:33 0:27 1:47 0:3 1:1 0:9 1:48 0:12 1:37 0:120 1:16 0:7 1:53 0:7 1:53 0:8 1:52 0:8 1:52 0:8 1:52 0:8 1:52 0:8 1:52 0:8 1:52 0:7 1:53 0:7 1:53 0:7 1:53 0:7 1:39 0:1 1:13 0:7 1:38 0:3 1:12 0:6 1:39 0:4 1:10 0:7 1:39 0:4 1:10 0:7 1:39 0:4 1:9 0:8 1:39 0:4 1:9 0:7 1:40 0:5 1:7 0:8 1:40 0:6 1:6 0:8 1:41 0:18 1:42 0:17 1:43 0:16 1:45 0:15 1:45 0:13 1:46 0:14 1:22</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___23">
+	<Id>23</Id>
+	<ClassName>letter_p</ClassName>
+	<Top>306</Top>
+	<Left>420</Left>
+	<Width>41</Width>
+	<Height>41</Height>
+	<Mask>0:0 1:24 0:7 1:29 0:15 1:26 0:18 1:22 0:21 1:18 0:24 1:17 0:25 1:15 0:26 1:15 0:26 1:15 0:8 1:10 0:8 1:15 0:7 1:12 0:7 1:15 0:7 1:12 0:7 1:15 0:6 1:12 0:8 1:15 0:6 1:4 0:1 1:2 0:13 1:14 0:27 1:13 0:28 1:12 0:28 1:12 0:27 1:13 0:27 1:13 0:27 1:14 0:16 1:25 0:11 1:29 0:7 1:34 0:6 1:34 0:7 1:33 0:7 1:34 0:6 1:35 0:6 1:33 0:7 1:33 0:8 1:33 0:7 1:34 0:6 1:34 0:7 1:33 0:7 1:34 0:7 1:33 0:7 1:34 0:7 1:34 0:6 1:35 0:6 1:35 0:6 1:35 0:5 1:37 0:3 1:37</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___24">
+	<Id>24</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>272</Top>
+	<Left>2046</Left>
+	<Width>59</Width>
+	<Height>15</Height>
+	<Mask>0:0 1:13 0:27 1:32 0:19 1:2 0:6 1:17 0:1 1:15 0:16 1:4 0:6 1:8 0:11 1:14 0:11 1:9 0:6 1:4 0:15 1:17 0:8 1:9 0:25 1:17 0:42 1:11 0:47 1:5 0:53 1:2 0:49 1:10 0:42 1:17 0:39 1:20 0:39 1:20 0:15 1:6 0:18 1:20 0:7 1:14 0:18 1:39 0:19 1:21</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___25">
+	<Id>25</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>264</Top>
+	<Left>2358</Left>
+	<Width>28</Width>
+	<Height>24</Height>
+	<Mask>0:0 1:21 0:1 1:26 0:3 1:23 0:6 1:17 0:12 1:15 0:13 1:15 0:14 1:13 0:15 1:12 0:16 1:10 0:182 1:6 0:21 1:8 0:19 1:9 0:19 1:9 0:18 1:10 0:17 1:12 0:15 1:13 0:13 1:14 0:12 1:16 0:10 1:17</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___26">
+	<Id>26</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>270</Top>
+	<Left>3218</Left>
+	<Width>47</Width>
+	<Height>9</Height>
+	<Mask>0:0 1:33 0:8 1:39 0:8 1:14 0:1 1:7 0:2 1:2 0:5 1:2 0:14 1:7 0:45 1:1 0:46 1:1 0:149 1:1 0:36 1:2</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___27">
+	<Id>27</Id>
+	<ClassName>letter_f</ClassName>
+	<Top>283</Top>
+	<Left>2906</Left>
+	<Width>41</Width>
+	<Height>58</Height>
+	<Mask>0:0 1:35 0:4 1:34 0:8 1:32 0:10 1:30 0:11 1:29 0:12 1:28 0:13 1:28 0:13 1:28 0:7 1:2 0:4 1:27 0:6 1:4 0:4 1:27 0:6 1:4 0:4 1:26 0:7 1:5 0:3 1:26 0:6 1:6 0:3 1:26 0:6 1:6 0:3 1:25 0:6 1:7 0:3 1:25 0:6 1:8 0:2 1:2 0:9 1:14 0:6 1:9 0:13 1:12 0:6 1:11 0:12 1:12 0:6 1:11 0:13 1:11 0:6 1:11 0:14 1:9 0:7 1:11 0:14 1:9 0:9 1:9 0:34 1:7 0:4 1:2 0:28 1:7 0:2 1:4 0:28 1:7 0:1 1:5 0:27 1:14 0:26 1:15 0:22 1:19 0:13 1:2 0:7 1:18 0:8 1:8 0:7 1:18 0:7 1:9 0:6 1:19 0:7 1:9 0:6 1:19 0:7 1:8 0:6 1:19 0:8 1:8 0:6 1:19 0:7 1:9 0:6 1:19 0:6 1:10 0:6 1:19 0:6 1:9 0:6 1:20 0:5 1:10 0:6 1:21 0:3 1:10 0:7 1:34 0:7 1:34 0:6 1:34 0:7 1:33 0:7 1:34 0:7 1:34 0:6 1:34 0:7 1:34 0:6 1:24 0:2 1:8 0:7 1:24 0:2 1:7 0:8 1:23 0:4 1:6 0:8 1:22 0:5 1:4 0:9 1:23 0:6 1:2 0:9 1:24 0:6 1:2 0:8 1:26 0:15 1:26 0:14 1:27 0:13 1:28 0:12 1:30 0:9 1:34 0:6 1:29</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___28">
+	<Id>28</Id>
+	<ClassName>8th_rest</ClassName>
+	<Top>165</Top>
+	<Left>850</Left>
+	<Width>25</Width>
+	<Height>43</Height>
+	<Mask>0:0 1:26 0:4 1:21 0:4 1:21 0:5 1:14 0:4 1:1 0:6 1:12 0:6 1:2 0:5 1:11 0:7 1:2 0:6 1:10 0:7 1:2 0:9 1:6 0:9 1:1 0:23 1:3 0:22 1:4 0:20 1:6 0:17 1:9 0:14 1:6 0:23 1:2 0:25 1:11 0:6 1:6 0:2 1:10 0:7 1:16 0:8 1:18 0:7 1:18 0:7 1:17 0:7 1:18 0:7 1:18 0:7 1:18 0:6 1:18 0:7 1:18 0:7 1:18 0:6 1:18 0:6 1:19 0:6 1:19 0:6 1:18 0:8 1:17 0:9 1:16 0:7 1:18 0:7 1:18 0:7 1:18 0:7 1:18 0:7 1:18 0:6 1:19 0:6 1:18 0:7 1:18 0:8 1:18 0:6 1:19 0:5 1:15</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___29">
+	<Id>29</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>253</Top>
+	<Left>1055</Left>
+	<Width>24</Width>
+	<Height>20</Height>
+	<Mask>0:0 1:12 0:12 1:9 0:15 1:8 0:16 1:7 0:17 1:6 0:18 1:6 0:18 1:4 0:156 1:5 0:3 1:4 0:11 1:13 0:11 1:13 0:11 1:13 0:9 1:16 0:7 1:17 0:6 1:20 0:2 1:15</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___30">
+	<Id>30</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>259</Top>
+	<Left>2862</Left>
+	<Width>40</Width>
+	<Height>8</Height>
+	<Mask>0:0 1:12 0:24 1:6 0:3 1:6 0:25 1:5 0:38 1:2 0:38 1:1 0:39 1:2 0:39 1:1 0:38 1:3 0:37 1:1</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___31">
+	<Id>31</Id>
+	<ClassName>stem</ClassName>
+	<Top>151</Top>
+	<Left>3064</Left>
+	<Width>15</Width>
+	<Height>106</Height>
+	<Mask>0:10 1:5 0:10 1:5 0:10 1:5 0:11 1:5 0:10 1:7 0:8 1:8 0:7 1:8 0:7 1:8 0:8 1:7 0:8 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:3 0:12 1:3 0:13 1:2 0:13 1:2 0:14 1:1 0:14 1:1 0:14 1:1 0:14 1:7 0:8 1:7 0:8 1:7 0:7 1:8 0:7 1:8 0:8 1:1 0:30 1:7 0:6 1:9 0:6 1:9 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:7 0:8 1:6 0:8 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:2 0:4 1:2 0:7 1:2 0:13 1:2 0:13 1:2 0:13 1:2 0:13 1:2 0:13 1:2 0:12 1:3 0:12 1:3 0:42 1:3 0:12 1:3 0:12 1:3 0:12 1:3 0:2 1:2 0:8 1:7 0:8 1:7 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:7 0:7 1:8 0:7 1:8 0:8 1:7 0:8 1:7 0:8 1:7 0:7 1:8 0:7 1:5 0:10 1:5 0:10 1:5 0:9 1:6 0:9 1:6 0:9 1:6 0:9 1:6 0:9 1:6 0:9 1:6 0:39 1:6 0:9 1:6 0:9 1:6 0:8 1:7 0:8 1:7 0:8 1:7 0:7 1:8 0:7 1:8 0:7 1:8 0:6 1:9 0:6 1:9 0:6 1:9 0:6 1:9 0:6 1:9 0:6 1:9 0:5 1:10 0:5 1:10 0:5 1:10 0:5 1:10 0:5 1:10</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___32">
+	<Id>32</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>254</Top>
+	<Left>1111</Left>
+	<Width>41</Width>
+	<Height>12</Height>
+	<Mask>0:0 1:15 0:18 1:22 0:22 1:18 0:25 1:10 0:31 1:4 0:38 1:3 0:38 1:3 0:38 1:2 0:37 1:4 0:33 1:9 0:31 1:19 0:14 1:2 0:5 1:21 0:12 1:3 0:5 1:10</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___33">
+	<Id>33</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>230</Top>
+	<Left>609</Left>
+	<Width>25</Width>
+	<Height>18</Height>
+	<Mask>0:0 1:18 0:7 1:9 0:16 1:8 0:17 1:6 0:19 1:5 0:20 1:4 0:71 1:1 0:23 1:1 0:24 1:1 0:23 1:2 0:20 1:5 0:20 1:5 0:19 1:6 0:17 1:8 0:14 1:11 0:13 1:13 0:8 1:16</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___34">
+	<Id>34</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>250</Top>
+	<Left>720</Left>
+	<Width>27</Width>
+	<Height>29</Height>
+	<Mask>0:0 1:18 0:7 1:20 0:7 1:17 0:10 1:14 0:13 1:13 0:14 1:10 0:18 1:8 0:19 1:7 0:20 1:6 0:21 1:5 0:22 1:5 0:21 1:6 0:21 1:5 0:21 1:6 0:21 1:5 0:21 1:6 0:21 1:2 0:2 1:1 0:187 1:1 0:16 1:11 0:15 1:12 0:14 1:13 0:13 1:15 0:10 1:18 0:7 1:18</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___35">
+	<Id>35</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>252</Top>
+	<Left>2252</Left>
+	<Width>50</Width>
+	<Height>8</Height>
+	<Mask>0:0 1:84 0:1 1:7 0:1 1:25 0:30 1:4 0:47 1:1 0:49 1:1 0:49 1:1 0:49 1:2 0:33 1:12 0:2 1:2</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___36">
+	<Id>36</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>259</Top>
+	<Left>1472</Left>
+	<Width>21</Width>
+	<Height>24</Height>
+	<Mask>0:0 1:30 0:7 1:13 0:9 1:11 0:11 1:10 0:11 1:9 0:13 1:8 0:13 1:7 0:14 1:7 0:15 1:6 0:16 1:4 0:17 1:3 0:140 1:5 0:15 1:6 0:14 1:7 0:14 1:7 0:12 1:9 0:11 1:10 0:8 1:12</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___37">
+	<Id>37</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>256</Top>
+	<Left>1258</Left>
+	<Width>18</Width>
+	<Height>23</Height>
+	<Mask>0:0 1:14 0:4 1:7 0:5 1:2 0:4 1:6 0:12 1:5 0:13 1:4 0:14 1:4 0:14 1:3 0:15 1:3 0:207 1:2 0:15 1:7 0:10 1:8 0:9 1:10 0:6 1:11</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___38">
+	<Id>38</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>270</Top>
+	<Left>2259</Left>
+	<Width>29</Width>
+	<Height>21</Height>
+	<Mask>0:0 1:1 0:28 1:1 0:25 1:16 0:13 1:16 0:14 1:14 0:15 1:13 0:17 1:11 0:18 1:10 0:19 1:8 0:21 1:8 0:21 1:6 0:23 1:6 0:22 1:6 0:22 1:7 0:20 1:6 0:22 1:6 0:22 1:7 0:19 1:10 0:18 1:11 0:15 1:14 0:12 1:17 0:8 1:21</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___39">
+	<Id>39</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>196</Top>
+	<Left>1189</Left>
+	<Width>23</Width>
+	<Height>23</Height>
+	<Mask>0:0 1:9 0:6 1:17 0:7 1:16 0:8 1:15 0:10 1:12 0:11 1:11 0:13 1:9 0:14 1:8 0:16 1:6 0:17 1:6 0:17 1:5 0:18 1:4 0:29 1:2 0:4 1:2 0:15 1:2 0:4 1:2 0:3 1:5 0:18 1:5 0:17 1:6 0:17 1:5 0:17 1:6 0:16 1:7 0:16 1:8 0:15 1:8 0:15 1:9 0:14 1:7</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___40">
+	<Id>40</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>261</Top>
+	<Left>1981</Left>
+	<Width>28</Width>
+	<Height>20</Height>
+	<Mask>0:27 1:1 0:18 1:2 0:7 1:1 0:4 1:4 0:10 1:2 0:7 1:9 0:19 1:9 0:19 1:7 0:21 1:5 0:24 1:4 0:23 1:4 0:24 1:4 0:24 1:3 0:25 1:2 0:26 1:2 0:26 1:2 0:25 1:3 0:25 1:2 0:26 1:3 0:25 1:4 0:15 1:2 0:6 1:5 0:15 1:2 0:6 1:5 0:26</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___41">
+	<Id>41</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>201</Top>
+	<Left>2266</Left>
+	<Width>23</Width>
+	<Height>20</Height>
+	<Mask>0:0 1:15 0:7 1:14 0:9 1:12 0:11 1:11 0:12 1:9 0:14 1:8 0:15 1:4 0:2 1:1 0:63 1:2 0:20 1:3 0:20 1:2 0:20 1:2 0:20 1:3 0:19 1:4 0:19 1:4 0:17 1:6 0:17 1:6 0:15 1:8 0:13 1:11 0:10 1:12</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___42">
+	<Id>42</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>212</Top>
+	<Left>1522</Left>
+	<Width>23</Width>
+	<Height>20</Height>
+	<Mask>0:0 1:13 0:5 1:16 0:9 1:13 0:13 1:9 0:14 1:7 0:16 1:5 0:18 1:5 0:18 1:4 0:19 1:3 0:20 1:2 0:21 1:1 0:86 1:1 0:22 1:2 0:19 1:4 0:18 1:4 0:16 1:7 0:4 1:1 0:9 1:9 0:4 1:2 0:7 1:10 0:4</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___43">
+	<Id>43</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>200</Top>
+	<Left>1058</Left>
+	<Width>22</Width>
+	<Height>18</Height>
+	<Mask>0:0 1:13 0:9 1:12 0:10 1:10 0:12 1:6 0:16 1:3 0:19 1:2 0:20 1:2 0:20 1:1 0:175 1:1 0:20 1:2 0:20 1:4 0:18 1:1</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___44">
+	<Id>44</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>259</Top>
+	<Left>994</Left>
+	<Width>40</Width>
+	<Height>10</Height>
+	<Mask>0:0 1:12 0:17 1:23 0:22 1:14 0:1 1:2 0:27 1:10 0:31 1:2 0:38 1:2 0:38 1:1 0:38 1:2 0:35 1:5 0:28 1:13 0:26 1:13</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___45">
+	<Id>45</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>187</Top>
+	<Left>1422</Left>
+	<Width>18</Width>
+	<Height>21</Height>
+	<Mask>0:0 1:14 0:4 1:13 0:5 1:11 0:7 1:10 0:8 1:9 0:9 1:7 0:11 1:6 0:12 1:4 0:14 1:4 0:14 1:3 0:15 1:2 0:16 1:2 0:16 1:1 0:17 1:1 0:17 1:1 0:82 1:3 0:14 1:4 0:4 1:1 0:7 1:6 0:4</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___46">
+	<Id>46</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>227</Top>
+	<Left>494</Left>
+	<Width>28</Width>
+	<Height>20</Height>
+	<Mask>0:0 1:15 0:13 1:10 0:18 1:8 0:20 1:6 0:22 1:6 0:22 1:5 0:23 1:4 0:24 1:3 0:25 1:3 0:81 1:2 0:24 1:4 0:23 1:4 0:22 1:6 0:20 1:8 0:19 1:8 0:17 1:12 0:14 1:15 0:10 1:18 0:5 1:21</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___47">
+	<Id>47</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>199</Top>
+	<Left>3046</Left>
+	<Width>26</Width>
+	<Height>21</Height>
+	<Mask>0:0 1:16 0:6 1:2 0:2 1:12 0:14 1:10 0:16 1:9 0:17 1:7 0:19 1:5 0:21 1:4 0:22 1:3 0:75 1:1 0:25 1:1 0:97 1:2 0:22 1:4 0:4 1:1 0:13 1:8 0:4 1:1 0:9 1:12 0:4 1:1 0:6 1:15 0:4 1:2 0:5 1:15 0:4 1:4 0:1 1:17 0:4</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___48">
+	<Id>48</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>263</Top>
+	<Left>1770</Left>
+	<Width>27</Width>
+	<Height>18</Height>
+	<Mask>0:30 1:5 0:19 1:8 0:19 1:6 0:21 1:5 0:22 1:4 0:23 1:3 0:24 1:2 0:25 1:2 0:25 1:1 0:22 1:5 0:20 1:6 0:20 1:7 0:19 1:8 0:17 1:10 0:15 1:12 0:14 1:14 0:10 1:18 0:7 1:18</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___49">
+	<Id>49</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>227</Top>
+	<Left>1472</Left>
+	<Width>24</Width>
+	<Height>19</Height>
+	<Mask>0:0 1:16 0:7 1:16 0:8 1:13 0:11 1:11 0:13 1:9 0:15 1:8 0:16 1:7 0:18 1:5 0:18 1:1 0:3 1:1 0:44 1:2 0:20 1:3 0:21 1:2 0:21 1:3 0:20 1:4 0:19 1:5 0:17 1:7 0:15 1:9 0:13 1:11 0:11 1:13</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___50">
+	<Id>50</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>202</Top>
+	<Left>1601</Left>
+	<Width>21</Width>
+	<Height>20</Height>
+	<Mask>0:0 1:15 0:6 1:13 0:8 1:10 0:11 1:9 0:12 1:7 0:56 1:5 0:16 1:4 0:17 1:3 0:18 1:2 0:19 1:2 0:19 1:1 0:20 1:1 0:20 1:1 0:20 1:1 0:34 1:2 0:18 1:3 0:5 1:1 0:9 1:6 0:5 1:3 0:6 1:6 0:6</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___51">
+	<Id>51</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>270</Top>
+	<Left>2351</Left>
+	<Width>44</Width>
+	<Height>10</Height>
+	<Mask>0:0 1:18 0:15 1:28 0:16 1:26 0:28 1:3 0:42 1:1 0:42 1:2 0:42 1:1 0:43 1:1 0:43 1:2 0:28 1:18 0:25 1:16</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___52">
+	<Id>52</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>227</Top>
+	<Left>1680</Left>
+	<Width>24</Width>
+	<Height>22</Height>
+	<Mask>0:0 1:14 0:7 1:17 0:8 1:14 0:10 1:12 0:12 1:10 0:14 1:9 0:15 1:6 0:18 1:6 0:18 1:2 0:48 1:2 0:21 1:2 0:22 1:1 0:22 1:2 0:21 1:3 0:20 1:4 0:19 1:5 0:17 1:7 0:16 1:8 0:15 1:10 0:12 1:14 0:7 1:18 0:2 1:18</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___53">
+	<Id>53</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>256</Top>
+	<Left>3117</Left>
+	<Width>42</Width>
+	<Height>12</Height>
+	<Mask>0:0 1:26 0:8 1:35 0:7 1:35 0:11 1:27 0:1 1:2 0:13 1:16 0:27 1:4 0:38 1:3 0:39 1:2 0:40 1:2 0:40 1:2 0:34 1:9 0:33 1:13 0:3 1:7 0:19 1:8</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___54">
+	<Id>54</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>262</Top>
+	<Left>1359</Left>
+	<Width>38</Width>
+	<Height>9</Height>
+	<Mask>0:0 1:6 0:1 1:8 0:12 1:15 0:8 1:2 0:13 1:2 0:9 1:3 0:35 1:2 0:36 1:2 0:36 1:2 0:36 1:3 0:35 1:5 0:33 1:10 0:15 1:9 0:1 1:3</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___55">
+	<Id>55</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>262</Top>
+	<Left>1584</Left>
+	<Width>39</Width>
+	<Height>10</Height>
+	<Mask>0:0 1:15 0:14 1:24 0:23 1:15 0:25 1:2 0:37 1:1 0:38 1:1 0:38 1:1 0:38 1:1 0:37 1:2 0:28 1:6 0:1 1:5 0:27 1:11</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___56">
+	<Id>56</Id>
+	<ClassName>stem</ClassName>
+	<Top>169</Top>
+	<Left>574</Left>
+	<Width>9</Width>
+	<Height>66</Height>
+	<Mask>0:0 1:1 0:8 1:1 0:8 1:1 0:17 1:1 0:8 1:1 0:8 1:1 0:5 1:4 0:5 1:4 0:5 1:4 0:5 1:3 0:18 1:2 0:3 1:5 0:4 1:5 0:4 1:5 0:5 1:4 0:5 1:4 0:5 1:4 0:5 1:4 0:5 1:4 0:5 1:5 0:5 1:4 0:5 1:4 0:5 1:4 0:5 1:4 0:5 1:3 0:6 1:4 0:5 1:4 0:5 1:4 0:5 1:4 0:6 1:3 0:5 1:4 0:5 1:4 0:5 1:4 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:5 1:2 0:18 1:2 0:5 1:4 0:6 1:3 0:6 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:3 0:6 1:3 0:7 1:2 0:7 1:2 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:7 1:2 0:7 1:2 0:7 1:1 0:8 1:1 0:8 1:1 0:8 1:1 0:8 1:1 0:8 1:1 0:8 1:1</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___57">
+	<Id>57</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>239</Top>
+	<Left>1775</Left>
+	<Width>27</Width>
+	<Height>18</Height>
+	<Mask>0:0 1:19 0:7 1:19 0:8 1:14 0:14 1:10 0:17 1:9 0:18 1:8 0:19 1:6 0:21 1:4 0:23 1:3 0:24 1:2 0:25 1:2 0:24 1:2 0:25 1:1 0:26 1:1 0:25 1:2 0:25 1:2 0:16 1:3 0:7 1:1 0:16 1:3 0:7 1:2 0:26</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___58">
+	<Id>58</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>249</Top>
+	<Left>1119</Left>
+	<Width>24</Width>
+	<Height>21</Height>
+	<Mask>0:0 1:11 0:1 1:6 0:6 1:10 0:14 1:9 0:15 1:8 0:16 1:7 0:17 1:7 0:17 1:6 0:18 1:5 0:187 1:2 0:14 1:2 0:5 1:4 0:12 1:3 0:5 1:4 0:12 1:12 0:9 1:16 0:8 1:17 0:6 1:13</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___59">
+	<Id>59</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>262</Top>
+	<Left>1247</Left>
+	<Width>39</Width>
+	<Height>9</Height>
+	<Mask>0:0 1:14 0:18 1:21 0:20 1:15 0:29 1:1 0:38 1:1 0:75 1:2 0:37 1:2 0:33 1:7 0:30 1:8</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___60">
+	<Id>60</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>250</Top>
+	<Left>2049</Left>
+	<Width>51</Width>
+	<Height>13</Height>
+	<Mask>0:0 1:14 0:11 1:8 0:6 1:30 0:4 1:2 0:1 1:8 0:6 1:32 0:2 1:2 0:1 1:8 0:5 1:33 0:7 1:5 0:6 1:5 0:6 1:12 0:39 1:2 0:49 1:2 0:49 1:2 0:49 1:2 0:48 1:3 0:23 1:2 0:1 1:5 0:14 1:6 0:12 1:13 0:1 1:5 0:7 1:16 0:1 1:21 0:13 1:35 0:16 1:13</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___61">
+	<Id>61</Id>
+	<ClassName>stem</ClassName>
+	<Top>166</Top>
+	<Left>623</Left>
+	<Width>13</Width>
+	<Height>71</Height>
+	<Mask>0:0 1:13 0:1 1:3 0:3 1:6 0:9 1:4 0:9 1:4 0:9 1:4 0:9 1:4 0:10 1:3 0:10 1:7 0:6 1:7 0:6 1:7 0:6 1:6 0:7 1:5 0:8 1:3 0:26 1:4 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:6 0:7 1:5 0:8 1:3 0:10 1:3 0:10 1:3 0:10 1:3 0:10 1:3 0:10 1:3 0:10 1:5 0:8 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:7 0:6 1:7 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:2 0:26 1:6 0:6 1:7 0:6 1:7 0:6 1:7 0:7 1:5 0:8 1:5 0:8 1:5 0:7 1:6 0:7 1:6 0:8 1:5 0:7 1:7 0:6 1:7 0:7 1:6 0:7 1:6 0:7 1:6 0:6 1:7 0:6 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:5 0:8 1:1 0:11 1:2 0:11 1:2 0:11 1:2 0:11 1:2 0:11 1:2 0:13</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___62">
+	<Id>62</Id>
+	<ClassName>stem</ClassName>
+	<Top>183</Top>
+	<Left>2080</Left>
+	<Width>12</Width>
+	<Height>108</Height>
+	<Mask>0:0 1:34 0:2 1:8 0:4 1:8 0:4 1:8 0:4 1:7 0:5 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:5 0:7 1:6 0:5 1:7 0:5 1:6 0:6 1:6 0:6 1:6 0:6 1:1 0:24 1:5 0:6 1:6 0:6 1:6 0:5 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:5 0:7 1:5 0:7 1:5 0:7 1:6 0:5 1:7 0:5 1:7 0:5 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:5 0:7 1:3 0:35 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:10 1:2 0:9 1:3 0:8 1:4 0:8 1:4 0:8 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:5 1:6 0:6 1:5 0:79 1:5 0:7 1:5 0:7 1:5 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:4 0:7 1:5 0:7 1:5 0:7 1:5 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:4 0:70 1:4 0:5 1:7 0:5 1:7 0:5 1:7 0:5 1:7 0:4 1:8 0:4 1:8 0:4 1:8 0:3 1:9 0:3 1:9</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___63">
+	<Id>63</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>256</Top>
+	<Left>433</Left>
+	<Width>45</Width>
+	<Height>10</Height>
+	<Mask>0:0 1:8 0:7 1:13 0:6 1:10 0:1 1:8 0:7 1:13 0:7 1:6 0:4 1:7 0:8 1:9 0:21 1:5 0:40 1:1 0:176 1:3 0:35 1:10 0:15 1:3 0:2 1:9 0:6 1:10</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___64">
+	<Id>64</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>261</Top>
+	<Left>1177</Left>
+	<Width>37</Width>
+	<Height>9</Height>
+	<Mask>0:0 1:12 0:18 1:11 0:3 1:3 0:20 1:2 0:2 1:5 0:34 1:2 0:35 1:2 0:35 1:2 0:36 1:1 0:35 1:6 0:30 1:11 0:24 1:4</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___65">
+	<Id>65</Id>
+	<ClassName>beam</ClassName>
+	<Top>168</Top>
+	<Left>1869</Left>
+	<Width>76</Width>
+	<Height>12</Height>
+	<Mask>0:5 1:60 0:4 1:7 0:5 1:39 0:2 1:3 0:24 1:3 0:7 1:18 0:49 1:2 0:75 1:1 0:75 1:1 0:75 1:1 0:75 1:1 0:61 1:3 0:11 1:1 0:25 1:5 0:3 1:3 0:6 1:25 0:8 1:1 0:20 1:47 0:7 1:2 0:31 1:18 0:4 1:13 0:8 1:2 0:76</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___66">
+	<Id>66</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>259</Top>
+	<Left>1845</Left>
+	<Width>26</Width>
+	<Height>18</Height>
+	<Mask>0:25 1:1 0:3 1:7 0:15 1:11 0:14 1:10 0:16 1:8 0:18 1:7 0:19 1:6 0:20 1:5 0:22 1:3 0:22 1:4 0:22 1:3 0:22 1:4 0:22 1:4 0:19 1:7 0:19 1:7 0:15 1:11 0:13 1:12 0:12 1:15 0:9 1:16</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___67">
+	<Id>67</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>198</Top>
+	<Left>2877</Left>
+	<Width>24</Width>
+	<Height>22</Height>
+	<Mask>0:0 1:17 0:6 1:14 0:10 1:11 0:14 1:7 0:16 1:7 0:17 1:6 0:19 1:3 0:21 1:3 0:21 1:1 0:22 1:1 0:95 1:1 0:23 1:1 0:23 1:1 0:23 1:1 0:23 1:1 0:23 1:1 0:23 1:1 0:13 1:2 0:8 1:1 0:11 1:5 0:6 1:4 0:5 1:9 0:6 1:2</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___68">
+	<Id>68</Id>
+	<ClassName>stem</ClassName>
+	<Top>142</Top>
+	<Left>1137</Left>
+	<Width>12</Width>
+	<Height>124</Height>
+	<Mask>0:0 1:36 0:10 1:2 0:11 1:1 0:11 1:1 0:48 1:4 0:8 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:6 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:3 0:9 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:11 1:3 0:9 1:4 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:4 0:7 1:4 0:8 1:2 0:24 1:1 0:8 1:5 0:7 1:5 0:8 1:4 0:8 1:4 0:7 1:6 0:6 1:6 0:6 1:6 0:7 1:4 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:3 0:10 1:1 0:11 1:1 0:47 1:1 0:10 1:2 0:10 1:2 0:10 1:2 0:33 1:3 0:9 1:3 0:9 1:3 0:9 1:3 0:9 1:4 0:8 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:6 1:5 0:7 1:5 0:7 1:5 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:3 0:9 1:3 0:9 1:3 0:9 1:3 0:9 1:3 0:9 1:3 0:9 1:3 0:8 1:4 0:8 1:4 0:32 1:4 0:7 1:5 0:7 1:5 0:8 1:4 0:8 1:4 0:8 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:4 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:10 1:2 0:71 1:1 0:7 1:5 0:6 1:6 0:5 1:7 0:5 1:7</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___69">
+	<Id>69</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>252</Top>
+	<Left>1184</Left>
+	<Width>24</Width>
+	<Height>24</Height>
+	<Mask>0:0 1:15 0:8 1:16 0:8 1:16 0:8 1:13 0:11 1:10 0:14 1:9 0:15 1:8 0:15 1:8 0:16 1:7 0:17 1:7 0:18 1:4 0:20 1:1 0:144 1:2 0:22 1:2 0:20 1:4 0:19 1:5 0:18 1:7 0:11 1:3 0:2 1:8 0:9 1:16 0:7 1:13</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___70">
+	<Id>70</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>268</Top>
+	<Left>1460</Left>
+	<Width>38</Width>
+	<Height>9</Height>
+	<Mask>0:0 1:17 0:16 1:21 0:22 1:15 0:23 1:2 0:36 1:2 0:112 1:1 0:37 1:3 0:26 1:9</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___71">
+	<Id>71</Id>
+	<ClassName>duration-dot</ClassName>
+	<Top>265</Top>
+	<Left>2997</Left>
+	<Width>8</Width>
+	<Height>6</Height>
+	<Mask>0:0 1:10 0:3 1:4 0:5 1:2 0:7 1:1 0:7 1:1 0:7 1:1</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___72">
+	<Id>72</Id>
+	<ClassName>beam</ClassName>
+	<Top>167</Top>
+	<Left>577</Left>
+	<Width>54</Width>
+	<Height>9</Height>
+	<Mask>0:0 1:45 0:2 1:3 0:3 1:1 0:336 1:4 0:5 1:5 0:4 1:3 0:2 1:4 0:1 1:10 0:7 1:47 0:4</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___73">
+	<Id>73</Id>
+	<ClassName>duration-dot</ClassName>
+	<Top>228</Top>
+	<Left>594</Left>
+	<Width>6</Width>
+	<Height>7</Height>
+	<Mask>0:0 1:1 0:4 1:2 0:5 1:1 0:17 1:2 0:3 1:7</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___74">
+	<Id>74</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>253</Top>
+	<Left>1901</Left>
+	<Width>47</Width>
+	<Height>10</Height>
+	<Mask>0:0 1:8 0:37 1:10 0:39 1:1 0:46 1:1 0:139 1:1 0:34 1:9 0:2 1:3 0:32 1:17 0:2 1:2 0:2 1:3 0:17 1:30 0:17 1:18</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___75">
+	<Id>75</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>264</Top>
+	<Left>710</Left>
+	<Width>41</Width>
+	<Height>9</Height>
+	<Mask>0:0 1:12 0:21 1:20 0:21 1:2 0:3 1:5 0:1 1:8 0:28 1:3 0:38 1:2 0:39 1:2 0:39 1:2 0:40 1:1 0:37 1:4 0:36 1:5</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___76">
+	<Id>76</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>278</Top>
+	<Left>1970</Left>
+	<Width>52</Width>
+	<Height>12</Height>
+	<Mask>0:0 1:13 0:15 1:2 0:6 1:6 0:8 1:15 0:15 1:2 0:6 1:3 0:12 1:14 0:38 1:2 0:50 1:1 0:51 1:1 0:50 1:2 0:47 1:5 0:39 1:13 0:36 1:19 0:1 1:16 0:16 1:36 0:16 1:35 0:17 1:16</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___77">
+	<Id>77</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>228</Top>
+	<Left>2964</Left>
+	<Width>22</Width>
+	<Height>18</Height>
+	<Mask>0:0 1:14 0:8 1:10 0:12 1:8 0:14 1:7 0:15 1:5 0:17 1:3 0:19 1:2 0:64 1:1 0:21 1:1 0:20 1:2 0:19 1:2 0:20 1:2 0:20 1:2 0:20 1:3 0:19 1:3 0:19 1:4 0:18 1:2</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___78">
+	<Id>78</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>197</Top>
+	<Left>1374</Left>
+	<Width>23</Width>
+	<Height>22</Height>
+	<Mask>0:0 1:15 0:7 1:16 0:7 1:16 0:7 1:13 0:10 1:12 0:11 1:10 0:13 1:8 0:16 1:5 0:18 1:5 0:18 1:4 0:18 1:5 0:18 1:1 0:46 1:2 0:18 1:5 0:16 1:6 0:16 1:7 0:15 1:8 0:13 1:10 0:11 1:12 0:9 1:14 0:7 1:17 0:3 1:18</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___79">
+	<Id>79</Id>
+	<ClassName>beam</ClassName>
+	<Top>146</Top>
+	<Left>2983</Left>
+	<Width>92</Width>
+	<Height>10</Height>
+	<Mask>0:0 1:14 0:20 1:11 0:32 1:18 0:76 1:13 0:85 1:7 0:275 1:1 0:56 1:10 0:25 1:1 0:11 1:25 0:10 1:29 0:16 1:1 0:6 1:72 0:19 1:77 0:10</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___80">
+	<Id>80</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>262</Top>
+	<Left>1668</Left>
+	<Width>45</Width>
+	<Height>10</Height>
+	<Mask>0:0 1:16 0:17 1:28 0:17 1:5 0:3 1:18 0:28 1:5 0:40 1:4 0:42 1:2 0:43 1:2 0:43 1:2 0:41 1:4 0:29 1:3 0:1 1:13 0:4 1:3 0:21 1:16</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___81">
+	<Id>81</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>228</Top>
+	<Left>1002</Left>
+	<Width>21</Width>
+	<Height>20</Height>
+	<Mask>0:0 1:12 0:9 1:9 0:12 1:7 0:14 1:5 0:16 1:4 0:17 1:3 0:18 1:2 0:19 1:2 0:30 1:2 0:19 1:2 0:207 1:4 0:7</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___82">
+	<Id>82</Id>
+	<ClassName>duration-dot</ClassName>
+	<Top>232</Top>
+	<Left>3003</Left>
+	<Width>6</Width>
+	<Height>8</Height>
+	<Mask>0:0 1:1 0:4 1:2 0:29 1:1 0:5 1:3 0:2 1:1</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___83">
+	<Id>83</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>225</Top>
+	<Left>3235</Left>
+	<Width>24</Width>
+	<Height>26</Height>
+	<Mask>0:0 1:22 0:2 1:21 0:3 1:10 0:3 1:8 0:3 1:8 0:6 1:7 0:3 1:8 0:7 1:5 0:4 1:7 0:17 1:6 0:18 1:5 0:19 1:5 0:19 1:4 0:68 1:1 0:23 1:2 0:22 1:1 0:207 1:2 0:20 1:4 0:17 1:7 0:6 1:2 0:8 1:8 0:6</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___84">
+	<Id>84</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>254</Top>
+	<Left>1762</Left>
+	<Width>52</Width>
+	<Height>13</Height>
+	<Mask>0:0 1:13 0:16 1:3 0:7 1:26 0:16 1:3 0:7 1:9 0:2 1:16 0:37 1:15 0:37 1:6 0:47 1:1 0:154 1:1 0:38 1:10 0:2 1:2 0:38 1:14 0:11 1:5 0:22 1:15 0:2 1:13 0:22 1:28 0:24 1:14</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___85">
+	<Id>85</Id>
+	<ClassName>stem</ClassName>
+	<Top>146</Top>
+	<Left>3141</Left>
+	<Width>13</Width>
+	<Height>133</Height>
+	<Mask>0:0 1:52 0:26 1:7 0:4 1:9 0:5 1:8 0:6 1:7 0:5 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:6 0:7 1:6 0:7 1:6 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:6 0:7 1:6 0:7 1:6 0:6 1:7 0:5 1:8 0:5 1:7 0:6 1:7 0:7 1:6 0:7 1:6 0:6 1:7 0:6 1:7 0:6 1:4 0:26 1:3 0:6 1:2 0:2 1:3 0:6 1:2 0:2 1:3 0:5 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:7 1:6 0:7 1:6 0:7 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:6 0:7 1:7 0:6 1:7 0:7 1:6 0:10 1:3 0:10 1:1 0:115 1:1 0:10 1:3 0:9 1:4 0:9 1:4 0:9 1:4 0:1 1:2 0:6 1:7 0:7 1:6 0:7 1:6 0:7 1:5 0:8 1:5 0:8 1:5 0:8 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:5 0:8 1:3 0:10 1:3 0:10 1:3 0:10 1:3 0:11 1:2 0:11 1:2 0:11 1:2 0:35 1:4 0:10 1:3 0:9 1:4 0:9 1:4 0:9 1:4 0:9 1:4 0:10 1:6 0:6 1:7 0:6 1:7 0:6 1:6 0:7 1:6 0:7 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:7 1:6 0:7 1:5 0:8 1:6 0:7 1:6 0:10 1:2 0:86 1:3 0:10 1:3 0:10 1:3 0:10 1:3 0:9 1:4 0:9 1:4 0:9 1:4 0:9 1:4 0:8 1:5 0:8 1:5 0:8 1:5 0:8 1:5 0:2 1:11 0:1 1:12</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___86">
+	<Id>86</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>196</Top>
+	<Left>1124</Left>
+	<Width>25</Width>
+	<Height>20</Height>
+	<Mask>0:0 1:15 0:8 1:17 0:8 1:16 0:10 1:13 0:12 1:13 0:13 1:9 0:16 1:6 0:19 1:6 0:18 1:5 0:19 1:4 0:21 1:3 0:22 1:2 0:72 1:3 0:22 1:3 0:22 1:3 0:22 1:3 0:22 1:3 0:12 1:2 0:8 1:4 0:9 1:5 0:7 1:3</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___87">
+	<Id>87</Id>
+	<ClassName>duration-dot</ClassName>
+	<Top>203</Top>
+	<Left>3002</Left>
+	<Width>6</Width>
+	<Height>7</Height>
+	<Mask>0:0 1:1 0:3 1:2 0:5 1:1 0:24 1:2 0:3 1:1</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___88">
+	<Id>88</Id>
+	<ClassName>other_text</ClassName>
+	<Top>298</Top>
+	<Left>1846</Left>
+	<Width>118</Width>
+	<Height>33</Height>
+	<Mask>0:0 1:193 0:6 1:111 0:11 1:105 0:15 1:18 0:3 1:80 0:17 1:12 0:12 1:77 0:18 1:9 0:15 1:54 0:4 1:18 0:18 1:8 0:17 1:47 0:21 1:6 0:19 1:6 0:19 1:22 0:7 1:16 0:25 1:4 0:8 1:6 0:5 1:5 0:21 1:17 0:11 1:14 0:28 1:3 0:8 1:7 0:4 1:4 0:22 1:16 0:13 1:11 0:31 1:2 0:10 1:6 0:3 1:3 0:24 1:12 0:16 1:10 0:47 1:3 0:3 1:2 0:11 1:8 0:6 1:11 0:17 1:8 0:35 1:2 0:28 1:12 0:5 1:10 0:17 1:3 0:27 1:3 0:10 1:3 0:27 1:13 0:5 1:9 0:11 1:10 0:27 1:3 0:10 1:6 0:22 1:17 0:3 1:8 0:11 1:9 0:15 1:2 0:25 1:7 0:21 1:27 0:8 1:12 0:15 1:3 0:23 1:10 0:19 1:27 0:9 1:10 0:16 1:3 0:23 1:15 0:14 1:28 0:7 1:12 0:14 1:5 0:22 1:7 0:4 1:6 0:13 1:26 0:8 1:12 0:15 1:4 0:21 1:9 0:4 1:6 0:13 1:25 0:7 1:11 0:16 1:6 0:7 1:2 0:10 1:10 0:6 1:5 0:13 1:15 0:3 1:7 0:7 1:10 0:16 1:6 0:8 1:21 0:26 1:11 0:6 1:7 0:6 1:9 0:18 1:6 0:8 1:15 0:2 1:4 0:28 1:8 0:7 1:6 0:6 1:7 0:19 1:8 0:10 1:4 0:13 1:2 0:43 1:5 0:7 1:5 0:21 1:8 0:26 1:3 0:43 1:5 0:33 1:9 0:24 1:4 0:16 1:2 0:24 1:5 0:22 1:2 0:9 1:10 0:24 1:5 0:13 1:5 0:22 1:6 0:20 1:4 0:7 1:13 0:22 1:13 0:1 1:12 0:19 1:10 0:16 1:5 0:7 1:14 0:20 1:28 0:16 1:12 0:13 1:7 0:8 1:16 0:14 1:35 0:8 1:17 0:11 1:11 0:3 1:22 0:6 1:71 0:1 1:15 0:3 1:211</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___89">
+	<Id>89</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>286</Top>
+	<Left>1982</Left>
+	<Width>23</Width>
+	<Height>16</Height>
+	<Mask>0:23 1:8 0:15 1:8 0:15 1:7 0:16 1:5 0:18 1:3 0:20 1:3 0:20 1:1 0:129 1:2 0:5 1:1 0:14 1:9 0:12 1:12 0:7 1:15</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___90">
+	<Id>90</Id>
+	<ClassName>stem</ClassName>
+	<Top>139</Top>
+	<Left>2891</Left>
+	<Width>14</Width>
+	<Height>129</Height>
+	<Mask>0:0 1:64 0:2 1:12 0:3 1:11 0:4 1:10 0:4 1:9 0:6 1:8 0:6 1:1 0:28 1:6 0:6 1:9 0:5 1:9 0:5 1:9 0:5 1:9 0:5 1:9 0:5 1:9 0:6 1:8 0:5 1:8 0:6 1:8 0:7 1:7 0:6 1:8 0:6 1:8 0:6 1:8 0:6 1:8 0:6 1:8 0:6 1:8 0:6 1:8 0:6 1:7 0:7 1:8 0:6 1:8 0:6 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:6 0:7 1:8 0:6 1:3 0:28 1:4 0:7 1:7 0:6 1:8 0:6 1:8 0:6 1:8 0:6 1:8 0:6 1:8 0:6 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:6 1:8 0:6 1:5 0:9 1:5 0:10 1:4 0:9 1:5 0:9 1:5 0:10 1:4 0:10 1:4 0:10 1:4 0:9 1:5 0:38 1:4 0:9 1:5 0:9 1:5 0:9 1:5 0:9 1:5 0:9 1:5 0:9 1:5 0:9 1:6 0:8 1:7 0:6 1:8 0:6 1:8 0:6 1:7 0:7 1:8 0:6 1:8 0:6 1:7 0:7 1:7 0:7 1:6 0:8 1:6 0:8 1:6 0:8 1:6 0:8 1:6 0:8 1:6 0:8 1:6 0:8 1:6 0:8 1:6 0:34 1:8 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:8 1:6 0:8 1:6 0:8 1:6 0:7 1:7 0:7 1:7 0:8 1:6 0:8 1:6 0:8 1:6 0:8 1:6 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:10 1:4 0:10 1:4 0:10 1:4 0:11 1:3 0:10 1:4 0:10 1:4 0:4 1:10</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___91">
+	<Id>91</Id>
+	<ClassName>duration-dot</ClassName>
+	<Top>204</Top>
+	<Left>1087</Left>
+	<Width>7</Width>
+	<Height>7</Height>
+	<Mask>0:0 1:3 0:3 1:4 0:4 1:2 0:5 1:1 0:6 1:1 0:6 1:2 0:5 1:7</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___92">
+	<Id>92</Id>
+	<ClassName>letter_o</ClassName>
+	<Top>304</Top>
+	<Left>617</Left>
+	<Width>22</Width>
+	<Height>22</Height>
+	<Mask>0:14 1:8 0:15 1:7 0:18 1:4 0:21 1:1 0:21 1:4 0:18 1:4 0:19 1:3 0:8 1:2 0:9 1:1 0:8 1:6 0:7 1:1 0:7 1:9 0:5 1:1 0:7 1:9 0:12 1:10 0:12 1:8 0:15 1:5 0:30 1:1 0:20 1:2 0:20 1:2 0:19 1:4 0:15 1:8 0:12 1:14 0:6 1:32</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___93">
+	<Id>93</Id>
+	<ClassName>beam</ClassName>
+	<Top>185</Top>
+	<Left>599</Left>
+	<Width>28</Width>
+	<Height>8</Height>
+	<Mask>0:0 1:27 0:1 1:26 0:2 1:3 0:7 1:2 0:8 1:1 0:7 1:2 0:26 1:2 0:26 1:1 0:27 1:1 0:27 1:1 0:27</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___94">
+	<Id>94</Id>
+	<ClassName>stem</ClassName>
+	<Top>153</Top>
+	<Left>1540</Left>
+	<Width>14</Width>
+	<Height>86</Height>
+	<Mask>0:8 1:6 0:11 1:3 0:12 1:2 0:13 1:1 0:13 1:2 0:11 1:5 0:9 1:7 0:7 1:8 0:6 1:8 0:7 1:7 0:7 1:8 0:6 1:8 0:6 1:8 0:6 1:8 0:6 1:9 0:5 1:8 0:6 1:8 0:6 1:8 0:6 1:8 0:6 1:8 0:7 1:7 0:7 1:7 0:7 1:8 0:6 1:7 0:35 1:6 0:7 1:8 0:6 1:8 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:6 0:8 1:6 0:6 1:8 0:6 1:8 0:7 1:8 0:6 1:8 0:6 1:8 0:6 1:8 0:6 1:7 0:7 1:7 0:7 1:7 0:7 1:7 0:6 1:8 0:6 1:8 0:6 1:7 0:7 1:7 0:7 1:8 0:6 1:2 0:28 1:5 0:7 1:8 0:6 1:8 0:6 1:7 0:7 1:2 0:2 1:3 0:7 1:2 0:11 1:3 0:11 1:3 0:11 1:3 0:11 1:3 0:11 1:3 0:11 1:3 0:10 1:4 0:10 1:4 0:10 1:4 0:10 1:4 0:9 1:6 0:8 1:7 0:7 1:7 0:7 1:6 0:8 1:6 0:8 1:6 0:8 1:6 0:8 1:6 0:8 1:6 0:7 1:6 0:8 1:6 0:35 1:7 0:7 1:7</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___95">
+	<Id>95</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>224</Top>
+	<Left>1124</Left>
+	<Width>21</Width>
+	<Height>22</Height>
+	<Mask>0:0 1:14 0:7 1:14 0:7 1:9 0:1 1:4 0:7 1:8 0:13 1:8 0:13 1:7 0:14 1:6 0:15 1:6 0:15 1:5 0:16 1:4 0:17 1:3 0:60 1:1 0:20 1:1 0:19 1:2 0:19 1:1 0:75 1:2 0:17 1:4 0:7 1:1 0:5 1:8 0:7</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___96">
+	<Id>96</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>198</Top>
+	<Left>1472</Left>
+	<Width>24</Width>
+	<Height>21</Height>
+	<Mask>0:0 1:18 0:6 1:17 0:7 1:14 0:10 1:12 0:12 1:10 0:14 1:9 0:15 1:8 0:16 1:7 0:17 1:6 0:18 1:4 0:68 1:2 0:22 1:1 0:23 1:1 0:23 1:1 0:23 1:1 0:70 1:2 0:13 1:2 0:7 1:3 0:9 1:5 0:7 1:1</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___97">
+	<Id>97</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>253</Top>
+	<Left>2955</Left>
+	<Width>30</Width>
+	<Height>22</Height>
+	<Mask>0:0 1:22 0:7 1:16 0:14 1:14 0:15 1:14 0:16 1:12 0:20 1:9 0:21 1:4 0:173 1:3 0:27 1:3 0:26 1:6 0:22 1:8 0:22 1:8 0:21 1:9 0:20 1:10 0:18 1:13 0:16 1:14 0:15 1:16 0:9 1:17</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___98">
+	<Id>98</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>215</Top>
+	<Left>1422</Left>
+	<Width>23</Width>
+	<Height>20</Height>
+	<Mask>0:0 1:13 0:7 1:16 0:8 1:15 0:9 1:11 0:12 1:10 0:13 1:9 0:14 1:8 0:16 1:6 0:16 1:6 0:17 1:5 0:17 1:6 0:17 1:5 0:16 1:6 0:16 1:7 0:15 1:7 0:14 1:9 0:13 1:10 0:12 1:10 0:12 1:12 0:9 1:14 0:6 1:16</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___99">
+	<Id>99</Id>
+	<ClassName>stem</ClassName>
+	<Top>166</Top>
+	<Left>1928</Left>
+	<Width>16</Width>
+	<Height>92</Height>
+	<Mask>0:0 1:38 0:4 1:6 0:14 1:2 0:15 1:1 0:66 1:3 0:11 1:8 0:8 1:8 0:7 1:8 0:8 1:1 0:32 1:7 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:8 0:8 1:2 0:13 1:3 0:13 1:3 0:13 1:3 0:13 1:3 0:13 1:3 0:13 1:3 0:13 1:8 0:8 1:8 0:8 1:8 0:8 1:8 0:8 1:8 0:8 1:8 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:8 0:8 1:4 0:32 1:4 0:7 1:9 0:7 1:8 0:8 1:8 0:8 1:8 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:8 0:8 1:8 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:6 1:9 0:7 1:8 0:8 1:8 0:32 1:1 0:7 1:8 0:8 1:8 0:8 1:8 0:8 1:8 0:8 1:8 0:9 1:7 0:9 1:7 0:9 1:7 0:9 1:7 0:8 1:8 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:80</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___100">
+	<Id>100</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>276</Top>
+	<Left>3227</Left>
+	<Width>30</Width>
+	<Height>18</Height>
+	<Mask>0:90 1:7 0:23 1:7 0:23 1:6 0:24 1:5 0:25 1:5 0:25 1:3 0:27 1:2 0:28 1:2 0:27 1:3 0:27 1:2 0:28 1:2 0:28 1:1 0:21 1:2 0:6 1:1 0:20 1:4 0:5 1:1 0:18 1:9 0:2 1:2 0:16 1:13</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___101">
+	<Id>101</Id>
+	<ClassName>stem</ClassName>
+	<Top>120</Top>
+	<Left>1388</Left>
+	<Width>12</Width>
+	<Height>84</Height>
+	<Mask>0:0 1:7 0:28 1:8 0:4 1:8 0:5 1:7 0:5 1:7 0:5 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:5 0:7 1:6 0:6 1:6 0:6 1:6 0:6 1:5 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:4 0:8 1:5 0:6 1:2 0:24 1:4 0:6 1:6 0:6 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:6 1:6 0:6 1:6 0:7 1:5 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:5 0:7 1:5 0:7 1:3 0:9 1:3 0:10 1:2 0:11 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:32 1:4 0:8 1:4 0:9 1:3 0:8 1:4 0:8 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:4 0:8 1:4 0:8 1:4 0:8 1:4 0:9 1:3</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___102">
+	<Id>102</Id>
+	<ClassName>8th_rest</ClassName>
+	<Top>163</Top>
+	<Left>2362</Left>
+	<Width>31</Width>
+	<Height>46</Height>
+	<Mask>0:0 1:32 0:4 1:23 0:1 1:3 0:5 1:19 0:5 1:2 0:5 1:18 0:7 1:1 0:5 1:18 0:7 1:1 0:6 1:16 0:8 1:1 0:8 1:12 0:10 1:1 0:10 1:2 0:17 1:3 0:28 1:3 0:27 1:6 0:24 1:8 0:22 1:11 0:19 1:19 0:2 1:1 0:8 1:24 0:6 1:23 0:70 1:23 0:7 1:24 0:7 1:23 0:7 1:24 0:7 1:24 0:7 1:23 0:7 1:23 0:8 1:23 0:8 1:23 0:7 1:24 0:7 1:23 0:7 1:23 0:8 1:23 0:8 1:22 0:8 1:23 0:8 1:22 0:8 1:23 0:7 1:24 0:7 1:24 0:7 1:23 0:8 1:23 0:8 1:22 0:9 1:22 0:8 1:23 0:7 1:24 0:7 1:24 0:6 1:24 0:7 1:3 0:46</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___103">
+	<Id>103</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>227</Top>
+	<Left>1058</Left>
+	<Width>22</Width>
+	<Height>21</Height>
+	<Mask>0:0 1:14 0:8 1:14 0:8 1:13 0:9 1:11 0:11 1:9 0:13 1:8 0:14 1:5 0:17 1:4 0:18 1:3 0:63 1:1 0:21 1:1 0:21 1:1 0:101 1:2 0:18 1:4 0:6 1:1 0:10 1:5 0:6 1:2 0:6 1:8 0:6</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___104">
+	<Id>104</Id>
+	<ClassName>stem</ClassName>
+	<Top>155</Top>
+	<Left>1614</Left>
+	<Width>10</Width>
+	<Height>82</Height>
+	<Mask>0:0 1:25 0:3 1:7 0:4 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:5 1:5 0:5 1:2 0:20 1:3 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:6 1:4 0:6 1:3 0:7 1:3 0:6 1:5 0:5 1:5 0:5 1:5 0:5 1:4 0:6 1:4 0:6 1:4 0:6 1:5 0:5 1:5 0:6 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:1 0:9 1:1 0:9 1:1 0:9 1:1 0:9 1:1 0:49 1:1 0:9 1:1 0:9 1:1 0:39 1:1 0:1 1:2 0:6 1:4 0:6 1:4 0:6 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:2 0:18 1:1 0:9 1:1 0:9 1:1 0:9 1:1 0:8 1:2 0:8 1:2 0:20</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___105">
+	<Id>105</Id>
+	<ClassName>stem</ClassName>
+	<Top>267</Top>
+	<Left>1366</Left>
+	<Width>10</Width>
+	<Height>55</Height>
+	<Mask>0:30 1:3 0:7 1:3 0:7 1:2 0:8 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:3 0:7 1:3 0:7 1:3 0:7 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:1 0:9 1:1 0:9 1:1 0:50 1:2 0:8 1:3 0:6 1:4 0:6 1:4 0:6 1:3 0:7 1:2 0:8 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:1</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___106">
+	<Id>106</Id>
+	<ClassName>flat</ClassName>
+	<Top>113</Top>
+	<Left>338</Left>
+	<Width>29</Width>
+	<Height>49</Height>
+	<Mask>0:0 1:5 0:3 1:25 0:5 1:24 0:5 1:24 0:5 1:24 0:5 1:24 0:4 1:25 0:4 1:24 0:5 1:21 0:58 1:2 0:6 1:8 0:11 1:5 0:5 1:9 0:10 1:5 0:5 1:5 0:14 1:5 0:24 1:4 0:25 1:3 0:27 1:1 0:28 1:1 0:26 1:3 0:26 1:3 0:10 1:5 0:11 1:3 0:8 1:8 0:8 1:5 0:8 1:8 0:7 1:8 0:6 1:7 0:8 1:9 0:5 1:6 0:8 1:10 0:5 1:6 0:7 1:11 0:5 1:6 0:6 1:12 0:5 1:5 0:7 1:11 0:6 1:4 0:7 1:12 0:6 1:4 0:7 1:13 0:5 1:3 0:7 1:13 0:6 1:3 0:6 1:14 0:6 1:2 0:7 1:14 0:14 1:15 0:13 1:16 0:12 1:18 0:11 1:18 0:11 1:15 0:58 1:1 0:11 1:19 0:9 1:20 0:9 1:20 0:8 1:21 0:7 1:22 0:7 1:22 0:7 1:22 0:6 1:25 0:3 1:51</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___107">
+	<Id>107</Id>
+	<ClassName>beam</ClassName>
+	<Top>334</Top>
+	<Left>2760</Left>
+	<Width>39</Width>
+	<Height>13</Height>
+	<Mask>0:0 1:35 0:4 1:35 0:4 1:29 0:10 1:25 0:14 1:18 0:21 1:10 0:29 1:1 0:145 1:5 0:24 1:15 0:14 1:25 0:7 1:31 0:6</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___108">
+	<Id>108</Id>
+	<ClassName>duration-dot</ClassName>
+	<Top>259</Top>
+	<Left>1093</Left>
+	<Width>7</Width>
+	<Height>8</Height>
+	<Mask>0:0 1:1 0:3 1:3 0:5 1:2 0:6 1:1 0:6 1:1 0:6 1:1 0:5 1:2 0:4 1:5 0:1 1:4</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___109">
+	<Id>109</Id>
+	<ClassName>stem</ClassName>
+	<Top>166</Top>
+	<Left>792</Left>
+	<Width>9</Width>
+	<Height>56</Height>
+	<Mask>0:0 1:4 0:1 1:6 0:4 1:5 0:6 1:2 0:8 1:1 0:8 1:1 0:8 1:1 0:8 1:1 0:8 1:1 0:8 1:1 0:8 1:1 0:5 1:3 0:6 1:3 0:7 1:2 0:9 1:1 0:15 1:2 0:7 1:2 0:8 1:1 0:8 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:8 1:1 0:8 1:1 0:8 1:1 0:7 1:3 0:6 1:3 0:7 1:1 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:3 0:6 1:3 0:6 1:2 0:8 1:2 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:1 0:18 1:2 0:7 1:2 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:7 1:2 0:6 1:3 0:6 1:3 0:7 1:2 0:6 1:2</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___110">
+	<Id>110</Id>
+	<ClassName>stem</ClassName>
+	<Top>278</Top>
+	<Left>1676</Left>
+	<Width>9</Width>
+	<Height>48</Height>
+	<Mask>0:0 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:7 1:2 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:1 0:8 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:6 1:3 0:6 1:3 0:7 1:2 0:7 1:2 0:7 1:3 0:5 1:7 0:1 1:3</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___111">
+	<Id>111</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>253</Top>
+	<Left>1969</Left>
+	<Width>56</Width>
+	<Height>11</Height>
+	<Mask>0:0 1:13 0:16 1:4 0:7 1:29 0:14 1:6 0:7 1:30 0:9 1:10 0:20 1:20 0:6 1:6 0:25 1:19 0:37 1:5 0:51 1:4 0:52 1:3 0:49 1:2 0:1 1:3 0:39 1:17 0:30 1:2 0:7 1:17 0:16 1:4 0:10 1:2 0:7 1:17</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___112">
+	<Id>112</Id>
+	<ClassName>beam</ClassName>
+	<Top>145</Top>
+	<Left>1076</Left>
+	<Width>75</Width>
+	<Height>11</Height>
+	<Mask>0:0 1:31 0:10 1:3 0:6 1:4 0:17 1:30 0:46 1:22 0:53 1:4 0:72 1:2 0:169 1:2 0:52 1:2 0:19 1:1 0:11 1:34 0:8 1:2 0:26 1:40 0:7 1:2 0:17 1:49 0:7 1:2 0:5 1:61 0:7 1:2</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___113">
+	<Id>113</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>235</Top>
+	<Left>1521</Left>
+	<Width>26</Width>
+	<Height>19</Height>
+	<Mask>0:0 1:10 0:68 1:5 0:21 1:4 0:22 1:3 0:23 1:2 0:24 1:2 0:24 1:1 0:24 1:1 0:20 1:6 0:19 1:7 0:17 1:9 0:15 1:11 0:13 1:13 0:11 1:15 0:10 1:16 0:8 1:19 0:3 1:48</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___114">
+	<Id>114</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>256</Top>
+	<Left>1679</Left>
+	<Width>21</Width>
+	<Height>26</Height>
+	<Mask>0:0 1:12 0:1 1:17 0:6 1:2 0:2 1:11 0:11 1:9 0:13 1:7 0:14 1:6 0:15 1:5 0:16 1:5 0:16 1:3 0:141 1:3 0:18 1:4 0:17 1:4 0:16 1:5 0:15 1:5 0:15 1:6 0:14 1:7 0:13 1:8 0:11 1:10 0:9 1:12 0:6 1:15 0:6 1:15</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___115">
+	<Id>115</Id>
+	<ClassName>hairpin-decr</ClassName>
+	<Top>304</Top>
+	<Left>1357</Left>
+	<Width>255</Width>
+	<Height>37</Height>
+	<Mask>0:0 1:4 0:3 1:5 0:6 1:95 0:7 1:118 0:6 1:15 0:14 1:95 0:7 1:118 0:6 1:14 0:15 1:95 0:7 1:118 0:6 1:13 0:24 1:3 0:1 1:83 0:7 1:118 0:6 1:14 0:41 1:69 0:7 1:118 0:6 1:15 0:49 1:60 0:7 1:117 0:7 1:16 0:56 1:2 0:5 1:45 0:7 1:117 0:7 1:18 0:76 1:30 0:6 1:118 0:7 1:22 0:78 1:2 0:2 1:20 0:6 1:118 0:7 1:23 0:6 1:6 0:77 1:11 0:8 1:118 0:6 1:23 0:6 1:24 0:79 1:3 0:1 1:113 0:6 1:23 0:6 1:32 0:82 1:105 0:7 1:22 0:7 1:53 0:3 1:3 0:66 1:2 0:2 1:3 0:1 1:86 0:7 1:21 0:8 1:67 0:78 1:11 0:12 1:51 0:7 1:22 0:7 1:75 0:104 1:40 0:7 1:22 0:7 1:88 0:104 1:4 0:2 1:21 0:7 1:22 0:7 1:108 0:119 1:2 0:1 1:18 0:7 1:114 0:123 1:12 0:1 1:2 0:2 1:124 0:114 1:141 0:114 1:125 0:130 1:120 0:1 1:2 0:63 1:24 0:6 1:2 0:4 1:5 0:8 1:2 0:18 1:117 0:57 1:63 0:7 1:108 0:2 1:5 0:58 1:7 0:1 1:69 0:4 1:96 0:3 1:3 0:61 1:90 0:1 1:79 0:1 1:5 0:1 1:5 0:67 1:171 0:71 1:167 0:82 1:162 0:86 1:162 0:83 1:2 0:1 1:160 0:79 1:160 0:2 1:7 0:73 1:2 0:1 1:169 0:67 1:188 0:58 1:197 0:43 1:3 0:3 1:206 0:29 1:2 0:4 1:220 0:25 1:230</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___116">
+	<Id>116</Id>
+	<ClassName>flat</ClassName>
+	<Top>168</Top>
+	<Left>350</Left>
+	<Width>25</Width>
+	<Height>46</Height>
+	<Mask>0:0 1:52 0:3 1:22 0:3 1:22 0:4 1:21 0:4 1:20 0:5 1:20 0:5 1:20 0:5 1:20 0:5 1:20 0:6 1:18 0:50 1:1 0:5 1:3 0:22 1:3 0:165 1:1 0:6 1:7 0:10 1:2 0:6 1:7 0:8 1:4 0:6 1:6 0:8 1:5 0:6 1:6 0:7 1:6 0:6 1:5 0:7 1:7 0:6 1:4 0:7 1:8 0:5 1:4 0:8 1:8 0:5 1:3 0:8 1:9 0:5 1:2 0:8 1:10 0:14 1:11 0:14 1:11 0:13 1:12 0:11 1:14 0:11 1:14 0:10 1:15 0:9 1:16 0:9 1:16 0:8 1:17 0:7 1:18 0:57 1:18 0:6 1:19 0:4 1:46</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___117">
+	<Id>117</Id>
+	<ClassName>stem</ClassName>
+	<Top>181</Top>
+	<Left>1793</Left>
+	<Width>10</Width>
+	<Height>90</Height>
+	<Mask>0:0 1:16 0:2 1:8 0:3 1:6 0:5 1:5 0:5 1:6 0:4 1:6 0:4 1:6 0:4 1:5 0:5 1:6 0:4 1:6 0:4 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:4 0:6 1:4 0:6 1:5 0:5 1:5 0:5 1:4 0:6 1:4 0:26 1:5 0:4 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:4 0:6 1:4 0:6 1:5 0:5 1:5 0:5 1:5 0:5 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:3 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:2 0:20 1:2 0:6 1:3 0:7 1:3 0:7 1:2 0:8 1:2 0:69 1:1 0:9 1:1 0:8 1:2 0:8 1:2 0:8 1:2 0:7 1:3 0:7 1:4 0:7 1:3 0:7 1:2 0:67 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:8 1:2 0:7 1:3</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___118">
+	<Id>118</Id>
+	<ClassName>stem</ClassName>
+	<Top>148</Top>
+	<Left>1487</Left>
+	<Width>13</Width>
+	<Height>85</Height>
+	<Mask>0:0 1:7 0:6 1:6 0:33 1:7 0:5 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:6 0:7 1:6 0:7 1:6 0:6 1:7 0:6 1:7 0:6 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:6 1:7 0:6 1:7 0:6 1:6 0:7 1:3 0:26 1:3 0:7 1:6 0:7 1:5 0:8 1:5 0:7 1:7 0:6 1:7 0:6 1:7 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:7 0:6 1:6 0:7 1:5 0:8 1:6 0:7 1:5 0:8 1:3 0:10 1:3 0:10 1:3 0:9 1:4 0:9 1:4 0:9 1:4 0:9 1:4 0:9 1:4 0:9 1:4 0:35 1:4 0:9 1:4 0:9 1:4 0:9 1:4 0:9 1:4 0:9 1:4 0:8 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:6 0:7 1:5 0:8 1:5 0:8 1:5 0:8 1:5 0:8 1:5 0:8 1:5</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___119">
+	<Id>119</Id>
+	<ClassName>duration-dot</ClassName>
+	<Top>234</Top>
+	<Left>1088</Left>
+	<Width>7</Width>
+	<Height>8</Height>
+	<Mask>0:0 1:9 0:4 1:1 0:34 1:2 0:4 1:2</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___120">
+	<Id>120</Id>
+	<ClassName>duration-dot</ClassName>
+	<Top>282</Top>
+	<Left>2295</Left>
+	<Width>6</Width>
+	<Height>8</Height>
+	<Mask>0:0 1:8 0:2 1:4 0:3 1:2 0:11 1:1 0:5 1:1 0:5 1:2 0:4</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___121">
+	<Id>121</Id>
+	<ClassName>stem</ClassName>
+	<Top>195</Top>
+	<Left>737</Left>
+	<Width>9</Width>
+	<Height>60</Height>
+	<Mask>0:0 1:21 0:2 1:5 0:4 1:5 0:4 1:5 0:5 1:4 0:5 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:25 1:2 0:7 1:3 0:5 1:4 0:5 1:3 0:6 1:3 0:6 1:3 0:6 1:4 0:5 1:4 0:6 1:3 0:6 1:3 0:6 1:3 0:7 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:1 0:18 1:2 0:6 1:3 0:6 1:2 0:7 1:2 0:7 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:7 1:2 0:7 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:7 1:2 0:7 1:2 0:7 1:1 0:8 1:1 0:8 1:1 0:8 1:1</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___122">
+	<Id>122</Id>
+	<ClassName>stem</ClassName>
+	<Top>130</Top>
+	<Left>1431</Left>
+	<Width>16</Width>
+	<Height>89</Height>
+	<Mask>0:0 1:2 0:14 1:6 0:10 1:10 0:6 1:12 0:4 1:12 0:4 1:11 0:5 1:11 0:5 1:10 0:6 1:10 0:6 1:11 0:5 1:11 0:5 1:10 0:6 1:10 0:6 1:9 0:7 1:9 0:7 1:9 0:7 1:10 0:6 1:9 0:6 1:10 0:6 1:9 0:7 1:1 0:32 1:8 0:6 1:10 0:6 1:10 0:6 1:10 0:6 1:10 0:6 1:10 0:6 1:10 0:6 1:10 0:6 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:6 1:10 0:6 1:9 0:7 1:9 0:7 1:9 0:6 1:10 0:6 1:10 0:6 1:10 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:6 1:10 0:6 1:4 0:32 1:6 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:8 0:8 1:7 0:9 1:5 0:11 1:4 0:12 1:3 0:13 1:3 0:13 1:3 0:12 1:4 0:12 1:4 0:13 1:3 0:13 1:3 0:13 1:3 0:12 1:4 0:12 1:4 0:12 1:4 0:12 1:4 0:12 1:4 0:12 1:4 0:12 1:4 0:2 1:3 0:7 1:4 0:1 1:4 0:7 1:9 0:7 1:4 0:32 1:5 0:6 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:8 1:8 0:9 1:4 0:12 1:3</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___123">
+	<Id>123</Id>
+	<ClassName>flat</ClassName>
+	<Top>151</Top>
+	<Left>311</Left>
+	<Width>29</Width>
+	<Height>48</Height>
+	<Mask>0:0 1:2 0:14 1:2 0:11 1:3 0:4 1:21 0:1 1:3 0:3 1:25 0:4 1:25 0:4 1:25 0:5 1:25 0:4 1:25 0:4 1:24 0:5 1:24 0:5 1:24 0:5 1:25 0:5 1:24 0:5 1:24 0:4 1:25 0:4 1:25 0:4 1:15 0:2 1:8 0:4 1:3 0:17 1:5 0:25 1:3 0:27 1:2 0:27 1:2 0:27 1:2 0:26 1:3 0:25 1:4 0:6 1:8 0:10 1:5 0:6 1:9 0:8 1:5 0:6 1:9 0:9 1:5 0:6 1:8 0:8 1:8 0:5 1:7 0:8 1:7 0:58 1:1 0:6 1:4 0:8 1:12 0:5 1:4 0:7 1:12 0:6 1:4 0:6 1:13 0:6 1:2 0:8 1:13 0:6 1:2 0:8 1:13 0:15 1:14 0:14 1:15 0:13 1:16 0:12 1:17 0:12 1:17 0:11 1:18 0:10 1:19 0:9 1:20 0:8 1:21 0:7 1:22 0:6 1:23 0:6 1:23 0:5 1:23</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___124">
+	<Id>124</Id>
+	<ClassName>beam</ClassName>
+	<Top>164</Top>
+	<Left>3031</Left>
+	<Width>43</Width>
+	<Height>11</Height>
+	<Mask>0:0 1:38 0:5 1:38 0:5 1:22 0:2 1:8 0:11 1:13 0:257 1:27 0:8 1:35 0:4</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___125">
+	<Id>125</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>225</Top>
+	<Left>2874</Left>
+	<Width>23</Width>
+	<Height>23</Height>
+	<Mask>0:0 1:18 0:5 1:15 0:8 1:11 0:12 1:9 0:14 1:8 0:15 1:7 0:16 1:6 0:17 1:5 0:18 1:4 0:65 1:3 0:20 1:2 0:21 1:1 0:22 1:1 0:160 1:1 0:14 1:2 0:6 1:1 0:12 1:4 0:6</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___126">
+	<Id>126</Id>
+	<ClassName>letter_e</ClassName>
+	<Top>59</Top>
+	<Left>413</Left>
+	<Width>33</Width>
+	<Height>27</Height>
+	<Mask>0:0 1:18 0:10 1:20 0:16 1:15 0:19 1:13 0:20 1:11 0:23 1:9 0:24 1:2 0:31 1:1 0:32 1:1 0:31 1:1 0:31 1:2 0:27 1:7 0:23 1:12 0:15 1:19 0:10 1:23 0:9 1:24 0:8 1:25 0:9 1:19 0:1 1:5 0:10 1:14 0:4 1:5 0:15 1:4 0:9 1:6 0:27 1:6 0:27 1:7 0:26 1:8 0:25 1:9 0:21 1:14 0:16 1:24 0:6 1:42</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___127">
+	<Id>127</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>229</Top>
+	<Left>3129</Left>
+	<Width>19</Width>
+	<Height>18</Height>
+	<Mask>0:0 1:10 0:9 1:9 0:10 1:8 0:11 1:6 0:13 1:5 0:14 1:4 0:53 1:3 0:16 1:2 0:17 1:2 0:17 1:1 0:87 1:3 0:13 1:6 0:12 1:7 0:4</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___128">
+	<Id>128</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>263</Top>
+	<Left>2257</Left>
+	<Width>44</Width>
+	<Height>8</Height>
+	<Mask>0:0 1:73 0:2 1:3 0:9 1:19 0:3 1:2 0:21 1:5 0:39 1:3 0:41 1:2 0:42 1:3 0:41 1:3 0:35 1:6</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___129">
+	<Id>129</Id>
+	<ClassName>stem</ClassName>
+	<Top>157</Top>
+	<Left>514</Left>
+	<Width>9</Width>
+	<Height>80</Height>
+	<Mask>0:0 1:24 0:2 1:6 0:3 1:6 0:3 1:5 0:4 1:5 0:4 1:4 0:6 1:4 0:5 1:4 0:5 1:4 0:5 1:4 0:5 1:4 0:5 1:4 0:5 1:3 0:6 1:3 0:6 1:4 0:5 1:4 0:4 1:4 0:5 1:4 0:6 1:3 0:6 1:3 0:24 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:5 1:3 0:6 1:4 0:5 1:4 0:6 1:3 0:6 1:3 0:5 1:4 0:5 1:4 0:5 1:4 0:6 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:7 1:2 0:7 1:2 0:6 1:3 0:6 1:3 0:6 1:4 0:6 1:1 0:18 1:2 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:7 1:2 0:7 1:2 0:6 1:3 0:6 1:3 0:7 1:2 0:6 1:3 0:6 1:3 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:1 0:8 1:1 0:8 1:1 0:8 1:1 0:8 1:1 0:8 1:1 0:8 1:1 0:36</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___130">
+	<Id>130</Id>
+	<ClassName>stem</ClassName>
+	<Top>167</Top>
+	<Left>461</Left>
+	<Width>9</Width>
+	<Height>86</Height>
+	<Mask>0:0 1:21 0:2 1:7 0:3 1:6 0:3 1:5 0:5 1:4 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:1 0:18 1:2 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:3 0:6 1:3 0:6 1:2 0:7 1:3 0:6 1:3 0:6 1:3 0:7 1:2 0:7 1:2 0:7 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:25 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:7 1:3 0:6 1:3 0:6 1:2 0:7 1:2 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:1 0:7 1:2 0:9 1:1 0:14 1:3 0:6 1:3 0:7 1:2 0:7 1:2 0:7 1:2 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:5 1:4</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___131">
+	<Id>131</Id>
+	<ClassName>stem</ClassName>
+	<Top>173</Top>
+	<Left>1694</Left>
+	<Width>9</Width>
+	<Height>58</Height>
+	<Mask>0:0 1:4 0:3 1:6 0:3 1:5 0:5 1:4 0:6 1:3 0:5 1:1 0:18 1:3 0:5 1:3 0:6 1:3 0:6 1:3 0:5 1:4 0:5 1:4 0:6 1:3 0:6 1:3 0:6 1:4 0:5 1:4 0:5 1:3 0:6 1:3 0:6 1:3 0:6 1:4 0:5 1:4 0:6 1:2 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:5 1:2 0:18 1:2 0:5 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:4 0:5 1:4 0:5 1:3 0:6 1:3 0:6 1:2 0:7 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:7 1:2 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:7 1:2 0:8 1:1 0:8 1:1 0:8 1:1</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___132">
+	<Id>132</Id>
+	<ClassName>dynamics_text</ClassName>
+	<Top>280</Top>
+	<Left>2867</Left>
+	<Width>81</Width>
+	<Height>62</Height>
+	<Mask>0:0 1:317 0:4 1:74 0:8 1:72 0:10 1:70 0:11 1:69 0:12 1:68 0:13 1:68 0:13 1:68 0:7 1:2 0:5 1:66 0:6 1:4 0:4 1:67 0:6 1:4 0:4 1:66 0:7 1:5 0:4 1:65 0:6 1:6 0:4 1:65 0:6 1:6 0:4 1:64 0:6 1:7 0:4 1:13 0:4 1:47 0:6 1:8 0:2 1:13 0:6 1:12 0:5 1:6 0:9 1:14 0:6 1:9 0:1 1:11 0:9 1:9 0:7 1:4 0:12 1:12 0:6 1:20 0:11 1:9 0:8 1:2 0:13 1:12 0:6 1:20 0:11 1:8 0:25 1:11 0:6 1:19 0:13 1:6 0:27 1:9 0:7 1:18 0:14 1:5 0:28 1:9 0:9 1:15 0:15 1:4 0:49 1:13 0:6 1:4 0:5 1:3 0:20 1:2 0:28 1:12 0:7 1:4 0:14 1:3 0:9 1:4 0:28 1:12 0:6 1:5 0:13 1:4 0:8 1:5 0:27 1:12 0:5 1:7 0:13 1:3 0:8 1:6 0:26 1:13 0:4 1:8 0:11 1:5 0:8 1:6 0:22 1:16 0:5 1:8 0:11 1:5 0:7 1:7 0:13 1:2 0:7 1:16 0:5 1:9 0:9 1:6 0:7 1:6 0:8 1:8 0:7 1:15 0:6 1:9 0:9 1:6 0:7 1:6 0:7 1:9 0:6 1:16 0:6 1:9 0:8 1:7 0:6 1:7 0:7 1:9 0:6 1:15 0:7 1:9 0:7 1:7 0:7 1:7 0:7 1:8 0:6 1:16 0:7 1:8 0:8 1:7 0:7 1:6 0:8 1:8 0:6 1:17 0:6 1:8 0:7 1:8 0:7 1:6 0:7 1:9 0:6 1:17 0:5 1:9 0:7 1:7 0:8 1:6 0:6 1:10 0:6 1:19 0:2 1:10 0:7 1:7 0:8 1:6 0:6 1:9 0:6 1:32 0:7 1:7 0:8 1:6 0:5 1:10 0:6 1:32 0:7 1:8 0:6 1:8 0:3 1:10 0:7 1:32 0:6 1:10 0:4 1:22 0:7 1:34 0:4 1:36 0:6 1:74 0:7 1:73 0:7 1:74 0:7 1:74 0:6 1:74 0:7 1:74 0:6 1:64 0:2 1:8 0:7 1:64 0:2 1:7 0:8 1:63 0:4 1:6 0:8 1:62 0:5 1:4 0:9 1:63 0:6 1:2 0:9 1:64 0:6 1:2 0:8 1:66 0:15 1:66 0:14 1:67 0:13 1:68 0:12 1:70 0:9 1:74 0:6 1:111</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___133">
+	<Id>133</Id>
+	<ClassName>letter_c</ClassName>
+	<Top>300</Top>
+	<Left>1930</Left>
+	<Width>34</Width>
+	<Height>28</Height>
+	<Mask>0:1 1:33 0:3 1:18 0:3 1:10 0:3 1:12 0:12 1:7 0:4 1:9 0:15 1:6 0:4 1:8 0:17 1:5 0:4 1:6 0:19 1:5 0:4 1:5 0:21 1:4 0:4 1:4 0:22 1:5 0:3 1:3 0:24 1:4 0:3 1:2 0:11 1:8 0:6 1:3 0:14 1:12 0:5 1:3 0:13 1:13 0:5 1:3 0:11 1:17 0:3 1:3 0:11 1:23 0:10 1:24 0:9 1:25 0:9 1:25 0:9 1:25 0:9 1:15 0:3 1:7 0:10 1:11 0:6 1:7 0:12 1:8 0:7 1:6 0:28 1:5 0:29 1:5 0:2 1:2 0:24 1:5 0:3 1:3 0:22 1:6 0:3 1:5 0:19 1:16 0:16 1:21 0:8 1:17</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___134">
+	<Id>134</Id>
+	<ClassName>letter_s</ClassName>
+	<Top>305</Top>
+	<Left>507</Left>
+	<Width>25</Width>
+	<Height>22</Height>
+	<Mask>0:0 1:13 0:2 1:5 0:5 1:11 0:7 1:3 0:4 1:8 0:11 1:4 0:2 1:7 0:12 1:4 0:3 1:5 0:21 1:3 0:15 1:2 0:5 1:3 0:15 1:2 0:5 1:3 0:7 1:5 0:10 1:3 0:7 1:7 0:8 1:3 0:8 1:7 0:8 1:2 0:9 1:6 0:8 1:3 0:9 1:5 0:9 1:3 0:9 1:4 0:9 1:4 0:9 1:3 0:10 1:4 0:9 1:2 0:11 1:3 0:9 1:2 0:23 1:2 0:23 1:3 0:23 1:3 0:3 1:1 0:17 1:6 0:1 1:2 0:15 1:13 0:11 1:9</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___135">
+	<Id>135</Id>
+	<ClassName>letter_p</ClassName>
+	<Top>56</Top>
+	<Left>481</Left>
+	<Width>33</Width>
+	<Height>46</Height>
+	<Mask>0:0 1:8 0:9 1:16 0:1 1:5 0:14 1:13 0:1 1:5 0:18 1:9 0:2 1:3 0:22 1:6 0:2 1:3 0:23 1:5 0:3 1:2 0:24 1:4 0:29 1:4 0:10 1:9 0:11 1:3 0:10 1:12 0:8 1:3 0:3 1:2 0:6 1:11 0:9 1:1 0:4 1:2 0:6 1:11 0:14 1:2 0:6 1:11 0:22 1:10 0:23 1:10 0:23 1:8 0:25 1:5 0:16 1:1 0:12 1:2 0:18 1:1 0:89 1:2 0:29 1:5 0:27 1:6 0:23 1:11 0:20 1:14 0:17 1:17 0:16 1:23 0:1 1:2 0:7 1:26 0:7 1:26 0:6 1:26 0:7 1:27 0:6 1:27 0:6 1:27 0:6 1:26 0:7 1:26 0:7 1:26 0:7 1:26 0:7 1:26 0:7 1:27 0:6 1:27 0:6 1:26 0:7 1:26 0:8 1:26 0:7 1:26 0:7 1:26 0:7 1:26 0:7 1:21</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___136">
+	<Id>136</Id>
+	<ClassName>stem</ClassName>
+	<Top>284</Top>
+	<Left>2355</Left>
+	<Width>12</Width>
+	<Height>30</Height>
+	<Mask>0:0 1:5 0:7 1:5 0:7 1:4 0:8 1:4 0:8 1:4 0:7 1:5 0:7 1:5 0:7 1:5 0:6 1:6 0:6 1:5 0:7 1:5 0:7 1:5 0:7 1:3 0:9 1:2 0:10 1:2 0:11 1:1 0:10 1:2 0:10 1:2 0:10 1:2 0:10 1:3 0:9 1:4 0:8 1:4 0:8 1:4 0:7 1:5 0:7 1:5 0:10 1:2 0:8 1:4 0:9 1:3 0:34</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___137">
+	<Id>137</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>249</Top>
+	<Left>1003</Left>
+	<Width>20</Width>
+	<Height>24</Height>
+	<Mask>0:0 1:13 0:7 1:11 0:9 1:9 0:11 1:8 0:12 1:7 0:13 1:6 0:14 1:5 0:15 1:4 0:16 1:4 0:16 1:3 0:17 1:3 0:17 1:3 0:17 1:2 0:137 1:1 0:18 1:3 0:17 1:3 0:12 1:8 0:11 1:10 0:8 1:10</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___138">
+	<Id>138</Id>
+	<ClassName>stem</ClassName>
+	<Top>277</Top>
+	<Left>1470</Left>
+	<Width>9</Width>
+	<Height>38</Height>
+	<Mask>0:0 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:7 1:3 0:6 1:3 0:6 1:2 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:7 1:2 0:6 1:3 0:6 1:3 0:7 1:2 0:8 1:1</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___139">
+	<Id>139</Id>
+	<ClassName>stem</ClassName>
+	<Top>167</Top>
+	<Left>1865</Left>
+	<Width>10</Width>
+	<Height>93</Height>
+	<Mask>0:0 1:5 0:3 1:6 0:5 1:5 0:5 1:5 0:6 1:4 0:6 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:27 1:4 0:4 1:5 0:6 1:3 0:6 1:4 0:6 1:5 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:3 0:7 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:1 0:20 1:2 0:6 1:3 0:7 1:4 0:6 1:4 0:6 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:6 1:4 0:6 1:3 0:7 1:3 0:7 1:4 0:6 1:4 0:6 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:6 1:4 0:6 1:4 0:6 1:4 0:7 1:3 0:6 1:4 0:6 1:4 0:26 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:69 1:1 0:5 1:5</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___140">
+	<Id>140</Id>
+	<ClassName>stem</ClassName>
+	<Top>157</Top>
+	<Left>1196</Left>
+	<Width>12</Width>
+	<Height>120</Height>
+	<Mask>0:0 1:40 0:3 1:9 0:4 1:7 0:5 1:7 0:6 1:6 0:6 1:5 0:7 1:6 0:5 1:7 0:5 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:4 0:24 1:3 0:5 1:7 0:5 1:6 0:6 1:6 0:6 1:5 0:7 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:7 1:5 0:8 1:4 0:10 1:1 0:96 1:2 0:4 1:2 0:4 1:2 0:4 1:2 0:26 1:1 0:11 1:1 0:10 1:2 0:9 1:3 0:9 1:3 0:9 1:3 0:9 1:3 0:9 1:3 0:9 1:5 0:8 1:4 0:8 1:4 0:7 1:5 0:7 1:5 0:8 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:3 0:9 1:2 0:11 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:34 1:2 0:10 1:2 0:10 1:2 0:10 1:2 0:10 1:2 0:10 1:2 0:10 1:2 0:11 1:1 0:11 1:1 0:1 1:2 0:8 1:5 0:7 1:5 0:6 1:5 0:7 1:5 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:10 1:2 0:10 1:2 0:10 1:2 0:11 1:1 0:11 1:1 0:94 1:2 0:9 1:3 0:8 1:4 0:2 1:3 0:2 1:41</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___141">
+	<Id>141</Id>
+	<ClassName>letter_d</ClassName>
+	<Top>37</Top>
+	<Left>578</Left>
+	<Width>30</Width>
+	<Height>46</Height>
+	<Mask>0:0 1:89 0:1 1:27 0:3 1:27 0:3 1:27 0:3 1:26 0:4 1:26 0:4 1:26 0:4 1:25 0:5 1:25 0:5 1:24 0:6 1:24 0:6 1:24 0:6 1:24 0:6 1:24 0:6 1:24 0:6 1:24 0:6 1:24 0:5 1:25 0:6 1:24 0:6 1:23 0:7 1:23 0:7 1:23 0:7 1:23 0:6 1:24 0:6 1:24 0:6 1:21 0:10 1:15 0:15 1:14 0:16 1:10 0:20 1:8 0:22 1:6 0:24 1:5 0:15 1:3 0:7 1:4 0:12 1:7 0:7 1:3 0:10 1:10 0:6 1:3 0:10 1:11 0:7 1:2 0:11 1:8 0:9 1:1 0:29 1:2 0:28 1:2 0:28 1:2 0:28 1:3 0:27 1:5 0:25 1:7 0:23 1:24 0:6</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___142">
+	<Id>142</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>228</Top>
+	<Left>558</Left>
+	<Width>23</Width>
+	<Height>17</Height>
+	<Mask>0:0 1:17 0:6 1:13 0:10 1:8 0:15 1:8 0:15 1:5 0:18 1:3 0:20 1:3 0:20 1:2 0:135 1:1 0:21 1:2 0:18 1:5 0:15 1:8 0:9 1:14</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___143">
+	<Id>143</Id>
+	<ClassName>letter_i</ClassName>
+	<Top>48</Top>
+	<Left>610</Left>
+	<Width>13</Width>
+	<Height>37</Height>
+	<Mask>0:0 1:34 0:4 1:9 0:5 1:7 0:6 1:7 0:6 1:8 0:4 1:10 0:3 1:86 0:2 1:10 0:3 1:10 0:3 1:9 0:4 1:4 0:1 1:3 0:5 1:4 0:1 1:3 0:5 1:4 0:1 1:3 0:5 1:4 0:1 1:3 0:6 1:3 0:1 1:3 0:6 1:7 0:6 1:7 0:6 1:7 0:6 1:7 0:7 1:6 0:7 1:7 0:7 1:6 0:7 1:6 0:7 1:7 0:6 1:7 0:6 1:7 0:6 1:8 0:5 1:8 0:5 1:9 0:2 1:3</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___144">
+	<Id>144</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>251</Top>
+	<Left>1837</Left>
+	<Width>54</Width>
+	<Height>10</Height>
+	<Mask>0:0 1:11 0:22 1:32 0:28 1:2 0:8 1:13 0:1 1:2 0:39 1:6 0:49 1:5 0:49 1:4 0:50 1:4 0:50 1:4 0:36 1:2 0:3 1:4 0:3 1:7 0:31 1:25 0:7 1:7 0:15 1:21</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___145">
+	<Id>145</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>260</Top>
+	<Left>2060</Left>
+	<Width>30</Width>
+	<Height>16</Height>
+	<Mask>0:1 1:13 0:1 1:5 0:7 1:17 0:13 1:14 0:16 1:14 0:17 1:10 0:20 1:7 0:23 1:6 0:24 1:5 0:24 1:5 0:25 1:4 0:26 1:3 0:26 1:4 0:26 1:4 0:26 1:4 0:18 1:2 0:6 1:4 0:16 1:4 0:6 1:4 0:11 1:9 0:6 1:4</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___146">
+	<Id>146</Id>
+	<ClassName>stem</ClassName>
+	<Top>147</Top>
+	<Left>2977</Left>
+	<Width>15</Width>
+	<Height>116</Height>
+	<Mask>0:0 1:9 0:6 1:6 0:39 1:5 0:10 1:5 0:10 1:5 0:10 1:5 0:7 1:8 0:6 1:9 0:6 1:9 0:6 1:10 0:5 1:10 0:5 1:10 0:5 1:10 0:5 1:9 0:6 1:9 0:6 1:10 0:5 1:10 0:5 1:9 0:6 1:10 0:5 1:10 0:5 1:10 0:5 1:10 0:6 1:9 0:6 1:9 0:6 1:10 0:6 1:9 0:5 1:10 0:5 1:10 0:5 1:10 0:5 1:3 0:30 1:7 0:5 1:9 0:7 1:9 0:6 1:9 0:6 1:8 0:7 1:8 0:7 1:9 0:6 1:9 0:6 1:9 0:6 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:6 1:9 0:6 1:9 0:6 1:7 0:8 1:3 0:12 1:3 0:12 1:3 0:12 1:3 0:13 1:2 0:13 1:2 0:13 1:2 0:13 1:2 0:14 1:1 0:44 1:1 0:14 1:1 0:13 1:2 0:12 1:3 0:11 1:4 0:11 1:4 0:11 1:4 0:1 1:3 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:7 0:8 1:7 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:6 0:8 1:6 0:9 1:6 0:9 1:6 0:9 1:6 0:9 1:6 0:10 1:5 0:10 1:5 0:39 1:6 0:8 1:7 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:6 1:9 0:6 1:9 0:7 1:8 0:7 1:8 0:7 1:8 0:7 1:8 0:6 1:9 0:6 1:9 0:8 1:7 0:12 1:3 0:12 1:3 0:12 1:3 0:12 1:3 0:12 1:3</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___147">
+	<Id>147</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>226</Top>
+	<Left>1261</Left>
+	<Width>19</Width>
+	<Height>21</Height>
+	<Mask>0:0 1:11 0:6 1:12 0:7 1:11 0:9 1:9 0:11 1:7 0:12 1:6 0:13 1:6 0:13 1:5 0:14 1:4 0:53 1:3 0:16 1:2 0:16 1:2 0:17 1:2 0:16 1:3 0:16 1:3 0:16 1:3 0:16 1:4 0:15 1:4 0:16 1:2 0:16 1:2</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___148">
+	<Id>148</Id>
+	<ClassName>letter_a</ClassName>
+	<Top>54</Top>
+	<Left>695</Left>
+	<Width>31</Width>
+	<Height>27</Height>
+	<Mask>0:0 1:13 0:16 1:12 0:20 1:10 0:22 1:8 0:23 1:7 0:14 1:3 0:7 1:6 0:12 1:6 0:7 1:5 0:10 1:9 0:7 1:4 0:9 1:11 0:7 1:3 0:8 1:12 0:7 1:3 0:8 1:13 0:7 1:3 0:7 1:13 0:8 1:2 0:8 1:13 0:7 1:3 0:7 1:14 0:7 1:3 0:6 1:14 0:8 1:3 0:6 1:12 0:10 1:2 0:7 1:11 0:11 1:2 0:8 1:6 0:15 1:2 0:29 1:2 0:29 1:2 0:31 1:1 0:19 1:1 0:10 1:2 0:17 1:2 0:10 1:4 0:12 1:6 0:9 1:9 0:4 1:10 0:8 1:23 0:8 1:24 0:7 1:26 0:5</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___149">
+	<Id>149</Id>
+	<ClassName>letter_c</ClassName>
+	<Top>305</Top>
+	<Left>1844</Left>
+	<Width>27</Width>
+	<Height>25</Height>
+	<Mask>0:0 1:46 0:7 1:16 0:11 1:15 0:13 1:11 0:16 1:10 0:17 1:9 0:17 1:9 0:11 1:15 0:11 1:15 0:8 1:12 0:1 1:5 0:9 1:10 0:3 1:5 0:7 1:12 0:3 1:3 0:8 1:12 0:4 1:2 0:7 1:11 0:7 1:1 0:8 1:10 0:8 1:1 0:7 1:9 0:17 1:7 0:20 1:5 0:63 1:2 0:23 1:4 0:22 1:5 0:19 1:7 0:5 1:1 0:12 1:11 0:3 1:8 0:1 1:15 0:3</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___150">
+	<Id>150</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>250</Top>
+	<Left>3038</Left>
+	<Width>28</Width>
+	<Height>21</Height>
+	<Mask>0:0 1:25 0:3 1:25 0:3 1:16 0:3 1:2 0:7 1:15 0:13 1:14 0:14 1:12 0:16 1:10 0:18 1:9 0:19 1:8 0:21 1:6 0:157 1:4 0:23 1:5 0:22 1:10 0:17 1:11 0:14 1:14 0:12 1:18 0:6 1:16</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___151">
+	<Id>151</Id>
+	<ClassName>half_rest</ClassName>
+	<Top>164</Top>
+	<Left>2632</Left>
+	<Width>38</Width>
+	<Height>20</Height>
+	<Mask>0:0 1:69 0:5 1:5 0:5 1:2 0:5 1:3 0:2 1:2 0:14 1:5 0:34 1:3 0:36 1:2 0:35 1:2 0:36 1:2 0:37 1:2 0:36 1:3 0:35 1:3 0:35 1:3 0:35 1:3 0:35 1:3 0:101 1:5 0:5 1:4 0:21 1:17 0:11 1:28 0:7 1:32 0:1 1:31</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___152">
+	<Id>152</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>256</Top>
+	<Left>1050</Left>
+	<Width>38</Width>
+	<Height>10</Height>
+	<Mask>0:0 1:12 0:20 1:17 0:21 1:17 0:24 1:12 0:27 1:3 0:36 1:1 0:37 1:1 0:36 1:2 0:35 1:3 0:33 1:5 0:21 1:5 0:3 1:9</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___153">
+	<Id>153</Id>
+	<ClassName>letter_a</ClassName>
+	<Top>46</Top>
+	<Left>797</Left>
+	<Width>42</Width>
+	<Height>28</Height>
+	<Mask>0:0 1:54 0:6 1:34 0:10 1:30 0:12 1:29 0:16 1:25 0:18 1:24 0:19 1:22 0:9 1:2 0:9 1:21 0:8 1:4 0:9 1:20 0:8 1:5 0:9 1:20 0:7 1:6 0:10 1:18 0:7 1:7 0:10 1:14 0:1 1:3 0:6 1:8 0:10 1:13 0:2 1:2 0:7 1:8 0:10 1:13 0:3 1:1 0:6 1:9 0:10 1:12 0:4 1:1 0:6 1:9 0:10 1:11 0:5 1:1 0:6 1:9 0:10 1:11 0:5 1:1 0:6 1:9 0:10 1:11 0:5 1:1 0:6 1:9 0:10 1:11 0:5 1:1 0:6 1:9 0:9 1:11 0:5 1:1 0:7 1:9 0:9 1:10 0:6 1:1 0:8 1:8 0:9 1:8 0:7 1:2 0:39 1:4 0:38 1:4 0:38 1:5 0:36 1:8 0:32 1:11 0:13 1:2 0:15 1:7</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___154">
+	<Id>154</Id>
+	<ClassName>letter_e</ClassName>
+	<Top>305</Top>
+	<Left>542</Left>
+	<Width>24</Width>
+	<Height>22</Height>
+	<Mask>0:4 1:13 0:1 1:6 0:3 1:9 0:9 1:13 0:12 1:6 0:2 1:2 0:15 1:4 0:21 1:3 0:21 1:2 0:22 1:2 0:22 1:1 0:91 1:2 0:21 1:3 0:17 1:2 0:2 1:2 0:12 1:8 0:16 1:6 0:57 1:2 0:22 1:4 0:20 1:5 0:12 1:3 0:3 1:7 0:7 1:11</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___155">
+	<Id>155</Id>
+	<ClassName>letter_s</ClassName>
+	<Top>299</Top>
+	<Left>1913</Left>
+	<Width>25</Width>
+	<Height>27</Height>
+	<Mask>0:0 1:8 0:6 1:18 0:11 1:12 0:15 1:8 0:17 1:8 0:18 1:7 0:18 1:6 0:19 1:6 0:8 1:6 0:5 1:6 0:8 1:7 0:4 1:6 0:10 1:6 0:3 1:3 0:16 1:3 0:3 1:2 0:3 1:2 0:22 1:3 0:22 1:6 0:19 1:7 0:18 1:8 0:17 1:12 0:13 1:3 0:4 1:6 0:12 1:3 0:4 1:6 0:12 1:2 0:6 1:5 0:12 1:1 0:24 1:1 0:24 1:1 0:24 1:1 0:24 1:1 0:16 1:2 0:6 1:2 0:13 1:5 0:5 1:9 0:1 1:12 0:3</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___156">
+	<Id>156</Id>
+	<ClassName>beam</ClassName>
+	<Top>307</Top>
+	<Left>2507</Left>
+	<Width>37</Width>
+	<Height>11</Height>
+	<Mask>0:0 1:29 0:1 1:2 0:5 1:23 0:14 1:21 0:16 1:14 0:23 1:7 0:30 1:3 0:34 1:2 0:30 1:3 0:25 1:12 0:21 1:16 0:2 1:1 0:12 1:21 0:3 1:2 0:5 1:26 0:4</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___157">
+	<Id>157</Id>
+	<ClassName>beam</ClassName>
+	<Top>185</Top>
+	<Left>1904</Left>
+	<Width>35</Width>
+	<Height>11</Height>
+	<Mask>0:0 1:31 0:4 1:30 0:5 1:20 0:15 1:12 0:23 1:2 0:33 1:1 0:104 1:1 0:34 1:2 0:11 1:16 0:6 1:29 0:6</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___158">
+	<Id>158</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>235</Top>
+	<Left>2065</Left>
+	<Width>26</Width>
+	<Height>17</Height>
+	<Mask>0:26 1:1 0:25 1:7 0:19 1:8 0:18 1:6 0:20 1:4 0:22 1:3 0:23 1:2 0:49 1:1 0:24 1:2 0:23 1:3 0:23 1:3 0:23 1:3 0:15 1:2 0:6 1:3 0:12 1:5 0:6 1:3 0:9 1:8 0:6 1:5 0:4 1:2 0:1 1:8 0:6 1:3</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___159">
+	<Id>159</Id>
+	<ClassName>beam</ClassName>
+	<Top>343</Top>
+	<Left>1861</Left>
+	<Width>66</Width>
+	<Height>9</Height>
+	<Mask>0:0 1:14 0:1 1:2 0:3 1:2 0:41 1:9 0:59 1:5 0:62 1:2 0:64 1:2 0:150 1:40 0:15 1:7 0:1 1:43 0:11 1:11 0:1 1:43 0:6</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___160">
+	<Id>160</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>237</Top>
+	<Left>1909</Left>
+	<Width>28</Width>
+	<Height>19</Height>
+	<Mask>0:0 1:20 0:7 1:20 0:8 1:16 0:12 1:13 0:15 1:12 0:16 1:10 0:19 1:8 0:20 1:6 0:22 1:5 0:23 1:4 0:23 1:4 0:23 1:4 0:24 1:4 0:24 1:3 0:25 1:3 0:25 1:2 0:26 1:2 0:84</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___161">
+	<Id>161</Id>
+	<ClassName>duration-dot</ClassName>
+	<Top>238</Top>
+	<Left>1880</Left>
+	<Width>7</Width>
+	<Height>7</Height>
+	<Mask>0:0 1:9 0:4 1:2 0:5 1:2 0:5 1:2 0:6 1:1 0:6 1:2 0:4 1:1</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___162">
+	<Id>162</Id>
+	<ClassName>duration-dot</ClassName>
+	<Top>269</Top>
+	<Left>1879</Left>
+	<Width>6</Width>
+	<Height>7</Height>
+	<Mask>0:0 1:7 0:3 1:2 0:4 1:2 0:4 1:2 0:5 1:1 0:5 1:2 0:2 1:3</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___163">
+	<Id>163</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>255</Top>
+	<Left>1593</Left>
+	<Width>23</Width>
+	<Height>25</Height>
+	<Mask>0:0 1:11 0:4 1:18 0:6 1:16 0:7 1:16 0:7 1:14 0:11 1:12 0:12 1:10 0:14 1:9 0:14 1:8 0:18 1:4 0:153 1:4 0:19 1:4 0:18 1:5 0:17 1:6 0:16 1:7 0:16 1:7 0:15 1:8 0:13 1:10 0:12 1:11 0:10 1:13</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___164">
+	<Id>164</Id>
+	<ClassName>stem</ClassName>
+	<Top>142</Top>
+	<Left>1070</Left>
+	<Width>12</Width>
+	<Height>124</Height>
+	<Mask>0:0 1:79 0:5 1:6 0:30 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:5 1:7 0:5 1:7 0:5 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:6 1:6 0:6 1:6 0:6 1:5 0:7 1:2 0:24 1:4 0:5 1:7 0:6 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:4 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:4 0:9 1:2 0:10 1:2 0:10 1:2 0:10 1:2 0:10 1:2 0:11 1:1 0:35 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:10 1:2 0:10 1:2 0:10 1:2 0:9 1:3 0:9 1:3 0:9 1:6 0:6 1:6 0:7 1:5 0:6 1:6 0:6 1:5 0:7 1:5 0:8 1:5 0:7 1:4 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:3 0:9 1:2 0:10 1:2 0:10 1:2 0:10 1:2 0:10 1:2 0:10 1:2 0:10 1:2 0:35 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:23 1:1 0:2 1:2 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:5 0:8 1:4 0:153 1:5 0:3 1:3</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___165">
+	<Id>165</Id>
+	<ClassName>hairpin-decr</ClassName>
+	<Top>257</Top>
+	<Left>2449</Left>
+	<Width>358</Width>
+	<Height>38</Height>
+	<Mask>0:0 1:680 0:1 1:2 0:20 1:307 0:1 1:5 0:1 1:13 0:32 1:294 0:3 1:5 0:56 1:271 0:5 1:2 0:80 1:240 0:2 1:11 0:105 1:224 0:133 1:205 0:1 1:4 0:120 1:7 0:1 1:3 0:1 1:2 0:3 1:2 0:4 1:181 0:1 1:2 0:13 1:2 0:7 1:2 0:119 1:191 0:7 1:2 0:122 1:6 0:2 1:199 0:1 1:6 0:1 1:2 0:106 1:2 0:9 1:218 0:112 1:218 0:8 1:3 0:1 1:9 0:94 1:2 0:14 1:213 0:7 1:3 0:108 1:227 0:1 1:2 0:105 1:3 0:1 1:228 0:97 1:2 0:1 1:8 0:1 1:241 0:93 1:240 0:2 1:9 0:92 1:255 0:75 1:4 0:2 1:7 0:1 1:2 0:3 1:2 0:1 1:259 0:72 1:286 0:72 1:286 0:83 1:275 0:97 1:3 0:1 1:5 0:12 1:241 0:127 1:2 0:13 1:217 0:159 1:209 0:154 1:2 0:3 1:217 0:1 1:2 0:2 1:15 0:2 1:12 0:126 1:4 0:1 1:234 0:12 1:2 0:133 1:4 0:2 1:226 0:21 1:3 0:119 1:4 0:6 1:6 0:3 1:16 0:1 1:213 0:2 1:2 0:152 1:13 0:1 1:216 0:1 1:3 0:152 1:2 0:2 1:207 0:179 1:218 0:141 1:225 0:1 1:8 0:2 1:3 0:120 1:257 0:101 1:266 0:2 1:2 0:3 1:2 0:84 1:309 0:49 1:326 0:31 1:13</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___166">
+	<Id>166</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>255</Top>
+	<Left>2355</Left>
+	<Width>41</Width>
+	<Height>9</Height>
+	<Mask>0:0 1:44 0:1 1:20 0:11 1:7 0:14 1:8 0:13 1:5 0:37 1:4 0:37 1:4 0:36 1:5 0:35 1:7 0:24 1:18 0:17 1:3 0:3 1:16</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___167">
+	<Id>167</Id>
+	<ClassName>letter_t</ClassName>
+	<Top>295</Top>
+	<Left>525</Left>
+	<Width>23</Width>
+	<Height>29</Height>
+	<Mask>0:0 1:14 0:4 1:18 0:5 1:18 0:5 1:16 0:6 1:17 0:6 1:16 0:6 1:17 0:6 1:11 0:18 1:5 0:18 1:4 0:19 1:3 0:19 1:5 0:17 1:3 0:1 1:4 0:6 1:12 0:1 1:4 0:6 1:10 0:13 1:9 0:5 1:2 0:6 1:10 0:5 1:2 0:5 1:10 0:13 1:10 0:4 1:1 0:7 1:10 0:5 1:2 0:6 1:9 0:6 1:2 0:6 1:9 0:6 1:2 0:6 1:9 0:6 1:2 0:6 1:8 0:7 1:2 0:7 1:4 0:10 1:2 0:21 1:2 0:21 1:2 0:21 1:3 0:21 1:3 0:13 1:2 0:4</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___168">
+	<Id>168</Id>
+	<ClassName>tempo_text</ClassName>
+	<Top>32</Top>
+	<Left>365</Left>
+	<Width>563</Width>
+	<Height>73</Height>
+	<Mask>0:0 1:4183 0:2 1:51 0:3 1:22 0:3 1:480 0:4 1:50 0:5 1:20 0:4 1:480 0:4 1:50 0:5 1:19 0:5 1:103 0:2 1:375 0:4 1:49 0:7 1:17 0:7 1:101 0:4 1:373 0:5 1:49 0:7 1:17 0:7 1:101 0:4 1:194 0:7 1:172 0:5 1:49 0:7 1:17 0:7 1:100 0:5 1:181 0:1 1:4 0:16 1:171 0:5 1:49 0:7 1:17 0:7 1:100 0:6 1:170 0:31 1:170 0:6 1:49 0:7 1:17 0:7 1:101 0:5 1:156 0:45 1:170 0:5 1:50 0:7 1:17 0:7 1:101 0:4 1:15 0:6 1:135 0:46 1:169 0:6 1:50 0:8 1:16 0:8 1:103 0:1 1:13 0:10 1:132 0:47 1:169 0:6 1:50 0:8 1:15 0:9 1:115 0:12 1:132 0:45 1:171 0:6 1:10 0:4 1:36 0:8 1:15 0:8 1:54 0:9 1:52 0:16 1:129 0:40 1:176 0:6 1:10 0:5 1:35 0:8 1:15 0:9 1:51 0:13 1:49 0:18 1:128 0:25 1:191 0:6 1:9 0:6 1:35 0:9 1:13 0:10 1:22 0:9 1:18 0:15 1:11 0:8 1:14 0:2 1:14 0:19 1:127 0:23 1:193 0:6 1:9 0:6 1:35 0:9 1:13 0:10 1:20 0:13 1:15 0:16 1:9 0:10 1:13 0:4 1:12 0:9 1:2 0:9 1:142 0:7 1:194 0:6 1:10 0:4 1:36 0:9 1:13 0:10 1:18 0:16 1:13 0:17 1:7 0:12 1:12 0:5 1:11 0:8 1:4 0:9 1:142 0:7 1:70 0:1 1:123 0:5 1:12 0:3 1:36 0:10 1:12 0:10 1:15 0:20 1:11 0:18 1:6 0:13 1:11 0:6 1:10 0:8 1:5 0:9 1:142 0:6 1:49 0:6 1:13 0:5 1:9 0:9 1:104 0:6 1:49 0:11 1:12 0:10 1:14 0:22 1:9 0:18 1:6 0:14 1:11 0:6 1:10 0:7 1:6 0:10 1:141 0:7 1:47 0:8 1:12 0:7 1:5 0:14 1:101 0:6 1:49 0:12 1:10 0:11 1:13 0:23 1:9 0:10 1:13 0:15 1:11 0:6 1:9 0:7 1:7 0:10 1:14 0:1 1:126 0:7 1:44 0:12 1:9 0:9 1:5 0:18 1:96 0:7 1:49 0:13 1:9 0:11 1:12 0:14 1:3 0:7 1:8 0:9 1:14 0:10 1:1 0:4 1:12 0:5 1:10 0:6 1:8 0:10 1:13 0:2 1:126 0:7 1:23 0:10 1:9 0:15 1:7 0:11 1:3 0:22 1:93 0:7 1:49 0:13 1:9 0:12 1:10 0:12 1:6 0:7 1:7 0:9 1:14 0:9 1:5 0:2 1:12 0:5 1:9 0:7 1:8 0:10 1:13 0:3 1:125 0:6 1:21 0:16 1:5 0:17 1:6 0:11 1:3 0:23 1:14 0:12 1:66 0:7 1:49 0:14 1:7 0:13 1:9 0:10 1:9 0:7 1:7 0:8 1:13 0:10 1:19 0:6 1:9 0:6 1:9 0:10 1:12 0:4 1:125 0:6 1:19 0:19 1:4 0:17 1:5 0:13 1:2 0:24 1:9 0:18 1:64 0:6 1:50 0:15 1:6 0:13 1:8 0:9 1:11 0:7 1:6 0:8 1:13 0:10 1:20 0:6 1:9 0:6 1:9 0:10 1:11 0:5 1:125 0:6 1:18 0:20 1:3 0:19 1:3 0:40 1:7 0:21 1:63 0:6 1:10 0:2 1:37 0:16 1:5 0:14 1:7 0:8 1:12 0:7 1:7 0:8 1:13 0:8 1:22 0:5 1:10 0:6 1:9 0:10 1:11 0:5 1:125 0:6 1:16 0:23 1:2 0:19 1:3 0:21 1:9 0:11 1:3 0:24 1:63 0:6 1:9 0:3 1:37 0:16 1:5 0:14 1:6 0:8 1:13 0:7 1:7 0:7 1:13 0:8 1:23 0:6 1:9 0:6 1:9 0:10 1:11 0:5 1:125 0:6 1:15 0:24 1:2 0:10 1:2 0:7 1:2 0:7 1:2 0:13 1:12 0:8 1:3 0:24 1:60 0:10 1:8 0:3 1:37 0:17 1:3 0:15 1:6 0:7 1:13 0:8 1:7 0:7 1:12 0:8 1:24 0:6 1:9 0:6 1:9 0:10 1:11 0:5 1:125 0:6 1:8 0:42 1:4 0:14 1:3 0:6 1:2 0:6 1:11 0:9 1:1 0:26 1:54 0:16 1:6 0:4 1:37 0:7 1:3 0:8 1:2 0:15 1:5 0:8 1:13 0:7 1:8 0:7 1:12 0:7 1:25 0:6 1:9 0:6 1:9 0:9 1:11 0:5 1:126 0:6 1:7 0:42 1:5 0:13 1:4 0:6 1:2 0:6 1:11 0:23 1:6 0:7 1:53 0:19 1:3 0:5 1:38 0:6 1:4 0:14 1:3 0:8 1:4 0:7 1:14 0:7 1:8 0:7 1:11 0:7 1:24 0:8 1:8 0:7 1:9 0:9 1:10 0:6 1:126 0:6 1:7 0:31 1:2 0:9 1:6 0:12 1:4 0:6 1:2 0:6 1:11 0:20 1:11 0:5 1:49 0:23 1:3 0:5 1:38 0:6 1:4 0:14 1:3 0:8 1:4 0:6 1:14 0:8 1:8 0:7 1:11 0:7 1:18 0:14 1:8 0:8 1:8 0:9 1:8 0:7 1:127 0:6 1:6 0:31 1:3 0:9 1:6 0:12 1:4 0:14 1:10 0:18 1:14 0:5 1:47 0:25 1:3 0:5 1:38 0:6 1:5 0:13 1:3 0:8 1:4 0:6 1:12 0:10 1:8 0:7 1:11 0:7 1:16 0:16 1:8 0:39 1:127 0:7 1:6 0:27 1:7 0:8 1:6 0:12 1:5 0:14 1:10 0:15 1:17 0:5 1:45 0:27 1:3 0:6 1:37 0:6 1:6 0:11 1:4 0:8 1:3 0:7 1:11 0:11 1:8 0:7 1:10 0:8 1:12 0:20 1:9 0:38 1:127 0:7 1:7 0:23 1:10 0:8 1:7 0:10 1:6 0:14 1:8 0:16 1:18 0:5 1:44 0:15 1:3 0:10 1:3 0:6 1:36 0:6 1:7 0:11 1:5 0:7 1:3 0:8 1:6 0:15 1:8 0:7 1:10 0:40 1:9 0:38 1:127 0:7 1:9 0:15 1:16 0:8 1:7 0:10 1:6 0:14 1:5 0:16 1:19 0:8 1:42 0:12 1:7 0:9 1:4 0:6 1:36 0:7 1:7 0:8 1:7 0:7 1:3 0:29 1:8 0:8 1:9 0:40 1:10 0:36 1:128 0:6 1:11 0:10 1:19 0:9 1:8 0:9 1:6 0:15 1:2 0:18 1:17 0:10 1:41 0:10 1:10 0:6 1:7 0:6 1:37 0:6 1:8 0:7 1:7 0:8 1:2 0:29 1:8 0:8 1:9 0:40 1:12 0:32 1:130 0:7 1:10 0:9 1:20 0:8 1:9 0:9 1:6 0:36 1:12 0:13 1:41 0:10 1:11 0:7 1:6 0:6 1:37 0:6 1:9 0:5 1:8 0:8 1:2 0:33 1:4 0:8 1:10 0:30 1:2 0:8 1:12 0:13 1:2 0:15 1:131 0:7 1:10 0:8 1:21 0:8 1:9 0:9 1:6 0:38 1:2 0:2 1:1 0:17 1:42 0:11 1:8 0:10 1:5 0:7 1:36 0:6 1:11 0:1 1:10 0:8 1:3 0:19 1:1 0:13 1:3 0:8 1:10 0:25 1:7 0:8 1:14 0:7 1:7 0:11 1:134 0:7 1:10 0:9 1:19 0:9 1:9 0:9 1:6 0:26 1:2 0:32 1:41 0:30 1:5 0:7 1:36 0:6 1:23 0:7 1:4 0:17 1:2 0:14 1:3 0:7 1:11 0:19 1:13 0:7 1:30 0:7 1:137 0:6 1:11 0:10 1:14 0:13 1:9 0:8 1:7 0:23 1:5 0:29 1:44 0:30 1:5 0:7 1:35 0:6 1:24 0:5 1:7 0:12 1:6 0:14 1:3 0:7 1:12 0:15 1:16 0:7 1:173 0:6 1:11 0:15 1:4 0:18 1:9 0:8 1:8 0:21 1:6 0:27 1:46 0:30 1:5 0:7 1:35 0:6 1:41 0:4 1:10 0:12 1:4 0:7 1:17 0:4 1:22 0:6 1:174 0:6 1:12 0:36 1:9 0:8 1:7 0:18 1:11 0:23 1:49 0:30 1:5 0:7 1:35 0:6 1:55 0:12 1:4 0:7 1:44 0:5 1:174 0:7 1:11 0:36 1:9 0:8 1:7 0:16 1:14 0:18 1:54 0:29 1:6 0:6 1:36 0:5 1:56 0:10 1:6 0:6 1:223 0:6 1:13 0:35 1:9 0:7 1:9 0:13 1:17 0:10 1:63 0:27 1:6 0:6 1:35 0:6 1:58 0:6 1:9 0:5 1:223 0:6 1:14 0:34 1:9 0:7 1:10 0:12 1:92 0:25 1:6 0:6 1:35 0:6 1:301 0:6 1:15 0:21 1:3 0:9 1:10 0:5 1:13 0:1 1:2 0:7 1:109 0:8 1:7 0:5 1:36 0:4 1:302 0:7 1:16 0:16 1:7 0:8 1:11 0:4 1:16 0:7 1:109 0:7 1:8 0:5 1:341 0:7 1:24 0:6 1:10 0:7 1:32 0:6 1:111 0:3 1:12 0:2 1:343 0:7 1:42 0:4 1:32 0:7 1:471 0:7 1:79 0:6 1:471 0:7 1:79 0:6 1:471 0:2 1:2 0:2 1:80 0:6 1:556 0:7 1:556 0:7 1:556 0:7 1:556 0:7 1:556 0:7 1:557 0:6 1:557 0:6 1:556 0:7 1:556 0:8 1:556 0:7 1:556 0:7 1:556 0:7 1:556 0:7 1:556 0:7 1:559 0:4 1:562 0:1 1:435</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___169">
+	<Id>169</Id>
+	<ClassName>letter_m</ClassName>
+	<Top>297</Top>
+	<Left>2865</Left>
+	<Width>58</Width>
+	<Height>27</Height>
+	<Mask>0:0 1:15 0:4 1:53 0:6 1:12 0:5 1:6 0:9 1:18 0:9 1:9 0:7 1:4 0:12 1:15 0:11 1:9 0:8 1:2 0:13 1:15 0:11 1:8 0:25 1:13 0:13 1:6 0:27 1:11 0:14 1:5 0:28 1:10 0:15 1:4 0:32 1:7 0:6 1:4 0:5 1:3 0:20 1:2 0:11 1:6 0:7 1:4 0:14 1:3 0:9 1:4 0:11 1:6 0:6 1:5 0:13 1:4 0:8 1:5 0:11 1:5 0:5 1:7 0:13 1:3 0:8 1:6 0:11 1:5 0:4 1:8 0:11 1:5 0:8 1:6 0:11 1:4 0:5 1:8 0:11 1:5 0:7 1:7 0:11 1:4 0:5 1:9 0:9 1:6 0:7 1:6 0:8 1:7 0:6 1:9 0:9 1:6 0:7 1:6 0:7 1:8 0:6 1:9 0:8 1:7 0:6 1:7 0:7 1:7 0:7 1:9 0:7 1:7 0:7 1:7 0:7 1:7 0:7 1:8 0:8 1:7 0:7 1:6 0:8 1:8 0:6 1:8 0:7 1:8 0:7 1:6 0:7 1:9 0:5 1:9 0:7 1:7 0:8 1:6 0:6 1:12 0:2 1:10 0:7 1:7 0:8 1:6 0:6 1:24 0:7 1:7 0:8 1:6 0:5 1:25 0:7 1:8 0:6 1:8 0:3 1:26 0:6 1:10 0:4 1:40 0:4 1:93</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___170">
+	<Id>170</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>257</Top>
+	<Left>3035</Left>
+	<Width>45</Width>
+	<Height>9</Height>
+	<Mask>0:0 1:12 0:22 1:2 0:1 1:2 0:1 1:16 0:30 1:7 0:1 1:6 0:33 1:4 0:39 1:6 0:39 1:5 0:40 1:4 0:39 1:7 0:26 1:19 0:25 1:19</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___171">
+	<Id>171</Id>
+	<ClassName>stem</ClassName>
+	<Top>177</Top>
+	<Left>2001</Left>
+	<Width>10</Width>
+	<Height>117</Height>
+	<Mask>0:0 1:10 0:20 1:23 0:2 1:7 0:4 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:5 0:5 1:5 0:5 1:5 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:2 0:20 1:2 0:6 1:4 0:7 1:4 0:6 1:4 0:6 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:7 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:26 1:2 0:9 1:1 0:9 1:1 0:79 1:1 0:8 1:2 0:8 1:2 0:8 1:2 0:8 1:2 0:8 1:2 0:8 1:3 0:7 1:3 0:7 1:3 0:66 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:8 1:2 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:7 1:3 0:6 1:4 0:6 1:4 0:6 1:4 0:6 1:4 0:5 1:5 0:5 1:3 0:60 1:2 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5 0:5 1:5</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___172">
+	<Id>172</Id>
+	<ClassName>stem</ClassName>
+	<Top>296</Top>
+	<Left>2540</Left>
+	<Width>9</Width>
+	<Height>31</Height>
+	<Mask>0:5 1:4 0:6 1:3 0:8 1:1 0:27 1:1 0:8 1:2 0:7 1:3 0:6 1:3 0:6 1:2 0:61 1:2 0:7 1:2 0:7 1:2 0:7 1:1 0:70 1:1 0:8 1:1 0:8 1:1 0:7 1:2</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___173">
+	<Id>173</Id>
+	<ClassName>beam</ClassName>
+	<Top>163</Top>
+	<Left>1114</Left>
+	<Width>28</Width>
+	<Height>8</Height>
+	<Mask>0:0 1:25 0:3 1:7 0:11 1:3 0:7 1:3 0:25 1:1 0:125 1:2 0:12</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___174">
+	<Id>174</Id>
+	<ClassName>stem</ClassName>
+	<Top>285</Top>
+	<Left>2254</Left>
+	<Width>11</Width>
+	<Height>37</Height>
+	<Mask>0:0 1:5 0:6 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:6 1:5 0:6 1:5 0:6 1:5 0:7 1:4 0:7 1:4 0:7 1:4 0:6 1:5 0:6 1:5 0:7 1:4 0:7 1:4 0:7 1:4 0:6 1:5 0:6 1:5 0:7 1:3 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:3 0:8 1:3 0:8 1:3 0:8 1:3 0:8 1:3 0:9 1:2 0:9 1:3 0:8 1:4 0:7 1:4 0:7 1:3 0:8</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___175">
+	<Id>175</Id>
+	<ClassName>letter_n</ClassName>
+	<Top>303</Top>
+	<Left>560</Left>
+	<Width>47</Width>
+	<Height>23</Height>
+	<Mask>0:0 1:18 0:3 1:40 0:9 1:23 0:1 1:13 0:11 1:21 0:5 1:9 0:13 1:6 0:1 1:12 0:7 1:7 0:14 1:4 0:3 1:12 0:8 1:5 0:15 1:2 0:5 1:12 0:9 1:4 0:15 1:2 0:6 1:11 0:9 1:3 0:7 1:2 0:7 1:2 0:5 1:12 0:9 1:2 0:7 1:3 0:14 1:11 0:10 1:2 0:5 1:5 0:13 1:12 0:17 1:5 0:12 1:13 0:17 1:5 0:12 1:12 0:17 1:5 0:13 1:11 0:8 1:2 0:8 1:4 0:14 1:9 0:9 1:3 0:7 1:5 0:14 1:9 0:9 1:2 0:7 1:5 0:15 1:7 0:19 1:5 0:42 1:5 0:28 1:2 0:11 1:6 0:7 1:3 0:17 1:3 0:10 1:6 0:7 1:4 0:16 1:5 0:9 1:7 0:5 1:5 0:15 1:8 0:7 1:8 0:2 1:9 0:10 1:13 0:3 1:23 0:5 1:14</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___176">
+	<Id>176</Id>
+	<ClassName>letter_r</ClassName>
+	<Top>305</Top>
+	<Left>1862</Left>
+	<Width>34</Width>
+	<Height>23</Height>
+	<Mask>0:0 1:26 0:8 1:1 0:7 1:16 0:18 1:14 0:21 1:11 0:23 1:10 0:24 1:8 0:25 1:3 0:24 1:10 0:23 1:9 0:15 1:2 0:8 1:8 0:15 1:3 0:8 1:6 0:16 1:3 0:9 1:6 0:14 1:5 0:9 1:5 0:15 1:4 0:10 1:2 0:16 1:6 0:7 1:2 0:1 1:1 0:16 1:6 0:8 1:3 0:17 1:6 0:8 1:3 0:15 1:8 0:10 1:1 0:15 1:8 0:26 1:9 0:13 1:2 0:9 1:10 0:11 1:4 0:7 1:13 0:9 1:5 0:7 1:14 0:8 1:4 0:8 1:16 0:6</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___177">
+	<Id>177</Id>
+	<ClassName>letter_t</ClassName>
+	<Top>290</Top>
+	<Left>601</Left>
+	<Width>25</Width>
+	<Height>34</Height>
+	<Mask>0:0 1:47 0:1 1:21 0:5 1:20 0:5 1:18 0:7 1:17 0:8 1:17 0:7 1:18 0:6 1:19 0:5 1:18 0:7 1:18 0:6 1:19 0:6 1:13 0:12 1:11 0:19 1:5 0:20 1:4 0:21 1:3 0:22 1:3 0:22 1:3 0:22 1:3 0:13 1:3 0:6 1:3 0:12 1:4 0:6 1:2 0:13 1:4 0:6 1:2 0:12 1:3 0:8 1:2 0:12 1:3 0:7 1:2 0:12 1:4 0:7 1:1 0:12 1:4 0:7 1:2 0:12 1:3 0:8 1:2 0:11 1:4 0:9 1:1 0:11 1:4 0:20 1:5 0:11 1:2 0:7 1:6 0:9 1:3 0:7 1:6 0:9 1:4 0:6 1:7 0:8 1:18 0:7</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___178">
+	<Id>178</Id>
+	<ClassName>letter_r</ClassName>
+	<Top>51</Top>
+	<Left>729</Left>
+	<Width>25</Width>
+	<Height>30</Height>
+	<Mask>0:0 1:12 0:13 1:10 0:15 1:9 0:16 1:8 0:17 1:7 0:18 1:6 0:18 1:7 0:10 1:14 0:9 1:15 0:9 1:16 0:8 1:16 0:8 1:13 0:1 1:3 0:8 1:13 0:1 1:3 0:7 1:13 0:2 1:3 0:7 1:12 0:3 1:3 0:7 1:12 0:3 1:3 0:7 1:11 0:4 1:3 0:7 1:11 0:4 1:3 0:7 1:11 0:4 1:3 0:7 1:10 0:5 1:3 0:7 1:10 0:5 1:3 0:8 1:9 0:5 1:3 0:8 1:9 0:5 1:3 0:8 1:10 0:4 1:3 0:8 1:10 0:5 1:3 0:7 1:11 0:5 1:3 0:7 1:12 0:2 1:4 0:7 1:13 0:1 1:4 0:7 1:19 0:6 1:20 0:5 1:13</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___179">
+	<Id>179</Id>
+	<ClassName>stem</ClassName>
+	<Top>152</Top>
+	<Left>1269</Left>
+	<Width>12</Width>
+	<Height>125</Height>
+	<Mask>0:0 1:43 0:2 1:8 0:5 1:7 0:5 1:7 0:5 1:7 0:5 1:6 0:6 1:6 0:6 1:6 0:5 1:7 0:5 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:5 1:7 0:5 1:7 0:6 1:6 0:6 1:6 0:5 1:7 0:5 1:7 0:4 1:7 0:5 1:7 0:6 1:6 0:6 1:6 0:6 1:7 0:5 1:4 0:24 1:2 0:5 1:7 0:6 1:6 0:5 1:7 0:5 1:7 0:5 1:7 0:5 1:7 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:6 1:6 0:7 1:3 0:9 1:3 0:9 1:3 0:9 1:3 0:9 1:3 0:9 1:3 0:10 1:2 0:9 1:3 0:9 1:3 0:9 1:3 0:32 1:4 0:9 1:3 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:4 0:8 1:5 0:7 1:6 0:6 1:6 0:6 1:6 0:7 1:5 0:7 1:5 0:7 1:5 0:7 1:6 0:6 1:6 0:6 1:5 0:7 1:4 0:9 1:2 0:11 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:11 1:1 0:35 1:1 0:10 1:2 0:10 1:2 0:9 1:3 0:9 1:3 0:9 1:3 0:9 1:3 0:9 1:3 0:10 1:2 0:9 1:5 0:7 1:6 0:6 1:6 0:6 1:6 0:7 1:4 0:8 1:4 0:8 1:4 0:8 1:5 0:7 1:5 0:7 1:5 0:7 1:2 0:1 1:2 0:7 1:2 0:11 1:1 0:10 1:2 0:10 1:2 0:10 1:2 0:10 1:2 0:83 1:1 0:9 1:3 0:9 1:3 0:9 1:3 0:8 1:4 0:1 1:2 0:4 1:29</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___180">
+	<Id>180</Id>
+	<ClassName>letter_o</ClassName>
+	<Top>59</Top>
+	<Left>506</Left>
+	<Width>33</Width>
+	<Height>22</Height>
+	<Mask>0:2 1:31 0:3 1:14 0:12 1:4 0:4 1:9 0:18 1:2 0:4 1:7 0:21 1:1 0:5 1:3 0:24 1:1 0:5 1:3 0:24 1:1 0:6 1:1 0:46 1:6 0:24 1:11 0:19 1:14 0:16 1:17 0:15 1:18 0:12 1:19 0:14 1:17 0:17 1:12 0:23 1:2 0:2 1:1 0:17 1:1 0:32 1:2 0:29 1:4 0:27 1:7 0:23 1:11 0:18 1:16 0:10 1:19</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___181">
+	<Id>181</Id>
+	<ClassName>ledger_line</ClassName>
+	<Top>258</Top>
+	<Left>2946</Left>
+	<Width>48</Width>
+	<Height>10</Height>
+	<Mask>0:0 1:18 0:25 1:8 0:2 1:8 0:30 1:7 0:41 1:7 0:41 1:5 0:43 1:5 0:42 1:6 0:36 1:13 0:35 1:14 0:33 1:24 0:22 1:15</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___182">
+	<Id>182</Id>
+	<ClassName>hairpin-decr</ClassName>
+	<Top>304</Top>
+	<Left>1020</Left>
+	<Width>260</Width>
+	<Height>36</Height>
+	<Mask>0:0 1:236 0:13 1:240 0:19 1:232 0:28 1:224 0:36 1:214 0:46 1:206 0:52 1:193 0:3 1:3 0:52 1:194 0:56 1:192 0:3 1:3 0:52 1:199 0:50 1:203 0:50 1:201 0:49 1:197 0:2 1:2 0:49 1:201 0:46 1:202 0:2 1:2 0:48 1:199 0:57 1:192 0:59 1:195 0:4 1:1 0:51 1:193 0:56 1:192 0:59 1:193 0:61 1:189 0:59 1:187 0:61 1:189 0:1 1:2 0:59 1:186 0:66 1:189 0:58 1:55 0:1 1:3 0:1 1:7 0:2 1:3 0:10 1:2 0:5 1:18 0:6 1:23 0:1 1:37 0:2 1:26 0:58 1:30 0:118 1:13 0:33 1:8 0:69 1:2 0:4 1:3 0:2 1:6 0:167 1:7 0:254 1:6 0:253 1:7 0:253 1:7 0:164 1:2 0:86 1:8 0:99 1:2 0:2 1:1 0:7 1:1 0:3 1:1 0:8 1:4 0:2 1:2 0:2 1:2 0:20 1:19 0:18 1:2 0:26 1:3 0:2 1:3 0:9 1:2 0:1 1:5 0:5 1:11 0:86 1:182 0:17 1:4 0:1 1:2 0:8 1:2 0:3 1:22 0:4 1:3 0:1 1:443</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___183">
+	<Id>183</Id>
+	<ClassName>beam</ClassName>
+	<Top>295</Top>
+	<Left>2326</Left>
+	<Width>39</Width>
+	<Height>12</Height>
+	<Mask>0:0 1:32 0:7 1:27 0:1 1:2 0:9 1:20 0:19 1:10 0:29 1:3 0:36 1:2 0:37 1:2 0:37 1:2 0:37 1:1 0:19 1:2 0:2 1:6 0:9 1:2 0:12 1:17 0:8 1:2 0:4 1:25 0:8 1:31 0:7 1:1</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___184">
+	<Id>184</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>260</Top>
+	<Left>1909</Left>
+	<Width>25</Width>
+	<Height>16</Height>
+	<Mask>0:26 1:3 0:17 1:8 0:17 1:7 0:19 1:5 0:20 1:5 0:20 1:4 0:21 1:3 0:22 1:3 0:21 1:4 0:20 1:5 0:19 1:6 0:18 1:7 0:16 1:9 0:15 1:11 0:13 1:12 0:9 1:15</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___185">
+	<Id>185</Id>
+	<ClassName>letter_i</ClassName>
+	<Top>43</Top>
+	<Left>782</Left>
+	<Width>16</Width>
+	<Height>35</Height>
+	<Mask>0:0 1:8 0:4 1:11 0:5 1:11 0:6 1:11 0:5 1:11 0:4 1:15 0:1 1:57 0:2 1:13 0:4 1:11 0:5 1:10 0:6 1:10 0:6 1:10 0:6 1:10 0:5 1:11 0:5 1:10 0:6 1:10 0:6 1:10 0:5 1:11 0:6 1:10 0:6 1:10 0:6 1:9 0:7 1:8 0:8 1:8 0:8 1:8 0:8 1:9 0:7 1:9 0:7 1:9 0:7 1:9 0:8 1:8 0:8 1:9 0:7 1:10 0:7 1:9 0:6 1:8</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___186">
+	<Id>186</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>197</Top>
+	<Left>1257</Left>
+	<Width>19</Width>
+	<Height>20</Height>
+	<Mask>0:0 1:14 0:5 1:14 0:5 1:11 0:8 1:10 0:9 1:8 0:11 1:7 0:12 1:6 0:13 1:6 0:13 1:6 0:13 1:4 0:15 1:4 0:53 1:3 0:16 1:3 0:16 1:2 0:17 1:2 0:17 1:2 0:17 1:2 0:17 1:3 0:16</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___187">
+	<Id>187</Id>
+	<ClassName>whole-time_mark</ClassName>
+	<Top>156</Top>
+	<Left>391</Left>
+	<Width>37</Width>
+	<Height>50</Height>
+	<Mask>0:0 1:57 0:6 1:28 0:13 1:20 0:18 1:18 0:20 1:17 0:20 1:15 0:23 1:13 0:24 1:12 0:11 1:9 0:6 1:10 0:10 1:12 0:6 1:8 0:10 1:13 0:6 1:8 0:9 1:15 0:5 1:7 0:8 1:18 0:4 1:7 0:7 1:29 0:8 1:28 0:8 1:29 0:7 1:30 0:7 1:30 0:7 1:28 0:8 1:29 0:7 1:30 0:7 1:30 0:7 1:29 0:74 1:1 0:7 1:30 0:6 1:31 0:6 1:31 0:6 1:31 0:6 1:31 0:6 1:31 0:7 1:30 0:7 1:30 0:7 1:30 0:8 1:29 0:7 1:23 0:1 1:7 0:6 1:21 0:4 1:6 0:9 1:17 0:6 1:5 0:8 1:16 0:8 1:6 0:7 1:14 0:10 1:6 0:11 1:6 0:13 1:8 0:29 1:9 0:26 1:11 0:25 1:12 0:24 1:15 0:20 1:19 0:17 1:22 0:12 1:28 0:1 1:2 0:3 1:54</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___188">
+	<Id>188</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>198</Top>
+	<Left>3131</Left>
+	<Width>28</Width>
+	<Height>18</Height>
+	<Mask>0:0 1:13 0:6 1:22 0:7 1:21 0:11 1:17 0:11 1:15 0:14 1:12 0:16 1:10 0:18 1:9 0:20 1:5 0:22 1:4 0:24 1:3 0:56 1:1 0:21 1:6 0:20 1:8 0:19 1:9 0:19 1:9 0:19 1:11 0:9 1:2 0:6 1:9</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___189">
+	<Id>189</Id>
+	<ClassName>letter_i</ClassName>
+	<Top>48</Top>
+	<Left>607</Left>
+	<Width>9</Width>
+	<Height>35</Height>
+	<Mask>0:1 1:8 0:1 1:8 0:1 1:8 0:1 1:8 0:1 1:8 0:1 1:8 0:1 1:17 0:1 1:8 0:1 1:8 0:1 1:8 0:1 1:8 0:1 1:35 0:1 1:8 0:2 1:6 0:5 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:6 1:3 0:5 1:4 0:2 1:7 0:3 1:6 0:4 1:5 0:4 1:5 0:5 1:5 0:4 1:5 0:4 1:5 0:4 1:6 0:3 1:6 0:3 1:6 0:3 1:6</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___190">
+	<Id>190</Id>
+	<ClassName>half_rest</ClassName>
+	<Top>165</Top>
+	<Left>901</Left>
+	<Width>37</Width>
+	<Height>17</Height>
+	<Mask>0:0 1:13 0:1 1:12 0:4 1:11 0:5 1:3 0:21 1:6 0:32 1:4 0:33 1:4 0:33 1:4 0:33 1:4 0:34 1:2 0:35 1:2 0:35 1:2 0:35 1:2 0:35 1:2 0:36 1:1 0:36 1:1 0:34 1:3 0:74 1:3 0:2 1:22 0:1 1:9</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___191">
+	<Id>191</Id>
+	<ClassName>letter_m</ClassName>
+	<Top>53</Top>
+	<Left>442</Left>
+	<Width>43</Width>
+	<Height>34</Height>
+	<Mask>0:0 1:122 0:1 1:20 0:6 1:13 0:5 1:18 0:8 1:12 0:7 1:13 0:12 1:9 0:9 1:11 0:15 1:7 0:11 1:2 0:2 1:5 0:17 1:6 0:11 1:2 0:3 1:4 0:17 1:5 0:13 1:1 0:3 1:3 0:19 1:3 0:19 1:2 0:19 1:3 0:19 1:2 0:10 1:2 0:7 1:2 0:7 1:2 0:22 1:4 0:14 1:3 0:6 1:1 0:14 1:5 0:13 1:4 0:6 1:1 0:3 1:2 0:9 1:6 0:12 1:4 0:6 1:1 0:2 1:3 0:9 1:6 0:12 1:4 0:7 1:5 0:8 1:6 0:12 1:5 0:7 1:5 0:8 1:7 0:10 1:6 0:7 1:5 0:8 1:7 0:10 1:6 0:7 1:4 0:9 1:8 0:9 1:6 0:7 1:4 0:8 1:9 0:9 1:6 0:7 1:4 0:8 1:9 0:9 1:6 0:7 1:3 0:9 1:9 0:9 1:6 0:20 1:9 0:8 1:7 0:19 1:9 0:8 1:8 0:18 1:9 0:8 1:7 0:19 1:9 0:8 1:7 0:19 1:9 0:7 1:9 0:18 1:9 0:7 1:10 0:5 1:3 0:9 1:10 0:5 1:13 0:1 1:6 0:8 1:11 0:4 1:20 0:7 1:38 0:4 1:75</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___192">
+	<Id>192</Id>
+	<ClassName>stem</ClassName>
+	<Top>139</Top>
+	<Left>1016</Left>
+	<Width>11</Width>
+	<Height>126</Height>
+	<Mask>0:0 1:38 0:2 1:8 0:4 1:7 0:4 1:6 0:5 1:6 0:5 1:6 0:6 1:5 0:6 1:4 0:7 1:2 0:22 1:3 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:5 1:6 0:5 1:6 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:2 0:22 1:3 0:5 1:6 0:5 1:5 0:6 1:6 0:5 1:6 0:5 1:5 0:6 1:5 0:6 1:6 0:5 1:6 0:5 1:5 0:6 1:5 0:7 1:4 0:7 1:5 0:6 1:5 0:6 1:5 0:7 1:4 0:7 1:4 0:7 1:2 0:141 1:1 0:10 1:1 0:9 1:2 0:9 1:2 0:9 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:2 0:9 1:2 0:9 1:2 0:9 1:2 0:9 1:2 0:9 1:2 0:9 1:2 0:8 1:3 0:8 1:3 0:29 1:4 0:7 1:4 0:8 1:3 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:55</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___193">
+	<Id>193</Id>
+	<ClassName>letter_e</ClassName>
+	<Top>51</Top>
+	<Left>748</Left>
+	<Width>32</Width>
+	<Height>27</Height>
+	<Mask>0:6 1:26 0:6 1:11 0:8 1:7 0:6 1:9 0:10 1:7 0:6 1:7 0:12 1:7 0:6 1:6 0:13 1:7 0:5 1:6 0:14 1:17 0:15 1:16 0:10 1:1 0:4 1:16 0:9 1:5 0:2 1:14 0:10 1:21 0:10 1:22 0:8 1:23 0:8 1:23 0:8 1:24 0:7 1:24 0:7 1:25 0:7 1:18 0:5 1:2 0:7 1:16 0:7 1:1 0:8 1:12 0:11 1:1 0:31 1:1 0:31 1:1 0:31 1:2 0:30 1:2 0:25 1:8 0:19 1:15 0:15 1:22 0:4 1:18</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___194">
+	<Id>194</Id>
+	<ClassName>notehead-full</ClassName>
+	<Top>318</Top>
+	<Left>2523</Left>
+	<Width>23</Width>
+	<Height>20</Height>
+	<Mask>0:0 1:13 0:10 1:12 0:11 1:10 0:13 1:9 0:14 1:8 0:15 1:7 0:16 1:6 0:17 1:5 0:18 1:5 0:18 1:4 0:19 1:3 0:19 1:3 0:20 1:2 0:19 1:4 0:18 1:4 0:19 1:4 0:18 1:5 0:16 1:7 0:15 1:8 0:15 1:4 0:27</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___195">
+	<Id>195</Id>
+	<ClassName>letter_M</ClassName>
+	<Top>39</Top>
+	<Left>655</Left>
+	<Width>40</Width>
+	<Height>46</Height>
+	<Mask>0:0 1:5 0:3 1:22 0:3 1:11 0:5 1:20 0:4 1:11 0:5 1:19 0:5 1:10 0:7 1:17 0:7 1:9 0:7 1:17 0:7 1:9 0:7 1:17 0:7 1:9 0:7 1:17 0:7 1:9 0:7 1:17 0:7 1:9 0:7 1:17 0:7 1:9 0:8 1:16 0:8 1:8 0:8 1:15 0:9 1:8 0:8 1:15 0:8 1:9 0:8 1:15 0:9 1:8 0:9 1:13 0:10 1:8 0:9 1:13 0:10 1:8 0:9 1:13 0:10 1:8 0:10 1:12 0:10 1:7 0:11 1:12 0:10 1:7 0:12 1:10 0:11 1:7 0:13 1:9 0:11 1:7 0:13 1:9 0:12 1:6 0:14 1:7 0:13 1:6 0:15 1:6 0:13 1:5 0:16 1:5 0:14 1:5 0:16 1:5 0:14 1:5 0:17 1:3 0:15 1:5 0:7 1:3 0:8 1:2 0:15 1:6 0:6 1:4 0:14 1:3 0:8 1:5 0:6 1:4 0:14 1:3 0:8 1:5 0:6 1:5 0:13 1:3 0:8 1:5 0:6 1:6 0:11 1:4 0:8 1:4 0:6 1:7 0:11 1:5 0:7 1:4 0:7 1:7 0:8 1:7 0:7 1:5 0:6 1:8 0:7 1:7 0:8 1:4 0:6 1:9 0:5 1:8 0:8 1:4 0:6 1:11 0:1 1:10 0:8 1:4 0:6 1:23 0:7 1:4 0:6 1:24 0:5 1:5 0:6 1:34 0:6 1:35 0:5 1:34 0:6 1:34 0:6 1:35 0:4 1:113</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___196">
+	<Id>196</Id>
+	<ClassName>other_text</ClassName>
+	<Top>286</Top>
+	<Left>465</Left>
+	<Width>169</Width>
+	<Height>41</Height>
+	<Mask>0:0 1:13 0:17 1:149 0:19 1:140 0:1 1:4 0:22 1:142 0:24 1:145 0:22 1:147 0:21 1:137 0:1 1:10 0:19 1:136 0:5 1:9 0:16 1:139 0:5 1:9 0:13 1:140 0:7 1:9 0:11 1:63 0:4 1:74 0:8 1:82 0:5 1:74 0:7 1:83 0:5 1:74 0:6 1:82 0:6 1:75 0:5 1:83 0:6 1:73 0:7 1:82 0:6 1:74 0:6 1:83 0:6 1:74 0:6 1:77 0:18 1:62 0:12 1:77 0:18 1:31 0:3 1:26 0:24 1:66 0:19 1:27 0:9 1:23 0:25 1:58 0:2 1:5 0:19 1:13 0:1 1:13 0:11 1:21 0:27 1:19 0:4 1:11 0:6 1:15 0:7 1:3 0:17 1:9 0:9 1:9 0:13 1:6 0:1 1:12 0:30 1:14 0:8 1:9 0:9 1:10 0:11 1:4 0:6 1:16 0:12 1:7 0:14 1:4 0:3 1:12 0:30 1:13 0:9 1:8 0:12 1:7 0:12 1:4 0:6 1:10 0:2 1:2 0:15 1:5 0:15 1:2 0:5 1:12 0:30 1:12 0:11 1:4 0:16 1:5 0:23 1:9 0:21 1:4 0:15 1:2 0:6 1:11 0:13 1:3 0:14 1:11 0:12 1:2 0:19 1:3 0:15 1:2 0:6 1:10 0:21 1:3 0:7 1:2 0:7 1:2 0:5 1:12 0:12 1:4 0:14 1:11 0:33 1:3 0:15 1:2 0:5 1:10 0:22 1:2 0:7 1:3 0:14 1:11 0:13 1:4 0:8 1:2 0:4 1:10 0:9 1:3 0:22 1:3 0:7 1:5 0:10 1:10 0:22 1:2 0:5 1:5 0:13 1:12 0:12 1:3 0:8 1:6 0:2 1:11 0:8 1:3 0:11 1:3 0:8 1:3 0:7 1:7 0:7 1:10 0:30 1:5 0:12 1:13 0:12 1:3 0:7 1:20 0:9 1:2 0:7 1:9 0:6 1:3 0:8 1:7 0:6 1:9 0:31 1:5 0:12 1:12 0:12 1:4 0:7 1:21 0:16 1:10 0:7 1:2 0:9 1:6 0:6 1:9 0:30 1:5 0:13 1:11 0:12 1:4 0:7 1:23 0:15 1:10 0:7 1:3 0:9 1:5 0:6 1:9 0:20 1:2 0:8 1:4 0:14 1:9 0:14 1:3 0:8 1:8 0:2 1:13 0:14 1:11 0:8 1:3 0:9 1:4 0:6 1:8 0:20 1:3 0:7 1:5 0:14 1:9 0:13 1:4 0:9 1:5 0:4 1:12 0:15 1:10 0:9 1:4 0:9 1:3 0:7 1:4 0:19 1:2 0:2 1:2 0:7 1:5 0:15 1:7 0:15 1:4 0:18 1:12 0:15 1:8 0:12 1:4 0:9 1:2 0:24 1:8 0:10 1:5 0:37 1:5 0:18 1:11 0:18 1:4 0:15 1:3 0:9 1:2 0:24 1:6 0:12 1:5 0:28 1:2 0:7 1:6 0:17 1:11 0:49 1:2 0:41 1:6 0:7 1:3 0:17 1:3 0:7 1:6 0:17 1:10 0:50 1:3 0:39 1:6 0:7 1:4 0:16 1:5 0:6 1:7 0:15 1:12 0:29 1:2 0:19 1:3 0:13 1:2 0:23 1:7 0:5 1:5 0:15 1:20 0:12 1:15 0:8 1:2 0:16 1:5 0:17 1:6 0:8 1:7 0:21 1:8 0:2 1:9 0:10 1:27 0:6 1:18 0:7 1:3 0:13 1:8 0:15 1:23 0:12 1:3 0:3 1:23 0:5 1:56 0:2 1:8 0:8 1:14 0:11 1:25 0:7 1:79</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___197">
+	<Id>197</Id>
+	<ClassName>stem</ClassName>
+	<Top>155</Top>
+	<Left>3246</Left>
+	<Width>21</Width>
+	<Height>129</Height>
+	<Mask>0:0 1:141 0:4 1:17 0:5 1:16 0:5 1:16 0:5 1:16 0:5 1:16 0:5 1:16 0:6 1:15 0:6 1:15 0:5 1:16 0:5 1:15 0:6 1:15 0:6 1:15 0:6 1:15 0:6 1:15 0:6 1:15 0:6 1:14 0:7 1:1 0:20 1:1 0:21 1:15 0:6 1:14 0:6 1:15 0:6 1:15 0:6 1:15 0:6 1:15 0:6 1:15 0:6 1:14 0:7 1:14 0:7 1:15 0:6 1:15 0:6 1:15 0:6 1:13 0:8 1:13 0:8 1:14 0:7 1:14 0:6 1:15 0:6 1:15 0:6 1:15 0:6 1:14 0:8 1:11 0:10 1:10 0:11 1:8 0:13 1:7 0:15 1:5 0:16 1:4 0:17 1:3 0:206 1:2 0:18 1:3 0:17 1:4 0:17 1:5 0:16 1:6 0:15 1:10 0:11 1:13 0:8 1:14 0:7 1:14 0:7 1:14 0:7 1:13 0:8 1:3 0:2 1:8 0:7 1:4 0:3 1:7 0:7 1:4 0:4 1:5 0:8 1:4 0:17 1:4 0:17 1:4 0:17 1:4 0:16 1:5 0:16 1:5 0:58 1:5 0:16 1:5 0:16 1:5 0:15 1:6 0:15 1:6 0:15 1:6 0:15 1:6 0:15 1:6 0:15 1:6 0:15 1:6 0:5 1:2 0:7 1:7 0:3 1:4 0:7 1:14 0:7 1:14 0:7 1:13 0:8 1:13 0:8 1:13 0:8 1:13 0:7 1:14 0:7 1:14 0:7 1:14 0:7 1:14 0:7 1:14 0:7 1:14 0:7 1:14 0:7 1:14 0:7 1:14 0:7 1:13 0:8 1:14 0:7 1:14 0:7 1:13 0:8 1:13 0:8 1:13 0:8 1:13 0:8 1:13 0:8 1:8 0:13 1:8 0:18 1:3 0:18 1:3 0:19 1:2 0:19 1:2 0:19 1:2 0:17 1:4 0:12 1:3 0:1 1:5 0:12 1:9 0:12 1:9 0:12 1:9 0:11 1:10</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___198">
+	<Id>198</Id>
+	<ClassName>letter_o</ClassName>
+	<Top>306</Top>
+	<Left>486</Left>
+	<Width>21</Width>
+	<Height>22</Height>
+	<Mask>0:0 1:11 0:6 1:4 0:1 1:9 0:9 1:2 0:1 1:8 0:14 1:4 0:17 1:2 0:38 1:1 0:20 1:1 0:11 1:3 0:6 1:1 0:7 1:9 0:11 1:10 0:11 1:10 0:10 1:11 0:10 1:10 0:11 1:8 0:15 1:4 0:70 1:3 0:16 1:6 0:13 1:10 0:8 1:30</Mask>
+</CropObject>
+<CropObject xml:id="MUSCIMA_DEFAULT_DATASET_PLACEHOLDER___CVC-MUSCIMA_W-01_N-10_D-ideal_1.png___199">
+	<Id>199</Id>
+	<ClassName>stem</ClassName>
+	<Top>141</Top>
+	<Left>2282</Left>
+	<Width>11</Width>
+	<Height>64</Height>
+	<Mask>0:0 1:2 0:6 1:5 0:7 1:4 0:8 1:3 0:9 1:3 0:8 1:3 0:8 1:4 0:7 1:3 0:27 1:2 0:1 1:4 0:4 1:7 0:4 1:6 0:5 1:6 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:5 1:6 0:5 1:6 0:5 1:6 0:6 1:5 0:6 1:5 0:5 1:7 0:4 1:7 0:4 1:6 0:6 1:5 0:6 1:6 0:5 1:6 0:5 1:6 0:5 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:5 1:3 0:22 1:3 0:5 1:6 0:5 1:6 0:5 1:6 0:5 1:6 0:5 1:6 0:5 1:5 0:6 1:5 0:6 1:6 0:5 1:6 0:5 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:4 0:7 1:4 0:7 1:4 0:7 1:4 0:6 1:4 0:6 1:5 0:6 1:5 0:6 1:5 0:6 1:5</Mask>
+</CropObject>
+</CropObjects>
+</CropObjectList>
