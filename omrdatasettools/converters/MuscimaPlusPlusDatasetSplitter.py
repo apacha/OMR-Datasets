@@ -94,5 +94,5 @@ class MuscimaPlusPlusDatasetSplitter:
 
 
 if __name__ == "__main__":
-    dataset_splitter = MuscimaPlusPlusDatasetSplitter("../data")
+    dataset_splitter = MuscimaPlusPlusDatasetSplitter("../data/muscima_pp")
     dataset_splitter.split_images_into_training_validation_and_test_set()
