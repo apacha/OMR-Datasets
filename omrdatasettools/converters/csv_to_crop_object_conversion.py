@@ -12,6 +12,15 @@ from tqdm import tqdm
 
 
 def convert_csv_annotations_to_cropobject(annotations_path: str, image_path: str) -> List[CropObject]:
+    """
+    Converts a normalized dataset of objects into crop-objects.
+    :param annotations_path: Path to the csv-file that contains bounding boxes in the following
+                             format for a single image:
+                image_name,top,left,bottom,right,class_name,confidence
+                CVC-MUSCIMA_W-01_N-10_D-ideal_1.png,138.93,2286.36,185.20,2316.52,8th_flag,1.00
+    :param image_path: Image that is being described by the file given under the annotations_path
+    :return: A list of CropObjects as being used by the MUSCIMA++ dataset including the binary image-masks
+    """
     annotations = pd.read_csv(annotations_path)
     image = Image.open(image_path) # type: Image.Image
 
