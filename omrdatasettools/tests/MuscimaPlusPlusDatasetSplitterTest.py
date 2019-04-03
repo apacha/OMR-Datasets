@@ -1,7 +1,7 @@
 import unittest
 from glob import glob
 
-from omrdatasettools.MuscimaPlusPlusDatasetSplitter import MuscimaPlusPlusDatasetSplitter
+from omrdatasettools.converters.MuscimaPlusPlusDatasetSplitter import MuscimaPlusPlusDatasetSplitter
 
 
 class MuscimaPlusPlusDatasetSplitterTest(unittest.TestCase):
