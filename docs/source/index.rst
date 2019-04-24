@@ -51,6 +51,7 @@ Note that the image generator has a lot of options that define how the images wi
 
    downloaders/index.rst
    image_generators/index.rst
+   converters/index.rst
 
 
 Indices and tables
