@@ -64,7 +64,7 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
-**Summary**: A collection of various other datasets, that combines 7 datasets into a large unified dataset of 90000 tiny music symbol images from 79 classes that can be used to train a universal music symbol classifier. 74000 symbols are handwritten and 16000 are printed symbols.
+**Summary**: A collection of various other datasets which combines 7 datasets into a large unified dataset of 90000 tiny music symbol images from 79 classes that can be used to train a universal music symbol classifier. 74000 symbols are handwritten and 16000 are printed symbols.
 
 **Scientific Publication**: Alexander Pacha, Horst Eidenberger. Towards a Universal Music Symbol Classifier. Proceedings of the 12th IAPR International Workshop on Graphics Recognition, Kyoto, Japan, November 2017. [DOI: 10.1109/ICDAR.2017.265](http://dx.doi.org/10.1109/ICDAR.2017.265)
 
