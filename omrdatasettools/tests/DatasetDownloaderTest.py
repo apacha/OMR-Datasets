@@ -4,8 +4,6 @@ import unittest
 from glob import glob
 from typing import Callable
 
-import pytest
-
 from omrdatasettools.downloaders import DatasetDownloader
 from omrdatasettools.downloaders.AudiverisOmrDatasetDownloader import AudiverisOmrDatasetDownloader
 from omrdatasettools.downloaders.BaroDatasetDownloader import BaroDatasetDownloader
@@ -123,14 +121,27 @@ class DatasetDownloaderTest(unittest.TestCase):
                                                             target_file_extension, zip_file,
                                                             downloader)
 
-    def test_download_and_extract_muscima_pp_dataset_expect_folder_to_be_created(self):
+    def test_download_and_extract_muscima_pp_dataset_expect_folder_to_be_created_v1(self):
         destination_directory = "MuscimaPlusPlus"
-        downloader = MuscimaPlusPlusDatasetDownloader()
+        downloader = MuscimaPlusPlusDatasetDownloader(version=1)
         zip_file = downloader.get_dataset_filename()
         number_of_samples_with_staff_lines = 140
         number_of_samples_without_staff_lines = 140
         extra_files = 1
         number_of_xml_files_in_the_dataset = number_of_samples_with_staff_lines + number_of_samples_without_staff_lines + extra_files
+        target_file_extension = "*.xml"
+
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_xml_files_in_the_dataset,
+                                                            target_file_extension, zip_file,
+                                                            downloader)
+
+    def test_download_and_extract_muscima_pp_dataset_expect_folder_to_be_created_v2(self):
+        destination_directory = "MuscimaPlusPlus"
+        downloader = MuscimaPlusPlusDatasetDownloader(version=2)
+        zip_file = downloader.get_dataset_filename()
+        number_of_samples_with_staff_lines = 140
+        extra_files = 1
+        number_of_xml_files_in_the_dataset = number_of_samples_with_staff_lines + extra_files
         target_file_extension = "*.xml"
 
         self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_xml_files_in_the_dataset,

@@ -10,12 +10,28 @@ class MuscimaPlusPlusDatasetDownloader(DatasetDownloader):
         Copyright 2017 Jan Hajic jr. under CC-BY-NC-SA 4.0 license
     """
 
+    def __init__(self, version: int = 1):
+        """
+        Create and initializes a new dataset.
+        :param version: Version of the MUSCIMA++ dataset, can either be 1 (original by Jan Hajic) or 2 (adapted to
+                        MuNG by Alexander Pacha).
+        """
+        self.version = version
+
     def get_dataset_download_url(self) -> str:
         # Official URL: "https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11372/LRT-2372/MUSCIMA-pp_v1.0.zip?sequence=1&isAllowed=y"
-        return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/MUSCIMA-pp_v1.0.zip"
+        if self.version == 1:
+            return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/MUSCIMA-pp_v1.0.zip"
+        elif self.version == 2:
+            return "https://github.com/OMR-Research/muscima-pp/releases/download/v2.0/MUSCIMA-pp_v2.0.zip"
+        else:
+            raise Exception("Invalid version specified. Valid values are [1, 2]")
 
     def get_dataset_filename(self) -> str:
-        return "MUSCIMA-pp_v1.0.zip"
+        if self.version == 1:
+            return "MUSCIMA-pp_v1.0.zip"
+        if self.version == 2:
+            return "MUSCIMA-pp_v2.0.zip"
 
     def get_images_download_url(self) -> str:
         # This URL contains the images of the CVC-MUSCIMA dataset, that were annotated in the MUSCIMA++ dataset
