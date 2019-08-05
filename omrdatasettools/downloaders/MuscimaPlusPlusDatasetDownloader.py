@@ -93,7 +93,10 @@ class MuscimaPlusPlusDatasetDownloader(DatasetDownloader):
         self.clean_up_temp_directory(absolute_path_to_temp_folder)
 
     def dataset_version(self):
-        return "v1.0"
+        if self.version == 1:
+            return "v1.0"
+        if self.version == 2:
+            return "v2.0"
 
 
 if __name__ == "__main__":
