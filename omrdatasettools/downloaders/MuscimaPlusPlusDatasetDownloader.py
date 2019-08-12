@@ -10,28 +10,20 @@ class MuscimaPlusPlusDatasetDownloader(DatasetDownloader):
         Copyright 2017 Jan Hajic jr. under CC-BY-NC-SA 4.0 license
     """
 
-    def __init__(self, version: int = 1):
+    def __init__(self, dataset_version: str = "1.0"):
         """
         Create and initializes a new dataset.
-        :param version: Version of the MUSCIMA++ dataset, can either be 1 (original by Jan Hajic) or 2 (adapted to
-                        MuNG by Alexander Pacha).
+        :param dataset_version: Version of the MUSCIMA++ dataset, can either be 1.0 (original by Jan Hajic)
+                        or 2.0 (adapted to MuNG by Alexander Pacha).
         """
-        self.version = version
+        self.dataset_version = dataset_version
 
     def get_dataset_download_url(self) -> str:
         # Official URL: "https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11372/LRT-2372/MUSCIMA-pp_v1.0.zip?sequence=1&isAllowed=y"
-        if self.version == 1:
-            return "https://github.com/apacha/OMR-Datasets/releases/download/datasets/MUSCIMA-pp_v1.0.zip"
-        elif self.version == 2:
-            return "https://github.com/OMR-Research/muscima-pp/releases/download/v2.0/MUSCIMA-pp_v2.0.zip"
-        else:
-            raise Exception("Invalid version specified. Valid values are [1, 2]")
+        return "https://github.com/OMR-Research/muscima-pp/releases/download/v{0}/MUSCIMA-pp_v{0}.zip".format(self.dataset_version)
 
     def get_dataset_filename(self) -> str:
-        if self.version == 1:
-            return "MUSCIMA-pp_v1.0.zip"
-        if self.version == 2:
-            return "MUSCIMA-pp_v2.0.zip"
+        return "MUSCIMA-pp_v{0}.zip".format(self.dataset_version)
 
     def get_images_download_url(self) -> str:
         # This URL contains the images of the CVC-MUSCIMA dataset, that were annotated in the MUSCIMA++ dataset
@@ -65,8 +57,7 @@ class MuscimaPlusPlusDatasetDownloader(DatasetDownloader):
         absolute_path_to_temp_folder = os.path.abspath('MuscimaPpImages')
         self.extract_dataset(absolute_path_to_temp_folder, self.get_imageset_filename())
         DatasetDownloader.copytree(os.path.join(absolute_path_to_temp_folder, "fulls"),
-                                   os.path.join(os.path.abspath(destination_directory), self.dataset_version(), "data",
-                                                "images"))
+                                   os.path.join(os.path.abspath(destination_directory), "v" + self.dataset_version, "data", "images"))
         self.clean_up_temp_directory(absolute_path_to_temp_folder)
 
     def download_and_extract_measure_annotations(self, destination_directory: str):
@@ -85,18 +76,10 @@ class MuscimaPlusPlusDatasetDownloader(DatasetDownloader):
         absolute_path_to_temp_folder = os.path.abspath('MuscimaPpMeasureAnnotations')
         self.extract_dataset(absolute_path_to_temp_folder, self.get_measure_annotation_filename())
         DatasetDownloader.copytree(os.path.join(absolute_path_to_temp_folder, "coco"),
-                                   os.path.join(os.path.abspath(destination_directory), self.dataset_version(), "data",
-                                                "coco"))
+                                   os.path.join(os.path.abspath(destination_directory), "v" + self.dataset_version, "data", "coco"))
         DatasetDownloader.copytree(os.path.join(absolute_path_to_temp_folder, "json"),
-                                   os.path.join(os.path.abspath(destination_directory), self.dataset_version(), "data",
-                                                "json"))
+                                   os.path.join(os.path.abspath(destination_directory), "v" + self.dataset_version, "data", "json"))
         self.clean_up_temp_directory(absolute_path_to_temp_folder)
-
-    def dataset_version(self):
-        if self.version == 1:
-            return "v1.0"
-        if self.version == 2:
-            return "v2.0"
 
 
 if __name__ == "__main__":

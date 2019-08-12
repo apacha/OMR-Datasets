@@ -123,7 +123,7 @@ class DatasetDownloaderTest(unittest.TestCase):
 
     def test_download_and_extract_muscima_pp_dataset_expect_folder_to_be_created_v1(self):
         destination_directory = "MuscimaPlusPlus"
-        downloader = MuscimaPlusPlusDatasetDownloader(version=1)
+        downloader = MuscimaPlusPlusDatasetDownloader(dataset_version="1.0")
         zip_file = downloader.get_dataset_filename()
         number_of_samples_with_staff_lines = 140
         number_of_samples_without_staff_lines = 140
@@ -137,7 +137,7 @@ class DatasetDownloaderTest(unittest.TestCase):
 
     def test_download_and_extract_muscima_pp_dataset_expect_folder_to_be_created_v2(self):
         destination_directory = "MuscimaPlusPlus"
-        downloader = MuscimaPlusPlusDatasetDownloader(version=2)
+        downloader = MuscimaPlusPlusDatasetDownloader(dataset_version="2.0")
         zip_file = downloader.get_dataset_filename()
         number_of_samples_with_staff_lines = 140
         extra_files = 1
