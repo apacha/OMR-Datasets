@@ -10,6 +10,7 @@ pytest-cov
 h5py
 PyHamcrest
 muscima == 0.10.0
+mung
 numpy
 lxml # Transitive dependency from musicma that is not fulfilled there
 tqdm
