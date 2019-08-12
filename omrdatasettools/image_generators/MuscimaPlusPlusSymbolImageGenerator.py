@@ -15,7 +15,7 @@ from muscima.cropobject import CropObject
 from omrdatasettools.image_generators.ExportPath import ExportPath
 
 
-class MuscimaPlusPlusImageGenerator:
+class MuscimaPlusPlusSymbolImageGenerator:
     def __init__(self) -> None:
         super().__init__()
         self.path_of_this_file = os.path.dirname(os.path.realpath(__file__))
@@ -106,6 +106,6 @@ if __name__ == "__main__":
 
     flags, unparsed = parser.parse_known_args()
 
-    muscima_pp_image_generator = MuscimaPlusPlusImageGenerator()
+    muscima_pp_image_generator = MuscimaPlusPlusSymbolImageGenerator()
     muscima_pp_image_generator.extract_and_render_all_symbol_masks(flags.raw_dataset_directory,
                                                                    flags.image_dataset_directory)

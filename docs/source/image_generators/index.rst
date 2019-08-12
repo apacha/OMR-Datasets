@@ -9,4 +9,4 @@ Image Generators
     HomusImageGenerator
     HomusSymbol
     MeasureVisualizer
-    MuscimaPlusPlusImageGenerator
+    MuscimaPlusPlusSymbolImageGenerator
