@@ -1,17 +1,54 @@
 from distutils.core import setup
+import io
+import logging
+import os
 
 from setuptools import find_packages
+
+import omrdatasettools
+
+here = os.path.abspath(os.path.dirname(__file__))
+
+
+def read(*filenames, **kwargs):
+    encoding = kwargs.get('encoding', 'utf-8')
+    sep = kwargs.get('sep', '\n')
+    buf = []
+    for filename in filenames:
+        with io.open(filename, encoding=encoding) as f:
+            buf.append(f.read())
+    return sep.join(buf)
+
+
+def get_long_description():
+    readme = os.path.join(here, 'README_omrdatasettools.md')
+    changes = os.path.join(here, 'CHANGES.md')
+
+    if os.path.isfile(readme) and os.path.isfile(changes):
+        long_description = read(readme, changes)
+    else:
+        logging.warning('Could not find README.md and CHANGES.md file'
+                        ' in directory {0}. Contents:'
+                        ' {1}'.format(here, os.listdir(here)))
+        long_description = 'Tools for the Music Notation Graph representation of' \
+                           ' music notation, used primarily for optical music' \
+                           ' recognition. The MUSCIMA++ dataset uses this data' \
+                           ' model. Supports export to MIDI. [README.md and' \
+                           ' CHANGES.md not found]'
+    return long_description
 
 setup(
     name='omrdatasettools',
     packages=find_packages('.'),
-    version='0.18',
+    version=omrdatasettools.__version__,
     description='A collection of tools that simplify the downloading and handling of datasets used for Optical Music Recognition (OMR).',
+    long_description=get_long_description(),
+    long_description_content_type="text/markdown",
     author='Alexander Pacha',
     author_email='alexander.pacha@tuwien.ac.at',
     license='MIT',
     url='https://github.com/apacha/omr-datasets',  # use the URL to the github repo
-    download_url='https://github.com/apacha/OMR-Datasets/archive/0.18.tar.gz',
+    download_url='https://github.com/apacha/OMR-Datasets/archive/{0}.tar.gz'.format(omrdatasettools.__version__),
     keywords=['optical music recognition', 'downloading', 'extracting', 'omr', 'generating', 'dataset', 'preprocessing'],
     classifiers=[
         # How mature is this project? Common values are
@@ -35,5 +72,6 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
     ],
 )

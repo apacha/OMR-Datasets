@@ -37,7 +37,10 @@ The following datasets are referenced from this repository:
 If you find mistakes or know of any relevant datasets, that are missing in this list, please [open an issue](https://github.com/apacha/OMR-Datasets/issues/new) or directly file a pull request.
 
 ## Tools for working with the datasets
-[![Build Status](https://travis-ci.org/apacha/OMR-Datasets.svg?branch=master)](https://travis-ci.org/apacha/OMR-Datasets) [![codecov](https://codecov.io/gh/apacha/OMR-Datasets/branch/master/graph/badge.svg)](https://codecov.io/gh/apacha/OMR-Datasets) [![PyPI version](https://badge.fury.io/py/omrdatasettools.svg)](https://badge.fury.io/py/omrdatasettools) [![Documentation Status](https://readthedocs.org/projects/omr-datasets/badge/?version=latest)](http://omr-datasets.readthedocs.io/en/latest/?badge=latest) [![Code Health](https://landscape.io/github/apacha/OMR-Datasets/master/landscape.svg?style=flat)](https://landscape.io/github/apacha/OMR-Datasets/master) [![GitHub license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://raw.githubusercontent.com/apacha/OMR-Datasets/master/LICENSE.txt) 
+A collection of tools that simplify the downloading and handling of datasets used for Optical Music Recognition (OMR).
+These tools are available as Python package ``omrdatasettools`` on PyPi.
+
+[![Build Status](https://travis-ci.org/apacha/OMR-Datasets.svg?branch=master)](https://travis-ci.org/apacha/OMR-Datasets) [![codecov](https://codecov.io/gh/apacha/OMR-Datasets/branch/master/graph/badge.svg)](https://codecov.io/gh/apacha/OMR-Datasets) [![PyPI version](https://badge.fury.io/py/omrdatasettools.svg)](https://badge.fury.io/py/omrdatasettools) [![Documentation Status](https://readthedocs.org/projects/omr-datasets/badge/?version=latest)](http://omr-datasets.readthedocs.io/en/latest/?badge=latest) [![GitHub license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://raw.githubusercontent.com/apacha/OMR-Datasets/master/LICENSE.txt) 
 
 
 # Handwritten Online Musical Symbols (HOMUS)
@@ -91,6 +94,8 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 
 **Official website**: [https://ufal.mff.cuni.cz/muscima](https://ufal.mff.cuni.cz/muscima)
 
+**Current development**: [https://github.com/OMR-Research/muscima-pp](https://github.com/OMR-Research/muscima-pp)
+
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 **Summary**: MUSCIMA++ is a dataset of handwritten music notation for musical symbol detection that is based on the MUSCIMA dataset. It contains 91255 symbols, consisting of both notation primitives and higher-level notation objects, such as key signatures or time signatures. There are 23352 notes in the dataset, of which 21356 have a full notehead, 1648 have an empty notehead, and 348 are grace notes. Composite objects, such as notes, are captured through explicitly annotated relationships of the notation primitives (noteheads, stems, beams...). This way, the annotation provides an explicit bridge between the low-level and high-level symbols described in Optical Music Recognition literature.
@@ -101,7 +106,7 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 
 ![Example of MUSCIMA++ dataset](samples/muscima-pp.png)
 
-*Remarks*: Since this dataset is derived from the CVC-MUSCIMA dataset, using it requires to reference both works.
+*Remarks*: Since this dataset is derived from the CVC-MUSCIMA dataset, using it requires to reference the CVC-MUSCIMA as well.
 
 ## MUSCIMA++ Measure Annotations
 
