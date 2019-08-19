@@ -8,14 +8,16 @@ from glob import glob
 from PIL import Image
 import numpy as np
 
-# Script for converting measure annotations of the MUSCIMA++ dataset into the COCO format, used by popular object detectors
+# Script for converting the MUSCIMA++ dataset into the COCO format, used by popular object detectors
+from mung.io import parse_node_classes, read_nodes_from_file
+from typing import Dict, List, Tuple
 
-ROOT_DIR = '../data/muscima_pp/v1.0/data'
-IMAGE_DIR = os.path.join(ROOT_DIR, "images")
-ANNOTATION_DIR = os.path.join(ROOT_DIR, "json")
+from shapely.geometry import Polygon
+from skimage import measure
+from tqdm import tqdm
 
 INFO = {
-    "description": "MUSCIMA++ dataset for Measure Detection",
+    "description": "MUSCIMA++ dataset",
     "url": "https://apacha.github.io/OMR-Datasets/",
     "version": "0.1",
     "year": 2019,
@@ -30,39 +32,6 @@ LICENSES = [
         "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
     }
 ]
-
-SYSTEM_MEASURE_ID = 1
-STAVE_MEASURE_ID = 2
-STAVE_ID = 3
-
-CATEGORIES = [
-    {
-        'id': SYSTEM_MEASURE_ID,
-        'name': 'system_measure',
-        'supercategory': 'region',
-    },
-    {
-        'id': STAVE_MEASURE_ID,
-        'name': 'stave_measure',
-        'supercategory': 'region',
-    },
-    {
-        'id': STAVE_ID,
-        'name': 'stave',
-        'supercategory': 'region',
-    },
-]
-
-
-def coordinates_to_bounding_box(coordinates_dictionary):
-    left = coordinates_dictionary['left']
-    right = coordinates_dictionary['right']
-    top = coordinates_dictionary['top']
-    bottom = coordinates_dictionary['bottom']
-    width = right - left
-    height = bottom - top
-    return [left, top, width, height]
-
 
 def create_image_info(image_id, file_name, image_size,
                       date_captured=datetime.utcnow().isoformat(' '),
@@ -81,7 +50,10 @@ def create_image_info(image_id, file_name, image_size,
     return image_info
 
 
-def create_annotation_info(annotation_id, image_id, category_id, bounding_box):
+def create_annotation_info(annotation_id, image_id, category_id, node):
+    bounding_box = [node.left, node.top, node.width, node.height]
+    segmentation = []
+
     annotation_info = {
         "id": annotation_id,
         "image_id": image_id,
@@ -89,13 +61,36 @@ def create_annotation_info(annotation_id, image_id, category_id, bounding_box):
         "iscrowd": 0,
         "area": 0.0,
         "bbox": bounding_box,
-        "segmentation": [],
+        "segmentation": segmentation,
     }
 
     return annotation_info
 
 
-def main():
+def get_categories(node_classes_file_path) -> Tuple[List[Dict[str,str]],Dict[str,str]]:
+    node_classes = parse_node_classes(node_classes_file_path)
+    categories = []
+    for node_class in node_classes:
+        categories.append(
+            {
+                'id': node_class.class_id,
+                'name': node_class.name,
+                'supercategory': node_class.group_name.split("/")[0],
+            }
+        )
+
+    class_to_id_mapping = {c.name : c.class_id for c in node_classes}
+    return categories, class_to_id_mapping
+
+
+if __name__ == "__main__":
+    # TODO: Obtain from arguments
+    ROOT_DIR = '../data/muscima_pp/v2.0'
+    IMAGE_DIR = os.path.join(ROOT_DIR, "data", "images")
+    ANNOTATION_DIR = os.path.join(ROOT_DIR, "data", "annotations")
+
+    CATEGORIES, class_name_to_category_id_mapping = get_categories(os.path.join(ROOT_DIR, "specifications", "mff-muscima-mlclasses-annot.xml"))
+
     coco_output = {
         "info": INFO,
         "licenses": LICENSES,
@@ -106,43 +101,23 @@ def main():
 
     image_id = 1
     annotation_id = 1
-    annotation_file_paths = glob(ANNOTATION_DIR + "/*.json")
+    annotation_file_paths = glob(ANNOTATION_DIR + "/*.xml")
 
-    for annotation_file_path in annotation_file_paths:
-        with open(annotation_file_path, 'r') as file:
-            annotation = json.load(file)
+    for annotation_file_path in tqdm(annotation_file_paths, desc="Parsing annotations"):
+        nodes = read_nodes_from_file(annotation_file_path)
 
-        image_path = os.path.splitext(os.path.basename(annotation_file_path))[0] + ".png"
-        image_info = create_image_info(image_id, image_path, (annotation["width"], annotation["height"]))
+        image_name = os.path.splitext(os.path.basename(annotation_file_path))[0] + ".png"
+        image = Image.open(os.path.join(IMAGE_DIR, image_name)) # type: Image.Image
+        image_info = create_image_info(image_id, image_name, (image.width, image.height))
         coco_output["images"].append(image_info)
 
-        system_measure_coordinates = annotation['system_measures']
-        for system_measure in system_measure_coordinates:
-            bounding_box = coordinates_to_bounding_box(system_measure)
-            annotation_info = create_annotation_info(annotation_id, image_id, SYSTEM_MEASURE_ID, bounding_box)
-            coco_output["annotations"].append(annotation_info)
-            annotation_id = annotation_id + 1
-
-        stave_measure_coordinates = annotation['stave_measures']
-        for staff_measure in stave_measure_coordinates:
-            bounding_box = coordinates_to_bounding_box(staff_measure)
-            annotation_info = create_annotation_info(annotation_id, image_id, STAVE_MEASURE_ID, bounding_box)
-            coco_output["annotations"].append(annotation_info)
-            annotation_id = annotation_id + 1
-
-        stave_coordinates = annotation['staves']
-        for stave in stave_coordinates:
-            bounding_box = coordinates_to_bounding_box(stave)
-            annotation_info = create_annotation_info(annotation_id, image_id, STAVE_ID, bounding_box)
+        for node in nodes:
+            annotation_info = create_annotation_info(annotation_id, image_id, class_name_to_category_id_mapping[node.class_name], node)
             coco_output["annotations"].append(annotation_info)
             annotation_id = annotation_id + 1
 
         image_id = image_id + 1
 
-    os.makedirs("{}/coco".format(ROOT_DIR))
-    with open('{}/coco/all_measure_annotations.json'.format(ROOT_DIR), 'w') as output_json_file:
+    os.makedirs("{}/data/coco".format(ROOT_DIR), exist_ok=True)
+    with open('{}/data/coco/all_annotations.json'.format(ROOT_DIR), 'w') as output_json_file:
         json.dump(coco_output, output_json_file, indent=4)
-
-
-if __name__ == "__main__":
-    main()
