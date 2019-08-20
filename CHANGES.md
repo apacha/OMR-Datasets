@@ -3,6 +3,12 @@
 Changelog
 =========
 
+0.19
+---
+New Image generator that can take MUSCIMA++ v2.0 images and 
+generate masks for instance segmentation of staffs, as well as
+masks for semantic segmentation for all objects.
+
 0.18
 ---
 Changing MUSCIMA++ Downloader to accept a string instead of integer for enabling
