@@ -37,6 +37,7 @@ def get_long_description():
                            ' CHANGES.md not found]'
     return long_description
 
+
 setup(
     name='omrdatasettools',
     packages=find_packages('.'),
@@ -48,8 +49,11 @@ setup(
     author_email='alexander.pacha@tuwien.ac.at',
     license='MIT',
     url='https://github.com/apacha/omr-datasets',  # use the URL to the github repo
-    download_url='https://github.com/apacha/OMR-Datasets/archive/{0}.tar.gz'.format(omrdatasettools.__version__),
-    keywords=['optical music recognition', 'downloading', 'extracting', 'omr', 'generating', 'dataset', 'preprocessing'],
+    download_url='https://github.com/apacha/OMR-Datasets/archive/{0}.tar.gz'.format(
+        omrdatasettools.__version__),
+    keywords=['optical music recognition', 'downloading', 'extracting', 'omr', 'generating',
+              'dataset', 'preprocessing'],
+    install_requires=['Pillow', 'muscima', "mung", "numpy", "tqdm", "scikit-image"],
     classifiers=[
         # How mature is this project? Common values are
         #   3 - Alpha
