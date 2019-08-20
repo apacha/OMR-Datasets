@@ -5,28 +5,56 @@ from glob import glob
 
 from omrdatasettools.downloaders.MuscimaPlusPlusDatasetDownloader import MuscimaPlusPlusDatasetDownloader
 from omrdatasettools.image_generators.MuscimaPlusPlusMaskImageGenerator import \
-    MuscimaPlusPlusMaskImageGenerator
+    MuscimaPlusPlusMaskImageGenerator, MaskType
 
 
 class MuscimaPlusPlusMaskImageGeneratorTest(unittest.TestCase):
-    @unittest.skip("Takes very long and is not very useful yet")
-    def test_download_extract_and_render_all_symbols(self):
+    def test_render_node_masks_semantic_segmentation_of_nodes(self):
         # Arrange
-        datasetDownloader = MuscimaPlusPlusDatasetDownloader(dataset_version="2.0")
+        image_generator = MuscimaPlusPlusMaskImageGenerator()
 
         # Act
-        datasetDownloader.download_and_extract_dataset("temp/muscima_pp_raw")
-        image_generator = MuscimaPlusPlusMaskImageGenerator()
-        image_generator.render_instance_segmentation_masks("temp/muscima_pp_raw", "temp/muscima_img")
-        all_image_files = [y for x in os.walk("temp/muscima_img") for y in glob(os.path.join(x[0], '*.png'))]
-        expected_number_of_images = 140
-        actual_number_of_images = len(all_image_files)
+        image_generator.render_node_masks("testdata/muscima-pp_v2", "temp/muscima-pp_v2_masks", MaskType.NODES_SEMANTIC_SEGMENTATION)
 
         # Assert
+        all_image_files = [y for x in os.walk("temp/muscima-pp_v2_masks") for y in glob(os.path.join(x[0], '*.png'))]
+        expected_number_of_images = 1
+        actual_number_of_images = len(all_image_files)
         self.assertEqual(expected_number_of_images, actual_number_of_images)
 
         # Cleanup
-        os.remove(datasetDownloader.get_dataset_filename())
+        shutil.rmtree("temp")
+
+    def test_render_node_masks_instance_segmentation_of_staff_lines(self):
+        # Arrange
+        image_generator = MuscimaPlusPlusMaskImageGenerator()
+
+        # Act
+        image_generator.render_node_masks("testdata/muscima-pp_v2", "temp/muscima-pp_v2_masks", MaskType.STAFF_LINES_INSTANCE_SEGMENTATION)
+
+        # Assert
+        all_image_files = [y for x in os.walk("temp/muscima-pp_v2_masks") for y in glob(os.path.join(x[0], '*.png'))]
+        expected_number_of_images = 1
+        actual_number_of_images = len(all_image_files)
+        self.assertEqual(expected_number_of_images, actual_number_of_images)
+
+        # Cleanup
+        shutil.rmtree("temp")
+
+    def test_render_node_masks_instance_segmentation_of_staff_blobs(self):
+        # Arrange
+        image_generator = MuscimaPlusPlusMaskImageGenerator()
+
+        # Act
+        image_generator.render_node_masks("testdata/muscima-pp_v2", "temp/muscima-pp_v2_masks", MaskType.STAFF_BLOBS_INSTANCE_SEGMENTATION)
+
+        # Assert
+        all_image_files = [y for x in os.walk("temp/muscima-pp_v2_masks") for y in glob(os.path.join(x[0], '*.png'))]
+        expected_number_of_images = 1
+        actual_number_of_images = len(all_image_files)
+        self.assertEqual(expected_number_of_images, actual_number_of_images)
+
+        # Cleanup
         shutil.rmtree("temp")
 
 
