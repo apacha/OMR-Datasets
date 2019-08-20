@@ -413,3 +413,4 @@ Components
 .idea/
 data/
 /temp/
+/.pytest_cache/
