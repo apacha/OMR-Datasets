@@ -20,7 +20,7 @@ The following datasets are referenced from this repository:
 | [MuseScore](#musescore)                                                                 	| Printed               	| > 340000 files 	    									| MuseScore, PDF, MusicXML 								| Various                                   						|
 | [MuseScore Monophonic MusicXML Dataset](#musescore-monophonic-musicxml-dataset)         	| Printed               	| 17000 IDs      	    									| IDs for MuseScore files  								| Various                                   						|
 | [Capitan collection](#capitan-collection)                                               	| Handwritten              	| 10230 symbols         									| Images, Text-File    	    							| Symbol Classification                     						|
-| [SEILS Dataset](#seils-dataset)                                               	        | Printed              	    | 30 madrigals, 150 original images, 270 symbolic files 	| Images (PDF), .ly, .mid, .xml, .musx, .krn, .mei    	| Various                     										|
+| [SEILS Dataset](#seils-dataset)                                               	        | Printed              	    | 30 madrigals, 150 original images, 930 symbolic files 	| Images (PDF), .ly, .mid, .xml, .musx, .krn, .mei, .mns, .agnostic, .semantic    	| Various                     										|
 | [Rebelo Dataset](#rebelo-dataset)                                                        	| Printed               	| 15000 symbols  	    									| Images                								| Symbol Classification                     						|
 | [Fornes Dataset](#fornes-dataset)                                                       	| Handwritten           	| 4100 symbols   	    									| Images                 								| Symbol Classification                     						|
 | [Audiveris OMR](#audiveris-omr)                                                         	| Printed               	| 800 annotations	    									| Images, XML          	    							| Symbol Classification, Object Detection   						|
@@ -244,11 +244,15 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 **Official website**: [https://github.com/SEILSdataset/SEILSdataset](https://github.com/SEILSdataset/SEILSdataset)
 
-[![License](https://img.shields.io/badge/License-Unknown-red.svg)](https://github.com/SEILSdataset/SEILSdataset)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-**Summary**: The SEILS dataset is a corpus of scores in lilypond, music XML, MIDI, Finale, **kern, MEI, and pdf formats, in white mensural and modern notation. The transcribed scores have been taken from the 16th century anthology of Italian madrigals Il Lauro Secco, published for the first time in 1582 by Vittorio Baldini in Ferrara (Italy). The corpus contains scores of 30 different madrigals for five unaccompanied voices composed by a variety of composers.
+**Summary**: The SEILS dataset is a corpus of scores in lilypond, music XML, MIDI, Finale, **kern, MEI, **mens, agnostic, semantic and pdf formats, in white mensural and modern notation. The transcribed scores have been taken from the 16th century anthology of Italian madrigals Il Lauro Secco, published for the first time in 1582 by Vittorio Baldini in Ferrara (Italy). The corpus contains scores of 30 different madrigals for five unaccompanied voices composed by a variety of composers.
 
-**Scientific Publication**: Emilia Parada-Cabaleiro, Anton Batliner, Alice Baird, Björn W. Schuller. The SEILS dataset: Symbolically Encoded Scores in ModernAncient Notation for Computational Musicology. Proceedings of the 18th International Society of Music Information Retrieval conference, 2017. [Download the PDF](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/14_Paper.pdf)
+**Scientific Publication**: Emilia Parada-Cabaleiro, Anton Batliner, Alice Baird, Björn W. Schuller. The SEILS dataset: Symbolically Encoded Scores in ModernAncient Notation for Computational Musicology. Proceedings of the 18th International Society of Music Information Retrieval conference, 2017, Suzhou, P.R. China, pp. 575-581. [Download the PDF](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/14_Paper.pdf)
+
+**Scientific Publication**: Emilia Parada-Cabaleiro, Maximilian Schmitt, Anton Batliner, Björn W. Schuller. Musical-Linguistic annotation of Il Lauro Secco. Proceedings of the 19th International Society of Music Information Retrieval conference, 2018, Paris, France, pp. 461-467. [Download the PDF](http://ismir2018.ircam.fr/doc/pdfs/11_Paper.pdf)
+
+**Scientific Publication**: Emilia Parada-Cabaleiro, Anton Batliner, Björn W. Schuller. A diplomatic edition of Il Lauro Secco: Ground truth for OMR of white mensural notation. Proceedings of the 20th International Society of Music Information Retrieval conference, 2019, Delft, The Netherlands, pp. 557-564. [Download the PDF](http://archives.ismir.net/ismir2019/paper/000067.pdf)
 
 **Example**:
 
