@@ -41,13 +41,13 @@ If you find mistakes or know of any relevant datasets, that are missing in this 
 A collection of tools that simplify the downloading and handling of datasets used for Optical Music Recognition (OMR).
 These tools are available as Python package ``omrdatasettools`` on PyPi.
 
-[![Build Status](https://travis-ci.org/apacha/OMR-Datasets.svg?branch=master)](https://travis-ci.org/apacha/OMR-Datasets) [![codecov](https://codecov.io/gh/apacha/OMR-Datasets/branch/master/graph/badge.svg)](https://codecov.io/gh/apacha/OMR-Datasets) [![PyPI version](https://badge.fury.io/py/omrdatasettools.svg)](https://badge.fury.io/py/omrdatasettools) [![Documentation Status](https://readthedocs.org/projects/omr-datasets/badge/?version=latest)](http://omr-datasets.readthedocs.io/en/latest/?badge=latest) [![GitHub license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://raw.githubusercontent.com/apacha/OMR-Datasets/master/LICENSE.txt) 
+[![Build Status](https://travis-ci.org/apacha/OMR-Datasets.svg?branch=master)](https://travis-ci.org/apacha/OMR-Datasets) [![codecov](https://codecov.io/gh/apacha/OMR-Datasets/branch/master/graph/badge.svg)](https://codecov.io/gh/apacha/OMR-Datasets) [![PyPI version](https://badge.fury.io/py/omrdatasettools.svg)](https://badge.fury.io/py/omrdatasettools) [![Documentation Status](https://readthedocs.org/projects/omr-datasets/badge/?version=latest)](http://omr-datasets.readthedocs.io/en/latest/?badge=latest) [![GitHub license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://raw.githubusercontent.com/apacha/OMR-Datasets/master/LICENSE.txt)
 
 
 # Handwritten Online Musical Symbols (HOMUS)
 
 **Official website**: [http://grfia.dlsi.ua.es/homus/](http://grfia.dlsi.ua.es/homus/)
- 
+
 [![License](https://img.shields.io/badge/License-Unknown-red.svg)](http://grfia.dlsi.ua.es/homus/)
 
 **Summary**: The Handwritten Online Musical Symbols (HOMUS) dataset is a reference corpus with around 15000 samples for research on the recognition of online handwritten music notation. For each sample, the individual strokes that the musicians wrote on a Samsung Tablet using a stylus were recorded and can be used in online and offline scenarios.
@@ -59,12 +59,12 @@ These tools are available as Python package ``omrdatasettools`` on PyPi.
 ![Example of HOMUS dataset](samples/homus.png)
 
 
-*Remarks*: The original dataset contains around 20 artifacts and misclassifications that were reported to the authors and [corrected by Alexander Pacha](https://github.com/apacha/Homus). 
+*Remarks*: The original dataset contains around 20 artifacts and misclassifications that were reported to the authors and [corrected by Alexander Pacha](https://github.com/apacha/Homus).
 
 
 # Universal Music Symbol Collection
 
-**Official website**: [https://github.com/apacha/MusicSymbolClassifier](https://github.com/apacha/MusicSymbolClassifier), [Slides](https://docs.google.com/presentation/d/14g97TnrcI9o-5D6DIY-dMFfBp9kUAqpbe86c-VE83Bk/edit?usp=sharing) 
+**Official website**: [https://github.com/apacha/MusicSymbolClassifier](https://github.com/apacha/MusicSymbolClassifier), [Slides](https://docs.google.com/presentation/d/14g97TnrcI9o-5D6DIY-dMFfBp9kUAqpbe86c-VE83Bk/edit?usp=sharing)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
@@ -147,11 +147,11 @@ This dataset was created by [Alexander Pacha](https://alexanderpacha.com).
 
 [![License](https://img.shields.io/badge/License-Unknown-red.svg)](https://grfia.dlsi.ua.es/primus/)
 
-**Summary**: The Printed Images of Music Staves (PrIMuS) contains the 87678 real-music incipits (an incipit is a sequence of notes, typically the first ones, used for identifying a melody or musical work) in five different formats: As rendered PNG image, as MIDI-file, als MEI-file and as two custom encodings (semantic encoding and agnostic encoding). The incipits are originally taken from the [RISM dataset](http://opac.rism.info/). 
+**Summary**: The Printed Images of Music Staves (PrIMuS) contains the 87678 real-music incipits (an incipit is a sequence of notes, typically the first ones, used for identifying a melody or musical work) in five different formats: As rendered PNG image, as MIDI-file, als MEI-file and as two custom encodings (semantic encoding and agnostic encoding). The incipits are originally taken from the [RISM dataset](http://opac.rism.info/).
 
 PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.es/primus/) that contains the same scores, but the images have been distorted to simulate imperfections introduced by taking pictures of sheet music in a real scenario.
 
-**Scientific Publications**: 
+**Scientific Publications**:
 - Jorge Calvo-Zaragoza and David Rizo. End-to-End Neural Optical Music Recognition of Monophonic Scores. Applied Sciences, 2018, 8, 606. [http://www.mdpi.com/2076-3417/8/4/606](http://www.mdpi.com/2076-3417/8/4/606) (for PrIMuS)
 - Jorge Calvo-Zaragoza and David Rizo. Camera-PrIMuS: Neural end-to-end Optical Music Recognition on realistic monophonic scores. In Proceedings of the 19th International Society for Music Information Retrieval Conference, Paris, 2018. [http://ismir2018.ircam.fr/doc/pdfs/33.pdf](http://ismir2018.ircam.fr/doc/pdfs/33.pdf) (for Camera-PrIMuS)
 
@@ -166,7 +166,7 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-**Summary**: The Single Stave dataset by Arnau Baró is a derived dataset from the CVC-MUSCIMA dataset and contains 95 single stave music scores with ground truth labels on the symbol level. 
+**Summary**: The Single Stave dataset by Arnau Baró is a derived dataset from the CVC-MUSCIMA dataset and contains 95 single stave music scores with ground truth labels on the symbol level.
 
 **Scientific Publication**: Arnau Baró, Pau Riba, Jorge Calvo-Zaragoza, and Alicia Fornés. From Optical Music Recognition to Handwritten Music Recognition: a Baseline. Patter Recognition Letters, 2019 (in press). [DOI: 10.1016/j.patrec.2019.02.029](https://doi.org/10.1016/j.patrec.2019.02.029)
 
@@ -183,7 +183,7 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 **Summary**: MSMD is a synthetic dataset of 497 pieces of (classical) music that contains both audio and score representations of the pieces aligned at a fine-grained level (344,742 pairs of noteheads aligned to their audio/MIDI counterpart). It can be used for training and evaluating multimodal models that enable crossing from one modality to the other, such as retrieving sheet music using recordings or following a performance in the score image.
 
-**Scientific Publications**: 
+**Scientific Publications**:
 - Matthias Dorfer, Jan Hajič jr., Andreas Arzt, Harald Frostel, Gerhard Widmer. [Learning Audio-Sheet Music Correspondences for Cross-Modal Retrieval and Piece Identification](https://transactions.ismir.net/articles/10.5334/tismir.12/). Transactions of the International Society for Music Information Retrieval, issue 1, 2018.
 
 **Example**:
@@ -197,7 +197,7 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 [![License: Mixed](https://img.shields.io/badge/License-Mixed-ff00ff.svg)](https://musescore.com/sheetmusic)
 
-**Summary**: [MuseScore](https://musescore.org/) is a free music notation software and also allows their users to upload their sheet music to their website and share it with others. Currently (Jan. 2018) the website hosts over 340000 music sheets, that can be downloaded as MuseScore file (mscz), PDF, MusicXML, MIDI and MP3. 
+**Summary**: [MuseScore](https://musescore.org/) is a free music notation software and also allows their users to upload their sheet music to their website and share it with others. Currently (Jan. 2018) the website hosts over 340000 music sheets, that can be downloaded as MuseScore file (mscz), PDF, MusicXML, MIDI and MP3.
 
 **Publication**: [https://musescore.org](https://musescore.org)
 
@@ -216,7 +216,7 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 **Scientific Publication**: Eelco van der Wel, Karen Ullrich. Optical Music Recognition with Convolutional Sequence-to-Sequence Models. CoRR, arXiv:1707.04877, 2017. [https://arxiv.org/abs/1707.04877](https://arxiv.org/abs/1707.04877)
 
-**Examples**: 
+**Examples**:
 
 ![Example of Monophonic MusicXML dataset](samples/monophonic-musescore.png)
 
@@ -235,7 +235,7 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 ![Example of Capitan dataset](samples/capitan-collection.png)
 
-*Remarks*: This dataset exists in two flavours: 
+*Remarks*: This dataset exists in two flavours:
 
 * As raw dataset, which contains only the textual descriptions of the strokes and the images, called *Bimodal music symbols from Early notation*. This format is similar to the HOMUS dataset.
 * As rendered images inside of the *Isolated handwritten music symbols* dataset. Also refered to as Capitan collection.
@@ -286,7 +286,7 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 [![License](https://img.shields.io/badge/License-Unknown-red.svg)](http://grfia.dlsi.ua.es/homus/)
 
-**Summary**: A dataset of 4100 black and white symbols of 7 different symbol classes: flat, natural, sharp, double-sharp, c-clef, g-clef, f-clef. 
+**Summary**: A dataset of 4100 black and white symbols of 7 different symbol classes: flat, natural, sharp, double-sharp, c-clef, g-clef, f-clef.
 
 **Scientific Publication**: A.Fornés and J.Lladós and G. Sanchez, "Old Handwritten Musical Symbol Classification by a Dynamic Time Warping Based Method", in Graphics Recognition: Recent Advances and New Opportunities. Liu, W. and Lladós, J. and Ogier, J.M. editors, Lecture Notes in Computer Science, Volume 5046, Pages 51-60, Springer-Verlag Berlin, Heidelberg, 2008. [DOI: 10.1007/978-3-540-88188-9_6
 ](http://dx.doi.org/10.1007/978-3-540-88188-9_6)
@@ -302,7 +302,7 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-AGPL--3.0-green.svg)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 
-**Summary**: A collection of four music sheets with approximately 800 annotated music symbols. The [DeepScore project](https://www.zhaw.ch/no_cache/en/research/people-publications-projects/detail-view-project/projekt/2895/) in cooperation with the ZHAW targets towards [automatically generating these images](https://github.com/Audiveris/omr-dataset-tools/wiki/Synthetic-Images) and the annotations from MuseScore or Lilypond documents. 
+**Summary**: A collection of four music sheets with approximately 800 annotated music symbols. The [DeepScore project](https://www.zhaw.ch/no_cache/en/research/people-publications-projects/detail-view-project/projekt/2895/) in cooperation with the ZHAW targets towards [automatically generating these images](https://github.com/Audiveris/omr-dataset-tools/wiki/Synthetic-Images) and the annotations from MuseScore or Lilypond documents.
 
 **Example**:
 
@@ -317,14 +317,14 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 **Summary**: A small dataset of about 200 printed music symbols out of 36 different classes. Partially with their context (staff-lines, other symbols) and partially isolated.
 
-**Example**: 
+**Example**:
 
 ![Example of the Printed Music Symbols Dataset](samples/printed-music-symbols.png)
 
 
 # Music Score Classification Dataset
 
-**Official website**: [https://github.com/apacha/MusicScoreClassifier](https://github.com/apacha/MusicScoreClassifier) 
+**Official website**: [https://github.com/apacha/MusicScoreClassifier](https://github.com/apacha/MusicScoreClassifier)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
@@ -343,7 +343,7 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-yellow.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
-**Summary**: A dataset of 706 symbols (g-clef, f-clef) and symbol primitives (note-heads, stems with flags, beams) of 16 classes created by Arnaud F. Desaedeleer as part of his master thesis to train artificial neural networks. 
+**Summary**: A dataset of 706 symbols (g-clef, f-clef) and symbol primitives (note-heads, stems with flags, beams) of 16 classes created by Arnaud F. Desaedeleer as part of his master thesis to train artificial neural networks.
 
 **Scientific Publication**: Arnaud F. Desaedeleer, "Reading Sheet Music", Master Thesis, University of London, September 2006, [Download](http://sourceforge.net/projects/openomr/)
 
@@ -378,7 +378,7 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 ![Example of the Pugin dataset](samples/pugin.png)
 
-# Silva Online Handwritten Symbols 
+# Silva Online Handwritten Symbols
 
 **Summary**: Dataset of 12600 trajectories of handwritten music symbols, drawn by 50 writers with an Android application. Every writer drew each of the 84 different symbols three times.
 
@@ -403,7 +403,7 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 [![License](https://img.shields.io/badge/License-Unknown-red.svg)](http://grfia.dlsi.ua.es/homus/) (Authors want to be contacted)
 
-**Summary**: A small dataset of 34 high quality images with individual music score pages of increasing difficulty. 
+**Summary**: A small dataset of 34 high quality images with individual music score pages of increasing difficulty.
 
 **Scientific Publication**: Donald Byrd & Jakob Grue Simonsen: "Towards a Standard Testbed for Optical Music Recognition: Definitions, Metrics, and Page Images". Journal of New Music Research, vol 44, nr.3, pages 169-195, 2015. [DOI: 10.1080/09298215.2015.1045424](http://dx.doi.org/10.1080/09298215.2015.1045424)
 
