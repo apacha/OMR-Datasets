@@ -32,7 +32,7 @@ The following datasets are referenced from this repository:
 | [Silva Online Handwritten Symbols](#silva-online-handwritten-symbols)                   	| Handwritten           	| 12600 symbols  	    									|                       								|                                           						|
 | [IMSLP](#imslp)                                                                         	| Printed               	| >420000 score images  									| PDF                      								| Various                                      						|
 | [Byrd Dataset](#byrd-dataset)                                                           	| Printed               	| 34 score images	    									| Images                   								| Various                                      						|
-| [Bounding Box Annotation of Musical Measures](#bbox-measures)                                                           	| Printed               	| 940 score images; 53,017 bounding boxes	    									| Images                   								| Box Annotation Detection                                      						|
+| [Bounding Box Annotation of Musical Measures](#bounding-box-annotation-of-musical-measures)                                                           	| Printed               	| 940 score images; 53,017 bounding boxes	    									| Images                   								| Box Annotation Detection                                      						|
 
 
 If you find mistakes or know of any relevant datasets, that are missing in this list, please [open an issue](https://github.com/apacha/OMR-Datasets/issues/new) or directly file a pull request.
