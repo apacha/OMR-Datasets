@@ -32,7 +32,7 @@ The following datasets are referenced from this repository:
 | [Silva Online Handwritten Symbols](#silva-online-handwritten-symbols)                   	| Handwritten           	| 12600 symbols  	    									|                       								|                                           						|
 | [IMSLP](#imslp)                                                                         	| Printed               	| >420000 score images  									| PDF                      								| Various                                      						|
 | [Byrd Dataset](#byrd-dataset)                                                           	| Printed               	| 34 score images	    									| Images                   								| Various                                      						|
-| [Bounding Box Annotation of Musical Measures](#bounding-box-annotation-of-musical-measures)                                                           	| Printed               	| 940 score images; 53,017 bounding boxes	    									| Images                   								| Box Annotation Detection                                      						|
+| [Bounding Box Annotations of Musical Measures](#bounding-box-annotations-of-musical-measures)                                                           	| Printed               	| 940 score images; 53,017 bounding boxes	    									| Images                   								| Box Annotation Detection                                      						|
 
 
 If you find mistakes or know of any relevant datasets, that are missing in this list, please [open an issue](https://github.com/apacha/OMR-Datasets/issues/new) or directly file a pull request.
@@ -411,7 +411,7 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 ![Example of the Byrd Dataset](samples/byrd.png)
 
-# Bounding Box Annotation of Musical Measures
+# Bounding Box Annotations of Musical Measures
 
 **Official website**: [https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures](https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures)
 
