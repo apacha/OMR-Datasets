@@ -32,6 +32,7 @@ The following datasets are referenced from this repository:
 | [Silva Online Handwritten Symbols](#silva-online-handwritten-symbols)                   	| Handwritten           	| 12600 symbols  	    									|                       								|                                           						|
 | [IMSLP](#imslp)                                                                         	| Printed               	| >420000 score images  									| PDF                      								| Various                                      						|
 | [Byrd Dataset](#byrd-dataset)                                                           	| Printed               	| 34 score images	    									| Images                   								| Various                                      						|
+| [Bounding Box Annotation of Musical Measures](#bbox-measures)                                                           	| Printed               	| 940 score images; 53,017 bounding boxes	    									| Images                   								| Box Annotation Detection                                      						|
 
 
 If you find mistakes or know of any relevant datasets, that are missing in this list, please [open an issue](https://github.com/apacha/OMR-Datasets/issues/new) or directly file a pull request.
@@ -410,3 +411,16 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 ![Example of the Byrd Dataset](samples/byrd.png)
 
+# Bounding Box Annotation of Musical Measures
+
+**Official website**: [https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures](https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures)
+
+[![License: Mixed](https://img.shields.io/badge/License-Mixed-ff00ff.svg)](https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures)
+
+**Summary**: The data set provides measure annotations for several hundred pages of sheet music, including the complete cycle *Der Ring des Nibelungen* by Richard Wagner, selected piano sonatas by Ludwig von Beethoven, the complete cycle *Winterreise* by Franz Schubert, as well as selected pieces from the Carus publishing house.
+
+**Scientific Publication**: Frank Zalkow, Angel Villar Corrales, TJ Tsai, Vlora Arifi-Müller, and Meinard Müller: "Tools for Semi-Automatic Bounding Box Annotation of Musical Measures in Sheet Music". Late Breaking/Demo at the 20th International Society for Music Information Retrieval, Delft, The Netherlands, 2019. [Download the PDF](http://archives.ismir.net/ismir2019/latebreaking/000006.pdf)
+
+**Example**:
+
+![Examples for Bounding Box Annotations of Musical Measures](samples/bbox-measures.png)
