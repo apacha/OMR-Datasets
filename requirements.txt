@@ -17,3 +17,4 @@ tqdm
 twine
 sympy
 sphinx_rtd_theme
+pandas

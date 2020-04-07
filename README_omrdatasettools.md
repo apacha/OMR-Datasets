@@ -6,9 +6,4 @@ A collection of tools that simplify the downloading and handling of datasets use
 These tools are available as Python package ``omrdatasettools`` on PyPi.
 
 They simplify the most common tasks such as downloading and extracting a dataset, 
-generating images from textual representations or visualizing those datasets.  
-This package also contains tools for other common tasks such as:
-
-- Converting images
-- Moving images
-- Splitting datasets
+generating images from textual representations or visualizing those datasets. 
