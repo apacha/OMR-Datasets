@@ -7,60 +7,82 @@ class OmrDataset(Enum):
         The available OMR datasets that can be automatically downloaded with Downloader.py
     """
 
-    Audiveris = auto()  # The Audiveris OMR dataset from https://github.com/Audiveris/omr-dataset-tools, Copyright 2017 by Hervé Bitteur under AGPL-3.0 license
-    Baro = auto()  # The Baro Single Stave dataset from http://www.cvc.uab.es/people/abaro/datasets.html, Copyright 2019 Arnau Baró, Pau Riba, Jorge Calvo-Zaragoza, and Alicia Fornés under CC-BY-NC-SA 4.0 license
-    Capitan = auto()  # The Capitan dataset from http://grfia.dlsi.ua.es/, License unspecified, free for research purposes
+    #: The Audiveris OMR dataset from https://github.com/Audiveris/omr-dataset-tools, Copyright 2017 by Hervé Bitteur under AGPL-3.0 license
+    Audiveris = auto()
 
-    # The CVC-MUSCIMA dataset from http://www.cvc.uab.es/cvcmuscima/index_database.html
-    # Copyright 2012 Alicia Fornés, Anjan Dutta, Albert Gordo and Josep Lladós under CC-BY-NC-SA 4.0 license
-    # In three different version:
-    # - The smaller version for writer identification in grayscale
-    # - The larger version for staff removal in black and white with augmentations
-    # - Custom version of the two above datasets, that contains all images in grayscale, binary and with the
-    #   following staff-line augmentations: interrupted, kanungo, thickness-variation-v1/2, y-variation-v1/2
-    #   typeset-emulation and whitespeckles. (all data augmentations that could be aligned automatically)
-    #   The grayscale images are different from the WriterIdentification dataset, in such a way, that they were aligned
-    #   to the images from the Staff-Removal dataset. This is the recommended dataset for object detection, as the
-    #   MUSCIMA++ annotations can be used with a variety of underlying images
-    CvcMuscima_WriterIdentification = auto()
-    CvcMuscima_StaffRemoval = auto()
+    #: The Baro Single Stave dataset from http://www.cvc.uab.es/people/abaro/datasets.html, Copyright 2019 Arnau Baró, Pau Riba, Jorge Calvo-Zaragoza, and Alicia Fornés under CC-BY-NC-SA 4.0 license
+    Baro = auto()
+
+    #: The Capitan dataset from http://grfia.dlsi.ua.es/, License unspecified, free for research purposes
+    Capitan = auto()
+
+    #: Custom version of the CVC-MUSCIMA dataset that contains all images in grayscale, binary and with the
+    #: following staff-line augmentations: interrupted, kanungo, thickness-variation-v1/2, y-variation-v1/2
+    #: typeset-emulation and whitespeckles. (all data augmentations that could be aligned automatically).
+    #: The grayscale images are different from the WriterIdentification dataset, in such a way, that they were aligned
+    #: to the images from the Staff-Removal dataset. This is the recommended dataset for object detection, as the
+    #: MUSCIMA++ annotations can be used with a variety of underlying images.
+    #: See https://github.com/apacha/CVC-MUSCIMA to learn more.
     CvcMuscima_MultiConditionAligned = auto()
 
-    # Edirom datasets: All rights reserved
-    # - Freischuetz: https://freischuetz-digital.de/edition.html, All rights reserved
+    #: The larger version of the CVC-MUSCIMA dataset for staff removal in black and white with augmentations
+    #: from http://www.cvc.uab.es/cvcmuscima/index_database.html,
+    #: Copyright 2012 Alicia Fornés, Anjan Dutta, Albert Gordo and Josep Lladós under CC-BY-NC-SA 4.0 license
+    CvcMuscima_StaffRemoval = auto()
+
+    #: The smaller version of the CVC-MUSCIMA dataset for writer identification in grayscale
+    #: from http://www.cvc.uab.es/cvcmuscima/index_database.html,
+    #: Copyright 2012 Alicia Fornés, Anjan Dutta, Albert Gordo and Josep Lladós under CC-BY-NC-SA 4.0 license
+    CvcMuscima_WriterIdentification = auto()
+
+    #: Edirom dataset. All rights reserved
     Edirom_Bargheer = auto()
+
+    #: Edirom datasets on Freischuetz from https://freischuetz-digital.de/edition.html. All rights reserved.
     Edirom_FreischuetzDigital = auto()
 
-    # The Fornes Music Symbols dataset from http://www.cvc.uab.es/~afornes/, License unspecified - citation requested
+    #: The Fornes Music Symbols dataset from http://www.cvc.uab.es/~afornes/, License unspecified - citation requested
     Fornes = auto()
 
-    # The HOMUS dataset from http://grfia.dlsi.ua.es/homus/, License unspecified.
-    # - V1 = Official version,
-    # - V2 = Version with bug-fixes
+    #: The official HOMUS dataset from http://grfia.dlsi.ua.es/homus/, License unspecified.
     Homus_V1 = auto()
+
+    #: The improved version of the HOMUS dataset with several bugs-fixed from https://github.com/apacha/Homus
     Homus_V2 = auto()
 
-    # The MUSCIMA++ dataset from https://ufal.mff.cuni.cz/muscima, Copyright 2017 Jan Hajic jr. under CC-BY-NC-SA 4.0 license
+    #: The MUSCIMA++ dataset from https://ufal.mff.cuni.cz/muscima, Copyright 2017 Jan Hajic jr. under CC-BY-NC-SA 4.0 license
     MuscimaPlusPlus_V1 = auto()
+
+    #: The second version of the MUSCIMA++ dataset from https://github.com/OMR-Research/muscima-pp
     MuscimaPlusPlus_V2 = auto()
 
-    # The OpenOMR Symbols dataset from https://sourceforge.net/projects/openomr/, Copyright 2013 by Arnaud F. Desaedeleer under GPL license
+    #: The measure annotations from the MUSCIMA++ dataset
+    MuscimaPlusPlus_MeasureAnnotations = auto()
+
+    #: The OpenOMR Symbols dataset from https://sourceforge.net/projects/openomr/, Copyright 2013 by Arnaud F. Desaedeleer under GPL license
     OpenOmr = auto()
 
-    # The Printed Music Symbols dataset from https://github.com/apacha/PrintedMusicSymbolsDataset, Copyright 2017 by Alexander Pacha under MIT license
+    #: The Printed Music Symbols dataset from https://github.com/apacha/PrintedMusicSymbolsDataset, Copyright 2017 by Alexander Pacha under MIT license
     Printed = auto()
 
-    # The Rebelo datasets with music symbols from http://www.inescporto.pt/~arebelo/index.php, Copyright 2017 by Ana Rebelo under CC BY-SA 4.0 license
+    #: The Rebelo dataset (part 1) with music symbols from http://www.inescporto.pt/~arebelo/index.php, Copyright 2017 by Ana Rebelo under CC BY-SA 4.0 license
     Rebelo1 = auto()
+
+    #: The Rebelo dataset (part 2) with music symbols from http://www.inescporto.pt/~arebelo/index.php, Copyright 2017 by Ana Rebelo under CC BY-SA 4.0 license
     Rebelo2 = auto()
 
     def get_dataset_download_url(self) -> str:
+        """ Returns the url of the selected dataset.
+            Example usage: OmrDataset.Fornes.get_dataset_download_url() """
         return self.dataset_download_urls()[self.name]
 
     def get_dataset_filename(self) -> str:
+        """ Returns the name of the downloaded zip file of a dataset.
+            Example usage: OmrDataset.Fornes.get_dataset_filename() """
         return self.dataset_file_names()[self.name]
 
     def dataset_download_urls(self) -> Dict[str, str]:
+        """ Returns a mapping with all URLs, mapped from their enum keys """
         return {
             # Official URL: https://github.com/Audiveris/omr-dataset-tools/tree/master/data/input-images
             "Audiveris": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/AudiverisOmrDataset.zip",
@@ -112,7 +134,8 @@ class OmrDataset(Enum):
             "Rebelo2": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/Rebelo-Music-Symbol-Dataset2.zip",
         }
 
-    def dataset_file_names(self) -> Dict[str,str]:
+    def dataset_file_names(self) -> Dict[str, str]:
+        """ Returns a map of all file_names, mapped from their enum keys """
         return {
             "Audiveris": "AudiverisOmrDataset.zip",
             "Baro": "BaroMuscima.zip",

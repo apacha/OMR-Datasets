@@ -13,10 +13,21 @@ from OmrDataset import OmrDataset
 
 
 class Downloader():
-    """ The class for downloading an OMR dataset """
+    """ The class for downloading OMR datasets. It downloads the selected dataset from Github and extracts it to
+        a specified directory.
+    """
 
     def download_and_extract_dataset(self, dataset: OmrDataset, destination_directory: str):
-        """ Starts the download of the dataset and extracts it into the specified directory """
+        """ Starts the download of the dataset and extracts it into the specified directory.
+
+        Examples
+        --------
+        >>> from omrdatasettools.Downloader import Downloader
+        >>> from omrdatasettools.OmrDataset import OmrDataset
+        >>> downloader = Downloader()
+        >>> downloader.download_and_extract_dataset(OmrDataset.HOMUS_V2, "data")
+
+        """
         if not os.path.exists(dataset.get_dataset_filename()):
             print("Downloading {0} dataset...".format(dataset.name))
             self.__download_file(dataset.get_dataset_download_url(), dataset.get_dataset_filename())
@@ -29,9 +40,10 @@ class Downloader():
 
         if dataset in [OmrDataset.MuscimaPlusPlus_V1, OmrDataset.MuscimaPlusPlus_V2]:
             self.__download_muscima_pp_images(dataset, destination_directory)
-            self.__download_muscima_pp_measure_annotations(dataset, destination_directory)
 
     def download_images_from_mei_annotation(self, dataset: OmrDataset, dataset_directory: str, base_url: str):
+        """ Crawls the images of the Edirom dataset, if provided with the respective URL. To avoid repetitive crawling,
+            this URL has to be provided manually. If you are interested in these dataset, please contact the authors. """
         if dataset not in [OmrDataset.Edirom_Bargheer, OmrDataset.Edirom_FreischuetzDigital]:
             raise Exception("Only supported for edirom datasets")
 
@@ -56,26 +68,6 @@ class Downloader():
         if dataset is OmrDataset.MuscimaPlusPlus_V2:
             target_folder = os.path.join(os.path.abspath(destination_directory), "v2.0", "data", "images")
         self.__copytree(os.path.join(absolute_path_to_temp_folder, "fulls"), target_folder)
-        self.__clean_up_temp_directory(absolute_path_to_temp_folder)
-
-    def __download_muscima_pp_measure_annotations(self, dataset: OmrDataset, destination_directory: str):
-        measure_annotations_file_name = dataset.dataset_file_names()["MuscimaPlusPlus_MeasureAnnotations"]
-        if not os.path.exists(measure_annotations_file_name):
-            print("Downloading MUSCIMA++ Measure Annotations...")
-            self.__download_file(dataset.dataset_download_urls()["MuscimaPlusPlus_MeasureAnnotations"], measure_annotations_file_name)
-
-        print("Extracting MUSCIMA++ Annotations...")
-        absolute_path_to_temp_folder = os.path.abspath('MuscimaPpMeasureAnnotations')
-        self.__extract_dataset(absolute_path_to_temp_folder, measure_annotations_file_name)
-
-        if dataset is OmrDataset.MuscimaPlusPlus_V1:
-            target_folder_coco = os.path.join(os.path.abspath(destination_directory), "v1.0", "data", "coco")
-            target_folder_json = os.path.join(os.path.abspath(destination_directory), "v1.0", "data", "json")
-        if dataset is OmrDataset.MuscimaPlusPlus_V2:
-            target_folder_coco = os.path.join(os.path.abspath(destination_directory), "v2.0", "data", "coco")
-            target_folder_json = os.path.join(os.path.abspath(destination_directory), "v2.0", "data", "json")
-        self.__copytree(os.path.join(absolute_path_to_temp_folder, "coco"), target_folder_coco)
-        self.__copytree(os.path.join(absolute_path_to_temp_folder, "json"), target_folder_json)
         self.__clean_up_temp_directory(absolute_path_to_temp_folder)
 
     def __download_images(self, base, base_url, source):

@@ -7,10 +7,6 @@ function like:
 * Downloading the datasets and extracting them
 * Processing specific datasets, e.g. generating images from the raw HOMUS dataset.
 
-The package `omrdatasettools.downloaders` contains one class per dataset, that is capable of downloading
-and extracting the respective dataset. To see how they work, each of them has a main-function that can
-be executed as it is.
-
 A pip-package is available so you can include the tools conveniently into your projects by using
 
 .. code-block:: console
@@ -24,19 +20,20 @@ Consider you want to work with the `HOMUS dataset <http://grfia.dlsi.ua.es/homus
 
 .. code-block:: python
 
-    from omrdatasettools.downloaders.HomusDatasetDownloader import HomusDatasetDownloader
+    from omrdatasettools.Downloader import Downloader
+    from omrdatasettools.OmrDataset import OmrDataset
 
-    dataset_downloader = HomusDatasetDownloader("raw_dataset_destination_path")
-    dataset_downloader.download_and_extract_dataset()
+    downloader = Downloader()
+    downloader.download_and_extract_dataset(OmrDataset.HOMUS_V2, "data")
 
-Once the download has completed, you may want to work with images, instead of textual descriptions. The package `omrdatasettools.image_generators` contains the appropriate tools for doing so:
+Once the download has completed, you may want to work with images, instead of textual descriptions, so we can generate them.
 
 .. code-block:: python
 
-    from omrdatasettools.image_generators.HomusImageGenerator import HomusImageGenerator
+    from omrdatasettools.HomusImageGenerator import HomusImageGenerator
 
-    HomusImageGenerator.create_images(raw_data_directory="raw_dataset_destination_path",
-                                      destination_directory="dataset_destination_path",
+    HomusImageGenerator.create_images(raw_data_directory="data",
+                                      destination_directory="homus_data",
                                       stroke_thicknesses=[3],
                                       canvas_width=96,
                                       canvas_height=192,
@@ -49,9 +46,8 @@ Note that the image generator has a lot of options that define how the images wi
    :maxdepth: 2
    :caption: Contents:
 
-   downloaders/index.rst
-   image_generators/index.rst
-   converters/index.rst
+   downloaders.rst
+   image_generators.rst
 
 
 Indices and tables
