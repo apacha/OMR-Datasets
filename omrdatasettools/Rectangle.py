@@ -48,4 +48,3 @@ class Rectangle:
     def __str__(self) -> str:
         return "Rectangle[Origin:{0},{1}, Width:{2}, Height:{3}]".format(self.origin.x, self.origin.y, self.width,
                                                                          self.height)
-

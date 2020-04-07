@@ -1,8 +1,8 @@
 import os
 import unittest
 
-from CapitanImageGenerator import CapitanSymbol
-from ExportPath import ExportPath
+from omrdatasettools.CapitanImageGenerator import CapitanSymbol
+from omrdatasettools.ExportPath import ExportPath
 
 
 class CapitanSymbolTest(unittest.TestCase):

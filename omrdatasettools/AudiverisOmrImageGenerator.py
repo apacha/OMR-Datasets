@@ -6,8 +6,8 @@ from xml.etree import ElementTree
 from PIL import Image
 from sympy import Point2D
 
-from ExportPath import ExportPath
-from Rectangle import Rectangle
+from omrdatasettools.ExportPath import ExportPath
+from omrdatasettools.Rectangle import Rectangle
 
 
 class AudiverisOmrSymbol(Rectangle):

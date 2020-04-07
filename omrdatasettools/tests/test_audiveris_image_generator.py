@@ -3,9 +3,9 @@ import shutil
 import unittest
 from glob import glob
 
-from Downloader import Downloader
-from OmrDataset import OmrDataset
-from AudiverisOmrImageGenerator import AudiverisOmrImageGenerator
+from omrdatasettools.AudiverisOmrImageGenerator import AudiverisOmrImageGenerator
+from omrdatasettools.Downloader import Downloader
+from omrdatasettools.OmrDataset import OmrDataset
 
 
 class AudiverisOmrImageGeneratorTest(unittest.TestCase):

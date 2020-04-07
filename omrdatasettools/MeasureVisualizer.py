@@ -1,9 +1,8 @@
+import argparse
 import json
 import os
 
-import argparse
-
-from PIL import Image, ImageDraw, ImageColor
+from PIL import Image, ImageDraw
 from tqdm import tqdm
 
 
@@ -16,6 +15,7 @@ class MeasureVisualizer:
 
         Bounding boxes will be drawn with semitransparent colors.
     """
+
     def __init__(self, draw_system_measures: bool, draw_stave_measures: bool, draw_staves: bool) -> None:
         super().__init__()
         self.draw_system_measures = draw_system_measures

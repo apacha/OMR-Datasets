@@ -1,15 +1,14 @@
 import argparse
 import os
-from tqdm import tqdm
-
 from typing import List
 
 import numpy
 from PIL import Image, ImageDraw
 from sympy import Point2D
+from tqdm import tqdm
 
-from ExportPath import ExportPath
-from Rectangle import Rectangle
+from omrdatasettools.ExportPath import ExportPath
+from omrdatasettools.Rectangle import Rectangle
 
 
 class SimplePoint2D(object):

@@ -1,19 +1,14 @@
 import argparse
-import json
 import os
-from collections import defaultdict
+from enum import Enum
 from glob import glob
 from typing import List, Tuple
 
-import sys
-
 import numpy
-from mung.io import read_nodes_from_file, parse_node_classes
-
 from PIL import Image
+from mung.io import read_nodes_from_file, parse_node_classes
 from mung.node import Node
 from tqdm import tqdm
-from enum import Enum
 
 
 class MaskType(Enum):
@@ -38,7 +33,8 @@ class MuscimaPlusPlusMaskImageGenerator:
         """
         print("Extracting Masks from Muscima++ Dataset...")
 
-        node_classes = parse_node_classes(os.path.join(raw_data_directory, "v2.0", "specifications", "mff-muscima-mlclasses-annot.xml"))
+        node_classes = parse_node_classes(
+            os.path.join(raw_data_directory, "v2.0", "specifications", "mff-muscima-mlclasses-annot.xml"))
         for index, node_class in enumerate(node_classes):
             self.class_to_color_mapping[node_class.name] = index + 1
 
@@ -48,13 +44,17 @@ class MuscimaPlusPlusMaskImageGenerator:
             nodes = read_nodes_from_file(xml_file)
             destination_filename = os.path.basename(xml_file).replace(".xml", ".png")
             if mask_type == MaskType.NODES_SEMANTIC_SEGMENTATION:
-                self.__render_masks_of_nodes_for_semantic_segmentation(nodes, destination_directory, destination_filename,
+                self.__render_masks_of_nodes_for_semantic_segmentation(nodes, destination_directory,
+                                                                       destination_filename,
                                                                        original_image.width, original_image.height)
             if mask_type == MaskType.STAFF_LINES_INSTANCE_SEGMENTATION:
-                self.__render_masks_of_staff_lines_for_instance_segmentation(nodes, destination_directory, destination_filename,
-                                                                             original_image.width, original_image.height)
+                self.__render_masks_of_staff_lines_for_instance_segmentation(nodes, destination_directory,
+                                                                             destination_filename,
+                                                                             original_image.width,
+                                                                             original_image.height)
             if mask_type == MaskType.STAFF_BLOBS_INSTANCE_SEGMENTATION:
-                self.__render_masks_of_staff_blob_for_instance_segmentation(nodes, destination_directory, destination_filename,
+                self.__render_masks_of_staff_blob_for_instance_segmentation(nodes, destination_directory,
+                                                                            destination_filename,
                                                                             original_image.width, original_image.height)
 
     def __get_all_file_paths(self, raw_data_directory: str) -> List[Tuple[str, str]]:
@@ -67,7 +67,8 @@ class MuscimaPlusPlusMaskImageGenerator:
         png_files = [y for x in os.walk(images_directory) for y in glob(os.path.join(x[0], '*.png'))]
         return list(zip(xml_files, png_files))
 
-    def __render_masks_of_nodes_for_semantic_segmentation(self, nodes: List[Node], destination_directory: str, destination_filename: str,
+    def __render_masks_of_nodes_for_semantic_segmentation(self, nodes: List[Node], destination_directory: str,
+                                                          destination_filename: str,
                                                           width: int, height: int):
         image = numpy.zeros((height, width), dtype=numpy.uint8)
         skipped_classes = ["staffSpace", "staff", "staffLine"]

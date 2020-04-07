@@ -4,12 +4,11 @@ from glob import glob
 from typing import List
 
 from PIL import Image
+from muscima.cropobject import CropObject
 from muscima.io import parse_cropobject_list
 from tqdm import tqdm
 
-from muscima.cropobject import CropObject
-
-from ExportPath import ExportPath
+from omrdatasettools.ExportPath import ExportPath
 
 
 class MuscimaPlusPlusSymbolImageGenerator:
@@ -47,7 +46,7 @@ class MuscimaPlusPlusSymbolImageGenerator:
             # Some classes have special characters in their class name that we have to remove
             crop_object.clsname = crop_object.clsname.replace('"', '').replace('/', '').replace('.', '')
 
-        #print("Loaded {0} crop-objects from {1}".format(len(crop_objects), xml_file))
+        # print("Loaded {0} crop-objects from {1}".format(len(crop_objects), xml_file))
         return crop_objects
 
     def load_crop_objects_from_xml_files(self, xml_files: List[str]) -> List[CropObject]:

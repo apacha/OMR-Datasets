@@ -3,6 +3,7 @@ import os
 
 class ExportPath:
     """ An internal helper class to automatically build path names when generating images from annotations with variations """
+
     def __init__(self, destination_directory: str, symbol_class: str, raw_file_name_without_extension: str,
                  extension: str = "png", stroke_thickness: int = None) -> None:
         super().__init__()

@@ -1,10 +1,11 @@
 import os
 import unittest
+
 from sympy import Point2D
 
-from ExportPath import ExportPath
-from HomusImageGenerator import HomusSymbol
-from Rectangle import Rectangle
+from omrdatasettools.ExportPath import ExportPath
+from omrdatasettools.HomusImageGenerator import HomusSymbol
+from omrdatasettools.Rectangle import Rectangle
 
 
 class HomusSymbolTest(unittest.TestCase):

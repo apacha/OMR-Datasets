@@ -3,9 +3,9 @@ import shutil
 import unittest
 from glob import glob
 
-from Downloader import Downloader
-from OmrDataset import OmrDataset
-from MuscimaPlusPlusSymbolImageGenerator import MuscimaPlusPlusSymbolImageGenerator
+from omrdatasettools.Downloader import Downloader
+from omrdatasettools.MuscimaPlusPlusSymbolImageGenerator import MuscimaPlusPlusSymbolImageGenerator
+from omrdatasettools.OmrDataset import OmrDataset
 
 
 class MuscimaPlusPlusSymbolImageGeneratorTest(unittest.TestCase):
@@ -14,7 +14,7 @@ class MuscimaPlusPlusSymbolImageGeneratorTest(unittest.TestCase):
         datasetDownloader = Downloader()
 
         # Act
-        datasetDownloader.download_and_extract_dataset(OmrDataset.MuscimaPlusPlus_V2, "temp/muscima_pp_raw")
+        datasetDownloader.download_and_extract_dataset(OmrDataset.MuscimaPlusPlus_V1, "temp/muscima_pp_raw")
         image_generator = MuscimaPlusPlusSymbolImageGenerator()
         image_generator.extract_and_render_all_symbol_masks("temp/muscima_pp_raw", "temp/muscima_img")
         all_image_files = [y for x in os.walk("temp/muscima_img") for y in glob(os.path.join(x[0], '*.png'))]
@@ -25,7 +25,7 @@ class MuscimaPlusPlusSymbolImageGeneratorTest(unittest.TestCase):
         self.assertEqual(expected_number_of_symbols, actual_number_of_symbols)
 
         # Cleanup
-        os.remove(OmrDataset.MuscimaPlusPlus_V2.get_dataset_filename())
+        os.remove(OmrDataset.MuscimaPlusPlus_V1.get_dataset_filename())
         shutil.rmtree("temp")
 
 

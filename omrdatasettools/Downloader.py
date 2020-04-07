@@ -9,7 +9,7 @@ from zipfile import ZipFile
 from lxml import etree
 from tqdm import tqdm
 
-from OmrDataset import OmrDataset
+from omrdatasettools.OmrDataset import OmrDataset
 
 
 class Downloader():

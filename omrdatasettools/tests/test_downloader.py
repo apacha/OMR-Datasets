@@ -3,8 +3,8 @@ import shutil
 import unittest
 from glob import glob
 
-from Downloader import Downloader
-from OmrDataset import OmrDataset
+from omrdatasettools.Downloader import Downloader
+from omrdatasettools.OmrDataset import OmrDataset
 
 
 class DownloaderTest(unittest.TestCase):

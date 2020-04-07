@@ -1,17 +1,16 @@
 import argparse
 import os
-from glob import glob
-from tqdm import tqdm
-
 import random
 import sys
+from glob import glob
 from typing import List
 
 from PIL import Image, ImageDraw
 from sympy import Point2D
+from tqdm import tqdm
 
-from ExportPath import ExportPath
-from Rectangle import Rectangle
+from omrdatasettools.ExportPath import ExportPath
+from omrdatasettools.Rectangle import Rectangle
 
 
 class HomusSymbol:

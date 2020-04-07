@@ -1,6 +1,6 @@
 import unittest
 
-from ExportPath import ExportPath
+from omrdatasettools.ExportPath import ExportPath
 
 
 class ExportPathTest(unittest.TestCase):
