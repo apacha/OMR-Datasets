@@ -42,8 +42,8 @@ class Downloader():
             self.__download_muscima_pp_images(dataset, destination_directory)
 
     def download_images_from_mei_annotation(self, dataset: OmrDataset, dataset_directory: str, base_url: str):
-        """ Crawls the images of the Edirom dataset, if provided with the respective URL. To avoid repetitive crawling,
-            this URL has to be provided manually. If you are interested in these dataset, please contact the authors. """
+        """ Crawls the images of an Edirom dataset, if provided with the respective URL. To avoid repetitive crawling,
+            this URL has to be provided manually. If you are interested in these datasets, please contact the authors. """
         if dataset not in [OmrDataset.Edirom_Bargheer, OmrDataset.Edirom_FreischuetzDigital]:
             raise Exception("Only supported for edirom datasets")
 

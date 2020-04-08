@@ -21,13 +21,13 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 
 project = 'OMR Dataset Tools'
-copyright = '2019, Alexander Pacha'
+copyright = '2020, Alexander Pacha'
 author = 'Alexander Pacha'
 
 # The short X.Y version
-version = '0.15'
+version = '1.0'
 # The full version, including alpha/beta/rc tags
-release = '0.15'
+release = '1.0'
 
 
 # -- General configuration ---------------------------------------------------
