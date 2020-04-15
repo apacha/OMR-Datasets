@@ -63,6 +63,20 @@ This class can be used to generate visualizations of measure annotations, such a
 .. automethod:: MeasureVisualizer.draw_bounding_boxes_into_image
 
 
+.. py:currentmodule:: omrdatasettools.MuscimaPlusPlusMaskImageGenerator
+
+:py:mod:`MuscimaPlusPlusMaskImageGenerator` Module
+----------------------------------------------------
+
+.. autoclass:: MaskType
+    :members:
+    :undoc-members:
+
+.. autoclass:: MuscimaPlusPlusMaskImageGenerator
+
+.. automethod:: MuscimaPlusPlusMaskImageGenerator.render_node_masks
+
+
 .. py:currentmodule:: omrdatasettools.MuscimaPlusPlusSymbolImageGenerator
 
 :py:mod:`MuscimaPlusPlusSymbolImageGenerator` Module

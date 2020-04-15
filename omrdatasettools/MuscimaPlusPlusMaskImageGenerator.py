@@ -12,14 +12,23 @@ from tqdm import tqdm
 
 
 class MaskType(Enum):
+    """ The type of masks that should be generated """
+
+    #: creates mask images, where each type of node gets the same color mask (for semantic segmentation).
+    #: The classes staffLine, staff and staffSpace are ignored.
     NODES_SEMANTIC_SEGMENTATION = 1
+
+    #: creates mask images, where the masks of the staff lines are contained for instance segmentation.
+    #: All five lines that form a staff will have the same color.
     STAFF_LINES_INSTANCE_SEGMENTATION = 2
+
+    #: creates mask images, where each staff will receive one big blob (filling the staff space regions) per staff
+    #: line for instance segmentation. So each staff will have a different color.
     STAFF_BLOBS_INSTANCE_SEGMENTATION = 3
 
 
 class MuscimaPlusPlusMaskImageGenerator:
     def __init__(self) -> None:
-        super().__init__()
         self.path_of_this_file = os.path.dirname(os.path.realpath(__file__))
         self.class_to_color_mapping = dict()
 
@@ -30,6 +39,7 @@ class MuscimaPlusPlusMaskImageGenerator:
         :param raw_data_directory: The directory, that contains the xml-files and matching images
         :param destination_directory: The directory, in which the symbols should be generated into.
                                       Per file, one mask will be generated.
+        :param mask_type: The type of masks that you want to generate, e.g., masks for each node or staff lines only.
         """
         print("Extracting Masks from Muscima++ Dataset...")
 
@@ -56,6 +66,7 @@ class MuscimaPlusPlusMaskImageGenerator:
                 self.__render_masks_of_staff_blob_for_instance_segmentation(nodes, destination_directory,
                                                                             destination_filename,
                                                                             original_image.width, original_image.height)
+            original_image.close()
 
     def __get_all_file_paths(self, raw_data_directory: str) -> List[Tuple[str, str]]:
         """ Loads all XML-files that are located in the folder.

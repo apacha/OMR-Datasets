@@ -12,7 +12,7 @@ from tqdm import tqdm
 from omrdatasettools.OmrDataset import OmrDataset
 
 
-class Downloader():
+class Downloader:
     """ The class for downloading OMR datasets. It downloads the selected dataset from Github and extracts it to
         a specified directory.
     """
