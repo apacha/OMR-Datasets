@@ -4,7 +4,7 @@ version: 2
 
 python:
   version: 3.7
-  before_install:
+  install:
     - requirements: docs/requirements.txt
     - method: pip
       path: .
