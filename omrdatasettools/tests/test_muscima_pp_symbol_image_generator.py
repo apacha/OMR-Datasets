@@ -25,7 +25,7 @@ class MuscimaPlusPlusSymbolImageGeneratorTest(unittest.TestCase):
         self.assertEqual(expected_number_of_symbols, actual_number_of_symbols)
 
         # Cleanup
-        os.remove(OmrDataset.MuscimaPlusPlus_V1.get_dataset_filename())
+        os.remove(OmrDataset.MuscimaPlusPlus_V2.get_dataset_filename())
         shutil.rmtree("temp")
 
 
