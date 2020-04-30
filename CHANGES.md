@@ -1,6 +1,13 @@
 Changelog
 =========
 
+1.1
+---
+Updated MuscimaPlusPlusSymbolImageGenerator to work with MUSCIMA++ 2.0.
+Added quality-of-life improvement suggested by @yvan674 to make importing 
+common classes such as the downloader easier.
+
+
 1.0
 ---
 Dramatically simplified the tools for downloading datasets. 

@@ -1,4 +1,7 @@
-# Before running these command, check setup.py for the right version numbers (2x)
+# Before running these command,
+# - check __init__.py for the right version number,
+# - update release notes in CHANGES.md
+# - Optionally check setup.py if descriptions need adaption
 python setup.py sdist
 twine upload --repository pypi dist/*
 

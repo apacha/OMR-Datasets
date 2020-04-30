@@ -30,11 +30,11 @@ def get_long_description():
         logging.warning('Could not find README.md and CHANGES.md file'
                         ' in directory {0}. Contents:'
                         ' {1}'.format(here, os.listdir(here)))
-        long_description = 'Tools for the Music Notation Graph representation of' \
-                           ' music notation, used primarily for optical music' \
-                           ' recognition. The MUSCIMA++ dataset uses this data' \
-                           ' model. Supports export to MIDI. [README.md and' \
-                           ' CHANGES.md not found]'
+        long_description = 'A collection of tools that simplify the downloading and handling of datasets used for Optical Music Recognition (OMR).' \
+                           'These tools are available as Python package ``omrdatasettools`` on PyPi.' \
+                           '' \
+                           'They simplify the most common tasks such as downloading and extracting a dataset, ' \
+                           'generating images from textual representations or visualizing those datasets. '
     return long_description
 
 
