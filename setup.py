@@ -53,7 +53,7 @@ setup(
         omrdatasettools.__version__),
     keywords=['optical music recognition', 'downloading', 'extracting', 'omr', 'generating',
               'dataset', 'preprocessing'],
-    install_requires=['Pillow', 'muscima', "mung", "numpy", "tqdm", "scikit-image"],
+    install_requires=['Pillow', 'muscima', "mung", "numpy", "tqdm", "scikit-image", "lxml"],
     classifiers=[
         # How mature is this project? Common values are
         #   3 - Alpha
