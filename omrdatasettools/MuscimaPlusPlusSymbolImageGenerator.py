@@ -4,8 +4,8 @@ from glob import glob
 from typing import List
 
 from PIL import Image
-from muscima.cropobject import CropObject
-from muscima.io import parse_cropobject_list
+from mung.io import read_nodes_from_file
+from mung.node import Node
 from tqdm import tqdm
 
 from omrdatasettools.ExportPath import ExportPath
@@ -24,53 +24,33 @@ class MuscimaPlusPlusSymbolImageGenerator:
         :param destination_directory: The directory, in which the symbols should be generated into. One sub-folder per
                                       symbol category will be generated automatically
         """
-        print("Extracting Symbols from Muscima++ Dataset...")
+        print("Extracting Symbols from MUSCIMA++ Dataset...")
 
         xml_files = self.get_all_xml_file_paths(raw_data_directory)
-        crop_objects = self.load_crop_objects_from_xml_files(xml_files)
-        self.render_masks_of_crop_objects_into_image(crop_objects, destination_directory)
+        crop_objects = self.load_nodes_from_xml_files(xml_files)
+        self.render_masks_of_nodes_into_image(crop_objects, destination_directory)
 
     def get_all_xml_file_paths(self, raw_data_directory: str) -> List[str]:
         """ Loads all XML-files that are located in the folder.
         :param raw_data_directory: Path to the raw directory, where the MUSCIMA++ dataset was extracted to
         """
-        raw_data_directory = os.path.join(raw_data_directory, "v1.0", "data", "cropobjects_manual")
+        raw_data_directory = os.path.join(raw_data_directory, "v2.0", "data", "annotations")
         xml_files = [y for x in os.walk(raw_data_directory) for y in glob(os.path.join(x[0], '*.xml'))]
         return xml_files
 
-    def load_crop_objects_from_xml_file(self, xml_file: str) -> List[CropObject]:
-        crop_objects = []
-        crop_objects.extend(self.get_crop_objects_from_xml_file(xml_file))
+    def load_nodes_from_xml_files(self, xml_files: List[str]) -> List[Node]:
+        nodes = []  # type: List[Node]
+        for xml_file in tqdm(xml_files, desc="Loading nodes from xml-files", smoothing=0.1):
+            nodes.extend(read_nodes_from_file(xml_file))
 
-        for crop_object in crop_objects:
-            # Some classes have special characters in their class name that we have to remove
-            crop_object.clsname = crop_object.clsname.replace('"', '').replace('/', '').replace('.', '')
+        print("Loaded {0} nodes".format(len(nodes)))
+        return nodes
 
-        # print("Loaded {0} crop-objects from {1}".format(len(crop_objects), xml_file))
-        return crop_objects
-
-    def load_crop_objects_from_xml_files(self, xml_files: List[str]) -> List[CropObject]:
-        crop_objects = []
-        for xml_file in tqdm(xml_files, desc="Loading crop-objects from xml-files", smoothing=0.1):
-            crop_objects.extend(self.get_crop_objects_from_xml_file(xml_file))
-
-        for crop_object in crop_objects:
-            # Some classes have special characters in their class name that we have to remove
-            crop_object.clsname = crop_object.clsname.replace('"', '').replace('/', '').replace('.', '')
-
-        print("Loaded {0} crop-objects".format(len(crop_objects)))
-        return crop_objects
-
-    def get_crop_objects_from_xml_file(self, xml_file: str) -> List[CropObject]:
-        # e.g., xml_file = 'data/muscima_pp/v0.9/data/cropobjects/CVC-MUSCIMA_W-01_N-10_D-ideal.xml'
-        crop_objects = parse_cropobject_list(xml_file)
-        return crop_objects
-
-    def render_masks_of_crop_objects_into_image(self, crop_objects: List[CropObject], destination_directory: str):
-        for crop_object in tqdm(crop_objects, desc="Generating images from crop-object masks", smoothing=0.1):
-            symbol_class = crop_object.clsname
+    def render_masks_of_nodes_into_image(self, nodes: List[Node], destination_directory: str):
+        for node in tqdm(nodes, desc="Generating images from node masks", smoothing=0.1):  # type: Node
+            symbol_class = node.class_name
             # Make a copy of the mask to not temper with the original data
-            mask = crop_object.mask.copy()
+            mask = node.mask.copy()
             # We want to draw black symbols on white canvas. The mask encodes foreground pixels
             # that we are interested in with a 1 and background pixels with a 0 and stores those values in
             # an uint8 numpy array. To use Image.fromarray, we have to generate a greyscale mask, where
@@ -83,7 +63,7 @@ class MuscimaPlusPlusSymbolImageGenerator:
             target_directory = os.path.join(destination_directory, symbol_class)
             os.makedirs(target_directory, exist_ok=True)
 
-            export_path = ExportPath(destination_directory, symbol_class, crop_object.uid)
+            export_path = ExportPath(destination_directory, symbol_class, node.unique_id)
             image.save(export_path.get_full_path())
 
 
@@ -92,12 +72,12 @@ if __name__ == "__main__":
     parser.add_argument(
         "--raw_dataset_directory",
         type=str,
-        default="../data/muscima_pp_raw",
-        help="The directory, where the raw Muscima++ dataset can be found")
+        default="../data/muscima_pp",
+        help="The directory, where the Muscima++ dataset can be found. Must be at least version 2.0.")
     parser.add_argument(
         "--image_dataset_directory",
         type=str,
-        default="../data/muscima_pp",
+        default="../data/muscima_pp/symbols",
         help="The directory, where the generated bitmaps will be created")
 
     flags, unparsed = parser.parse_known_args()
