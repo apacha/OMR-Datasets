@@ -22,8 +22,7 @@ class Downloader:
 
         Examples
         --------
-        >>> from omrdatasettools.Downloader import Downloader
-        >>> from omrdatasettools.OmrDataset import OmrDataset
+        >>> from omrdatasettools import Downloader, OmrDataset
         >>> downloader = Downloader()
         >>> downloader.download_and_extract_dataset(OmrDataset.HOMUS_V2, "data")
 

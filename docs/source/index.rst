@@ -20,8 +20,7 @@ Consider you want to work with the `HOMUS dataset <http://grfia.dlsi.ua.es/homus
 
 .. code-block:: python
 
-    from omrdatasettools.Downloader import Downloader
-    from omrdatasettools.OmrDataset import OmrDataset
+    from omrdatasettools import Downloader, OmrDataset
 
     downloader = Downloader()
     downloader.download_and_extract_dataset(OmrDataset.HOMUS_V2, "data")
@@ -30,7 +29,7 @@ Once the download has completed, you may want to work with images, instead of te
 
 .. code-block:: python
 
-    from omrdatasettools.HomusImageGenerator import HomusImageGenerator
+    from omrdatasettools import HomusImageGenerator
 
     HomusImageGenerator.create_images(raw_data_directory="data",
                                       destination_directory="homus_data",
