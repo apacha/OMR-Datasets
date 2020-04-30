@@ -14,11 +14,11 @@ class MuscimaPlusPlusSymbolImageGeneratorTest(unittest.TestCase):
         datasetDownloader = Downloader()
 
         # Act
-        datasetDownloader.download_and_extract_dataset(OmrDataset.MuscimaPlusPlus_V1, "temp/muscima_pp_raw")
+        datasetDownloader.download_and_extract_dataset(OmrDataset.MuscimaPlusPlus_V2, "temp/muscima_pp")
         image_generator = MuscimaPlusPlusSymbolImageGenerator()
-        image_generator.extract_and_render_all_symbol_masks("temp/muscima_pp_raw", "temp/muscima_img")
-        all_image_files = [y for x in os.walk("temp/muscima_img") for y in glob(os.path.join(x[0], '*.png'))]
-        expected_number_of_symbols = 91254
+        image_generator.extract_and_render_all_symbol_masks("temp/muscima_pp", "temp/muscima_pp/symbols")
+        all_image_files = [y for x in os.walk("temp/muscima_pp/symbols") for y in glob(os.path.join(x[0], '*.png'))]
+        expected_number_of_symbols = 102914
         actual_number_of_symbols = len(all_image_files)
 
         # Assert
