@@ -49,12 +49,12 @@ class Downloader:
             >>> from omrdatasettools import Downloader, OmrDataset
             >>> downloader = Downloader()
             >>> downloader.download_and_extract_dataset(OmrDataset.Edirom_Bargheer, "data/Bargheer")
-            >>> downloader.download_images_from_mei_annotation(OmrDataset.Edirom_Bargheer, "data/Bargheer", "https://bargheer.edirom.de/Scaler")
+            >>> downloader.download_images_from_mei_annotation(OmrDataset.Edirom_Bargheer, "data/Bargheer", "INSERT_DATASET_URL_HERE")
 
             or
 
             >>> downloader.download_and_extract_dataset(OmrDataset.Edirom_FreischuetzDigital, "data/Freischuetz")
-            >>> downloader.download_images_from_mei_annotation(OmrDataset.Edirom_FreischuetzDigital, "data/Freischuetz", "https://digilib.freischuetz-digital.de/Scaler")
+            >>> downloader.download_images_from_mei_annotation(OmrDataset.Edirom_FreischuetzDigital, "data/Freischuetz", "INSERT_DATASET_URL_HERE")
             """
         if dataset not in [OmrDataset.Edirom_Bargheer, OmrDataset.Edirom_FreischuetzDigital]:
             raise Exception("Only supported for edirom datasets")
