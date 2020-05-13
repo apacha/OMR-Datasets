@@ -42,19 +42,44 @@ class Downloader:
 
     def download_images_from_mei_annotation(self, dataset: OmrDataset, dataset_directory: str, base_url: str):
         """ Crawls the images of an Edirom dataset, if provided with the respective URL. To avoid repetitive crawling,
-            this URL has to be provided manually. If you are interested in these datasets, please contact the authors. """
+            this URL has to be provided manually. If you are interested in these datasets, please contact the authors.
+
+            Examples
+            --------
+            >>> from omrdatasettools import Downloader, OmrDataset
+            >>> downloader = Downloader()
+            >>> downloader.download_and_extract_dataset(OmrDataset.Edirom_Bargheer, "data/Bargheer")
+            >>> downloader.download_images_from_mei_annotation(OmrDataset.Edirom_Bargheer, "data/Bargheer", "https://bargheer.edirom.de/Scaler")
+
+            or
+
+            >>> downloader.download_and_extract_dataset(OmrDataset.Edirom_FreischuetzDigital, "data/Freischuetz")
+            >>> downloader.download_images_from_mei_annotation(OmrDataset.Edirom_FreischuetzDigital, "data/Freischuetz", "https://digilib.freischuetz-digital.de/Scaler")
+            """
         if dataset not in [OmrDataset.Edirom_Bargheer, OmrDataset.Edirom_FreischuetzDigital]:
             raise Exception("Only supported for edirom datasets")
 
-        if len(glob(f'{dataset_directory}/{dataset.name}/*.xml')) == 0:
+        if len(glob(f'{dataset_directory}/*.xml')) == 0:
             print(
-                f"Could not find MEI (XML) files in {dataset_directory}/{dataset.name}/ directory. Can't download images.")
+                f"Could not find MEI (XML) files in {dataset_directory}/ directory. Can't download images.")
 
-        for source in glob(f'{dataset_directory}/{dataset.name}/*.xml'):
+        for source in glob(f'{dataset_directory}/*.xml'):
             base = os.path.splitext(source)[0]
             os.makedirs(base, exist_ok=True)
             print("Downloading dataset for " + base)
-            self.__download_images(base, base_url, source)
+            self.__download_edirom_images(base, base_url, source)
+
+    def __download_edirom_images(self, base, base_url, source):
+        xml = etree.parse(source).getroot()
+
+        for graphic in tqdm(xml.xpath('//*[local-name()="graphic"]'), desc="Downloading images"):
+            url = graphic.get('target')
+            filename = os.path.basename(url)
+            width = graphic.get('width')
+            if os.path.exists(os.path.join(base, filename)):
+                pass  # Skipping download, because it has been downloaded already
+            else:
+                urllib.request.urlretrieve(f"{base_url}/{url}?dw={width}&amp;mo=fit", os.path.join(base, filename))
 
     def __download_muscima_pp_images(self, dataset: OmrDataset, destination_directory: str):
         # Automatically download the images and measure annotations with the MUSCIMA++ dataset
@@ -68,18 +93,6 @@ class Downloader:
             target_folder = os.path.join(os.path.abspath(destination_directory), "v2.0", "data", "images")
         self.__copytree(os.path.join(absolute_path_to_temp_folder, "fulls"), target_folder)
         self.__clean_up_temp_directory(absolute_path_to_temp_folder)
-
-    def __download_images(self, base, base_url, source):
-        xml = etree.parse(source).getroot()
-
-        for graphic in tqdm(xml.xpath('//*[local-name()="graphic"]'), desc="Downloading images"):
-            url = graphic.get('target')
-            filename = os.path.basename(url)
-            width = graphic.get('width')
-            if os.path.exists(os.path.join(base, filename)):
-                pass  # Skipping download, because it has been downloaded already
-            else:
-                urllib.request.urlretrieve(f"{base_url}/{url}?dw={width}&amp;mo=fit", os.path.join(base, filename))
 
     def __fix_capital_file_endings(self, absolute_path_to_temp_folder):
         image_with_capital_file_ending = [y for x in os.walk(absolute_path_to_temp_folder) for y in
