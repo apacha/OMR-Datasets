@@ -1,13 +1,18 @@
-from distutils.core import setup
 import io
 import logging
 import os
+from os.path import abspath, dirname, join
 
 from setuptools import find_packages
-
-import omrdatasettools
+from setuptools import setup
 
 here = os.path.abspath(os.path.dirname(__file__))
+
+# Read the version from
+version_path = join(abspath(dirname(__file__)), 'omrdatasettools', '__version__.py')
+version_dict = {}
+exec(open(version_path, 'r').read(), version_dict)
+version_number = version_dict['__version__']
 
 
 def read(*filenames, **kwargs):
@@ -41,7 +46,7 @@ def get_long_description():
 setup(
     name='omrdatasettools',
     packages=find_packages('.'),
-    version=omrdatasettools.__version__,
+    version=version_number,
     description='A collection of tools that simplify the downloading and handling of datasets used for Optical Music Recognition (OMR).',
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
@@ -50,7 +55,7 @@ setup(
     license='MIT',
     url='https://github.com/apacha/omr-datasets',  # use the URL to the github repo
     download_url='https://github.com/apacha/OMR-Datasets/archive/{0}.tar.gz'.format(
-        omrdatasettools.__version__),
+        version_number),
     keywords=['optical music recognition', 'downloading', 'extracting', 'omr', 'generating',
               'dataset', 'preprocessing'],
     install_requires=['Pillow', 'muscima', "mung", "numpy", "tqdm", "scikit-image", "lxml"],
