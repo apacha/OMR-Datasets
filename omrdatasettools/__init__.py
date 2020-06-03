@@ -1,4 +1,4 @@
-from __version__ import __version__ as version
+from ._version import __version__ as version
 from .AudiverisOmrImageGenerator import AudiverisOmrImageGenerator
 from .CapitanImageGenerator import CapitanImageGenerator
 from .Downloader import *

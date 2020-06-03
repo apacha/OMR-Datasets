@@ -9,7 +9,7 @@ from setuptools import setup
 here = os.path.abspath(os.path.dirname(__file__))
 
 # Read the version from
-version_path = join(abspath(dirname(__file__)), 'omrdatasettools', '__version__.py')
+version_path = join(abspath(dirname(__file__)), 'omrdatasettools', '_version.py')
 version_dict = {}
 exec(open(version_path, 'r').read(), version_dict)
 version_number = version_dict['__version__']
