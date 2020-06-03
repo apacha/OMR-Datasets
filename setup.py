@@ -35,7 +35,8 @@ def get_long_description():
         logging.warning('Could not find README.md and CHANGES.md file'
                         ' in directory {0}. Contents:'
                         ' {1}'.format(here, os.listdir(here)))
-        long_description = 'A collection of tools that simplify the downloading and handling of datasets used for Optical Music Recognition (OMR).' \
+        long_description = 'A collection of tools that simplify the downloading and handling of datasets used for ' \
+                           'Optical Music Recognition (OMR).' \
                            'These tools are available as Python package ``omrdatasettools`` on PyPi.' \
                            '' \
                            'They simplify the most common tasks such as downloading and extracting a dataset, ' \
@@ -47,7 +48,8 @@ setup(
     name='omrdatasettools',
     packages=find_packages('.'),
     version=version_number,
-    description='A collection of tools that simplify the downloading and handling of datasets used for Optical Music Recognition (OMR).',
+    description='A collection of tools that simplify the downloading and handling of datasets used for Optical Music '
+                'Recognition (OMR).',
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     author='Alexander Pacha',

@@ -1,6 +1,18 @@
 Changelog
 =========
 
+1.2.1
+-----
+Fixed dependency problem during setup.py that prevented the package from being 
+installed if the dependent libraries are not yet installed (which defeats
+the purpose of declaring dependencies in setup.py).
+Changing to semantic versioning with three numbers. 
+1.2 is now considered 1.2.0.
+
+1.2
+---
+Attempting to declare dependencies in setup.py properly
+
 1.1
 ---
 Updated MuscimaPlusPlusSymbolImageGenerator to work with MUSCIMA++ 2.0.
