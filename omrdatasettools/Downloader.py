@@ -98,7 +98,9 @@ class Downloader:
     def __download_muscima_pp_images(self, dataset: OmrDataset, destination_directory: str):
         # Automatically download the images and measure annotations with the MUSCIMA++ dataset
         muscima_pp_images_filename = dataset.dataset_file_names()["MuscimaPlusPlus_Images"]
-        self.download_file(dataset.dataset_download_urls()["MuscimaPlusPlus_Images"], muscima_pp_images_filename)
+        if not os.path.exists(muscima_pp_images_filename):
+            print("Downloading MUSCIMA++ images")
+            self.download_file(dataset.dataset_download_urls()["MuscimaPlusPlus_Images"], muscima_pp_images_filename)
         absolute_path_to_temp_folder = os.path.abspath('MuscimaPpImages')
         self.extract_dataset(absolute_path_to_temp_folder, muscima_pp_images_filename)
         if dataset is OmrDataset.MuscimaPlusPlus_V1:
