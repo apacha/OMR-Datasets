@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.3.0
+-----
+Added download capabilities of DeepScores V1 with extended vocabulary and
+opened the downloader, so you can download custom datasets, as well as utilize
+other methods from it that were previously private.
+
 1.2.2
 -----
 Fixed incorrect import statement in `__init__.py`

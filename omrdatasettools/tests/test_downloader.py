@@ -204,6 +204,15 @@ class DownloaderTest(unittest.TestCase):
         self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
                                                             target_file_extension, dataset)
 
+    def test_download_of_deepscores_dataset(self):
+        destination_directory = "DeepScoresV1Extended"
+        dataset = OmrDataset.DeepScores_V1_Extended
+        number_of_samples_in_the_dataset = 3408
+        target_file_extension = "*.png"
+
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
+                                                            target_file_extension, dataset)
+
     def download_dataset_and_verify_correct_extraction(self: unittest.TestCase, destination_directory: str,
                                                        number_of_samples_in_the_dataset: int,
                                                        target_file_extension: str, dataset: OmrDataset):

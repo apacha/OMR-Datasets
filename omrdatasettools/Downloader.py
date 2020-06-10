@@ -27,18 +27,32 @@ class Downloader:
         >>> downloader.download_and_extract_dataset(OmrDataset.HOMUS_V2, "data")
 
         """
-        if not os.path.exists(dataset.get_dataset_filename()):
-            print("Downloading {0} dataset...".format(dataset.name))
-            self.__download_file(dataset.get_dataset_download_url(), dataset.get_dataset_filename())
-
-        print("Extracting {0} dataset...".format(dataset.name))
-        self.__extract_dataset(os.path.abspath(destination_directory), dataset.get_dataset_filename())
+        self.download_and_extract_custom_dataset(dataset.name, dataset.get_dataset_download_url(),
+                                                 dataset.get_dataset_filename(), destination_directory)
 
         if dataset is OmrDataset.Fornes:
             self.__fix_capital_file_endings(os.path.join(os.path.abspath(destination_directory), "Music_Symbols"))
 
         if dataset in [OmrDataset.MuscimaPlusPlus_V1, OmrDataset.MuscimaPlusPlus_V2]:
             self.__download_muscima_pp_images(dataset, destination_directory)
+
+    def download_and_extract_custom_dataset(self, dataset_name: str, dataset_url: str, dataset_filename: str,
+                                            destination_directory: str):
+        """ Starts the download of a custom dataset and extracts it into the specified directory.
+
+        Examples
+        --------
+        >>> from omrdatasettools import Downloader
+        >>> downloader = Downloader()
+        >>> downloader.download_and_extract_custom_dataset("MyNewOmrDataset", "https://example.org/dataset.zip", "dataset.zip", "data/MyNewOmrDataset")
+
+        """
+        if not os.path.exists(dataset_filename):
+            print("Downloading {0} dataset...".format(dataset_name))
+            self.download_file(dataset_url, dataset_filename)
+
+        print("Extracting {0} dataset...".format(dataset_name))
+        self.extract_dataset(os.path.abspath(destination_directory), dataset_filename)
 
     def download_images_from_mei_annotation(self, dataset: OmrDataset, dataset_directory: str, base_url: str):
         """ Crawls the images of an Edirom dataset, if provided with the respective URL. To avoid repetitive crawling,
@@ -84,15 +98,15 @@ class Downloader:
     def __download_muscima_pp_images(self, dataset: OmrDataset, destination_directory: str):
         # Automatically download the images and measure annotations with the MUSCIMA++ dataset
         muscima_pp_images_filename = dataset.dataset_file_names()["MuscimaPlusPlus_Images"]
-        self.__download_file(dataset.dataset_download_urls()["MuscimaPlusPlus_Images"], muscima_pp_images_filename)
+        self.download_file(dataset.dataset_download_urls()["MuscimaPlusPlus_Images"], muscima_pp_images_filename)
         absolute_path_to_temp_folder = os.path.abspath('MuscimaPpImages')
-        self.__extract_dataset(absolute_path_to_temp_folder, muscima_pp_images_filename)
+        self.extract_dataset(absolute_path_to_temp_folder, muscima_pp_images_filename)
         if dataset is OmrDataset.MuscimaPlusPlus_V1:
             target_folder = os.path.join(os.path.abspath(destination_directory), "v1.0", "data", "images")
         if dataset is OmrDataset.MuscimaPlusPlus_V2:
             target_folder = os.path.join(os.path.abspath(destination_directory), "v2.0", "data", "images")
-        self.__copytree(os.path.join(absolute_path_to_temp_folder, "fulls"), target_folder)
-        self.__clean_up_temp_directory(absolute_path_to_temp_folder)
+        self.copytree(os.path.join(absolute_path_to_temp_folder, "fulls"), target_folder)
+        self.clean_up_temp_directory(absolute_path_to_temp_folder)
 
     def __fix_capital_file_endings(self, absolute_path_to_temp_folder):
         image_with_capital_file_ending = [y for x in os.walk(absolute_path_to_temp_folder) for y in
@@ -101,7 +115,7 @@ class Downloader:
             os.rename(image, image[:-3] + "bmp")
 
     @staticmethod
-    def __copytree(src, dst):
+    def copytree(src, dst):
         if not os.path.exists(dst):
             os.makedirs(dst)
         for item in os.listdir(src):
@@ -114,18 +128,18 @@ class Downloader:
                     shutil.copy2(s, d)
 
     @staticmethod
-    def __extract_dataset(absolute_path_to_folder: str, dataset_filename: str):
+    def extract_dataset(absolute_path_to_folder: str, dataset_filename: str):
         archive = ZipFile(dataset_filename, "r")
         archive.extractall(absolute_path_to_folder)
         archive.close()
 
     @staticmethod
-    def __clean_up_temp_directory(temp_directory):
+    def clean_up_temp_directory(temp_directory):
         print("Deleting temporary directory {0}".format(temp_directory))
         shutil.rmtree(temp_directory, ignore_errors=True)
 
     @staticmethod
-    def __download_file(url, destination_filename=None) -> str:
+    def download_file(url, destination_filename=None) -> str:
         u = urllib2.urlopen(url)
         scheme, netloc, path, query, fragment = urlparse.urlsplit(url)
         filename = os.path.basename(path)

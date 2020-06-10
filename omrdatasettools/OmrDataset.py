@@ -71,6 +71,9 @@ class OmrDataset(Enum):
     #: The Rebelo dataset (part 2) with music symbols from http://www.inescporto.pt/~arebelo/index.php, Copyright 2017 by Ana Rebelo under CC BY-SA 4.0 license
     Rebelo2 = auto()
 
+    #: The DeepScore dataset (version 1) with extended vocabulary from https://tuggeluk.github.io/downloads/, License unspecified.
+    DeepScores_V1_Extended = auto()
+
     def get_dataset_download_url(self) -> str:
         """ Returns the url of the selected dataset.
             Example usage: OmrDataset.Fornes.get_dataset_download_url() """
@@ -132,6 +135,8 @@ class OmrDataset(Enum):
 
             "Rebelo1": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/Rebelo-Music-Symbol-Dataset1.zip",
             "Rebelo2": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/Rebelo-Music-Symbol-Dataset2.zip",
+
+            "DeepScores_V1_Extended": "https://repository.cloudlab.zhaw.ch/artifactory/deepscores/ds_extended.zip"
         }
 
     def dataset_file_names(self) -> Dict[str, str]:
@@ -156,4 +161,5 @@ class OmrDataset(Enum):
             "Printed": "PrintedMusicSymbolsDataset.zip",
             "Rebelo1": "Rebelo-Music-Symbol-Dataset1.zip",
             "Rebelo2": "Rebelo-Music-Symbol-Dataset2.zip",
+            "DeepScores_V1_Extended": "ds_extended.zip"
         }
