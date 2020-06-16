@@ -56,7 +56,7 @@ class OmrDataset(Enum):
     #: The second version of the MUSCIMA++ dataset from https://github.com/OMR-Research/muscima-pp
     MuscimaPlusPlus_V2 = auto()
 
-    #: The measure annotations from the MUSCIMA++ dataset
+    #: A sub-set of the MUSCIMA++ annotations that contains bounding-box annotations for staves, staff measures and system measures. It was semi-automatically constructed from existing annotations and manually verified for correctness. The annotations are available in a plain JSON format as well as in the COCO format.
     MuscimaPlusPlus_MeasureAnnotations = auto()
 
     #: The OpenOMR Symbols dataset from https://sourceforge.net/projects/openomr/, Copyright 2013 by Arnaud F. Desaedeleer under GPL license
