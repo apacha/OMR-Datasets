@@ -112,14 +112,14 @@ These tools are available as Python package ``omrdatasettools`` on PyPi.
 
 ## MUSCIMA++ Measure Annotations
 
-**Website**: [https://omr-datasets.readthedocs.io](https://omr-datasets.readthedocs.io/en/latest/downloaders.html#omrdatasettools.OmrDataset.OmrDataset.MuscimaPlusPlus_MeasureAnnotations)
+**Website**: [https://omr-datasets.readthedocs.io](https://omr-datasets.readthedocs.io/en/latest/downloaders.html#omrdatasettools.OmrDataset.OmrDataset.MuscimaPlusPlus_MeasureAnnotations). 
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 **Summary**: Based on the MUSCIMA++ dataset, a subset of the annotations was constructed, that contains only annotations for measure and stave recognition.
 The dataset has some errors fixed that version MUSCIMA++ 1.0 exhibits and comes in a plain JSON format, as well as in the COCO format.
 
-This dataset was created by [Alexander Pacha](https://alexanderpacha.com).
+This dataset was created by [Alexander Pacha](https://alexanderpacha.com) and can be directly downloaded from [here](https://github.com/apacha/OMR-Datasets/releases/download/datasets/MUSCIMA-pp_v1.0-measure-annotations.zip).
 
 **Example**:
 
