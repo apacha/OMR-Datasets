@@ -4,8 +4,8 @@ from glob import glob
 from xml.etree import ElementTree
 
 from PIL import Image
-from sympy import Point2D
 
+from Point2D import Point2D
 from omrdatasettools.ExportPath import ExportPath
 from omrdatasettools.Rectangle import Rectangle
 

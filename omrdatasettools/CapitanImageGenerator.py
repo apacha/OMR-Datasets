@@ -4,9 +4,9 @@ from typing import List
 
 import numpy
 from PIL import Image, ImageDraw
-from sympy import Point2D
 from tqdm import tqdm
 
+from Point2D import Point2D
 from omrdatasettools.ExportPath import ExportPath
 from omrdatasettools.Rectangle import Rectangle
 

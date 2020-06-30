@@ -1,6 +1,6 @@
 from typing import Tuple
 
-from sympy import Point2D
+from Point2D import Point2D
 
 
 class Rectangle:
