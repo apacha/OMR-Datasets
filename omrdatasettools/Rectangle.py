@@ -1,6 +1,6 @@
 from typing import Tuple
 
-from Point2D import Point2D
+from omrdatasettools.Point2D import Point2D
 
 
 class Rectangle:

@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from Point2D import Point2D
+from omrdatasettools.Point2D import Point2D
 from omrdatasettools.ExportPath import ExportPath
 from omrdatasettools.HomusImageGenerator import HomusSymbol
 from omrdatasettools.Rectangle import Rectangle

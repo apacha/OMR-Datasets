@@ -6,7 +6,7 @@ import numpy
 from PIL import Image, ImageDraw
 from tqdm import tqdm
 
-from Point2D import Point2D
+from omrdatasettools.Point2D import Point2D
 from omrdatasettools.ExportPath import ExportPath
 from omrdatasettools.Rectangle import Rectangle
 

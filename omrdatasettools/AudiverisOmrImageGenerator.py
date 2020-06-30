@@ -5,7 +5,7 @@ from xml.etree import ElementTree
 
 from PIL import Image
 
-from Point2D import Point2D
+from omrdatasettools.Point2D import Point2D
 from omrdatasettools.ExportPath import ExportPath
 from omrdatasettools.Rectangle import Rectangle
 
