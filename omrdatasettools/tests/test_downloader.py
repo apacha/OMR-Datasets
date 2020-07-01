@@ -213,6 +213,24 @@ class DownloaderTest(unittest.TestCase):
         self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
                                                             target_file_extension, dataset)
 
+    def test_download_of_measure_bounding_box_annotations_v1(self):
+        destination_directory = "MeasureBoundingBoxAnnotations_v1"
+        dataset = OmrDataset.MeasureBoundingBoxAnnotations_v1
+        number_of_samples_in_the_dataset = 43
+        target_file_extension = "*.csv"
+
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
+                                                            target_file_extension, dataset)
+
+    def test_download_of_measure_bounding_box_annotations_v2(self):
+        destination_directory = "MeasureBoundingBoxAnnotations_v2"
+        dataset = OmrDataset.MeasureBoundingBoxAnnotations_v2
+        number_of_samples_in_the_dataset = 129
+        target_file_extension = "*.csv"
+
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
+                                                            target_file_extension, dataset)
+
     def download_dataset_and_verify_correct_extraction(self: unittest.TestCase, destination_directory: str,
                                                        number_of_samples_in_the_dataset: int,
                                                        target_file_extension: str, dataset: OmrDataset):
