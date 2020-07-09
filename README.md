@@ -149,7 +149,7 @@ This dataset was created by [Alexander Pacha](https://alexanderpacha.com) and ca
 
 [![License](https://img.shields.io/badge/License-Unknown-red.svg)](https://grfia.dlsi.ua.es/primus/)
 
-**Summary**: The Printed Images of Music Staves (PrIMuS) contains the 87678 real-music incipits (an incipit is a sequence of notes, typically the first ones, used for identifying a melody or musical work) in five different formats: As rendered PNG image, as MIDI-file, als MEI-file and as two custom encodings (semantic encoding and agnostic encoding). The incipits are originally taken from the [RISM dataset](http://opac.rism.info/).
+**Summary**: The Printed Images of Music Staves (PrIMuS) contains the 87678 real-music incipits (an incipit is a sequence of notes, typically the first ones, used for identifying a melody or musical work) in five different formats: As rendered PNG image, as MIDI-file, as MEI-file and as two custom encodings (semantic encoding and agnostic encoding). The incipits are originally taken from the [RISM dataset](http://opac.rism.info/).
 
 PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.es/primus/) that contains the same scores, but the images have been distorted to simulate imperfections introduced by taking pictures of sheet music in a real scenario.
 
