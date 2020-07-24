@@ -73,9 +73,9 @@ class MuscimaPlusPlusMaskImageGenerator:
         :param raw_data_directory: Path to the raw directory, where the MUSCIMA++ dataset was extracted to
         """
         annotations_directory = os.path.join(raw_data_directory, "v2.0", "data", "annotations")
-        xml_files = [y for x in os.walk(annotations_directory) for y in glob(os.path.join(x[0], '*.xml'))]
+        xml_files = sorted([y for x in os.walk(annotations_directory) for y in glob(os.path.join(x[0], '*.xml'))])
         images_directory = os.path.join(raw_data_directory, "v2.0", "data", "images")
-        png_files = [y for x in os.walk(images_directory) for y in glob(os.path.join(x[0], '*.png'))]
+        png_files = sorted([y for x in os.walk(images_directory) for y in glob(os.path.join(x[0], '*.png'))])
         return list(zip(xml_files, png_files))
 
     def __render_masks_of_nodes_for_semantic_segmentation(self, nodes: List[Node], destination_directory: str,
