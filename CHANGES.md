@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.3.1
+-----
+Bugfixing an error that generates incorrect MUSCIMA++ image masks because 
+images were incorrectly associated with each other.
+
 1.3.0
 -----
 Added download capabilities of DeepScores V1 with extended vocabulary and
