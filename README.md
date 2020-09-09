@@ -4,6 +4,8 @@ This repository contains a collection of many datasets used for various Optical 
 
 Note that most datasets have been developed by researchers and using their dataset requires accepting a certain license and/or citing their respective publications, as indicated for each dataset. Most datasets link to the official website, where you can download the dataset.
 
+If you are interested in Optical Music Recognition research, you can find a curated bibliography at https://omr-research.github.io/.
+
 ## Overview
 The following datasets are referenced from this repository:
 
