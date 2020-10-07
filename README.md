@@ -21,7 +21,7 @@ The following datasets are referenced from this repository:
 | [Multimodal Sheet Music Dataset](#multimodal-sheet-music-dataset)                           	| Typeset               	| 497 songs      	    									| Images, MIDI, Lilypond, MuNG (noteheads) 				| End-to-End Recognition, Multimodal Retrieval, Score Following     |
 | [Sheet Midi Retrieval Dataset](#sheet-midi-retrieval-dataset)                             	| Typeset               	| 200 songs      	    									| Images (Jpg and PDF), MIDI, CSV         				| Multimodal Retrieval, Score Following                             |
 | [Bounding Box Annotations of Musical Measures](#bounding-box-annotations-of-musical-measures) | Typeset              	    | 940 score images; 24,329 bounding boxes	    	        | Images                   							    | Box Annotation Detection                     						|
-| [Bounding Box Annotations of Musical Measures v2](#bounding-box-annotations-of-musical-measures-v2) | Typeset             | 940 score images; 86,085 bounding boxes	    	        | Images                   							    | Box Annotation Detection                     						|
+| [Bounding Box Annotations of Musical Measures v2](#bounding-box-annotations-of-musical-measures-v2) | Typeset             | 940 score images; 85,980 bounding boxes	    	        | Images                   							    | Box Annotation Detection                     						|
 | [MuseScore](#musescore)                                                                 	    | Typeset               	| > 340000 files 	    									| MuseScore, PDF, MusicXML 								| Various                                   						|
 | [MuseScore Monophonic MusicXML Dataset](#musescore-monophonic-musicxml-dataset)         	    | Typeset               	| 17000 IDs      	    									| IDs for MuseScore files  								| Various                                   						|
 | [Capitan collection](#capitan-collection)                                               	    | Handwritten              	| 10230 symbols         									| Images, Text-File    	    							| Symbol Classification                     						|
@@ -225,7 +225,7 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 [![License: Mixed](https://img.shields.io/badge/License-Mixed-ff00ff.svg)](https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures)
 
-**Summary**: Based on the Bounding Box Annotations of Musical Measures dataset with additional 11,144 bounding boxes for stave annotations and 50,612 bounding boxes for staff measures, which where generated with the help of a neural network and the original dataset. Annotations are available in the original CSV format, plain JSON format and COCO format. 
+**Summary**: Based on the Bounding Box Annotations of Musical Measures dataset with 24,186 bounding boxes for system measures, 11,143 bounding boxes for stave annotations and 50,651 bounding boxes for staff measures, which where generated with the help of a neural network and the original dataset. Annotations are available in the original CSV format, plain JSON format and COCO format. 
 
 **Example**:
 
