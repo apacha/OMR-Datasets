@@ -223,6 +223,8 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 # Bounding Box Annotations of Musical Measures v2
 
+**Official website**: [Download the dataset](https://github.com/apacha/OMR-Datasets/releases/download/datasets/MeasureBoundingBoxAnnotations_v2.zip)
+
 [![License: Mixed](https://img.shields.io/badge/License-Mixed-ff00ff.svg)](https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures)
 
 **Summary**: Based on the Bounding Box Annotations of Musical Measures dataset with 24,186 bounding boxes for system measures, 11,143 bounding boxes for stave annotations and 50,651 bounding boxes for staff measures, which where generated with the help of a neural network and the original dataset. Annotations are available in the original CSV format, plain JSON format and COCO format. 
