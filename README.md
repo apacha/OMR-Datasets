@@ -345,8 +345,8 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 [![License](https://img.shields.io/badge/License-Unknown-red.svg)](https://www-intuidoc.irisa.fr/en/choi_accidentals/)
 
 **Summary**: A dataset of 2955 small black and white images of accidentals (flat, natural, sharp) in context, including 968 images without accidentals (reject class). 
-Annotations are given the filename `{composer}-{page number}_{accidental class}_{window box}_{accidental box}_{note head box}.jpg` with
-the boxes in absolute coordinates, relative to the original music score page in the format: `{left}x{top}x{right}x{bottom}`.
+Annotations are included into the filename such as `{composer}-{page number}_{accidental class}_{window box}_{accidental box}_{note head box}.jpg` with
+the boxes containing absolute coordinates, relative to the original music score page in the format: `{left}x{top}x{right}x{bottom}`.
 
 **Example**:
 
