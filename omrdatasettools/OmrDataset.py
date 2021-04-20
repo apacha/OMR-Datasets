@@ -74,11 +74,11 @@ class OmrDataset(Enum):
     #: The DeepScore dataset (version 1) with extended vocabulary from https://tuggeluk.github.io/downloads/, License unspecified.
     DeepScores_V1_Extended = auto()
 
-    #: The Measure Bounding Box Annotation dataset from https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures, Copyright 2019 by Frank Zalkow, Angel Villar Corrales, TJ Tsai, Vlora Arifi-Müller, and Meinard Müller under CC BY-NC-SA 4.0 license
-    MeasureBoundingBoxAnnotations_v1 = auto()
+    #: The AudioLabs v1 dataset (aka. Measure Bounding Box Annotation) from https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures, Copyright 2019 by Frank Zalkow, Angel Villar Corrales, TJ Tsai, Vlora Arifi-Müller, and Meinard Müller under CC BY-NC-SA 4.0 license
+    AudioLabs_v1 = auto()
 
-    #: The second version of the Measure Bounding Box Annotation dataset enhanced with staves, staff measures and the original system measures. The annotations are available in csv, JSON and COCO format.
-    MeasureBoundingBoxAnnotations_v2 = auto()
+    #: The AudioLabs v2 dataset, enhanced with staves, staff measures and the original system measures. The annotations are available in csv, JSON and COCO format.
+    AudioLabs_v2 = auto()
 
     def get_dataset_download_url(self) -> str:
         """ Returns the url of the selected dataset.
@@ -145,9 +145,9 @@ class OmrDataset(Enum):
             "DeepScores_V1_Extended": "https://repository.cloudlab.zhaw.ch/artifactory/deepscores/ds_extended.zip",
 
             # Official URL: https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures
-            "MeasureBoundingBoxAnnotations_v1": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/MeasureBoundingBoxAnnotations_v1.zip",
+            "AudioLabs_v1": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/AudioLabs_v1.zip",
 
-            "MeasureBoundingBoxAnnotations_v2": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/MeasureBoundingBoxAnnotations_v2.zip"
+            "AudioLabs_v2": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/AudioLabs_v2.zip"
         }
 
     def dataset_file_names(self) -> Dict[str, str]:
@@ -173,6 +173,6 @@ class OmrDataset(Enum):
             "Rebelo1": "Rebelo-Music-Symbol-Dataset1.zip",
             "Rebelo2": "Rebelo-Music-Symbol-Dataset2.zip",
             "DeepScores_V1_Extended": "ds_extended.zip",
-            "MeasureBoundingBoxAnnotations_v1": "MeasureBoundingBoxAnnotations_v1.zip",
-            "MeasureBoundingBoxAnnotations_v2": "MeasureBoundingBoxAnnotations_v2.zip"
+            "AudioLabs_v1": "AudioLabs_v1.zip",
+            "AudioLabs_v2": "AudioLabs_v2.zip"
         }

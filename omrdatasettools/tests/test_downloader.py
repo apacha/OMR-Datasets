@@ -213,18 +213,18 @@ class DownloaderTest(unittest.TestCase):
         self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
                                                             target_file_extension, dataset)
 
-    def test_download_of_measure_bounding_box_annotations_v1(self):
-        destination_directory = "MeasureBoundingBoxAnnotations_v1"
-        dataset = OmrDataset.MeasureBoundingBoxAnnotations_v1
+    def test_download_of_audio_labs_v1(self):
+        destination_directory = "AudioLabs_v1"
+        dataset = OmrDataset.AudioLabs_v1
         number_of_samples_in_the_dataset = 43
         target_file_extension = "*.csv"
 
         self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
                                                             target_file_extension, dataset)
 
-    def test_download_of_measure_bounding_box_annotations_v2(self):
-        destination_directory = "MeasureBoundingBoxAnnotations_v2"
-        dataset = OmrDataset.MeasureBoundingBoxAnnotations_v2
+    def test_download_of_audio_labs_v2(self):
+        destination_directory = "AudioLabs_v2"
+        dataset = OmrDataset.AudioLabs_v2
         number_of_samples_in_the_dataset = 129
         target_file_extension = "*.csv"
 
@@ -252,6 +252,7 @@ class DownloaderTest(unittest.TestCase):
         # Cleanup
         os.remove(dataset.get_dataset_filename())
         shutil.rmtree(destination_directory, ignore_errors=True)
+
 
 if __name__ == '__main__':
     unittest.main()
