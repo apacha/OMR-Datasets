@@ -80,6 +80,9 @@ class OmrDataset(Enum):
     #: The AudioLabs v2 dataset, enhanced with staves, staff measures and the original system measures. The annotations are available in csv, JSON and COCO format.
     AudioLabs_v2 = auto()
 
+    #: The Accidentals detection dataset by Kwon-Young Choi from https://www-intuidoc.irisa.fr/en/choi_accidentals/, License unspecified.
+    ChoiAccidentals = auto()
+
     def get_dataset_download_url(self) -> str:
         """ Returns the url of the selected dataset.
             Example usage: OmrDataset.Fornes.get_dataset_download_url() """
@@ -147,7 +150,10 @@ class OmrDataset(Enum):
             # Official URL: https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures
             "AudioLabs_v1": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/AudioLabs_v1.zip",
 
-            "AudioLabs_v2": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/AudioLabs_v2.zip"
+            "AudioLabs_v2": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/AudioLabs_v2.zip",
+
+            # Official URL: https://www-intuidoc.irisa.fr/en/choi_accidentals/
+            "ChoiAccidentals": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/choi_accidentals_dataset.zip"
         }
 
     def dataset_file_names(self) -> Dict[str, str]:
@@ -174,5 +180,6 @@ class OmrDataset(Enum):
             "Rebelo2": "Rebelo-Music-Symbol-Dataset2.zip",
             "DeepScores_V1_Extended": "ds_extended.zip",
             "AudioLabs_v1": "AudioLabs_v1.zip",
-            "AudioLabs_v2": "AudioLabs_v2.zip"
+            "AudioLabs_v2": "AudioLabs_v2.zip",
+            "ChoiAccidentals": "choi_accidentals_dataset.zip"
         }

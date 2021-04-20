@@ -28,6 +28,7 @@ The following datasets are referenced from this repository:
 | [SEILS Dataset](#seils-dataset)                                               	            | Typeset              	    | 30 madrigals, 150 original images, 930 symbolic files 	| Images (PDF), .ly, .mid, .xml, .musx, .krn, .mei, .mns, .agnostic, .semantic    	| Various         						|
 | [Rebelo Dataset](#rebelo-dataset)                                                        	    | Typeset               	| 15000 symbols  	    									| Images                								| Symbol Classification                     						|
 | [Fornes Dataset](#fornes-dataset)                                                       	    | Handwritten           	| 4100 symbols   	    									| Images                 								| Symbol Classification                     						|
+| [Choi Accidentals Dataset](#choi-accidentals-dataset)                                                         	    | Typeset               	| 2955 images	    									| Images with special filename          	    							| Symbol Classification   						|
 | [Audiveris OMR](#audiveris-omr)                                                         	    | Typeset               	| 800 annotations	    									| Images, XML          	    							| Symbol Classification, Object Detection   						|
 | [Printed Music Symbols Dataset](#printed-music-symbols-dataset)                         	    | Typeset               	| 200 symbols    	    									| Images                								| Symbol Classification                     						|
 | [Music Score Classification Dataset](#music-score-classification-dataset)               	    | Typeset               	| 1000 score images     									| Images                								| Sheet Classification                      						|
@@ -303,7 +304,6 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 ![Example of SEILS dataset - modern notation](samples/seils2.png)
 
 
-
 # Rebelo Dataset
 
 **Official websites**: [http://www.inescporto.pt/~arebelo/index.php](http://www.inescporto.pt/~arebelo/index.php) and [http://www.inescporto.pt/~jsc/projects/OMR/](http://www.inescporto.pt/~jsc/projects/OMR/)
@@ -337,6 +337,21 @@ PrIMuS has been extended into the [Camera-PrIMuS dataset](https://grfia.dlsi.ua.
 
 ![Example of the Fornes Dataset](samples/fornes-accidentals.png)
 ![Example of the Fornes Dataset](samples/fornes-clefs.png)
+
+
+# Choi Accidentals Dataset
+**Official website**: [https://www-intuidoc.irisa.fr/en/choi_accidentals/](https://www-intuidoc.irisa.fr/en/choi_accidentals/)
+
+[![License](https://img.shields.io/badge/License-Unknown-red.svg)](https://www-intuidoc.irisa.fr/en/choi_accidentals/)
+
+**Summary**: A dataset of 2955 small black and white images of accidentals (flat, natural, sharp) in context, including 968 images without accidentals (reject class). 
+Annotations are given the filename `{composer}-{page number}_{accidental class}_{window box}_{accidental box}_{note head box}.jpg` with
+the boxes in absolute coordinates, relative to the original music score page in the format: `{left}x{top}x{right}x{bottom}`.
+
+**Example**:
+
+![Example of the Fornes Dataset](samples/choi_accidentals.png)
+
 
 # Audiveris OMR
 

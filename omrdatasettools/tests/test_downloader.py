@@ -231,6 +231,15 @@ class DownloaderTest(unittest.TestCase):
         self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
                                                             target_file_extension, dataset)
 
+    def test_download_of_choi_accidentals(self):
+        destination_directory = "choi_accidentals"
+        dataset = OmrDataset.ChoiAccidentals
+        number_of_samples_in_the_dataset = 2955
+        target_file_extension = "*.jpg"
+
+        self.download_dataset_and_verify_correct_extraction(destination_directory, number_of_samples_in_the_dataset,
+                                                            target_file_extension, dataset)
+
     def download_dataset_and_verify_correct_extraction(self: unittest.TestCase, destination_directory: str,
                                                        number_of_samples_in_the_dataset: int,
                                                        target_file_extension: str, dataset: OmrDataset):
