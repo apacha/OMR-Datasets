@@ -253,5 +253,5 @@ class DownloaderTest(unittest.TestCase):
         os.remove(dataset.get_dataset_filename())
         shutil.rmtree(destination_directory, ignore_errors=True)
 
-        if __name__ == '__main__':
-            unittest.main()
+if __name__ == '__main__':
+    unittest.main()
