@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Nodes dataset="doreme" document="test1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CVC-MUSCIMA_Schema.xsd">
+<Node>
+<Id>0</Id>
+<ClassName>stem</ClassName>
+<Top>768</Top>
+<Left>563</Left>
+<Width>2</Width>
+<Height>61</Height>
+<Mask>0:0 1:183 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>1</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>821</Top>
+<Left>538</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.000000</DataItem>
+<DataItem key="onset_beats" type="float">0.500000</DataItem>
+<DataItem key="pitch_octave" type="int">4</DataItem>
+<DataItem key="midi_pitch_code" type="int">71</DataItem>
+<DataItem key="normalized_pitch_step" type="str">B</DataItem>
+<DataItem key="dorico_event_id" type="int">0</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>2</Id>
+<ClassName>stem</ClassName>
+<Top>791</Top>
+<Left>659</Left>
+<Width>2</Width>
+<Height>68</Height>
+<Mask>0:0 1:207 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>3</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>852</Top>
+<Left>634</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.000000</DataItem>
+<DataItem key="onset_beats" type="float">1.500000</DataItem>
+<DataItem key="pitch_octave" type="int">4</DataItem>
+<DataItem key="midi_pitch_code" type="int">65</DataItem>
+<DataItem key="normalized_pitch_step" type="str">F</DataItem>
+<DataItem key="dorico_event_id" type="int">1</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>4</Id>
+<ClassName>stem</ClassName>
+<Top>813</Top>
+<Left>775</Left>
+<Width>2</Width>
+<Height>68</Height>
+<Mask>0:0 1:204 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>5</Id>
+<ClassName>flag8thUp</ClassName>
+<Top>811</Top>
+<Left>775</Left>
+<Width>22</Width>
+<Height>69</Height>
+<Mask>0:0 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:18 1:6 0:17 1:6 0:17 1:6 0:17 1:7 0:16 1:7 0:16 1:8 0:15 1:8 0:15 1:9 0:14 1:9 0:14 1:10 0:13 1:10 0:13 1:11 0:12 1:11 0:12 1:12 0:13 1:11 0:13 1:10 0:14 1:10 0:14 1:9 0:16 1:8 0:15 1:8 0:16 1:8 0:16 1:8 0:16 1:7 0:16 1:7 0:17 1:7 0:17 1:6 0:17 1:7 0:17 1:6 0:18 1:6 0:17 1:6 0:18 1:5 0:18 1:6 0:18 1:5 0:18 1:5 0:18 1:5 0:19 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:18 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:17 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:18 1:4 0:19 1:4 0:20 1:2 0:4 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>6</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>873</Top>
+<Left>750</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">2.500000</DataItem>
+<DataItem key="pitch_octave" type="int">4</DataItem>
+<DataItem key="midi_pitch_code" type="int">62</DataItem>
+<DataItem key="normalized_pitch_step" type="str">D</DataItem>
+<DataItem key="dorico_event_id" type="int">2</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>7</Id>
+<ClassName>stem</ClassName>
+<Top>813</Top>
+<Left>878</Left>
+<Width>2</Width>
+<Height>68</Height>
+<Mask>0:0 1:204 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>8</Id>
+<ClassName>flag8thUp</ClassName>
+<Top>811</Top>
+<Left>878</Left>
+<Width>22</Width>
+<Height>69</Height>
+<Mask>0:0 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:18 1:6 0:17 1:6 0:17 1:6 0:17 1:7 0:16 1:7 0:16 1:8 0:15 1:8 0:15 1:9 0:14 1:9 0:14 1:10 0:13 1:10 0:13 1:11 0:12 1:11 0:12 1:12 0:13 1:11 0:13 1:10 0:14 1:10 0:14 1:9 0:16 1:8 0:15 1:8 0:16 1:8 0:16 1:8 0:16 1:7 0:16 1:7 0:17 1:7 0:17 1:6 0:17 1:7 0:17 1:6 0:18 1:6 0:17 1:6 0:18 1:5 0:18 1:6 0:18 1:5 0:18 1:5 0:18 1:5 0:19 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:18 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:17 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:18 1:4 0:19 1:4 0:20 1:2 0:4 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>9</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>873</Top>
+<Left>853</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">3.000000</DataItem>
+<DataItem key="pitch_octave" type="int">4</DataItem>
+<DataItem key="midi_pitch_code" type="int">62</DataItem>
+<DataItem key="normalized_pitch_step" type="str">D</DataItem>
+<DataItem key="dorico_event_id" type="int">2</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>10</Id>
+<ClassName>stem</ClassName>
+<Top>812</Top>
+<Left>946</Left>
+<Width>2</Width>
+<Height>68</Height>
+<Mask>0:0 1:207 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>11</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>873</Top>
+<Left>921</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.000000</DataItem>
+<DataItem key="onset_beats" type="float">3.500000</DataItem>
+<DataItem key="pitch_octave" type="int">4</DataItem>
+<DataItem key="midi_pitch_code" type="int">62</DataItem>
+<DataItem key="normalized_pitch_step" type="str">D</DataItem>
+<DataItem key="dorico_event_id" type="int">3</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>12</Id>
+<ClassName>stem</ClassName>
+<Top>802</Top>
+<Left>1042</Left>
+<Width>2</Width>
+<Height>68</Height>
+<Mask>0:0 1:207 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>13</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>862</Top>
+<Left>1017</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.000000</DataItem>
+<DataItem key="onset_beats" type="float">4.500000</DataItem>
+<DataItem key="pitch_octave" type="int">4</DataItem>
+<DataItem key="midi_pitch_code" type="int">64</DataItem>
+<DataItem key="normalized_pitch_step" type="str">E</DataItem>
+<DataItem key="dorico_event_id" type="int">4</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>14</Id>
+<ClassName>stem</ClassName>
+<Top>803</Top>
+<Left>1158</Left>
+<Width>2</Width>
+<Height>68</Height>
+<Mask>0:0 1:204 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>15</Id>
+<ClassName>flag8thUp</ClassName>
+<Top>801</Top>
+<Left>1158</Left>
+<Width>22</Width>
+<Height>69</Height>
+<Mask>0:0 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:18 1:6 0:17 1:6 0:17 1:6 0:17 1:7 0:16 1:7 0:16 1:8 0:15 1:8 0:15 1:9 0:14 1:9 0:14 1:10 0:13 1:10 0:13 1:11 0:12 1:11 0:12 1:12 0:13 1:11 0:13 1:10 0:14 1:10 0:14 1:9 0:16 1:8 0:15 1:8 0:16 1:8 0:16 1:8 0:16 1:7 0:16 1:7 0:17 1:7 0:17 1:6 0:17 1:7 0:17 1:6 0:18 1:6 0:17 1:6 0:18 1:5 0:18 1:6 0:18 1:5 0:18 1:5 0:18 1:5 0:19 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:18 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:17 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:18 1:4 0:19 1:4 0:20 1:2 0:4 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>16</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>862</Top>
+<Left>1133</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">5.500000</DataItem>
+<DataItem key="pitch_octave" type="int">4</DataItem>
+<DataItem key="midi_pitch_code" type="int">64</DataItem>
+<DataItem key="normalized_pitch_step" type="str">E</DataItem>
+<DataItem key="dorico_event_id" type="int">7</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>17</Id>
+<ClassName>stem</ClassName>
+<Top>796</Top>
+<Left>1261</Left>
+<Width>2</Width>
+<Height>74</Height>
+<Mask>0:0 1:225 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>18</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>862</Top>
+<Left>1236</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">6.000000</DataItem>
+<DataItem key="pitch_octave" type="int">4</DataItem>
+<DataItem key="midi_pitch_code" type="int">64</DataItem>
+<DataItem key="normalized_pitch_step" type="str">E</DataItem>
+<DataItem key="dorico_event_id" type="int">7</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>19</Id>
+<ClassName>stem</ClassName>
+<Top>775</Top>
+<Left>1329</Left>
+<Width>2</Width>
+<Height>64</Height>
+<Mask>0:0 1:192 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>20</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>831</Top>
+<Left>1304</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">6.500000</DataItem>
+<DataItem key="pitch_octave" type="int">4</DataItem>
+<DataItem key="midi_pitch_code" type="int">69</DataItem>
+<DataItem key="normalized_pitch_step" type="str">A</DataItem>
+<DataItem key="dorico_event_id" type="int">8</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>21</Id>
+<ClassName>stem</ClassName>
+<Top>776</Top>
+<Left>1397</Left>
+<Width>2</Width>
+<Height>63</Height>
+<Mask>0:0 1:192 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>22</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>831</Top>
+<Left>1372</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.500000</DataItem>
+<DataItem key="onset_beats" type="float">7.000000</DataItem>
+<DataItem key="pitch_octave" type="int">4</DataItem>
+<DataItem key="midi_pitch_code" type="int">69</DataItem>
+<DataItem key="normalized_pitch_step" type="str">A</DataItem>
+<DataItem key="dorico_event_id" type="int">8</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>23</Id>
+<ClassName>stem</ClassName>
+<Top>816</Top>
+<Left>1528</Left>
+<Width>2</Width>
+<Height>66</Height>
+<Mask>0:0 1:198 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>24</Id>
+<ClassName>flag8thDown</ClassName>
+<Top>817</Top>
+<Left>1528</Left>
+<Width>26</Width>
+<Height>69</Height>
+<Mask>0:20 1:4 0:21 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:19 1:6 0:19 1:7 0:19 1:6 0:19 1:7 0:18 1:7 0:18 1:7 0:18 1:8 0:17 1:8 0:16 1:10 0:15 1:10 0:14 1:12 0:11 1:14 0:11 1:14 0:12 1:14 0:12 1:13 0:13 1:12 0:14 1:11 0:15 1:11 0:15 1:10 0:16 1:9 0:17 1:9 0:17 1:8 0:18 1:8 0:18 1:7 0:19 1:7 0:19 1:6 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:4 0:22 1:4 0:22 1:4 0:22 1:4 0:22 1:3 0:23 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>25</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>800</Top>
+<Left>1528</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">8.500000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">74</DataItem>
+<DataItem key="normalized_pitch_step" type="str">D</DataItem>
+<DataItem key="dorico_event_id" type="int">18</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>26</Id>
+<ClassName>stem</ClassName>
+<Top>816</Top>
+<Left>1631</Left>
+<Width>2</Width>
+<Height>66</Height>
+<Mask>0:0 1:198 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>27</Id>
+<ClassName>flag8thDown</ClassName>
+<Top>817</Top>
+<Left>1631</Left>
+<Width>26</Width>
+<Height>69</Height>
+<Mask>0:20 1:4 0:21 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:19 1:6 0:19 1:7 0:19 1:6 0:19 1:7 0:18 1:7 0:18 1:7 0:18 1:8 0:17 1:8 0:16 1:10 0:15 1:10 0:14 1:12 0:11 1:14 0:11 1:14 0:12 1:14 0:12 1:13 0:13 1:12 0:14 1:11 0:15 1:11 0:15 1:10 0:16 1:9 0:17 1:9 0:17 1:8 0:18 1:8 0:18 1:7 0:19 1:7 0:19 1:6 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:4 0:22 1:4 0:22 1:4 0:22 1:4 0:22 1:3 0:23 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>28</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>800</Top>
+<Left>1631</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">9.000000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">74</DataItem>
+<DataItem key="normalized_pitch_step" type="str">D</DataItem>
+<DataItem key="dorico_event_id" type="int">18</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>29</Id>
+<ClassName>stem</ClassName>
+<Top>1333</Top>
+<Left>470</Left>
+<Width>2</Width>
+<Height>61</Height>
+<Mask>0:0 1:183 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>30</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1317</Top>
+<Left>470</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.500000</DataItem>
+<DataItem key="onset_beats" type="float">0.000000</DataItem>
+<DataItem key="pitch_octave" type="int">4</DataItem>
+<DataItem key="midi_pitch_code" type="int">71</DataItem>
+<DataItem key="normalized_pitch_step" type="str">B</DataItem>
+<DataItem key="dorico_event_id" type="int">55</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>31</Id>
+<ClassName>stem</ClassName>
+<Top>1312</Top>
+<Left>634</Left>
+<Width>2</Width>
+<Height>66</Height>
+<Mask>0:0 1:198 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>32</Id>
+<ClassName>flag8thDown</ClassName>
+<Top>1313</Top>
+<Left>634</Left>
+<Width>26</Width>
+<Height>69</Height>
+<Mask>0:20 1:4 0:21 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:19 1:6 0:19 1:7 0:19 1:6 0:19 1:7 0:18 1:7 0:18 1:7 0:18 1:8 0:17 1:8 0:16 1:10 0:15 1:10 0:14 1:12 0:11 1:14 0:11 1:14 0:12 1:14 0:12 1:13 0:13 1:12 0:14 1:11 0:15 1:11 0:15 1:10 0:16 1:9 0:17 1:9 0:17 1:8 0:18 1:8 0:18 1:7 0:19 1:7 0:19 1:6 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:4 0:22 1:4 0:22 1:4 0:22 1:4 0:22 1:3 0:23 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>33</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1296</Top>
+<Left>634</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">1.500000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">74</DataItem>
+<DataItem key="normalized_pitch_step" type="str">D</DataItem>
+<DataItem key="dorico_event_id" type="int">56</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>34</Id>
+<ClassName>stem</ClassName>
+<Top>1312</Top>
+<Left>702</Left>
+<Width>2</Width>
+<Height>66</Height>
+<Mask>0:0 1:198 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>35</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1296</Top>
+<Left>702</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.000000</DataItem>
+<DataItem key="onset_beats" type="float">2.000000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">74</DataItem>
+<DataItem key="normalized_pitch_step" type="str">D</DataItem>
+<DataItem key="dorico_event_id" type="int">56</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>36</Id>
+<ClassName>stem</ClassName>
+<Top>1302</Top>
+<Left>853</Left>
+<Width>2</Width>
+<Height>69</Height>
+<Mask>0:0 1:207 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>37</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1286</Top>
+<Left>853</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.500000</DataItem>
+<DataItem key="onset_beats" type="float">3.000000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">76</DataItem>
+<DataItem key="normalized_pitch_step" type="str">E</DataItem>
+<DataItem key="dorico_event_id" type="int">57</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>38</Id>
+<ClassName>stem</ClassName>
+<Top>1312</Top>
+<Left>1017</Left>
+<Width>2</Width>
+<Height>66</Height>
+<Mask>0:0 1:198 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>39</Id>
+<ClassName>flag8thDown</ClassName>
+<Top>1313</Top>
+<Left>1017</Left>
+<Width>26</Width>
+<Height>69</Height>
+<Mask>0:20 1:4 0:21 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:19 1:6 0:19 1:7 0:19 1:6 0:19 1:7 0:18 1:7 0:18 1:7 0:18 1:8 0:17 1:8 0:16 1:10 0:15 1:10 0:14 1:12 0:11 1:14 0:11 1:14 0:12 1:14 0:12 1:13 0:13 1:12 0:14 1:11 0:15 1:11 0:15 1:10 0:16 1:9 0:17 1:9 0:17 1:8 0:18 1:8 0:18 1:7 0:19 1:7 0:19 1:6 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:4 0:22 1:4 0:22 1:4 0:22 1:4 0:22 1:3 0:23 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>40</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1296</Top>
+<Left>1017</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">4.500000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">74</DataItem>
+<DataItem key="normalized_pitch_step" type="str">D</DataItem>
+<DataItem key="dorico_event_id" type="int">58</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>41</Id>
+<ClassName>stem</ClassName>
+<Top>1312</Top>
+<Left>1085</Left>
+<Width>2</Width>
+<Height>66</Height>
+<Mask>0:0 1:198 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>42</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1296</Top>
+<Left>1085</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.000000</DataItem>
+<DataItem key="onset_beats" type="float">5.000000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">74</DataItem>
+<DataItem key="normalized_pitch_step" type="str">D</DataItem>
+<DataItem key="dorico_event_id" type="int">58</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>43</Id>
+<ClassName>stem</ClassName>
+<Top>1322</Top>
+<Left>1236</Left>
+<Width>2</Width>
+<Height>63</Height>
+<Mask>0:0 1:192 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>44</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1307</Top>
+<Left>1236</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.500000</DataItem>
+<DataItem key="onset_beats" type="float">6.000000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">72</DataItem>
+<DataItem key="normalized_pitch_step" type="str">C</DataItem>
+<DataItem key="dorico_event_id" type="int">59</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>45</Id>
+<ClassName>stem</ClassName>
+<Top>1291</Top>
+<Left>1412</Left>
+<Width>2</Width>
+<Height>66</Height>
+<Mask>0:0 1:198 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>46</Id>
+<ClassName>flag8thDown</ClassName>
+<Top>1292</Top>
+<Left>1412</Left>
+<Width>26</Width>
+<Height>69</Height>
+<Mask>0:20 1:4 0:21 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:19 1:6 0:19 1:7 0:19 1:6 0:19 1:7 0:18 1:7 0:18 1:7 0:18 1:8 0:17 1:8 0:16 1:10 0:15 1:10 0:14 1:12 0:11 1:14 0:11 1:14 0:12 1:14 0:12 1:13 0:13 1:12 0:14 1:11 0:15 1:11 0:15 1:10 0:16 1:9 0:17 1:9 0:17 1:8 0:18 1:8 0:18 1:7 0:19 1:7 0:19 1:6 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:4 0:22 1:4 0:22 1:4 0:22 1:4 0:22 1:3 0:23 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>47</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1276</Top>
+<Left>1412</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">7.500000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">77</DataItem>
+<DataItem key="normalized_pitch_step" type="str">F</DataItem>
+<DataItem key="dorico_event_id" type="int">60</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>48</Id>
+<ClassName>stem</ClassName>
+<Top>1291</Top>
+<Left>1480</Left>
+<Width>2</Width>
+<Height>69</Height>
+<Mask>0:0 1:207 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>49</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1276</Top>
+<Left>1480</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.000000</DataItem>
+<DataItem key="onset_beats" type="float">8.000000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">77</DataItem>
+<DataItem key="normalized_pitch_step" type="str">F</DataItem>
+<DataItem key="dorico_event_id" type="int">60</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>50</Id>
+<ClassName>stem</ClassName>
+<Top>1291</Top>
+<Left>1631</Left>
+<Width>2</Width>
+<Height>69</Height>
+<Mask>0:0 1:207 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>51</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1276</Top>
+<Left>1631</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.500000</DataItem>
+<DataItem key="onset_beats" type="float">9.000000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">77</DataItem>
+<DataItem key="normalized_pitch_step" type="str">F</DataItem>
+<DataItem key="dorico_event_id" type="int">61</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>52</Id>
+<ClassName>stem</ClassName>
+<Top>1271</Top>
+<Left>1815</Left>
+<Width>2</Width>
+<Height>66</Height>
+<Mask>0:0 1:198 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>53</Id>
+<ClassName>flag8thDown</ClassName>
+<Top>1272</Top>
+<Left>1815</Left>
+<Width>26</Width>
+<Height>69</Height>
+<Mask>0:20 1:4 0:21 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:19 1:6 0:19 1:7 0:19 1:6 0:19 1:7 0:18 1:7 0:18 1:7 0:18 1:8 0:17 1:8 0:16 1:10 0:15 1:10 0:14 1:12 0:11 1:14 0:11 1:14 0:12 1:14 0:12 1:13 0:13 1:12 0:14 1:11 0:15 1:11 0:15 1:10 0:16 1:9 0:17 1:9 0:17 1:8 0:18 1:8 0:18 1:7 0:19 1:7 0:19 1:6 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:4 0:22 1:4 0:22 1:4 0:22 1:4 0:22 1:3 0:23 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>54</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1255</Top>
+<Left>1815</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">10.500000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">81</DataItem>
+<DataItem key="normalized_pitch_step" type="str">A</DataItem>
+<DataItem key="dorico_event_id" type="int">62</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>55</Id>
+<ClassName>stem</ClassName>
+<Top>1271</Top>
+<Left>1883</Left>
+<Width>2</Width>
+<Height>69</Height>
+<Mask>0:0 1:207 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>56</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1255</Top>
+<Left>1883</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.000000</DataItem>
+<DataItem key="onset_beats" type="float">11.000000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">81</DataItem>
+<DataItem key="normalized_pitch_step" type="str">A</DataItem>
+<DataItem key="dorico_event_id" type="int">62</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>57</Id>
+<ClassName>stem</ClassName>
+<Top>1260</Top>
+<Left>2014</Left>
+<Width>2</Width>
+<Height>69</Height>
+<Mask>0:0 1:207 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>58</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1245</Top>
+<Left>2014</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.500000</DataItem>
+<DataItem key="onset_beats" type="float">12.000000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">83</DataItem>
+<DataItem key="normalized_pitch_step" type="str">B</DataItem>
+<DataItem key="dorico_event_id" type="int">63</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>59</Id>
+<ClassName>stem</ClassName>
+<Top>1250</Top>
+<Left>2132</Left>
+<Width>2</Width>
+<Height>76</Height>
+<Mask>0:0 1:231 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>60</Id>
+<ClassName>flag8thDown</ClassName>
+<Top>1261</Top>
+<Left>2132</Left>
+<Width>26</Width>
+<Height>69</Height>
+<Mask>0:20 1:4 0:21 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:19 1:6 0:19 1:7 0:19 1:6 0:19 1:7 0:18 1:7 0:18 1:7 0:18 1:8 0:17 1:8 0:16 1:10 0:15 1:10 0:14 1:12 0:11 1:14 0:11 1:14 0:12 1:14 0:12 1:13 0:13 1:12 0:14 1:11 0:15 1:11 0:15 1:10 0:16 1:9 0:17 1:9 0:17 1:8 0:18 1:8 0:18 1:7 0:19 1:7 0:19 1:6 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:4 0:22 1:4 0:22 1:4 0:22 1:4 0:22 1:3 0:23 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>61</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1234</Top>
+<Left>2132</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">13.500000</DataItem>
+<DataItem key="pitch_octave" type="int">6</DataItem>
+<DataItem key="midi_pitch_code" type="int">84</DataItem>
+<DataItem key="normalized_pitch_step" type="str">C</DataItem>
+<DataItem key="dorico_event_id" type="int">64</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>62</Id>
+<ClassName>stem</ClassName>
+<Top>1250</Top>
+<Left>2200</Left>
+<Width>2</Width>
+<Height>79</Height>
+<Mask>0:0 1:237 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>63</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1234</Top>
+<Left>2200</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.000000</DataItem>
+<DataItem key="onset_beats" type="float">14.000000</DataItem>
+<DataItem key="pitch_octave" type="int">6</DataItem>
+<DataItem key="midi_pitch_code" type="int">84</DataItem>
+<DataItem key="normalized_pitch_step" type="str">C</DataItem>
+<DataItem key="dorico_event_id" type="int">64</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>64</Id>
+<ClassName>tie</ClassName>
+<Top>857</Top>
+<Left>763</Left>
+<Width>104</Width>
+<Height>14</Height>
+<Mask>0:0 1:4 0:96 1:4 0:1 1:7 0:90 1:7 0:1 1:11 0:83 1:11 0:1 1:13 0:76 1:13 0:5 1:15 0:68 1:15 0:9 1:18 0:58 1:18 0:14 1:21 0:46 1:21 0:19 1:28 0:28 1:28 0:24 1:78 0:30 1:72 0:36 1:66 0:43 1:58 0:52 1:48 0:63 1:37 0:77 1:19 0:43 </Mask>
+<Data>
+<DataItem key="dorico_event_id" type="int">2</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>65</Id>
+<ClassName>tie</ClassName>
+<Top>847</Top>
+<Left>1146</Left>
+<Width>104</Width>
+<Height>14</Height>
+<Mask>0:0 1:4 0:96 1:4 0:1 1:7 0:90 1:7 0:1 1:11 0:83 1:11 0:1 1:13 0:76 1:13 0:5 1:15 0:68 1:15 0:9 1:18 0:58 1:18 0:14 1:21 0:46 1:21 0:19 1:28 0:28 1:28 0:24 1:78 0:30 1:72 0:36 1:66 0:43 1:58 0:52 1:48 0:63 1:37 0:77 1:19 0:43 </Mask>
+<Data>
+<DataItem key="dorico_event_id" type="int">7</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>66</Id>
+<ClassName>tie</ClassName>
+<Top>816</Top>
+<Left>1317</Left>
+<Width>69</Width>
+<Height>13</Height>
+<Mask>0:0 1:4 0:61 1:4 0:1 1:6 0:57 1:16 0:51 1:10 0:1 1:11 0:45 1:11 0:4 1:14 0:38 1:13 0:7 1:16 0:29 1:16 0:11 1:22 0:13 1:22 0:15 1:53 0:19 1:49 0:24 1:44 0:29 1:38 0:35 1:31 0:44 1:22 0:58 1:1 0:35 </Mask>
+<Data>
+<DataItem key="dorico_event_id" type="int">8</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>67</Id>
+<ClassName>tie</ClassName>
+<Top>741</Top>
+<Left>1541</Left>
+<Width>104</Width>
+<Height>14</Height>
+<Mask>0:36 1:32 0:67 1:44 0:56 1:54 0:47 1:62 0:39 1:70 0:32 1:76 0:26 1:33 0:16 1:33 0:21 1:23 0:40 1:23 0:16 1:19 0:54 1:19 0:11 1:16 0:64 1:16 0:7 1:14 0:72 1:14 0:3 1:12 0:80 1:12 0:1 1:8 0:88 1:14 0:94 1:5 0:1 1:3 0:99 1:2 0:1 </Mask>
+<Data>
+<DataItem key="dorico_event_id" type="int">18</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>68</Id>
+<ClassName>tie</ClassName>
+<Top>989</Top>
+<Left>647</Left>
+<Width>69</Width>
+<Height>14</Height>
+<Mask>0:24 1:21 0:45 1:30 0:37 1:36 0:31 1:41 0:27 1:46 0:21 1:51 0:17 1:22 0:12 1:21 0:14 1:16 0:26 1:16 0:10 1:13 0:35 1:13 0:8 1:11 0:42 1:11 0:4 1:10 0:48 1:9 0:2 1:8 0:53 1:15 0:57 1:11 0:61 1:4 0:2 1:1 0:65 1:2 0:1 </Mask>
+<Data>
+<DataItem key="dorico_event_id" type="int">56</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>69</Id>
+<ClassName>tie</ClassName>
+<Top>989</Top>
+<Left>1030</Left>
+<Width>69</Width>
+<Height>14</Height>
+<Mask>0:24 1:21 0:45 1:30 0:37 1:36 0:31 1:41 0:27 1:46 0:21 1:51 0:17 1:22 0:12 1:21 0:14 1:16 0:26 1:16 0:10 1:13 0:35 1:13 0:8 1:11 0:42 1:11 0:4 1:10 0:48 1:9 0:2 1:8 0:53 1:15 0:57 1:11 0:61 1:4 0:2 1:1 0:65 1:2 0:1 </Mask>
+<Data>
+<DataItem key="dorico_event_id" type="int">58</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>70</Id>
+<ClassName>tie</ClassName>
+<Top>969</Top>
+<Left>1425</Left>
+<Width>69</Width>
+<Height>14</Height>
+<Mask>0:24 1:21 0:45 1:30 0:37 1:36 0:31 1:41 0:27 1:46 0:21 1:51 0:17 1:22 0:12 1:21 0:14 1:16 0:26 1:16 0:10 1:13 0:35 1:13 0:8 1:11 0:42 1:11 0:4 1:10 0:48 1:9 0:2 1:8 0:53 1:15 0:57 1:11 0:61 1:4 0:2 1:1 0:65 1:2 0:1 </Mask>
+<Data>
+<DataItem key="dorico_event_id" type="int">60</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>71</Id>
+<ClassName>tie</ClassName>
+<Top>949</Top>
+<Left>1828</Left>
+<Width>69</Width>
+<Height>14</Height>
+<Mask>0:24 1:21 0:45 1:30 0:37 1:36 0:31 1:41 0:27 1:46 0:21 1:51 0:17 1:22 0:12 1:21 0:14 1:16 0:26 1:16 0:10 1:13 0:35 1:13 0:8 1:11 0:42 1:11 0:4 1:10 0:48 1:9 0:2 1:8 0:53 1:15 0:57 1:11 0:61 1:4 0:2 1:1 0:65 1:2 0:1 </Mask>
+<Data>
+<DataItem key="dorico_event_id" type="int">62</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>72</Id>
+<ClassName>tie</ClassName>
+<Top>928</Top>
+<Left>2145</Left>
+<Width>69</Width>
+<Height>14</Height>
+<Mask>0:24 1:21 0:45 1:30 0:37 1:36 0:31 1:41 0:27 1:46 0:21 1:51 0:17 1:22 0:12 1:21 0:14 1:16 0:26 1:16 0:10 1:13 0:35 1:13 0:8 1:11 0:42 1:11 0:4 1:10 0:48 1:9 0:2 1:8 0:53 1:15 0:57 1:11 0:61 1:4 0:2 1:1 0:65 1:2 0:1 </Mask>
+<Data>
+<DataItem key="dorico_event_id" type="int">64</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>73</Id>
+<ClassName>beam</ClassName>
+<Top>729</Top>
+<Left>1261</Left>
+<Width>70</Width>
+<Height>31</Height>
+<Mask>0:67 1:4 0:63 1:8 0:60 1:11 0:56 1:15 0:53 1:18 0:50 1:21 0:46 1:25 0:43 1:28 0:39 1:32 0:36 1:35 0:32 1:39 0:29 1:41 0:27 1:41 0:26 1:41 0:27 1:41 0:26 1:42 0:26 1:41 0:27 1:41 0:26 1:41 0:27 1:41 0:28 1:40 0:31 1:36 0:35 1:33 0:38 1:29 0:42 1:26 0:45 1:23 0:48 1:19 0:52 1:16 0:55 1:12 0:59 1:9 0:62 1:5 0:66 1:2 0:69 </Mask>
+<Data>
+<DataItem key="dorico_event_ids" type="list[int]">7,8</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>74</Id>
+<ClassName>stem</ClassName>
+<Top>2004</Top>
+<Left>289</Left>
+<Width>2</Width>
+<Height>69</Height>
+<Mask>0:0 1:207 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>75</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1989</Top>
+<Left>289</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.500000</DataItem>
+<DataItem key="onset_beats" type="float">15.000000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">83</DataItem>
+<DataItem key="normalized_pitch_step" type="str">B</DataItem>
+<DataItem key="dorico_event_id" type="int">65</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>76</Id>
+<ClassName>stem</ClassName>
+<Top>1994</Top>
+<Left>434</Left>
+<Width>2</Width>
+<Height>76</Height>
+<Mask>0:0 1:231 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>77</Id>
+<ClassName>flag8thDown</ClassName>
+<Top>2005</Top>
+<Left>434</Left>
+<Width>26</Width>
+<Height>69</Height>
+<Mask>0:20 1:4 0:21 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:19 1:6 0:19 1:7 0:19 1:6 0:19 1:7 0:18 1:7 0:18 1:7 0:18 1:8 0:17 1:8 0:16 1:10 0:15 1:10 0:14 1:12 0:11 1:14 0:11 1:14 0:12 1:14 0:12 1:13 0:13 1:12 0:14 1:11 0:15 1:11 0:15 1:10 0:16 1:9 0:17 1:9 0:17 1:8 0:18 1:8 0:18 1:7 0:19 1:7 0:19 1:6 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:4 0:22 1:4 0:22 1:4 0:22 1:4 0:22 1:3 0:23 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>78</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1978</Top>
+<Left>434</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">16.500000</DataItem>
+<DataItem key="pitch_octave" type="int">6</DataItem>
+<DataItem key="midi_pitch_code" type="int">84</DataItem>
+<DataItem key="normalized_pitch_step" type="str">C</DataItem>
+<DataItem key="dorico_event_id" type="int">66</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>79</Id>
+<ClassName>stem</ClassName>
+<Top>1994</Top>
+<Left>518</Left>
+<Width>2</Width>
+<Height>79</Height>
+<Mask>0:0 1:237 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>80</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1978</Top>
+<Left>518</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.000000</DataItem>
+<DataItem key="onset_beats" type="float">17.000000</DataItem>
+<DataItem key="pitch_octave" type="int">6</DataItem>
+<DataItem key="midi_pitch_code" type="int">84</DataItem>
+<DataItem key="normalized_pitch_step" type="str">C</DataItem>
+<DataItem key="dorico_event_id" type="int">66</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>81</Id>
+<ClassName>stem</ClassName>
+<Top>2004</Top>
+<Left>671</Left>
+<Width>2</Width>
+<Height>69</Height>
+<Mask>0:0 1:207 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>82</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1989</Top>
+<Left>671</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.500000</DataItem>
+<DataItem key="onset_beats" type="float">18.000000</DataItem>
+<DataItem key="pitch_octave" type="int">5</DataItem>
+<DataItem key="midi_pitch_code" type="int">83</DataItem>
+<DataItem key="normalized_pitch_step" type="str">B</DataItem>
+<DataItem key="dorico_event_id" type="int">67</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>83</Id>
+<ClassName>stem</ClassName>
+<Top>1994</Top>
+<Left>815</Left>
+<Width>2</Width>
+<Height>76</Height>
+<Mask>0:0 1:231 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>84</Id>
+<ClassName>flag8thDown</ClassName>
+<Top>2005</Top>
+<Left>815</Left>
+<Width>26</Width>
+<Height>69</Height>
+<Mask>0:20 1:4 0:21 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:19 1:6 0:19 1:7 0:19 1:6 0:19 1:7 0:18 1:7 0:18 1:7 0:18 1:8 0:17 1:8 0:16 1:10 0:15 1:10 0:14 1:12 0:11 1:14 0:11 1:14 0:12 1:14 0:12 1:13 0:13 1:12 0:14 1:11 0:15 1:11 0:15 1:10 0:16 1:9 0:17 1:9 0:17 1:8 0:18 1:8 0:18 1:7 0:19 1:7 0:19 1:6 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:4 0:22 1:4 0:22 1:4 0:22 1:4 0:22 1:3 0:23 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>85</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1978</Top>
+<Left>815</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">19.500000</DataItem>
+<DataItem key="pitch_octave" type="int">6</DataItem>
+<DataItem key="midi_pitch_code" type="int">84</DataItem>
+<DataItem key="normalized_pitch_step" type="str">C</DataItem>
+<DataItem key="dorico_event_id" type="int">68</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>86</Id>
+<ClassName>stem</ClassName>
+<Top>1994</Top>
+<Left>899</Left>
+<Width>2</Width>
+<Height>79</Height>
+<Mask>0:0 1:237 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>87</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1978</Top>
+<Left>899</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.000000</DataItem>
+<DataItem key="onset_beats" type="float">20.000000</DataItem>
+<DataItem key="pitch_octave" type="int">6</DataItem>
+<DataItem key="midi_pitch_code" type="int">84</DataItem>
+<DataItem key="normalized_pitch_step" type="str">C</DataItem>
+<DataItem key="dorico_event_id" type="int">68</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>88</Id>
+<ClassName>stem</ClassName>
+<Top>1973</Top>
+<Left>1052</Left>
+<Width>2</Width>
+<Height>100</Height>
+<Mask>0:0 1:300 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>89</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1958</Top>
+<Left>1052</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.500000</DataItem>
+<DataItem key="onset_beats" type="float">21.000000</DataItem>
+<DataItem key="pitch_octave" type="int">6</DataItem>
+<DataItem key="midi_pitch_code" type="int">88</DataItem>
+<DataItem key="normalized_pitch_step" type="str">E</DataItem>
+<DataItem key="dorico_event_id" type="int">69</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>90</Id>
+<ClassName>stem</ClassName>
+<Top>1963</Top>
+<Left>1197</Left>
+<Width>2</Width>
+<Height>107</Height>
+<Mask>0:0 1:324 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>91</Id>
+<ClassName>flag8thDown</ClassName>
+<Top>2005</Top>
+<Left>1197</Left>
+<Width>26</Width>
+<Height>69</Height>
+<Mask>0:20 1:4 0:21 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:19 1:6 0:19 1:7 0:19 1:6 0:19 1:7 0:18 1:7 0:18 1:7 0:18 1:8 0:17 1:8 0:16 1:10 0:15 1:10 0:14 1:12 0:11 1:14 0:11 1:14 0:12 1:14 0:12 1:13 0:13 1:12 0:14 1:11 0:15 1:11 0:15 1:10 0:16 1:9 0:17 1:9 0:17 1:8 0:18 1:8 0:18 1:7 0:19 1:7 0:19 1:6 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:4 0:22 1:4 0:22 1:4 0:22 1:4 0:22 1:3 0:23 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>92</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1947</Top>
+<Left>1197</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">22.500000</DataItem>
+<DataItem key="pitch_octave" type="int">6</DataItem>
+<DataItem key="midi_pitch_code" type="int">89</DataItem>
+<DataItem key="normalized_pitch_step" type="str">F</DataItem>
+<DataItem key="dorico_event_id" type="int">70</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>93</Id>
+<ClassName>stem</ClassName>
+<Top>1963</Top>
+<Left>1280</Left>
+<Width>2</Width>
+<Height>110</Height>
+<Mask>0:0 1:330 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>94</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1947</Top>
+<Left>1280</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.000000</DataItem>
+<DataItem key="onset_beats" type="float">23.000000</DataItem>
+<DataItem key="pitch_octave" type="int">6</DataItem>
+<DataItem key="midi_pitch_code" type="int">89</DataItem>
+<DataItem key="normalized_pitch_step" type="str">F</DataItem>
+<DataItem key="dorico_event_id" type="int">70</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>95</Id>
+<ClassName>stem</ClassName>
+<Top>1953</Top>
+<Left>1434</Left>
+<Width>2</Width>
+<Height>120</Height>
+<Mask>0:0 1:363 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>96</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1937</Top>
+<Left>1434</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.000000</DataItem>
+<DataItem key="onset_beats" type="float">24.000000</DataItem>
+<DataItem key="pitch_octave" type="int">6</DataItem>
+<DataItem key="midi_pitch_code" type="int">91</DataItem>
+<DataItem key="normalized_pitch_step" type="str">G</DataItem>
+<DataItem key="dorico_event_id" type="int">71</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>97</Id>
+<ClassName>stem</ClassName>
+<Top>1953</Top>
+<Left>1552</Left>
+<Width>2</Width>
+<Height>117</Height>
+<Mask>0:0 1:354 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>98</Id>
+<ClassName>flag8thDown</ClassName>
+<Top>2005</Top>
+<Left>1552</Left>
+<Width>26</Width>
+<Height>69</Height>
+<Mask>0:20 1:4 0:21 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:19 1:6 0:19 1:7 0:19 1:6 0:19 1:7 0:18 1:7 0:18 1:7 0:18 1:8 0:17 1:8 0:16 1:10 0:15 1:10 0:14 1:12 0:11 1:14 0:11 1:14 0:12 1:14 0:12 1:13 0:13 1:12 0:14 1:11 0:15 1:11 0:15 1:10 0:16 1:9 0:17 1:9 0:17 1:8 0:18 1:8 0:18 1:7 0:19 1:7 0:19 1:6 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:4 0:22 1:4 0:22 1:4 0:22 1:4 0:22 1:3 0:23 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>99</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>1937</Top>
+<Left>1552</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">25.000000</DataItem>
+<DataItem key="pitch_octave" type="int">6</DataItem>
+<DataItem key="midi_pitch_code" type="int">91</DataItem>
+<DataItem key="normalized_pitch_step" type="str">G</DataItem>
+<DataItem key="dorico_event_id" type="int">71</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>100</Id>
+<ClassName>stem</ClassName>
+<Top>2437</Top>
+<Left>1660</Left>
+<Width>2</Width>
+<Height>66</Height>
+<Mask>0:0 1:198 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>101</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>2495</Top>
+<Left>1635</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.500000</DataItem>
+<DataItem key="onset_beats" type="float">25.500000</DataItem>
+<DataItem key="pitch_octave" type="int">2</DataItem>
+<DataItem key="midi_pitch_code" type="int">47</DataItem>
+<DataItem key="normalized_pitch_step" type="str">B</DataItem>
+<DataItem key="dorico_event_id" type="int">73</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>102</Id>
+<ClassName>stem</ClassName>
+<Top>2480</Top>
+<Left>1872</Left>
+<Width>2</Width>
+<Height>63</Height>
+<Mask>0:0 1:192 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>103</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>2464</Top>
+<Left>1872</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">1.000000</DataItem>
+<DataItem key="onset_beats" type="float">27.000000</DataItem>
+<DataItem key="pitch_octave" type="int">3</DataItem>
+<DataItem key="midi_pitch_code" type="int">52</DataItem>
+<DataItem key="normalized_pitch_step" type="str">E</DataItem>
+<DataItem key="dorico_event_id" type="int">74</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>104</Id>
+<ClassName>stem</ClassName>
+<Top>2480</Top>
+<Left>1990</Left>
+<Width>2</Width>
+<Height>66</Height>
+<Mask>0:0 1:198 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>105</Id>
+<ClassName>flag8thDown</ClassName>
+<Top>2481</Top>
+<Left>1990</Left>
+<Width>26</Width>
+<Height>69</Height>
+<Mask>0:20 1:4 0:21 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:22 1:4 0:22 1:4 0:22 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:5 0:20 1:6 0:20 1:6 0:19 1:6 0:19 1:7 0:19 1:6 0:19 1:7 0:18 1:7 0:18 1:7 0:18 1:8 0:17 1:8 0:16 1:10 0:15 1:10 0:14 1:12 0:11 1:14 0:11 1:14 0:12 1:14 0:12 1:13 0:13 1:12 0:14 1:11 0:15 1:11 0:15 1:10 0:16 1:9 0:17 1:9 0:17 1:8 0:18 1:8 0:18 1:7 0:19 1:7 0:19 1:6 0:20 1:6 0:20 1:5 0:21 1:5 0:21 1:4 0:22 1:4 0:22 1:4 0:22 1:4 0:22 1:3 0:23 </Mask>
+<Data/>
+</Node>
+<Node>
+<Id>106</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>2464</Top>
+<Left>1990</Left>
+<Width>27</Width>
+<Height>23</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:2 1:26 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:7 0:15 </Mask>
+<Data>
+<DataItem key="duration_beats" type="float">0.500000</DataItem>
+<DataItem key="onset_beats" type="float">28.000000</DataItem>
+<DataItem key="pitch_octave" type="int">3</DataItem>
+<DataItem key="midi_pitch_code" type="int">52</DataItem>
+<DataItem key="normalized_pitch_step" type="str">E</DataItem>
+<DataItem key="dorico_event_id" type="int">74</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>107</Id>
+<ClassName>tie</ClassName>
+<Top>1672</Top>
+<Left>447</Left>
+<Width>85</Width>
+<Height>14</Height>
+<Mask>0:30 1:25 0:54 1:36 0:45 1:45 0:37 1:51 0:31 1:57 0:26 1:61 0:21 1:26 0:14 1:27 0:16 1:19 0:33 1:19 0:12 1:16 0:43 1:16 0:8 1:14 0:51 1:14 0:4 1:12 0:59 1:11 0:2 1:10 0:65 1:17 0:71 1:12 0:75 1:5 0:1 1:1 0:80 1:2 0:1 </Mask>
+<Data>
+<DataItem key="dorico_event_id" type="int">66</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>108</Id>
+<ClassName>tie</ClassName>
+<Top>1672</Top>
+<Left>829</Left>
+<Width>85</Width>
+<Height>14</Height>
+<Mask>0:30 1:25 0:54 1:36 0:45 1:45 0:37 1:51 0:31 1:57 0:26 1:61 0:21 1:26 0:14 1:27 0:16 1:19 0:33 1:19 0:12 1:16 0:43 1:16 0:8 1:14 0:51 1:14 0:4 1:12 0:59 1:11 0:2 1:10 0:65 1:17 0:71 1:12 0:75 1:5 0:1 1:1 0:80 1:2 0:1 </Mask>
+<Data>
+<DataItem key="dorico_event_id" type="int">68</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>109</Id>
+<ClassName>tie</ClassName>
+<Top>1641</Top>
+<Left>1210</Left>
+<Width>85</Width>
+<Height>14</Height>
+<Mask>0:30 1:25 0:54 1:36 0:45 1:45 0:37 1:51 0:31 1:57 0:26 1:61 0:21 1:26 0:14 1:27 0:16 1:19 0:33 1:19 0:12 1:16 0:43 1:16 0:8 1:14 0:51 1:14 0:4 1:12 0:59 1:11 0:2 1:10 0:65 1:17 0:71 1:12 0:75 1:5 0:1 1:1 0:80 1:2 0:1 </Mask>
+<Data>
+<DataItem key="dorico_event_id" type="int">70</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>110</Id>
+<ClassName>tie</ClassName>
+<Top>1630</Top>
+<Left>1447</Left>
+<Width>119</Width>
+<Height>15</Height>
+<Mask>0:42 1:35 0:78 1:49 0:65 1:61 0:55 1:69 0:47 1:77 0:39 1:85 0:32 1:36 0:19 1:36 0:26 1:26 0:45 1:26 0:20 1:22 0:59 1:22 0:15 1:18 0:71 1:18 0:10 1:16 0:81 1:16 0:5 1:14 0:89 1:14 0:2 1:11 0:97 1:20 0:103 1:8 0:1 1:5 0:110 1:4 0:121 </Mask>
+<Data>
+<DataItem key="dorico_event_id" type="int">71</DataItem>
+</Data>
+</Node>
+<Node>
+<Id>111</Id>
+<ClassName>tie</ClassName>
+<Top>1952</Top>
+<Left>1885</Left>
+<Width>119</Width>
+<Height>13</Height>
+<Mask>0:41 1:37 0:74 1:53 0:60 1:65 0:49 1:75 0:40 1:83 0:32 1:91 0:24 1:39 0:21 1:39 0:17 1:28 0:49 1:28 0:11 1:23 0:65 1:23 0:6 1:18 0:79 1:18 0:2 1:14 0:90 1:25 0:99 1:16 0:107 1:8 0:115 1:2 </Mask>
+<Data>
+<DataItem key="dorico_event_id" type="int">74</DataItem>
+</Data>
+</Node>
+</Nodes>
