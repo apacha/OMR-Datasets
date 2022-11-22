@@ -157,8 +157,6 @@ DoReMi includes around 6432 images of sheet music with nearly a million annotate
 **Scientific Publication**: Shatri, Elona, and György Fazekas. DoReMi: First glance at a universal OMR dataset. WoRMS 2021, 2021. [https://arxiv.org/abs/2107.07786](https://arxiv.org/abs/2107.07786)
 
 
-Lukas Tuggener, Isamil Elezi, Jürgen Schmidhuber, Marcello Pelillo, Thilo Stadelmann. DeepScores - A Dataset for Segmentation, Detection and Classification of Tiny Objects. ICPR 2018. 2018. [https://arxiv.org/abs/1804.00525](https://arxiv.org/abs/1804.00525)
-
 **Example**
 ```xml
 <Node>
