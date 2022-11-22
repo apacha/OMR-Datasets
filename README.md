@@ -16,6 +16,7 @@ The following datasets are referenced from this repository:
 | [CVC-MUSCIMA](#cvc-muscima)                                                                 	| Handwritten           	| 1000 score images     									| Images                								| Staff line removal, writer identification 						|
 | [MUSCIMA++](#muscima)                                                                       	| Handwritten           	| > 90000 annotatations 									| Images, Measure Annotations, MuNG            			| Symbol Classification, Object Detection, End-To-End Recognition, Measure Recognition 	|
 | [DeepScores](#deepscores)                                                                    	| Typeset               	| 300000 images 	    									| Images, XML              								| Symbol Classification, Object Detection, Semantic Segmentation  	|
+| [DoReMi](#doremi)                                                                    	| Typeset               	| 6432 images 	    									| Images, XML, musicXML, MEI, MIDI              								| Symbol Classification, Object Detection, Semantic Segmentation, Instance Segmentation  	|
 | [PrIMuS](#primus)                                                                         	| Typeset               	| 87678 incipits 	    									| Images, MEI, Simplified encoding, agnostic encoding  	| End-to-End Recognition                                   			|
 | [Baro Single Stave Dataset](#baró-single-stave-dataset)                                     	| Handwritten              	| 95 images 	    									    | Images, Simplified encoding  	                        | End-to-End Recognition                 			                |
 | [Multimodal Sheet Music Dataset](#multimodal-sheet-music-dataset)                           	| Typeset               	| 497 songs      	    									| Images, MIDI, Lilypond, MuNG (noteheads) 				| End-to-End Recognition, Multimodal Retrieval, Score Following     |
@@ -144,6 +145,44 @@ This dataset was created by [Alexander Pacha](https://alexanderpacha.com) and ca
 ![Example of deepscores dataset](samples/DeepScores1.png)
 
 ![Example of deepscores dataset](samples/DeepScores2.png)
+
+# DoReMi
+**Official website**: [https://github.com/steinbergmedia/DoReMi/](https://github.com/steinbergmedia/DoReMi/)
+[![License](https://img.shields.io/badge/License-Unknown-red.svg)](https://github.com/steinbergmedia/DoReMi/)
+
+
+**Summary**
+DoReMi includes around 6432 images of sheet music with nearly a million annotated objects. Each object on the page is annotated with category labels from 94 different classes. Given that this dataset is generated using Dorico (a music notation software from Steinberg), we had the chance to retrieve more musical information, but also different types of data. Using Dorico we generate 5 types of data that could possibly be used in different steps of OMR. These data are images of scores (binary or colour), the musicXML file, XML files with metadata such as bounding boxes of each object and pixel mask information together with musical information on how noteheads, beams stems and slurs are linked but also their duration beats, onset beats, pitch octave, staff id. Most of the images include one system per page; depending on the number of voices, they will have one or more staves per page. 
+
+**Scientific Publication**: Shatri, Elona, and György Fazekas. DoReMi: First glance at a universal OMR dataset. WoRMS 2021, 2021. [https://arxiv.org/abs/2107.07786](https://arxiv.org/abs/2107.07786)
+
+
+**Example**
+```xml
+<Node>
+<Id>504</Id>
+<ClassName>noteheadBlack</ClassName>
+<Top>466</Top>
+<Left>2236</Left>
+<Width>28</Width>
+<Height>24</Height>
+<Mask>0:12 1:11 0:14 1:16 0:10 1:19 0:8 1:21 0:6 1:22 0:5 1:24 0:3 1:25 0:2 1:26 0:1 1:27 0:1 1:27 0:1 1:54 0:1 1:27 0:1 1:26 0:2 1:26 0:2 1:25 0:3 1:24 0:4 1:23 0:5 1:22 0:6 1:21 0:8 1:19 0:10 1:16 0:13 1:13 0:18 1:6 0:16 </Mask>
+<Outlinks>541 559 571</Outlinks>
+<Data>
+<DataItem key="duration_beats" type="float">0.333333</DataItem>
+<DataItem key="onset_beats" type="float">47.666668</DataItem>
+<DataItem key="pitch_octave" type="int">4</DataItem>
+<DataItem key="midi_pitch_code" type="int">69</DataItem>
+<DataItem key="normalized_pitch_step" type="str">A</DataItem>
+<DataItem key="dorico_event_id" type="int">1120</DataItem>
+<DataItem key="staff_id" type="int">0</DataItem>
+</Data>
+</Node>
+```
+
+![Example of doremi dataset](doremi-Haydn-Piano-Trio-27-mvt-I-046.png)
+
+
 
 
 # PrIMuS

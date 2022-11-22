@@ -83,6 +83,9 @@ class OmrDataset(Enum):
     #: The Accidentals detection dataset by Kwon-Young Choi from https://www-intuidoc.irisa.fr/en/choi_accidentals/, License unspecified.
     ChoiAccidentals = auto()
 
+    #: DoReMi dataset from https://github.com/steinbergmedia/DoReMi/, License unspecified.
+    DoReMi = auto()
+
     def get_dataset_download_url(self) -> str:
         """ Returns the url of the selected dataset.
             Example usage: OmrDataset.Fornes.get_dataset_download_url() """
@@ -153,7 +156,10 @@ class OmrDataset(Enum):
             "AudioLabs_v2": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/AudioLabs_v2.zip",
 
             # Official URL: https://www-intuidoc.irisa.fr/en/choi_accidentals/
-            "ChoiAccidentals": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/choi_accidentals_dataset.zip"
+            "ChoiAccidentals": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/choi_accidentals_dataset.zip",
+
+            # Official URL: https://github.com/steinbergmedia/DoReMi/
+            "DoReMi": "https://github.com/steinbergmedia/DoReMi/releases/download/v1.0/DoReMi_v1.zip"
         }
 
     def dataset_file_names(self) -> Dict[str, str]:
@@ -181,5 +187,6 @@ class OmrDataset(Enum):
             "DeepScores_V1_Extended": "ds_extended.zip",
             "AudioLabs_v1": "AudioLabs_v1.zip",
             "AudioLabs_v2": "AudioLabs_v2.zip",
-            "ChoiAccidentals": "choi_accidentals_dataset.zip"
+            "ChoiAccidentals": "choi_accidentals_dataset.zip",
+            "DoReMi": "DoReMi_v1.zip"
         }
