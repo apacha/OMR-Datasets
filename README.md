@@ -180,7 +180,7 @@ DoReMi includes around 6432 images of sheet music with nearly a million annotate
 </Node>
 ```
 
-![Example of doremi dataset](doremi-Haydn-Piano-Trio-27-mvt-I-046.png)
+![Example of doremi dataset](samples/doremi-Haydn-Piano-Trio-27-mvt-I-046.png)
 
 
 
