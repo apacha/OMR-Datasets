@@ -159,7 +159,7 @@ class OmrDataset(Enum):
             "ChoiAccidentals": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/choi_accidentals_dataset.zip",
 
             # Official URL: https://github.com/steinbergmedia/DoReMi/
-            "DoReMi": "https://github.com/steinbergmedia/DoReMi/releases/download/v1.0/DoReMi_v1.zip"
+            "DoReMi": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/DoReMi_v1.zip"
         }
 
     def dataset_file_names(self) -> Dict[str, str]:
