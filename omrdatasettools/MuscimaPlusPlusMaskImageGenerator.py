@@ -93,7 +93,7 @@ class MuscimaPlusPlusMaskImageGenerator:
                     for j in range(node.width):
                         if color_mask[i, j] != 0:
                             image[node.top + i, node.left + j] = color_mask[i, j]
-            except:
+            except Exception:
                 print("Error drawing node {0}".format(node.unique_id))
 
         image = Image.fromarray(image, mode="L")
@@ -120,7 +120,7 @@ class MuscimaPlusPlusMaskImageGenerator:
                     for j in range(node.width):
                         if color_mask[i, j] != 0:
                             image[node.top + i, node.left + j] = color_mask[i, j]
-            except:
+            except Exception:
                 print("Error drawing node {0}".format(node.unique_id))
 
         image = Image.fromarray(image, mode="L")
@@ -134,6 +134,7 @@ class MuscimaPlusPlusMaskImageGenerator:
         included_classes = ["staffLine"]
         staff_line_index = 0
         staff_index = 1
+        first_staff_line_of_staff = None
         for node in nodes:
             if node.class_name not in included_classes:
                 continue
@@ -143,7 +144,7 @@ class MuscimaPlusPlusMaskImageGenerator:
                     for i in range(first_staff_line_of_staff.top, node.bottom):
                         for j in range(node.left, node.right):
                             image[i, j] = staff_index
-                except:
+                except Exception:
                     print("Error drawing node {0}".format(node.unique_id))
 
             if staff_line_index == 5:
@@ -175,20 +176,21 @@ if __name__ == "__main__":
         "--mask_type",
         type=str,
         default="nodes_semantic",
-        help="One of the following types to be generated: [nodes_semantic, staff_lines, staff_blob]. Depending on the selected type, different"
-             "mask images will be created: "
-             "- nodes_semantic, creates mask images, where each type of node gets the same color mask (for semantic segmentation). The"
-             "classes staffLine, staff and staffSpace are ignored"
-             "- staff_lines, creates mask images, where the masks of the staff lines are contained for instance segmentation. All five "
-             "lines that form a staff will have the same color."
-             "- staff_blob, creates mask images, where each staff will receive one big blob (filling the staff space regions) per staff"
-             "line for instance segmentation. So each staff will have a different color.")
+        help="One of the following types to be generated: [nodes_semantic, staff_lines, staff_blob]. "
+             "Depending on the selected type, different mask images will be created: "
+             "- nodes_semantic, creates mask images, where each type of node gets the same color mask "
+             "  (for semantic segmentation). The classes staffLine, staff and staffSpace are ignored"
+             "- staff_lines, creates mask images, where the masks of the staff lines are contained for instance "
+             "  segmentation. All five lines that form a staff will have the same color."
+             "- staff_blob, creates mask images, where each staff will receive one big blob (filling the staff space "
+             "  regions) per staff line for instance segmentation. So each staff will have a different color.")
 
     flags, unparsed = parser.parse_known_args()
 
     if flags.mask_type not in ["nodes_semantic", "staff_lines", "staff_blob"]:
         raise Exception(
-            "Invalid option for mask type selected. Must be one of [nodes_semantic, staff_lines, staff_blob], but was " + flags.mask_type)
+            "Invalid option for mask type selected. Must be one of [nodes_semantic, staff_lines, staff_blob], "
+            "but was " + flags.mask_type)
 
     if flags.mask_type == "nodes_semantic":
         mask_type = MaskType.NODES_SEMANTIC_SEGMENTATION

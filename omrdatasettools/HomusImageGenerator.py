@@ -93,7 +93,8 @@ class HomusSymbol:
         :param destination_width:
         :param destination_height:
         :param staff_line_spacing:
-        :param staff_line_vertical_offsets: Offsets used for drawing staff-lines. If None provided, no staff-lines will be drawn if multiple integers are provided, multiple images will be generated
+        :param staff_line_vertical_offsets: Offsets used for drawing staff-lines. If None provided,
+            no staff-lines will be drawn if multiple integers are provided, multiple images will be generated
         """
         width = self.dimensions.width + 2 * margin
         height = self.dimensions.height + 2 * margin

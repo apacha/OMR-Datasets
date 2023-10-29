@@ -26,8 +26,9 @@ class Downloader:
             tmp_directory: Optional[Path] = None):
         """ Starts the download of the dataset and extracts it into the specified directory.
 
-        Parameters:
-            tmp_directory: The optional directory where the compressed dataset will be downloaded to
+        :param dataset: The dataset that should be downloaded
+        :param destination_directory: The target directory, where the dataset should be extracted into
+        :param tmp_directory: The optional directory where the compressed dataset will be downloaded to
 
         Examples
         --------
@@ -55,7 +56,8 @@ class Downloader:
         --------
         >>> from omrdatasettools import Downloader
         >>> downloader = Downloader()
-        >>> downloader.download_and_extract_custom_dataset("MyNewOmrDataset", "https://example.org/dataset.zip", "dataset.zip", "data/MyNewOmrDataset")
+        >>> downloader.download_and_extract_custom_dataset("MyNewOmrDataset", "https://example.org/dataset.zip",
+        >>>     "dataset.zip", "data/MyNewOmrDataset")
 
         """
         if tmp_directory:
@@ -79,12 +81,14 @@ class Downloader:
             >>> from omrdatasettools import Downloader, OmrDataset
             >>> downloader = Downloader()
             >>> downloader.download_and_extract_dataset(OmrDataset.Edirom_Bargheer, "data/Bargheer")
-            >>> downloader.download_images_from_mei_annotation(OmrDataset.Edirom_Bargheer, "data/Bargheer", "INSERT_DATASET_URL_HERE")
+            >>> downloader.download_images_from_mei_annotation(OmrDataset.Edirom_Bargheer, "data/Bargheer",
+            >>>    "INSERT_DATASET_URL_HERE")
 
             or
 
             >>> downloader.download_and_extract_dataset(OmrDataset.Edirom_FreischuetzDigital, "data/Freischuetz")
-            >>> downloader.download_images_from_mei_annotation(OmrDataset.Edirom_FreischuetzDigital, "data/Freischuetz", "INSERT_DATASET_URL_HERE")
+            >>> downloader.download_images_from_mei_annotation(OmrDataset.Edirom_FreischuetzDigital, "data/Freischuetz",
+            >>>     "INSERT_DATASET_URL_HERE")
             """
         if dataset not in [OmrDataset.Edirom_Bargheer, OmrDataset.Edirom_FreischuetzDigital]:
             raise Exception("Only supported for edirom datasets")

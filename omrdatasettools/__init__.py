@@ -1,7 +1,7 @@
 from ._version import __version__ as version
 from .AudiverisOmrImageGenerator import AudiverisOmrImageGenerator
 from .CapitanImageGenerator import CapitanImageGenerator
-from .Downloader import *
+from .Downloader import Downloader
 from .HomusImageGenerator import HomusImageGenerator
 from .MeasureVisualizer import MeasureVisualizer
 from .MuscimaPlusPlusMaskImageGenerator import MuscimaPlusPlusMaskImageGenerator
