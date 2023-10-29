@@ -4,6 +4,8 @@ import urllib
 import urllib.parse as urlparse
 import urllib.request as urllib2
 from glob import glob
+from pathlib import Path
+from typing import Union, Optional
 from zipfile import ZipFile
 
 from lxml import etree
@@ -17,27 +19,36 @@ class Downloader:
         a specified directory.
     """
 
-    def download_and_extract_dataset(self, dataset: OmrDataset, destination_directory: str):
+    def download_and_extract_dataset(
+            self,
+            dataset: OmrDataset,
+            destination_directory: Union[str, Path],
+            tmp_directory: Optional[Path] = None):
         """ Starts the download of the dataset and extracts it into the specified directory.
+
+        Parameters:
+            tmp_directory: The optional directory where the compressed dataset will be downloaded to
 
         Examples
         --------
         >>> from omrdatasettools import Downloader, OmrDataset
         >>> downloader = Downloader()
-        >>> downloader.download_and_extract_dataset(OmrDataset.HOMUS_V2, "data")
+        >>> downloader.download_and_extract_dataset(OmrDataset.Homus_V2, "data")
 
         """
+        destination_directory = Path(destination_directory)
+
         self.download_and_extract_custom_dataset(dataset.name, dataset.get_dataset_download_url(),
-                                                 dataset.get_dataset_filename(), destination_directory)
+                                                 dataset.get_dataset_filename(), destination_directory, tmp_directory)
 
         if dataset is OmrDataset.Fornes:
             self.__fix_capital_file_endings(os.path.join(os.path.abspath(destination_directory), "Music_Symbols"))
 
         if dataset in [OmrDataset.MuscimaPlusPlus_V1, OmrDataset.MuscimaPlusPlus_V2]:
-            self.__download_muscima_pp_images(dataset, destination_directory)
+            self.__download_muscima_pp_images(dataset, destination_directory, tmp_directory)
 
     def download_and_extract_custom_dataset(self, dataset_name: str, dataset_url: str, dataset_filename: str,
-                                            destination_directory: str):
+                                            destination_directory: Path, tmp_directory: Path):
         """ Starts the download of a custom dataset and extracts it into the specified directory.
 
         Examples
@@ -47,12 +58,17 @@ class Downloader:
         >>> downloader.download_and_extract_custom_dataset("MyNewOmrDataset", "https://example.org/dataset.zip", "dataset.zip", "data/MyNewOmrDataset")
 
         """
-        if not os.path.exists(dataset_filename):
-            print("Downloading {0} dataset...".format(dataset_name))
-            self.download_file(dataset_url, dataset_filename)
+        if tmp_directory:
+            dataset_download_path = tmp_directory / dataset_filename
+        else:
+            dataset_download_path = Path(dataset_filename)
 
-        print("Extracting {0} dataset...".format(dataset_name))
-        self.extract_dataset(os.path.abspath(destination_directory), dataset_filename)
+        if not dataset_download_path.exists():
+            print(f"Downloading {str(dataset_download_path)} dataset...")
+            self.download_file(dataset_url, dataset_download_path)
+
+        print(f"Extracting {str(dataset_download_path)} dataset...")
+        self.extract_dataset(destination_directory, dataset_download_path)
 
     def download_images_from_mei_annotation(self, dataset: OmrDataset, dataset_directory: str, base_url: str):
         """ Crawls the images of an Edirom dataset, if provided with the respective URL. To avoid repetitive crawling,
@@ -95,19 +111,24 @@ class Downloader:
             else:
                 urllib.request.urlretrieve(f"{base_url}/{url}?dw={width}&amp;mo=fit", os.path.join(base, filename))
 
-    def __download_muscima_pp_images(self, dataset: OmrDataset, destination_directory: str):
+    def __download_muscima_pp_images(self, dataset: OmrDataset, destination_directory: Path, tmp_directory: Path):
         # Automatically download the images and measure annotations with the MUSCIMA++ dataset
-        muscima_pp_images_filename = dataset.dataset_file_names()["MuscimaPlusPlus_Images"]
+        if tmp_directory:
+            muscima_pp_images_filename = tmp_directory / OmrDataset.MuscimaPlusPlus_Images.get_dataset_filename()
+        else:
+            muscima_pp_images_filename = OmrDataset.MuscimaPlusPlus_Images.get_dataset_filename()
+
         if not os.path.exists(muscima_pp_images_filename):
             print("Downloading MUSCIMA++ images")
             self.download_file(dataset.dataset_download_urls()["MuscimaPlusPlus_Images"], muscima_pp_images_filename)
-        absolute_path_to_temp_folder = os.path.abspath('MuscimaPpImages')
+        absolute_path_to_temp_folder = Path('MuscimaPpImages')
         self.extract_dataset(absolute_path_to_temp_folder, muscima_pp_images_filename)
+        target_folder = None
         if dataset is OmrDataset.MuscimaPlusPlus_V1:
-            target_folder = os.path.join(os.path.abspath(destination_directory), "v1.0", "data", "images")
+            target_folder = destination_directory / "v1.0" / "data" / "images"
         if dataset is OmrDataset.MuscimaPlusPlus_V2:
-            target_folder = os.path.join(os.path.abspath(destination_directory), "v2.0", "data", "images")
-        self.copytree(os.path.join(absolute_path_to_temp_folder, "fulls"), target_folder)
+            target_folder = destination_directory / "v2.0" / "data" / "images"
+        self.copytree(absolute_path_to_temp_folder / "fulls", target_folder)
         self.clean_up_temp_directory(absolute_path_to_temp_folder)
 
     def __fix_capital_file_endings(self, absolute_path_to_temp_folder):
@@ -117,23 +138,28 @@ class Downloader:
             os.rename(image, image[:-3] + "bmp")
 
     @staticmethod
-    def copytree(src, dst):
+    def copytree(src: Path, dst: Path):
         if not os.path.exists(dst):
             os.makedirs(dst)
         for item in os.listdir(src):
             s = os.path.join(src, item)
             d = os.path.join(dst, item)
             if os.path.isdir(s):
-                Downloader.__copytree(s, d)
+                Downloader.copytree(Path(s), Path(d))
             else:
                 if not os.path.exists(d) or os.stat(s).st_mtime - os.stat(d).st_mtime > 1:
                     shutil.copy2(s, d)
 
     @staticmethod
-    def extract_dataset(absolute_path_to_folder: str, dataset_filename: str):
+    def extract_dataset(absolute_path_to_folder: Path, dataset_filename: Union[str, Path]):
         archive = ZipFile(dataset_filename, "r")
         archive.extractall(absolute_path_to_folder)
         archive.close()
+
+        macos_system_directory = absolute_path_to_folder / "__MACOSX"
+        if macos_system_directory.exists():
+            # This pesky directory breaks the tests on MacOS machines after unzipping
+            shutil.rmtree(macos_system_directory)
 
     @staticmethod
     def clean_up_temp_directory(temp_directory):
@@ -141,7 +167,7 @@ class Downloader:
         shutil.rmtree(temp_directory, ignore_errors=True)
 
     @staticmethod
-    def download_file(url, destination_filename=None) -> str:
+    def download_file(url, destination_filename=None) -> Path:
         u = urllib2.urlopen(url)
         scheme, netloc, path, query, fragment = urlparse.urlsplit(url)
         filename = os.path.basename(path)
@@ -150,7 +176,8 @@ class Downloader:
         if destination_filename:
             filename = destination_filename
 
-        filename = os.path.abspath(filename)
+        filename = Path(filename)
+        filename.parent.mkdir(parents=True, exist_ok=True)
 
         with open(filename, 'wb') as f:
             meta = u.info()

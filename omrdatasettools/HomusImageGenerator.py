@@ -31,7 +31,7 @@ class HomusSymbol:
         :rtype: HomusSymbol
         """
 
-        if content is None or content is "":
+        if content is None or content == "":
             return None
 
         lines = content.splitlines()
@@ -47,7 +47,7 @@ class HomusSymbol:
             stroke = []
 
             for point_string in stroke_string.split(";"):
-                if point_string is "":
+                if point_string == "":
                     continue  # Skip the last element, that is due to a trailing ; in each line
 
                 point_x, point_y = point_string.split(",")

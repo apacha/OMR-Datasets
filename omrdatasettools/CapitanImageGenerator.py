@@ -1,6 +1,6 @@
 import argparse
 import os
-from typing import List
+from typing import List, Optional
 
 import numpy
 from PIL import Image, ImageDraw
@@ -28,7 +28,7 @@ class CapitanSymbol:
         self.image_data = image_data
 
     @staticmethod
-    def initialize_from_string(content: str) -> 'CapitanSymbol':
+    def initialize_from_string(content: str) -> "Optional[CapitanSymbol]":
         """
         Create and initializes a new symbol from a string
         :param content: The content of a symbol as read from the text-file in the form <label>:<sequence>:<image>
@@ -36,7 +36,7 @@ class CapitanSymbol:
         :rtype: CapitanSymbol
         """
 
-        if content is None or content is "":
+        if content is None or content == "":
             return None
 
         parts = content.split(":")
@@ -54,7 +54,7 @@ class CapitanSymbol:
         stroke = []
 
         for point_string in sequence.split(";"):
-            if point_string is "":
+            if point_string == "":
                 continue  # Skip the last element, that is due to a trailing ; in each line
 
             point_x, point_y = point_string.split(",")

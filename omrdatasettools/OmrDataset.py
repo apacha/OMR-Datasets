@@ -56,6 +56,9 @@ class OmrDataset(Enum):
     #: The second version of the MUSCIMA++ dataset from https://github.com/OMR-Research/muscima-pp
     MuscimaPlusPlus_V2 = auto()
 
+    # Just the images from the MUSCIMA++ dataset
+    MuscimaPlusPlus_Images = auto()
+
     #: A sub-set of the MUSCIMA++ annotations that contains bounding-box annotations for staves, staff measures and system measures. It was semi-automatically constructed from existing annotations and manually verified for correctness. The annotations are available in a plain JSON format as well as in the COCO format.
     MuscimaPlusPlus_MeasureAnnotations = auto()
 
@@ -72,6 +75,7 @@ class OmrDataset(Enum):
     Rebelo2 = auto()
 
     #: The DeepScore dataset (version 1) with extended vocabulary from https://tuggeluk.github.io/downloads/, License unspecified.
+    DeepScores_V1_Extended_100_Pages = auto()
     DeepScores_V1_Extended = auto()
 
     #: The AudioLabs v1 dataset (aka. Measure Bounding Box Annotation) from https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures, Copyright 2019 by Frank Zalkow, Angel Villar Corrales, TJ Tsai, Vlora Arifi-Müller, and Meinard Müller under CC BY-NC-SA 4.0 license
@@ -94,7 +98,9 @@ class OmrDataset(Enum):
     def get_dataset_filename(self) -> str:
         """ Returns the name of the downloaded zip file of a dataset.
             Example usage: OmrDataset.Fornes.get_dataset_filename() """
-        return self.dataset_file_names()[self.name]
+        dataset_url = self.get_dataset_download_url()
+        dataset_filename = dataset_url.split("/")[-1]
+        return dataset_filename
 
     def dataset_download_urls(self) -> Dict[str, str]:
         """ Returns a mapping with all URLs, mapped from their enum keys """
@@ -148,7 +154,9 @@ class OmrDataset(Enum):
             "Rebelo1": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/Rebelo-Music-Symbol-Dataset1.zip",
             "Rebelo2": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/Rebelo-Music-Symbol-Dataset2.zip",
 
-            "DeepScores_V1_Extended": "https://repository.cloudlab.zhaw.ch/artifactory/deepscores/ds_extended.zip",
+            # Official URL: "https://repository.cloudlab.zhaw.ch/artifactory/deepscores/ds_extended.zip",
+            "DeepScores_V1_Extended_100_Pages": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/deep-scores-v1-extended-100pages.zip",
+            "DeepScores_V1_Extended": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/deep-scores-v1-extended.zip",
 
             # Official URL: https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures
             "AudioLabs_v1": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/AudioLabs_v1.zip",
@@ -160,33 +168,4 @@ class OmrDataset(Enum):
 
             # Official URL: https://github.com/steinbergmedia/DoReMi/
             "DoReMi": "https://github.com/apacha/OMR-Datasets/releases/download/datasets/DoReMi_v1.zip"
-        }
-
-    def dataset_file_names(self) -> Dict[str, str]:
-        """ Returns a map of all file_names, mapped from their enum keys """
-        return {
-            "Audiveris": "AudiverisOmrDataset.zip",
-            "Baro": "BaroMuscima.zip",
-            "Capitan": "BimodalHandwrittenSymbols.zip",
-            "CvcMuscima_WriterIdentification": "CVCMUSCIMA_WI.zip",
-            "CvcMuscima_StaffRemoval": "CVCMUSCIMA_SR.zip",
-            "CvcMuscima_MultiConditionAligned": "CVCMUSCIMA_MCA.zip",
-            "Edirom_Bargheer": "Bargheer.zip",
-            "Edirom_FreischuetzDigital": "FreischuetzDigital.zip",
-            "Fornes": "Music_Symbols.zip",
-            "Homus_V1": "HOMUS.zip",
-            "Homus_V2": "HOMUS-2.0.zip",
-            "MuscimaPlusPlus_V1": "MUSCIMA-pp_v1.0.zip",
-            "MuscimaPlusPlus_V2": "MUSCIMA-pp_v2.0.zip",
-            "MuscimaPlusPlus_Images": "CVC_MUSCIMA_PP_Annotated-Images.zip",
-            "MuscimaPlusPlus_MeasureAnnotations": "MUSCIMA-pp_v1.0-measure-annotations.zip",
-            "OpenOmr": "OpenOMR-Dataset.zip",
-            "Printed": "PrintedMusicSymbolsDataset.zip",
-            "Rebelo1": "Rebelo-Music-Symbol-Dataset1.zip",
-            "Rebelo2": "Rebelo-Music-Symbol-Dataset2.zip",
-            "DeepScores_V1_Extended": "ds_extended.zip",
-            "AudioLabs_v1": "AudioLabs_v1.zip",
-            "AudioLabs_v2": "AudioLabs_v2.zip",
-            "ChoiAccidentals": "choi_accidentals_dataset.zip",
-            "DoReMi": "DoReMi_v1.zip"
         }
