@@ -1,6 +1,5 @@
 import os
 import shutil
-import unittest
 from glob import glob
 
 from omrdatasettools.AudiverisOmrImageGenerator import AudiverisOmrImageGenerator
@@ -8,7 +7,7 @@ from omrdatasettools.Downloader import Downloader
 from omrdatasettools.OmrDataset import OmrDataset
 
 
-class AudiverisOmrImageGeneratorTest(unittest.TestCase):
+class TestAudiverisOmrImageGenerator:
 
     def test_download_extract_and_crop_bitmaps(self):
         # Arrange
@@ -22,12 +21,8 @@ class AudiverisOmrImageGeneratorTest(unittest.TestCase):
         actual_number_of_files = len(all_image_files)
 
         # Assert
-        self.assertEqual(1056, actual_number_of_files)
+        assert actual_number_of_files == 1056
 
         # Cleanup
         os.remove("AudiverisOmrDataset.zip")
         shutil.rmtree("temp")
-
-
-if __name__ == '__main__':
-    unittest.main()
