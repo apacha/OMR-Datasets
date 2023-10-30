@@ -1,5 +1,8 @@
 Changelog
 =========
+1.4.0
+-----
+Adding several new datasets, upgrading to Python 3.11, and refactoring downloader to use Pathlib and support tar-gz.
 
 1.3.1
 -----
