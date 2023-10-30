@@ -3,3 +3,4 @@ tqdm
 muscima
 scikit-image
 mung
+sphinx_rtd_theme
