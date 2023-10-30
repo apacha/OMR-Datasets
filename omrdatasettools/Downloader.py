@@ -12,6 +12,7 @@ from lxml import etree
 from tqdm import tqdm
 
 from omrdatasettools.OmrDataset import OmrDataset
+import tarfile
 
 
 class Downloader:
@@ -156,9 +157,18 @@ class Downloader:
 
     @staticmethod
     def extract_dataset(absolute_path_to_folder: Path, dataset_filename: Union[str, Path]):
-        archive = ZipFile(dataset_filename, "r")
-        archive.extractall(absolute_path_to_folder)
-        archive.close()
+        dataset_filename = Path(dataset_filename)
+
+        if dataset_filename.suffix == ".zip":
+            archive = ZipFile(dataset_filename, "r")
+            archive.extractall(absolute_path_to_folder)
+            archive.close()
+        elif dataset_filename.suffix == ".gz":
+            tar = tarfile.open(dataset_filename, "r:gz")
+            tar.extractall(absolute_path_to_folder)
+            tar.close()
+        else:
+            raise Exception(f"Unrecognized dataset encountered: {str(dataset_filename)}")
 
         macos_system_directory = absolute_path_to_folder / "__MACOSX"
         if macos_system_directory.exists():
