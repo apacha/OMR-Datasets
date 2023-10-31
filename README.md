@@ -60,7 +60,7 @@ please [open an issue](https://github.com/apacha/OMR-Datasets/issues/new) or dir
 A collection of tools that simplify the downloading and handling of datasets used for Optical Music Recognition (OMR).
 These tools are available as Python package ``omrdatasettools`` on PyPi.
 
-[![Build Status](https://travis-ci.org/apacha/OMR-Datasets.svg?branch=master)](https://travis-ci.org/apacha/OMR-Datasets) [![codecov](https://codecov.io/gh/apacha/OMR-Datasets/branch/master/graph/badge.svg)](https://codecov.io/gh/apacha/OMR-Datasets) [![PyPI version](https://badge.fury.io/py/omrdatasettools.svg)](https://badge.fury.io/py/omrdatasettools) [![Documentation Status](https://readthedocs.org/projects/omr-datasets/badge/?version=latest)](http://omr-datasets.readthedocs.io/en/latest/?badge=latest) [![GitHub license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://raw.githubusercontent.com/apacha/OMR-Datasets/master/LICENSE.txt)
+[![Build Status](https://github.com/apacha/OMR-Datasets/actions/workflows/python-app.yml/badge.svg)](https://travis-ci.org/apacha/OMR-Datasets) [![codecov](https://codecov.io/gh/apacha/OMR-Datasets/branch/master/graph/badge.svg)](https://codecov.io/gh/apacha/OMR-Datasets) [![PyPI version](https://badge.fury.io/py/omrdatasettools.svg)](https://badge.fury.io/py/omrdatasettools) [![Documentation Status](https://readthedocs.org/projects/omr-datasets/badge/?version=latest)](http://omr-datasets.readthedocs.io/en/latest/?badge=latest) [![GitHub license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://raw.githubusercontent.com/apacha/OMR-Datasets/master/LICENSE.txt)
 
 # Handwritten Online Musical Symbols (HOMUS)
 
@@ -85,8 +85,7 @@ and [corrected by Alexander Pacha](https://github.com/apacha/Homus).
 
 # Universal Music Symbol Collection
 
-**Official website
-**: [https://github.com/apacha/MusicSymbolClassifier](https://github.com/apacha/MusicSymbolClassifier), [Slides](https://docs.google.com/presentation/d/14g97TnrcI9o-5D6DIY-dMFfBp9kUAqpbe86c-VE83Bk/edit?usp=sharing)
+**Official website**: [https://github.com/apacha/MusicSymbolClassifier](https://github.com/apacha/MusicSymbolClassifier), [Slides](https://docs.google.com/presentation/d/14g97TnrcI9o-5D6DIY-dMFfBp9kUAqpbe86c-VE83Bk/edit?usp=sharing)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
@@ -95,9 +94,7 @@ music symbol images from 79 classes that can be used to train a universal music 
 handwritten and 16000 are printed symbols.
 
 **Scientific Publication**: Alexander Pacha, Horst Eidenberger. Towards a Universal Music Symbol Classifier. Proceedings
-of the 12th IAPR International Workshop on Graphics Recognition, Kyoto, Japan, November
-
-2017. [DOI: 10.1109/ICDAR.2017.265](http://dx.doi.org/10.1109/ICDAR.2017.265)
+of the 12th IAPR International Workshop on Graphics Recognition, Kyoto, Japan, November 2017. [DOI: 10.1109/ICDAR.2017.265](http://dx.doi.org/10.1109/ICDAR.2017.265)
 
 **Example**:
 
@@ -105,8 +102,7 @@ of the 12th IAPR International Workshop on Graphics Recognition, Kyoto, Japan, N
 
 # CVC-MUSCIMA
 
-**Official website
-**: [http://www.cvc.uab.es/cvcmuscima/index_database.html](http://www.cvc.uab.es/cvcmuscima/index_database.html)
+**Official website**: [http://www.cvc.uab.es/cvcmuscima/index_database.html](http://www.cvc.uab.es/cvcmuscima/index_database.html)
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -119,9 +115,7 @@ scores for choir and orchestra.
 
 **Scientific Publication**: Alicia Fornés, Anjan Dutta, Albert Gordo, Josep Lladós. CVC-MUSCIMA: A Ground-truth of
 Handwritten Music Score Images for Writer Identification and Staff Removal. International Journal on Document Analysis
-and Recognition, Volume 15, Issue 3, pp 243-251,
-
-2012. [DOI: 10.1007/s10032-011-0168-2](http://dx.doi.org/10.1007/s10032-011-0168-2)
+and Recognition, Volume 15, Issue 3, pp 243-251, 2012. [DOI: 10.1007/s10032-011-0168-2](http://dx.doi.org/10.1007/s10032-011-0168-2)
 
 **Example**:
 
@@ -173,8 +167,7 @@ from [here](https://github.com/apacha/OMR-Datasets/releases/download/datasets/MU
 
 ## Mashcima
 
-**Website
-**: [https://github.com/Jirka-Mayer/Mashcima](https://github.com/Jirka-Mayer/Mashcima).
+**Website**: [https://github.com/Jirka-Mayer/Mashcima](https://github.com/Jirka-Mayer/Mashcima).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
@@ -185,9 +178,7 @@ It works by taking symbol masks from the MUSCIMA++ dataset and placing them onto
 annotation. This annotation may be your own, may be generated randomly, or may be taken from the PrIMuS dataset.
 
 **Scientific Publication**: Jiří Mayer and Pavel Pecina. Synthesizing Training Data for Handwritten Music Recognition.
-16th International Conference on Document Analysis and Recognition, ICDAR 2021. Lausanne, September 8-10, pp. 626-641,
-
-2021.
+16th International Conference on Document Analysis and Recognition, ICDAR 2021. Lausanne, September 8-10, pp. 626-641, 2021.
 
 **Example**:
 
@@ -206,9 +197,8 @@ LilyPond is used to engrave and annotate the images. Images are rendered in five
 of the visual appearance.
 
 **Scientific Publication**: Lukas Tuggener, Isamil Elezi, Jürgen Schmidhuber, Marcello Pelillo, Thilo Stadelmann.
-DeepScores - A Dataset for Segmentation, Detection and Classification of Tiny Objects. ICPR 2018.
-
-2018. [https://arxiv.org/abs/1804.00525](https://arxiv.org/abs/1804.00525)
+[DeepScores - A Dataset for Segmentation, Detection and Classification of Tiny Objects](https://arxiv.org/abs/1804.00525).
+ICPR 2018.
 
 **Example**:
 
@@ -312,8 +302,7 @@ real scenario.
 
 # Baró Single Stave Dataset
 
-**Official website
-**: [http://www.cvc.uab.es/people/abaro/datasets.html](http://www.cvc.uab.es/people/abaro/datasets.html)
+**Official website**: [http://www.cvc.uab.es/people/abaro/datasets.html](http://www.cvc.uab.es/people/abaro/datasets.html)
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -339,9 +328,8 @@ representations of the pieces aligned at a fine-grained level (344,742 pairs of 
 counterpart). It can be used for training and evaluating multimodal models that enable crossing from one modality to the
 other, such as retrieving sheet music using recordings or following a performance in the score image.
 
-**Scientific Publications**:
-
-- Matthias Dorfer, Jan Hajič jr., Andreas Arzt, Harald Frostel, Gerhard
+**Scientific Publication**:
+Matthias Dorfer, Jan Hajič jr., Andreas Arzt, Harald Frostel, Gerhard
   Widmer. [Learning Audio-Sheet Music Correspondences for Cross-Modal Retrieval and Piece Identification](https://transactions.ismir.net/articles/10.5334/tismir.12/).
   Transactions of the International Society for Music Information Retrieval, issue 1, 2018.
 
@@ -366,8 +354,7 @@ with they ground-truth alignment.
 
 # AudioLabs v1
 
-**Official website
-**: [https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures](https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures)
+**Official website**: [https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures](https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures)
 
 [![License: Mixed](https://img.shields.io/badge/License-Mixed-ff00ff.svg)](https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures)
 
@@ -377,9 +364,7 @@ cycle *Der Ring des Nibelungen* by Richard Wagner, selected piano sonatas by Lud
 
 **Scientific Publication**: Frank Zalkow, Angel Villar Corrales, TJ Tsai, Vlora Arifi-Müller, and Meinard Müller: "Tools
 for Semi-Automatic Bounding Box Annotation of Musical Measures in Sheet Music". Late Breaking/Demo at the 20th
-International Society for Music Information Retrieval, Delft, The Netherlands,
-
-2019. [Download the PDF](http://archives.ismir.net/ismir2019/latebreaking/000006.pdf)
+International Society for Music Information Retrieval, Delft, The Netherlands, 2019. [Download the PDF](http://archives.ismir.net/ismir2019/latebreaking/000006.pdf)
 
 **Example**:
 
@@ -387,8 +372,7 @@ International Society for Music Information Retrieval, Delft, The Netherlands,
 
 # AudioLabs v2
 
-**Official website
-**: [Download the dataset](https://github.com/apacha/OMR-Datasets/releases/download/datasets/AudioLabs_v2.zip)
+**Official website**: [Download the dataset](https://github.com/apacha/OMR-Datasets/releases/download/datasets/AudioLabs_v2.zip)
 
 [![License: Mixed](https://img.shields.io/badge/License-Mixed-ff00ff.svg)](https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures)
 
@@ -440,8 +424,7 @@ sheets, that can be downloaded as MuseScore file (mscz), PDF, MusicXML, MIDI and
 
 # MuseScore Monophonic MusicXML Dataset
 
-**Official website
-**: [https://github.com/eelcovdw/mono-musicxml-dataset](https://github.com/eelcovdw/mono-musicxml-dataset)
+**Official website**: [https://github.com/eelcovdw/mono-musicxml-dataset](https://github.com/eelcovdw/mono-musicxml-dataset)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
@@ -449,9 +432,7 @@ sheets, that can be downloaded as MuseScore file (mscz), PDF, MusicXML, MIDI and
 sample script is given that downloads one score, given you've obtained a developer key from the MuseScore developers.
 
 **Scientific Publication**: Eelco van der Wel, Karen Ullrich. Optical Music Recognition with Convolutional
-Sequence-to-Sequence Models. CoRR, arXiv:1707.04877,
-
-2017. [https://arxiv.org/abs/1707.04877](https://arxiv.org/abs/1707.04877)
+Sequence-to-Sequence Models. CoRR, arXiv:1707.04877, 2017. [https://arxiv.org/abs/1707.04877](https://arxiv.org/abs/1707.04877)
 
 **Examples**:
 
@@ -478,10 +459,9 @@ Retrieval conference, 2016. [Download the PDF](http://grfia.dlsi.ua.es/repositor
 ![Example of Capitan dataset](samples/capitan-collection.png)
 
 *Remarks*: This dataset exists in two flavours:
-
-* As raw dataset, which contains only the textual descriptions of the strokes and the images, called *Bimodal music
+  * As raw dataset, which contains only the textual descriptions of the strokes and the images, called *Bimodal music
   symbols from Early notation*. This format is similar to the HOMUS dataset.
-* As rendered images inside of the *Isolated handwritten music symbols* dataset. Also refered to as Capitan collection.
+  * As rendered images inside of the *Isolated handwritten music symbols* dataset. Also refered to as Capitan collection.
 
 # SEILS Dataset
 
@@ -497,7 +477,7 @@ variety of composers.
 
 **Scientific Publication**: Emilia Parada-Cabaleiro, Anton Batliner, Alice Baird, Björn W. Schuller. The SEILS dataset:
 Symbolically Encoded Scores in ModernAncient Notation for Computational Musicology. Proceedings of the 18th
-International Society of Music Information Retrieval conference, 2017, Suzhou, P.R. China, pp.
+International Society of Music Information Retrieval conference, 2017, Suzhou, P.R. China, pp. 
 575-581. [Download the PDF](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/14_Paper.pdf)
 
 **Scientific Publication**: Emilia Parada-Cabaleiro, Maximilian Schmitt, Anton Batliner, Björn W. Schuller.
@@ -526,9 +506,7 @@ and [http://www.inescporto.pt/~jsc/projects/OMR/](http://www.inescporto.pt/~jsc/
 images for staff-line detection and removal. Contains approximately 15000 music symbols.
 
 **Scientific Publication**: A. Rebelo, G. Capela, and J. S. Cardoso, "Optical recognition of music symbols: A
-comparative study" in International Journal on Document Analysis and Recognition, vol. 13, no. 1, pp. 19-31,
-
-2010. [DOI: 10.1007/s10032-009-0100-1](http://dx.doi.org/10.1007/s10032-009-0100-1)
+comparative study" in International Journal on Document Analysis and Recognition, vol. 13, no. 1, pp. 19-31, 2010. [DOI: 10.1007/s10032-009-0100-1](http://dx.doi.org/10.1007/s10032-009-0100-1)
 
 **Examples**:
 
@@ -562,8 +540,7 @@ Heidelberg, 2008. [DOI: 10.1007/978-3-540-88188-9_6
 
 # Choi Accidentals Dataset
 
-**Official website
-**: [https://www-intuidoc.irisa.fr/en/choi_accidentals/](https://www-intuidoc.irisa.fr/en/choi_accidentals/)
+**Official website**: [https://www-intuidoc.irisa.fr/en/choi_accidentals/](https://www-intuidoc.irisa.fr/en/choi_accidentals/)
 
 [![License](https://img.shields.io/badge/License-Unknown-red.svg)](https://www-intuidoc.irisa.fr/en/choi_accidentals/)
 
@@ -596,8 +573,7 @@ and the annotations from MuseScore or Lilypond documents.
 
 # Printed Music Symbols Dataset
 
-**Official website
-**: [https://github.com/apacha/PrintedMusicSymbolsDataset](https://github.com/apacha/PrintedMusicSymbolsDataset)
+**Official website**: [https://github.com/apacha/PrintedMusicSymbolsDataset](https://github.com/apacha/PrintedMusicSymbolsDataset)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
@@ -618,9 +594,7 @@ context (staff-lines, other symbols) and partially isolated.
 text documents. The images were taken with a smartphone camera from various angles and different lighting conditions.
 
 **Scientific Publication**: Alexander Pacha, Horst Eidenberger, Towards Self-Learning Optical Music Recognition. 2017
-16th IEEE International Conference on Machine Learning and Applications (ICMLA), Cancún, Mexiko, Dezember
-
-2017. [DOI: 10.1109/ICMLA.2017.00-60](http://dx.doi.org/10.1109/ICMLA.2017.00-60)
+16th IEEE International Conference on Machine Learning and Applications (ICMLA), Cancún, Mexiko, Dezember 2017. [DOI: 10.1109/ICMLA.2017.00-60](http://dx.doi.org/10.1109/ICMLA.2017.00-60)
 
 **Example**:
 
@@ -654,9 +628,7 @@ with different music typesetting programs. It contains ground truth data and is 
 implemented in the toolkit.
 
 **Scientific Publication**: C. Dalitz, M. Droettboom, B. Pranzas, I. Fujinaga: A Comparative Study of Staff Removal
-Algorithms. IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 30, no. 5, pp. 753-766 (
-
-2008) [DOI: 10.1109/TPAMI.2007.70749](http://dx.doi.org/10.1109/TPAMI.2007.70749)
+Algorithms. IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 30, no. 5, pp. 753-766 (2008) [DOI: 10.1109/TPAMI.2007.70749](http://dx.doi.org/10.1109/TPAMI.2007.70749)
 
 **Example**:
 
@@ -668,9 +640,7 @@ Algorithms. IEEE Transactions on Pattern Analysis and Machine Intelligence, vol.
 175 different symbols with ground-truth obtained by manually entering via a MIDI keyboard.
 
 **Scientific Publication**: Laurent Pugin. Optical Music Recognition of Early Typographic Prints using Hidden Markov
-Models. 7th International Conference on Music Information Retrieval (ISMIR’06), Victoria, Canada, October
-
-2006. [http://www.aruspix.net/publications/pugin06optical.pdf](http://www.aruspix.net/publications/pugin06optical.pdf)
+Models. 7th International Conference on Music Information Retrieval (ISMIR’06), Victoria, Canada, October 2006. [http://www.aruspix.net/publications/pugin06optical.pdf](http://www.aruspix.net/publications/pugin06optical.pdf)
 
 **Example**:
 
@@ -682,9 +652,7 @@ Models. 7th International Conference on Music Information Retrieval (ISMIR’06)
 application. Every writer drew each of the 84 different symbols three times.
 
 **Scientific Publication**: Rui Miguel Filipe da Silva. Mobile framework for recognition of musical characters. Master
-Thesis. Universidade do Porto, June
-
-2013. [https://repositorio-aberto.up.pt/bitstream/10216/68500/2/26777.pdf](https://repositorio-aberto.up.pt/bitstream/10216/68500/2/26777.pdf)
+Thesis. Universidade do Porto, June 2013. [https://repositorio-aberto.up.pt/bitstream/10216/68500/2/26777.pdf](https://repositorio-aberto.up.pt/bitstream/10216/68500/2/26777.pdf)
 
 # IMSLP
 
@@ -704,19 +672,16 @@ find many more music sheets, e.g. collected during research projects by universi
 # Byrd Dataset
 
 **Official website**: [
-~~http://www.diku.dk/hjemmesider/ansatte/simonsen/suppmat/jnmr/~~](http://www.diku.dk/hjemmesider/ansatte/simonsen/suppmat/jnmr/) (
-broken). Download
+~~http://www.diku.dk/hjemmesider/ansatte/simonsen/suppmat/jnmr/~~](http://www.diku.dk/hjemmesider/ansatte/simonsen/suppmat/jnmr/) (broken). Download
 from [Github mirror](https://github.com/apacha/OMR-Datasets/releases/download/datasets/ByrdOmrTestCorpus.zip).
 
-[![License](https://img.shields.io/badge/License-Unknown-red.svg)] (Authors want to be
+![License](https://img.shields.io/badge/License-Unknown-red.svg) (Authors want to be
 contacted)
 
 **Summary**: A small dataset of 34 high quality images with individual music score pages of increasing difficulty.
 
 **Scientific Publication**: Donald Byrd & Jakob Grue Simonsen: "Towards a Standard Testbed for Optical Music
-Recognition: Definitions, Metrics, and Page Images". Journal of New Music Research, vol 44, nr.3, pages 169-195,
-
-2015. [DOI: 10.1080/09298215.2015.1045424](http://dx.doi.org/10.1080/09298215.2015.1045424)
+Recognition: Definitions, Metrics, and Page Images". Journal of New Music Research, vol 44, nr.3, pages 169-195, 2015. [DOI: 10.1080/09298215.2015.1045424](http://dx.doi.org/10.1080/09298215.2015.1045424)
 
 **Example**:
 
