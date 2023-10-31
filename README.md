@@ -9,7 +9,7 @@ and/or citing their respective publications, as indicated for each dataset. Most
 where you can download the dataset.
 
 If you are interested in Optical Music Recognition research, you can find a curated bibliography
-at https://omr-research.github.io/.
+at [https://omr-research.github.io/](https://omr-research.github.io/).
 
 ## Overview
 
