@@ -21,6 +21,7 @@ The following datasets are referenced from this repository:
 | [Universal Music Symbol Collection](#universal-music-symbol-collection)                 	                                 |  Typeset + Handwritten 	   |              ~ 90000 symbols	    									              |                          Images                								                           |                     Symbol Classification (offline)           						                     |
 | [CVC-MUSCIMA](#cvc-muscima)                                                                 	                             |  Handwritten           	   |             1000 score images     									             |                          Images                								                           |                     Staff line removal, writer identification 						                     |
 | [MUSCIMA++](#muscima)                                                                       	                             |  Handwritten           	   |             > 90000 annotatations 									             |                 Images, Measure Annotations, MuNG            			                  |  Symbol Classification, Object Detection, End-To-End Recognition, Measure Recognition 	  |
+| [Mashcima](#mashcima)                                                                       	                             |  Handwritten           	   |                   unlimited 									                   |                               Images            			                               |                                        Various 	                                         |
 | [DeepScores V1](#deepscores-v1)                                                                    	                      |  Typeset               	   |              300000 images 	    									               |                         Images, XML              								                         |            Symbol Classification, Object Detection, Semantic Segmentation  	             |
 | [DeepScores V2](#deepscores-v2)                                                                    	                      |  Typeset               	   |              255385 images 	    									               |                         Images, XML              								                         |            Object Detection, Semantic Segmentation, Instance Segmentation  	             |
 | [DoReMi](#doremi)                                                                    	                                    |  Typeset               	   |               6432 images 	    									                |              Images, XML, musicXML, MEI, MIDI              								               | Symbol Classification, Object Detection, Semantic Segmentation, Instance Segmentation  	 |
@@ -171,6 +172,28 @@ from [here](https://github.com/apacha/OMR-Datasets/releases/download/datasets/MU
 
 ![Example of MUSCIMA++ measure annotations](samples/muscima-pp-measures.png)
 
+## Mashcima
+
+**Website
+**: [https://github.com/Jirka-Mayer/Mashcima](https://github.com/Jirka-Mayer/Mashcima).
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+
+**Summary**: Mashcima is a tool to synthesize handwritten monophonic music scores, based on the MUSCIMA++ dataset.
+
+The aim of this tool is to provide abundant training data for researchers in the field of handwritten music recognition.
+It works by taking symbol masks from the MUSCIMA++ dataset and placing them onto a blank staff according to a given
+annotation. This annotation may be your own, may be generated randomly, or may be taken from the PrIMuS dataset.
+
+**Scientific Publication**: Jiří Mayer and Pavel Pecina. Synthesizing Training Data for Handwritten Music Recognition.
+16th International Conference on Document Analysis and Recognition, ICDAR 2021. Lausanne, September 8-10, pp. 626-641,
+
+2021.
+
+**Example**:
+
+![Example of Mashcima](samples/mashcima.png)
+
 # DeepScores V1
 
 **Official website**: [https://tuggeluk.github.io/deepscores/](https://tuggeluk.github.io/deepscores/)
@@ -206,8 +229,9 @@ Million different instances of music symbols, belonging to 135 different classes
 contains 255,385 Images. For most researches, the dense version, containing 1714 of the most diverse and interesting
 images, should suffice.
 
-**Scientific Publication**: Tuggener, L., Satyawan, Y. P., Pacha, A., Schmidhuber, J., & Stadelmann, T. (2020).
-DeepScoresV2. 25th International Conference on Pattern Recognition (ICPR2020), Milan, Italy.
+**Scientific Publication**: Lukas Tuggener, Yvan Putra Satyawan, Alexander Pacha, Jürgen Schmidhuber, and Thilo
+Stadelmann. The DeepScoresV2 Dataset and Benchmark for Music Object Detection. 25th International Conference on Pattern
+Recognition (ICPR2020), Milan, Italy.
 
 **Example**:
 
@@ -699,12 +723,11 @@ Recognition: Definitions, Metrics, and Page Images". Journal of New Music Resear
 
 ![Example of the Byrd Dataset](samples/byrd.png)
 
-
 # MScoreLib
 
 **Official website**: [http://mscorelib.com/](http://mscorelib.com/)
 
-[![License](https://img.shields.io/badge/License-Unknown-red.svg)](http://mscorelib.com/) 
+[![License](https://img.shields.io/badge/License-Unknown-red.svg)](http://mscorelib.com/)
 
 **Summary**: A dataset of both manually typeset music and OMR processed scores for comparison of their performance.
 
