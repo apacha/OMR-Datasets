@@ -402,9 +402,13 @@ Music Encoding Conference Proceedings 2021, pages 131–136, 2022. Humanities Co
 
 [![License: CC-0](https://img.shields.io/badge/License-CC--0-brightgreen.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 
-**Summary**: Collection of string quartets by "long 19th century" composers in MuseScore format with associated data.
+**Summary**: Collection of more than 100 string quartets by over 40 composers, encoded by a dedicated team of volunteers
+in MuseScore with associated data.
 
-**Publication**: TBD
+**Publication**: Mark Gotham, Maureen Redbond, Bruno Bower, and Peter Jonas. 2023. The “OpenScore String Quartet” 
+Corpus. In Proceedings of the 10th International Conference on Digital Libraries for Musicology (DLfM '23). 
+Association for Computing Machinery, New York, NY, USA, 49–57. 
+[https://doi.org/10.1145/3625135.3625155](https://doi.org/10.1145/3625135.3625155)
 
 # MuseScore
 
