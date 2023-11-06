@@ -479,17 +479,17 @@ the 16th century anthology of Italian madrigals Il Lauro Secco, published for th
 in Ferrara (Italy). The corpus contains scores of 30 different madrigals for five unaccompanied voices composed by a
 variety of composers.
 
-**Scientific Publication**: Emilia Parada-Cabaleiro, Anton Batliner, Alice Baird, Björn W. Schuller. The SEILS dataset:
+**Scientific Publications**: 
+
+* Emilia Parada-Cabaleiro, Anton Batliner, Alice Baird, Björn W. Schuller. The SEILS dataset:
 Symbolically Encoded Scores in ModernAncient Notation for Computational Musicology. Proceedings of the 18th
 International Society of Music Information Retrieval conference, 2017, Suzhou, P.R. China, pp. 
 575-581. [Download the PDF](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/14_Paper.pdf)
-
-**Scientific Publication**: Emilia Parada-Cabaleiro, Maximilian Schmitt, Anton Batliner, Björn W. Schuller.
+* Emilia Parada-Cabaleiro, Maximilian Schmitt, Anton Batliner, Björn W. Schuller.
 Musical-Linguistic annotation of Il Lauro Secco. Proceedings of the 19th International Society of Music Information
 Retrieval conference, 2018, Paris, France, pp.
 461-467. [Download the PDF](http://ismir2018.ircam.fr/doc/pdfs/11_Paper.pdf)
-
-**Scientific Publication**: Emilia Parada-Cabaleiro, Anton Batliner, Björn W. Schuller. A diplomatic edition of Il Lauro
+* Emilia Parada-Cabaleiro, Anton Batliner, Björn W. Schuller. A diplomatic edition of Il Lauro
 Secco: Ground truth for OMR of white mensural notation. Proceedings of the 20th International Society of Music
 Information Retrieval conference, 2019, Delft, The Netherlands, pp.
 557-564. [Download the PDF](http://archives.ismir.net/ismir2019/paper/000067.pdf)
