@@ -9,7 +9,7 @@ They simplify the most common tasks such as downloading and extracting a dataset
 generating images from textual representations or visualizing those datasets. 
 
 ## Development setup
-Create virtual environment running
+Create virtual environment by running
 
 ```bash
 python3.11 -m venv venv
